@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-expressions-dimensional-analysis" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>  Dimensional Analysis   </title> 
+ 
+  <introduction> <alert> Objective: Use dimensional analysis to preform single unit, dual unit, 
+  square unit, and cubed unit conversions.  </alert> </introduction> 
+ 
+   <p> 
+One application of rational expressions deals with converting units. 
+When we convert units of measure we can do so by multiplying several fractions together 
+in a process known as dimensional analysis. The trick will be to decide what fractions to multiply. 
+When multiplying, if we multiply by <m>1</m>, the value of the expression does not change. 
+One written as a fraction can look like many different things as long as the numerator and 
+denominator are identical in value. Notice the numerator and denominator are not identical 
+in appearance, but rather identical in value. Below are several fractions, each equal to one 
+where numerator and denominator are identical in value.
+   </p> 
+
+<me> \frac{1}{1}=\frac{4}{4}=\frac{\frac{1}{2}}{\frac{2}{4}}=\frac{100\text{ cm}}{1\text{ m}}
+=\frac{1\text{ lb}}{16\text{ oz}}=\frac{1\text{ hr}}{60\text{ min}}=\frac{60\text{ min}}{1\text{ hr}}
+</me>
+
+<p>
+The last few fractions that include units are called conversion factors. 
+We can make a conversion factor out of any two measurements that represent the same distance. 
+For example, <m>1</m> mile <m>= 5280</m> feet. We could then make a conversion factor 
+<m>\frac{1\text{ mi}}{5280\text{ ft}} </m> because both values are the same, the fraction 
+is still equal to one. 5280 ft Similarly we could make a conversion factor 
+<m>\frac{5280\text{ ft}}{1\text{ mi}} </m>. The trick for conversions will be to use the correct 
+fractions.
+</p>
+
+<p>
+The idea behind dimensional analysis is we will multiply by a fraction in such a way that the units we don’t want will divide out of the problem. We found out when multiplying rational expressions that if a variable appears in the numerator and denominator, we can divide it out of the expression. It is the same with units. Consider the following conversion.
+</p>
+
+  <example>
+    <md> 
+      <mrow> 17.37 \text{miles to feet} \amp \quad  \text{  Write $17.37$ miles as a fraction, put it over } 1   </mrow> 
+      <mrow> \left(\frac{17.37\text{mi}}{1}\right) \amp\quad  \text{ To divide out the miles we need miles in the denominator  }  </mrow> 
+      <mrow> \left(\frac{17.37\text{mi}}{1}\right)\left(\frac{??\text{ft}}{??\text{mi}}\right) \amp\quad  \text{ We are converting to feet, so this will go in the numerator   }  </mrow> 
+      <mrow> \left(\frac{17.37\text{mi}}{1}\right)\left(\frac{5280 \text{ft}}{1 \text{mi}}\right) \amp\quad  \text{  Fill in the relationship described above, $1$ mile $=5280$ feet  }  </mrow> 
+      <mrow> \left(\frac{17.37}{1}\right)\left(\frac{5280 \text{ft}}{1}\right)   \amp\quad  \text{  Divide out the miles and multiply across  }  </mrow> 
+      <mrow> 91,713.6 \text{ft} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+In the previous example, we had to use the conversion factor <m>\frac{5280\text{ft}}{1\text{mi}}</m> so the miles would divide out. If we had used <m>\frac{1\text{mi}}{5280\text{ft}}</m> we would not have been able to divide out the miles. This is why when doing dimensional analysis, it is very important to use units in the set-up of the problem, so we know how to correctly set up the conversion factor
+</p>
+ 
+  <example>
+<p> If <m>1</m> pound <m>=16</m> ounces, how many pounds is <m>435</m> ounces? </p>
+    <md> 
+      <mrow> \left(\frac{435\text{oz}}{1}\right) \amp\quad  \text{ Write $435$ as a fraction, put it over } 1  </mrow> 
+      <mrow> \left(\frac{435\text{oz}}{1}\right)\left(\frac{??\text{lbs}}{??\text{oz}}\right) \amp\quad  \text{ To divide out oz,}  </mrow> 
+      <mrow> \amp\quad  \text{ put it in the denominator and lbs in numerator }  </mrow> 
+      <mrow> \left(\frac{435\text{oz}}{1}\right)\left(\frac{1\text{lbs}}{16\text{oz}}\right)  \amp\quad  \text{  Fill in the given relationship, $1$ pound $=16$ ounces  }  </mrow> 
+      <mrow> \left(\frac{435}{1}\right)\left(\frac{1\text{lbs}}{16}\right)=\frac{435\text{lbs}}{16} \amp\quad  \text{  Divide out oz, multiply across. Divide result.  }  </mrow> 
+      <mrow> 27.1875 \text{lbs} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The same process can be used to convert problems with several units in them. Consider the following example.
+</p>
+
+<example>
+<p>A student averaged <m>45</m> miles per hour on a trip. What was the student’s speed in feet per second?
+</p>
+    <md> 
+      <mrow> \left(\frac{45\text{mi}}{\text{hr}}\right)  \amp \quad  \text{ “per” is the fraction bar, put hr in denominator }  </mrow> 
+      <mrow> \left(\frac{45\text{mi}}{\text{hr}}\right)\left(\frac{5280\text{ft}}{1\text{mi}}\right) \amp\quad  \text{ To clear mi they must go in denominator and become ft }  </mrow> 
+      <mrow> \left(\frac{45\text{mi}}{\text{hr}}\right)\left(\frac{5280\text{ft}}{1\text{mi}}\right)\left(\frac{1\text{hr}}{3600\text{sec}}\right) \amp\quad  \text{ To clear hr they must go in numerator and become sec }  </mrow> 
+      <mrow> \left(\frac{45}{1}\right)\left(\frac{5280\text{ft}}{1}\right)\left(\frac{1}{3600\text{sec}}\right)  \amp\quad  \text{ Divide out mi and hr. Mulitply across  }  </mrow> 
+      <mrow> \frac{237600\text{ft}}{3600\text{sec}} \amp\quad  \text{  Divide numbers }  </mrow> 
+      <mrow> 66 \text{ft per sec} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+If the units are two-dimensional (such as square inches - <m>\text{in}^2</m>) 
+or three-dimensional (such as cubic feet - <m>\text{ft}^3</m>) we will need to put the same 
+exponent on the conversion factor. So, if we are converting square inches <m>\left(\text{in}^2\right)</m> 
+to square ft <m>\left(\text{ft}^2\right)</m>, the conversion factor would be squared, 
+<m>\left(\frac{1\text{ft}}{12\text{in}}\right)^2</m>. Similarly, if the units are cubed, we will cube 
+the conversion factor.
+</p>
+
+<example>
+<p> Convert <m>8</m> cubic feet to <m>\text{yd}^3</m>. Write <m>8\text{ft}^3</m> as a fraction, put it over <m>1</m></p>
+    <md> 
+      <mrow>  \left(\frac{8\text{ft}^3}{1}\right) \amp \quad  \text{ To clear ft, put them in denominator, yard in numerator } </mrow> 
+      <mrow> \left(\frac{8\text{ft}^3}{1}\right)\left(\frac{??\text{yd}}{??\text{ft}}\right)^3 \amp\quad  \text{ Because the units are cubed, we cube the conversion factor }  </mrow> 
+      <mrow> \left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}}{3\text{ft}}\right)^3 \amp\quad  \text{ Evaluate exponent, cubing all. Numbers and units }  </mrow> 
+      <mrow> \left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}^3}{27\text{ft}^3}\right) \amp\quad  \text{  Divide out $\text{ft}^3$  }  </mrow> 
+      <mrow> \left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}^3}{27\text{ft}^3}\right)=\frac{8\text{yd}^3}{27} \amp\quad  \text{  Multiply across and divide  }  </mrow> 
+      <mrow> 0.296296 \text{yd}^3 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+When calculating area or volume, be sure to use the units and multiply them as well.
+</p>
+
+<example>
+<p> A room is <m>10 \text{ ft by } 12 \text{ ft}. </m> How many square yards are in the room? </p>
+    <md> 
+      <mrow> A=lw=(10\text{ft})(12\text{ft})=120\text{ft}^2 \amp \quad  \text{ Multiply length by width, also multiply units }  </mrow> 
+      <mrow> \left(\frac{120\text{ft}^2}{1}\right) \amp\quad  \text{ Write area as a fraction, put It over } 1  </mrow> 
+      <mrow> \left(\frac{120\text{ft}^2}{1}\right)\left(\frac{??\text{yd}}{??\text{ft}}\right)^2 \amp\quad  \text{ Put ft in denominator to clear, square conversion factor }  </mrow> 
+      <mrow> \left(\frac{120\text{ft}^2}{1}\right)\left(\frac{1\text{yd}}{3\text{ft}}\right)^2 \amp\quad  \text{ Evaluate exponent, squaring all numbers and units }  </mrow> 
+      <mrow> \left(\frac{120\text{ft}^2}{1}\right)\left(\frac{1\text{yd}^2}{9\text{ft}^2}\right) \amp\quad  \text{  Divide out $\text{ft}^2$ }  </mrow> 
+      <mrow> \left(\frac{120}{1}\right)\left(\frac{1\text{yd}^2}{9}\right)=\frac{120\text{yd}^2}{9} \amp\quad  \text{ Multiply across and divide }  </mrow> 
+      <mrow> 13.33 \text{yd}^2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+To focus on the process of conversions, a conversion sheet has been included at the end of this lesson which includes several conversion factors for length, volume, mass and time in both English and Metric units.
+</p>
+
+<p>
+The process of dimensional analysis can be used to convert other types of units as well. If we can identify relationships that represent the same value, we can make them into a conversion factor.
+</p>
+
+<example>
+<p>  A child is prescribed a dosage of <m>12</m> mg of a certain drug and is allowed to refill his prescription twice. If a there are <m>60</m> tablets in a prescription, and each tablet has <m>4</m> mg, how many doses are in the <m>3</m> prescriptions (original <m>+ 2</m> refills)? </p>
+    <md> 
+      <mrow> \text{Convert } 3 \text{ Rx to doses} \amp \quad  \text{ Identify what the problem is asking }  </mrow> 
+<mrow> 1\text{Rx}=60\text{ tab}, 1\text{ tab}=4\text{mg},1\text{ dose}=12\text{mg} \amp \quad  \text{ Identify given conversion factors}  </mrow> 
+
+      <mrow> \left(\frac{3\text{Rx}}{1}\right) \amp\quad  \text{ Write $3$Rx as fraction, put over } 1  </mrow> 
+      <mrow> \left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)  \amp\quad  \text{ Convert Rx to tab, put Rx in denominator }  </mrow> 
+      <mrow> \left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)\left(\frac{4\text{mg}}{1\text{ tab}}\right) \amp\quad  \text{ Convert tab to mg, put tab in denominator }  </mrow> 
+      <mrow> \left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)\left(\frac{4\text{mg}}{1\text{ tab}}\right)\left(\frac{1\text{ dose}}{12\text{mg}}\right)  \amp\quad  \text{ Conver mg to dose, put mg in denominator }  </mrow> 
+      <mrow> \left(\frac{3}{1}\right)\left(\frac{60}{1}\right)\left(\frac{4}{1}\right)\left(\frac{1\text{ dose}}{12}\right)    \amp\quad  \text{ Divide out Rx, tab, and mg, multiply across }  </mrow> 
+      <mrow> \frac{720 \text{ dose}}{12} \amp\quad  \text{ Divide  }  </mrow> 
+      <mrow> 60 \text{ doses} \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+  <p> <alert> World View Note:</alert> Only three countries in the world still use the English 
+  system commercially: Liberia (Western Africa), Myanmar (between India and Vietnam), and the USA.  </p> 
+ 
+<figure xml:id="table-conversion-factors"> <caption>Conversion Factors</caption>
+<sidebyside widths="48% 45%" margins="auto" valign="middle">
+<p>
+  <tabular halign="center" top="medium">
+    <row  bottom="medium" left="medium">   <cell colspan="2"  right="medium"> Length</cell></row>
+    <row left="medium"> <cell > English</cell> <cell right="medium" > Metric </cell> </row>
+    <row left="medium">
+      <cell>   <m>12</m> in <m>= 1</m> ft </cell>
+      <cell right="medium" > <m> 1000</m> mm <m>= 1</m> m </cell>
+    </row>
+    <row left="medium">
+      <cell> <m>1</m> yd <m>= 3</m> ft </cell>
+      <cell right="medium">  <m>10</m> mm <m>= 1</m> cm    </cell>
+    </row>
+    <row left="medium" >
+      <cell >  <m>1</m> yd <m>= 36</m> in </cell>
+      <cell right="medium">  <m>100</m> cm <m>= 1</m> m    </cell>
+    </row>
+    <row left="medium">
+      <cell > <m> 1</m> mi <m>= 5280</m> ft</cell>
+      <cell right="medium"> <m> 10</m> dm <m>= 1</m> m     </cell>
+    </row>
+    <row left="medium">
+      <cell > </cell> <cell right="medium"> <m> 1</m> dam <m>= 10</m> m     </cell></row>
+    <row left="medium">
+      <cell > </cell> <cell right="medium"> <m> 1</m> hm <m>= 100</m> m     </cell></row>
+    <row left="medium">
+      <cell > </cell> <cell right="medium"> <m> 1</m> km <m>= 1000</m> m     </cell></row>
+    <row left="medium">      <cell > </cell> <cell right="medium">      </cell></row>
+    <row left="medium" ><cell colspan="2" right="medium">   English/Metric </cell>    </row>
+    <row left="medium"> <cell colspan="2" right="medium"> <m>2.54</m> cm <m>= 1</m> in </cell></row>
+    <row left="medium"> <cell colspan="2" right="medium"> <m>1</m> m <m>= 3.28</m> ft </cell></row>
+    <row bottom="medium" left="medium"> <cell colspan="2" right="medium"> <m>1.61</m> km <m>= 1</m> mi </cell></row>
+  </tabular>
+<p> </p>
+  <tabular halign="center" top="medium">
+    <row  bottom="medium" left="medium">   <cell colspan="2"  right="medium"> Volume</cell></row>
+    <row left="medium"> <cell > English</cell> <cell right="medium" > Metric </cell> </row>
+    <row left="medium">
+      <cell>   <m>1</m> c <m>= 8</m> oz </cell>
+      <cell right="medium" > <m> 1</m> mL <m>= 1</m> cc <m>=1 \text{ cm}^3</m>  </cell>
+    </row>
+    <row left="medium">
+      <cell> <m>1</m> pt <m>= 2</m> c </cell>
+      <cell right="medium">  <m>1</m> L <m>= 1000</m> mL    </cell>
+    </row>
+    <row left="medium" >
+      <cell >  <m>1</m> qt <m>= 2</m> pt </cell>
+      <cell right="medium">  <m>1</m> L <m>= 100</m> cL    </cell>
+    </row>
+    <row left="medium">
+      <cell > <m> 1</m> gal <m>= 4</m> qt</cell>
+      <cell right="medium"> <m> 1</m> L <m>= 10</m> dL     </cell>
+    </row>
+    <row left="medium">
+      <cell > </cell> <cell right="medium"> <m> 1000</m> L <m>= 1</m> kL     </cell></row>
+    <row left="medium">     <cell > </cell> <cell right="medium">      </cell></row>
+    <row left="medium" ><cell colspan="2" right="medium">   English/Metric </cell>    </row>
+    <row left="medium"> <cell colspan="2" right="medium"> <m>16.39</m> mL <m>= 1 \text{ in}^3</m> </cell></row>
+    <row left="medium"> <cell colspan="2" right="medium"> <m>1.06</m> qt <m>= 1</m> L </cell></row>
+    <row bottom="medium" left="medium"> <cell colspan="2" right="medium"> <m>3.79</m> L <m>= 1</m> gal </cell></row>
+  </tabular>
+</p>
+
+<p>
+  <tabular halign="center" top="medium">
+    <row  bottom="medium" left="medium">   <cell colspan="2"  right="medium"> Area</cell></row>
+    <row left="medium"> <cell > English</cell> <cell right="medium" > Metric </cell> </row>
+    <row left="medium">
+      <cell>   <m>1 \text{ ft}^2 = 144 \text{ in}^2</m> </cell>
+      <cell right="medium" > <m> 1 \text{ a } = 100 \text{ m}^2</m> </cell>
+    </row>
+    <row left="medium">
+      <cell> <m>1 \text{ yd}^2 = 9 \text{ ft}^2 </m> </cell>
+      <cell right="medium">  <m>1</m> ha <m>= 100</m> a    </cell>
+    </row>
+    <row left="medium" >
+      <cell >  <m>1</m> acre <m>= 43,560 \text{ ft}^2</m>  </cell><cell right="medium">  </cell>
+    </row>
+    <row left="medium">
+      <cell > <m> 640</m> acres <m>= 1 \text{ mi}^2</m> </cell><cell right="medium">   </cell>
+    </row>
+    <row left="medium">      <cell > </cell> <cell right="medium">      </cell></row>
+    <row left="medium" ><cell colspan="2" right="medium">   English/Metric </cell>    </row>
+    <row bottom="medium" left="medium"> <cell colspan="2" right="medium"> <m>1</m> ha <m>= 2.47</m> acres </cell></row>
+  </tabular>
+<p> </p>
+
+  <tabular halign="center" top="medium">
+    <row  bottom="medium" left="medium">   <cell colspan="2"  right="medium"> Weight (Mass)</cell></row>
+    <row left="medium"> <cell > English</cell> <cell right="medium" > Metric </cell> </row>
+    <row left="medium">
+      <cell>   <m>1 \text{ lb } = 16 \text{ oz}</m> </cell>
+      <cell right="medium" > <m> 1 \text{ g } = 1000 \text{ mg}</m> </cell>
+    </row>
+    <row left="medium">
+      <cell> <m>1 \text{ T } = 2000 \text{ lb} </m> </cell>
+      <cell right="medium">  <m>1</m> g <m>= 100</m> cg    </cell>
+    </row>
+    <row left="medium" >
+      <cell >  </cell><cell right="medium"> <m>1000</m> g <m>= 1 </m> kg </cell>
+    </row>
+    <row left="medium" >
+      <cell >  </cell><cell right="medium"> <m>1000</m> kg <m>= 1 </m> t </cell>
+    </row>
+    <row left="medium">      <cell > </cell> <cell right="medium">      </cell></row>
+    <row left="medium" ><cell colspan="2" right="medium">   English/Metric </cell>    </row>
+    <row left="medium"> <cell colspan="2" right="medium"> <m>28.3</m> g <m>= 1</m> oz </cell></row>
+    <row bottom="medium" left="medium"> <cell colspan="2" right="medium"> <m>2.2</m> lb <m>= 1</m> kg </cell></row>
+  </tabular>
+<p> </p>
+
+<tabular halign="center" top="medium" right="medium">
+    <row  bottom="medium" left="medium">  <cell> Time </cell></row>
+    <row left="medium" > <cell > <m>60</m> sec <m>=1</m> min      </cell></row>
+    <row left="medium"> <cell > <m>60</m> min <m>=1</m> hr      </cell></row>
+    <row left="medium"> <cell > <m>3600</m> sec <m>=1</m> hr      </cell></row>
+    <row bottom="medium" left="medium"> <cell > <m>24</m> hr <m>=1</m> day </cell></row>
+</tabular>
+</p>
+
+</sidebyside>
+</figure>
+
+
+  <exercises xml:id="exercises-rational-expressions-dimensional">
+    <title>Exercises – Dimensional Analysis </title>
+   <exercisegroup>
+      <introduction>    <p>     Use dimensional analysis to convert the following:     </p>      </introduction>
+      <exercise><statement> <p> <m>7 </m>mi. to yards </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>234 </m> oz. to tons </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>11.2 </m> mg to grams </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>1.35 </m> km to centimeters </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>9,800,000 </m> mm (millimeters) to miles </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4.5 \text{ft}^2 </m> to square yards  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>435,000 \text{m}^2</m> to square kilometers </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>8 \text{km}^2 </m> to square feet </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>0.0065 \text{km}^3 </m> to cubic centimeters </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>14.62 \text{in}^3 </m> to cubic centimeters </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5,500 \text{cm}^3 </m> to cubic yards </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3.5 </m> mph (miles per hour) to feet per second </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>185 </m> yd. per min. to miles per hour </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>153 </m> ft/s (feet per second) to miles per hour </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>248 </m> mph to kilometers per year </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>186,000 </m> mph to kilometers per year </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7.50 \text{T}/\text{yd}^2 </m> (tons per square yard) to pounds per square inch </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>16 \text{ft}/\text{s}^2 </m> to kilometers per hour squared </p> </statement> </exercise> 
+   </exercisegroup>
+      <exercisegroup>
+<introduction>    <p>     Use dimensional analysis to solve the following:     </p>      </introduction>
+      <exercise><statement> <p> On a recent trip, Jan traveled <m>260</m> miles using <m>8</m> gallons of gas. How many miles per <m>1</m>-gallon did she travel? How many yards per <m>1</m>-ounce?</p> </statement> </exercise> 
+      <exercise><statement> <p> A chair lift at the Divide ski resort in Cold Springs, WY is <m>4806</m> feet long and takes <m>9</m> minutes. What is the average speed in miles per hour? How many feet per second does the lift travel? </p> </statement> </exercise> 
+      <exercise><statement> <p>A certain laser printer can print <m>12</m> pages per minute. Determine this printer’s output in pages per day, and reams per month. (<m>1</m> ream = <m>5000</m> pages) </p> </statement> </exercise> 
+      <exercise><statement> <p> An average human heart beats <m>60</m> times per minute. If an average person lives to the age of <m>75</m>, how many times does the average heart beat in a lifetime?</p> </statement> </exercise> 
+      <exercise><statement> <p> Blood sugar levels are measured in miligrams of gluclose per deciliter of blood volume. If a person’s blood sugar level measured <m>128</m> mg/dL, how much is this in grams per liter?</p> </statement> </exercise> 
+      <exercise><statement> <p> You are buying carpet to cover a room that measures <m>38</m> ft by <m>40</m> ft. The carpet cost <m>\$18</m> per square yard. How much will the carpet cost? </p> </statement> </exercise> 
+      <exercise><statement> <p>A car travels <m>14</m> miles in <m>15</m> minutes. How fast is it going in miles per hour? in meters per second? </p> </statement> </exercise> 
+      <exercise><statement> <p>A cargo container is <m>50</m> ft long, <m>10</m> ft wide, and <m>8</m> ft tall. Find its volume in cubic yards and cubic meters. </p> </statement> </exercise> 
+      <exercise><statement> <p>A local zoning ordinance says that a house’s “footprint” (area of its ground floor) cannot occupy more than <m>\frac{1}{4}</m> of the lot it is built on. Suppose you own a <m>\frac{1}{3}</m> acre lot, what is the maximum allowed footprint for your house in square feet? in square inches? (<m>1</m> acre = <m>43560 \text{ ft}^2</m>) </p> </statement> </exercise> 
+      <exercise><statement> <p> Computer memory is measured in units of bytes, where one byte is enough memory to store one character (a letter in the alphabet or a number). How many typical pages of text can be stored on a <m>700</m>-megabyte compact disc? Assume that one typical page of text contains <m>2000</m> characters. (<m>1</m> megabyte = <m>1,000,000</m> bytes) </p> </statement> </exercise> 
+      <exercise><statement> <p> In April <m>1996</m>, the Department of the Interior released a “spike flood” from the Glen Canyon Dam on the Colorado River. Its purpose was to restore the river and the habitants along its bank. The release from the dam lasted a week at a rate of <m>25,800</m> cubic feet of water per second. About how much water was released during the <m>1</m>-week flood?</p> </statement> </exercise> 
+      <exercise><statement> <p>The largest single rough diamond ever found, the Cullinan diamond, weighed <m>3106</m> carats; how much does the diamond weigh in milligrams? in pounds? (<m>1</m> carat - <m>0.2</m> grams) </p> </statement> </exercise> 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>
+

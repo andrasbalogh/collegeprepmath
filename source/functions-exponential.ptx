@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-exponential" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>Exponential Functions</title> 
+ 
+  <introduction> <alert> Objective: Solve exponential equations by finding a common base. </alert> </introduction> 
+ 
+   <p> 
+As our study of algebra gets more advanced, we begin to study more involved functions. 
+One pair of inverse functions we will look at are exponential functions and logarithmic functions.
+ Here we will look at exponential functions and then we will consider logarithmic functions 
+ in another lesson. Exponential functions are functions where the variable is in the exponent 
+ such as <m>f(x) = a^x</m>. (It is important not to confuse exponential functions with polynomial 
+ functions where the variable is in the base such as <m>f(x)=x^2</m>).
+   </p> 
+ 
+  
+  <p> <alert> World View Note:</alert> One common application of exponential functions is 
+  population growth. According to the <m>2009</m> CIA World Factbook, the country with the 
+  highest population growth rate is a tie between the United Arab Emirates (north of Saudi Arabia) 
+  and Burundi (central Africa) at <m>3.69\%</m>. There are <m>32</m> countries with negative 
+  growth rates, the lowest being the Northern Mariana Islands (north of Australia) at 
+  <m>-7.08\%</m>. </p>
+
+<p>
+Solving exponetial equations cannot be done using the skill set we have seen in the past. 
+For example, if <m>3x = 9</m>, we cannot take the <m>x</m> - root of <m>9</m> because we 
+do not know what the index is and this doesn’t get us any closer to finding <m>x</m>. 
+However, we may notice that <m>9</m> is <m>32</m>. We can then conclude that if <m>3x = 32</m> 
+then <m>x = 2</m>. This is the process we will use to solve exponential functions. 
+If we can re-write a problem so the bases match, then the exponents must also match.
+</p>
+
+ 
+  <example>
+    <md> 
+      <mrow> 5^{2x+1}=125 \amp \quad  \text{Rewrite $125$ as } 5^3   </mrow> 
+      <mrow> 5^{2x+1}=5^3  \amp\quad  \text{Same base, set exponents equal}  </mrow> 
+      <mrow> 2x+1=3  \amp\quad  \text{Solve}  </mrow> 
+      <mrow> \underline{-1-1} \amp\quad  \text{Subtract $1$ from both sides}  </mrow>
+      <mrow> 2x=2  \amp\quad  \text{Divide both sides by } 2  </mrow> 
+      <mrow> \overline{2} \qquad \overline{2} \amp\quad  \text{ }  </mrow> 
+      <mrow> x=1  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+Sometimes we may have to do work on both sides of the equation to get a common base. 
+As we do so, we will use various exponent properties to help. First we will use the 
+exponent property that states <m>(a^x)^y =a^{xy}</m>.
+</p>
+
+  <example>
+    <md> 
+      <mrow> 8^{3x}=32 \amp \quad  \text{Rewrite $8$ as $2^3$ and $32$ as } 2^5    </mrow> 
+      <mrow> (2^3)^{3x}=2^5  \amp\quad  \text{Multiply exponents $3$ and } 3x  </mrow> 
+      <mrow> 2^{9x}=2^5  \amp\quad  \text{Same base, set exponents equal}  </mrow> 
+      <mrow> 9x=5 \amp\quad  \text{Solve}  </mrow>
+      <mrow> \overline{9} \qquad \overline{9}  \amp\quad  \text{Divide both sides by } 9  </mrow> 
+      <mrow> x=\frac{5}{9}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+
+
+  <p> 
+ As we multiply exponents we may need to distribute if there several terms involved.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> 27^{3x+5}=81^{4x+1} \amp \quad  \text{Rewrite $125$ as } 5^3   </mrow> 
+      <mrow> \left(3^3\right)^{3x+5}=(3^4)^{4x+1}  \amp\quad  \text{}  </mrow> 
+      <mrow> 3^{9x+15}=3^{16x+4}  \amp\quad  \text{Same base, set exponents equal}  </mrow> 
+      <mrow> 9x+15=16x+4 \amp\quad  \text{Move variables to one side}  </mrow>
+      <mrow> \underline{-9x  \quad\quad -9x \qquad}  \amp\quad  \text{Subtract $9x$ from both sides }  </mrow> 
+      <mrow> 15=7x+4  \amp\quad  \text{Subtract $4$ from both sides }  </mrow> 
+      <mrow> \underline{-4 \qquad \ -4}  \amp\quad  \text{ }  </mrow> 
+      <mrow> 11=7x  \amp\quad  \text{ Divide both sides by } 7  </mrow> 
+      <mrow> \overline{7} \qquad \overline{7}  \amp\quad  \text{ }  </mrow> 
+      <mrow> \frac{11}{7}=x  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+Another useful exponent property is that negative exponents will give us a reciprocal, 
+<m>\frac{1}{a^n}=a^{-n}</m>
+</p>
+
+  
+  <example>
+    <md> 
+      <mrow>\left( \frac{1}{9}\right)^{2x}=3^{7x-1} \amp \quad  \text{Rewrite $\frac{1}{9}$ as $3^{-2}$ (negative exponent to flip) }   </mrow> 
+      <mrow> \left(3^{-2}\right)^{2x}=3^{7x-1}  \amp\quad  \text{Multiply exponents $-2$ and } 2x  </mrow> 
+      <mrow> 3^{-4x}=3^{7x-1}  \amp\quad  \text{Same base, set exponents equal}  </mrow> 
+      <mrow> -4x=7x-1 \amp\quad  \text{Subtract $7x$ from both sides}  </mrow>
+      <mrow> \underline{-7x -7x } \qquad  \amp\quad  \text{ }  </mrow> 
+      <mrow> -11x=-1  \amp\quad  \text{Divide by } -11  </mrow>
+      <mrow> \overline{-11} \quad \overline{-11}  \amp\quad  \text{ }  </mrow> 
+      <mrow> x=\frac{1}{11}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+
+<p>
+If we have several factors with the same base on one side of the equation we can add the 
+exponents using the property that states <m>a^xa^y =a^{x+y}</m>.
+</p>
+
+  <example>
+    <md> 
+      <mrow> 5^{4x} \cdot 5^{2x-1}=5^{3x+11} \amp \quad  \text{Add exponents on left, combining like terms }   </mrow> 
+      <mrow> 5^{6x-1}=5^{3x+11}  \amp\quad  \text{Same base, set exponents equal }  </mrow> 
+      <mrow> 6x-1=3x+11  \amp\quad  \text{Move variables to one sides}  </mrow> 
+      <mrow> \underline{-3x \qquad -3x} \qquad \amp\quad  \text{Subtract $3x$ from both sides}  </mrow>
+      <mrow> 3x-1=11   \amp\quad  \text{Add $1$ to both sides }  </mrow> 
+      <mrow> \underline{+1 \ +1}  \amp\quad  \text{ }  </mrow>
+      <mrow> 3x=12  \amp\quad  \text{ Divide both sides by } 3  </mrow> 
+      <mrow> \overline{3} \qquad \overline{3}  \amp\quad  \text{    }  </mrow> 
+   <mrow> x=4  \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example> 
+
+<p>
+It may take a bit of practice to get use to knowing which base to use, but as we practice, 
+we will get much quicker at knowing which base to use. As we do so, we will use our exponent 
+properties to help us simplify. Again, below are the properties we used to simplify.
+</p>
+
+<me> \mathbf{ \left(a^x\right)^y=a^{xy}} \ \  \textbf{ and } \ \ \mathbf{ \frac{1}{a^n}=a^{-n}}
+ \ \ \textbf{ and }  \ \ \mathbf{a^xa^y=a^{x+y}} </me>
+
+<p>
+We could see all three properties used in the same problem as we get a common base. 
+This is shown in the next example.
+</p>
+
+  <example>
+    <md> 
+      <mrow> 16^{2x-5} \cdot \left(\frac{1}{4}\right)^{3x+1}=32 \cdot \left(\frac{1}{2}\right)^{x+3} \amp \quad  \text{Write with a common base of } 2   </mrow> 
+      <mrow> \left(2^4\right)^{2x-5} \cdot \left(2^{-2}\right)^{3x+1}=2^5 \cdot \left(2^{-1}\right)^{x+3}  \amp\quad  \text{ Multiply exponents, distributing as needed }  </mrow> 
+      <mrow> 2^{8x-20} \cdot 2^{-6x-2}=2^5 \cdot 2^{-x-3}  \amp\quad  \text{Add exponents, combining like terms }  </mrow> 
+      <mrow> 2^{2x-22}=2^{-x+2} \amp\quad  \text{Same base, set exponents equal}  </mrow>
+      <mrow> 2x-22=-x+2  \amp\quad  \text{Move variables to one side }  </mrow> 
+      <mrow> \underline{+x \quad\quad\quad +x} \qquad  \amp\quad  \text{ Add $x$ to both sides }  </mrow>
+      <mrow> 3x-22=2  \amp\quad  \text{ Add $22$ to both sides }  </mrow> 
+      <mrow> \underline{+22+22}  \amp\quad  \text{ Divide both sides by } 3  </mrow> 
+      <mrow> 3x=24  \amp\quad  \text{ Divide both sides by } 3  </mrow> 
+      <mrow> \overline{\ 3\ } \quad \overline{\ 3\ }  \amp\quad  \text{    }  </mrow> 
+   <mrow> x=8  \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example> 
+
+<p>
+All the problems we have solved here we were able to write with a common base. 
+However, not all problems can be written with a common base, for example, <m>2 = 10^x</m>, 
+we cannot write this problem with a common base. To solve problems like this we will need 
+to use the inverse of an exponential function. The inverse is called a logarithmic function, 
+which we will discuss in another section.
+</p>
+
+
+
+  <exercises xml:id="exercises-exponential-functions">
+    <title>Exercises – Exponential Functions</title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>    Solve each equation.    </p>      </introduction>
+      <exercise><statement> <p> <m> 3^{1-2n}=3^{1-3n}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{2x}=\frac{1}{16}   </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{2a}=1  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  16^{-3p}=64^{-3p} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \left(\frac{1}{25}\right)^{-k}=125^{-2k-2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 625^{-n-2}=\frac{1}{25}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6^{2m+1}=\frac{1}{36}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6^{2r-3}=6^{r-3}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6^{-3x}=36  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5^{2n}=5^{-n}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 64^b=2^5  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 216^{-3v}=36^{3v}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \left(\frac{1}{4}\right)^x=16  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 27^{-2n-1}=9  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{3a}=4^3  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{-3v}=64  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 36^{3x}=216^{2x+1}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 64^{x+2}=16  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 9^{2n+3}=243  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 16^{2k}=\frac{1}{64}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3^{3x-2}=3^{3x+1}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 243^p=27^{-3p}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3^{-2x}=3^3  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{2n}=4^{2-3n}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5^{m+2} = 5^{-n}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 625^{2x}=25  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \left(\frac{1}{36}\right)^{b-1}=216  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 216^{2n}=36  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6^{2-2x}=6^2  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \left(\frac{1}{4}\right)^{3v-2}=64^{1-v}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4 \cdot 2^{-3n-1}=\frac{1}{4}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{216}{6^{-2a}}=6^{3a}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{3k-3} \cdot 4^{2-2k} = 16^{-k}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 32^{2p-2} \cdot 8^p=\left(\frac{1}{2}\right)^{2p}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 9^{-2x} \cdot \left(\frac{1}{243}\right)^{3x}=243^{-x}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3^{2m} \cdot 3^{3m}=1  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 64^{n-2} \cdot 16^{n+2} = \left(\frac{1}{4}\right)^{3n-1}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3^{2-x} \cdot 3^{3m}=1  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5^{-3n-3} \cdot 5^{2n} =1  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4^{3r} \cdot 4^{-3r} = \frac{1}{64}  </m> </p> </statement> </exercise> 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>
+

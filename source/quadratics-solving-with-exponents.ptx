@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-solving-with-exponents" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Solving with Exponents    </title> 
+
+  <introduction> <alert> Objective:  Solve equations with exponents using the odd root property and the even root property. </alert> </introduction> 
+
+  <p> 
+    Another type of equation we can solve is one with exponents. As you might expect we can clear exponents by using roots. This is done with very few unex- pected results when the exponent is odd. We solve these problems very straight forward using the odd root property
+  </p>
+
+  <me>\textbf{Odd Root Property: if } \mathbf{ a^n=b,} \textbf{ then } \mathbf{a=\sqrt[n]{b}} \textbf{ when } \mathbf{n} \textbf{ is odd. } </me>
+
+  <example>
+    <md> 
+      <mrow>x^5 = 32  \amp \quad  \text{  Use odd root property    }  </mrow> 
+      <mrow> \sqrt[5]{x^5} = \sqrt[5]{ 32 } \amp\quad  \text{  Simplify roots   }  </mrow> 
+      <mrow>  x = 2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+  
+  <p>
+    However, when the exponent is even we will have two results from taking an even root of both sides. One will be positive and one will be negative. This is because both <m>3^2 =9</m> and <m>(-3)^2 =9</m>. So when solving <m>x^2 =9</m> we will have two solutions, one positive and one negative: <m>x = 3</m> and <m>- 3</m>.
+  </p>
+  
+  <me>\textbf{Even Root Property: if } \mathbf{ a^n=b,} \textbf{ then } \mathbf{a=\pm \sqrt[n]{b}} \textbf{ when } \mathbf{n} \textbf{ is even. }</me>
+  
+  <example>
+    <md> 
+      <mrow>x^4 = 16  \amp \quad  \text{  Use even root property    }  (\pm) </mrow> 
+      <mrow> \sqrt[4]{x^4} = \pm \sqrt[4]{ 16 } \amp\quad  \text{  Simplify roots   }  </mrow> 
+      <mrow>  x = \pm 2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p> <alert> World View Note:</alert> In <m>1545</m>, French Mathematicain Gerolamo Cardano published his book <em>The Great Art, or the Rules of Algebra</em> which included the solution of an equation with a fourth power, but it was considered absurd by many to take a quantity to the fourth power because there are only three dimensions!  </p>
+  
+  <example>
+    <md> 
+      <mrow>(2x+4)^2 =36  \amp \quad  \text{  Use even root property    }  (\pm) </mrow> 
+      <mrow> \sqrt{(2x+4)^2} =\pm\sqrt{36} \amp\quad  \text{  Simplify roots   }  </mrow>
+      <mrow> 2x+4=\pm 6\amp\quad  \text{To avoid sign errors we need two equations     }  </mrow> 
+      <mrow> 2x+4=6 \text{ or } 2x+4=-6 \amp\quad  \text{  One equation for $+$ , one equation for $-$   }  </mrow> 
+      <mrow> -4\ -4\qquad -4 \ -4 \amp\quad  \text{ Subtract $4$ from both sides    }  </mrow> 
+      <mrow> 2x=2 \text{ or } 2x=-10 \amp\quad  \text{  Divide both sides by $2$   }  </mrow> 
+      <mrow>  \frac{2x}{2}=\frac{2}{2} \text{ or } \frac{2x}{2}=\frac{-10}{2} \amp\quad  \text{     }  </mrow> 
+      <mrow>x=1 \text{ or } x=-5 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+  
+  <p>
+    In the previous example we needed two equations to simplify because when we took the root, our solutions were two rational numbers, <m>6</m> and <m>- 6</m>. If the roots did not simplify to rational numbers we can keep the <m>\pm</m> in the equation.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>(6x-9)^2 =45  \amp \quad  \text{  Use even root property    }  (\pm) </mrow> 
+      <mrow> \sqrt{(6x-9)^2} =\pm\sqrt{45} \amp\quad  \text{  Simplify roots   }  </mrow>
+      <mrow> 6x-9=\pm 3\sqrt{5} \amp\quad  \text{Use one equation because root did not simplify to rational    }  </mrow> 
+      <mrow>  +9\ +9\quad \amp\quad  \text{  Add $9$ to both sides  }  </mrow> 
+      <mrow> 6x=9\pm 3\sqrt{5} \amp\quad  \text{ Divide both sides by $6$   }  </mrow> 
+      <mrow>  \frac{6x}{6}=\frac{9\pm 3\sqrt{5}}{6}  \amp\quad  \text{    }  </mrow> 
+      <mrow>  x= \frac{9\pm 3\sqrt{5}}{6} \amp\quad  \text{  Simplify, divide each term by $3$   }  </mrow> 
+      <mrow>x= \frac{3\pm \sqrt{5}}{2}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p>
+    When solving with exponents, it is important to first isolate the part with the exponent before taking any roots.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> (x+4)^3 -6=119 \amp \quad  \text{  Isolate part with exponent    }   </mrow> 
+      <mrow> +6\ +6 \amp \quad  \text{  Add $6$ to both sides    }   </mrow> 
+      <mrow>  (x+4)^3 =125 \amp \quad  \text{  Use odd root property    }   </mrow> 
+      <mrow>  \sqrt[3]{(x+4)^3} =\sqrt[3]{125} \amp \quad  \text{   Simplify roots   }   </mrow> 
+      <mrow> x+4=5 \amp\quad  \text{  Solve   }  </mrow> 
+      <mrow> -4\ -4 \amp\quad  \text{ Subtract $4$ from both sides    }  </mrow> 
+      <mrow>x=1  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    </example>
+
+       <example>
+    <md> 
+      <mrow> (6x+1)^2 +6=10 \amp \quad  \text{  Isolate part with exponent    }   </mrow> 
+      <mrow> -6\ -6 \amp \quad  \text{  Subtract $6$ from both sides    }   </mrow> 
+      <mrow>   (6x+1)^2 =4 \amp \quad  \text{  Use even root property    } (\pm)  </mrow> 
+      <mrow> \sqrt{ (6x+1)^2 } =\pm\sqrt{4} \amp \quad  \text{   Simplify roots   }   </mrow> 
+      <mrow> 6x+1=\pm 2 \amp\quad  \text{  To avoid sign errors, we need two equations   }  </mrow> 
+      <mrow> 6x+1=2 \text{ or } 6x+1=-2 \amp\quad  \text{ Solve each equation    }  </mrow>
+      <mrow>-1\ -1\qquad  -1 \ -1  \amp\quad  \text{   Subtract $1$ from both sides  }  </mrow> 
+      <mrow> 6x=1 \text{ or } 6x=-3 \amp\quad  \text{  Divide both sides by $6$   }  </mrow> 
+      <mrow>   \frac{6x}{6}=\frac{1}{6} \text{ or } \frac{6x}{6}=\frac{-3}{6} \amp\quad  \text{     }  </mrow> 
+      <mrow>x=\frac{1}{6} \text{ or } x=-\frac{1}{2}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    </example>
+    
+    <p>
+      When our exponents are a fraction we will need to first convert the fractional exponent into a radical expression to solve. Recall that <m>a^{\frac{m}{n}}=\left(\sqrt[n]{a}\right)^m</m>. Once we have done this we can clear the exponent using either the even <m>(\pm)</m> or odd root property. Then we can clear the radical by raising both sides to an exponent (remember to check answers if the index is even). 
+    </p>
+    
+  <example>
+    <md> 
+      <mrow> (4x+1)^{\frac{2}{5}} =9 \amp \quad  \text{ Rewrite as a radical expression     }   </mrow> 
+      <mrow>\left(\sqrt[5]{4x+1}\right)^2=9  \amp\quad  \text{  Clear exponent first with even root property   } (\pm) </mrow> 
+      <mrow> \sqrt{\left(\sqrt[5]{4x+1}\right)^2}=\pm\sqrt{9}  \amp\quad  \text{  Simplify roots   }  </mrow> 
+      <mrow> \sqrt[5]{4x+1}=\pm 3 \amp \quad  \text{  Clear radical by raising both sides to $5$th power    }   </mrow> 
+      <mrow>  \left(\sqrt[5]{4x+1}\right)^5=\left(\pm 3\right)^5 \amp\quad  \text{  Simplify exponents   }  </mrow> 
+      <mrow> 4x+1=\pm 243 \amp\quad  \text{  Solve, need $2$ equations!   }  </mrow> 
+      <mrow> 4x+1=243 \text{ or } 4x+1=-243 \amp \quad  \text{      }   </mrow> 
+      <mrow>-1\quad-1 \qquad -1\quad -1  \amp\quad  \text{ Subtract $1$ from both sides    }  </mrow> 
+      <mrow> 4x=242 \text{ or } 4x=-244 \amp\quad  \text{   Divide both sides by $4$  }  </mrow> 
+      <mrow>  \frac{4x}{4}=\frac{242}{4} \text{ or } \frac{4x}{4}=\frac{-244}{4}  \amp\quad  \text{     }  </mrow> 
+      <mrow>x=\frac{121}{2},\ -61  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  
+  <example>
+    <md> 
+      <mrow> (3x-2)^{\frac{3}{4}} =64 \amp \quad  \text{   Rewrite as radical expression   }   </mrow> 
+      <mrow>  \left(\sqrt[4]{3x-2}\right)^3 =64 \amp\quad  \text{  Clear exponent first with odd root property   }  </mrow> 
+      <mrow> \sqrt[3]{\left(\sqrt[4]{3x-2}\right)^3} =\sqrt[3]{64}  \amp\quad  \text{  Simplify roots   }  </mrow> 
+       <mrow> \sqrt[4]{3x-2} =4  \amp \quad  \text{  Even Index! Check answers.    }   </mrow> 
+       <mrow>  \left(\sqrt[4]{3x-2}\right)^4 =4^4  \amp\quad  \text{  Raise both sides to $4$th power   }  </mrow>
+       <mrow> 3x-2=256 \amp\quad  \text{ Solve    }  </mrow>
+       <mrow> +2 \ +2 \amp \quad  \text{  Add $2$ to both sides    }   </mrow> 
+      <mrow> 3x=258 \amp\quad  \text{  Divide both sides by 3   }  </mrow> 
+      <mrow>  \frac{3x}{3}=\frac{258}{3}  \amp\quad  \text{     }  </mrow>
+      <mrow> x=86 \amp \quad  \text{  Need to check answer in radical form of problem    }   </mrow> 
+      <mrow>  \left(\sqrt[4]{3(86)-2}\right)^3 =64 \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow> \left(\sqrt[4]{258-2}\right)^3 =64 \amp\quad  \text{ Subtract    }  </mrow>
+      <mrow>  \left(\sqrt[4]{256}\right)^3 =64 \amp \quad  \text{  Evaluate root    }   </mrow> 
+      <mrow>4^3=64  \amp\quad  \text{  Evaluate exponent   }  </mrow> 
+      <mrow> 64=64 \amp\quad  \text{  True! It works   }  </mrow>
+      <mrow>x=86  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    With rational exponents it is very helpful to convert to radical form to be able to  see if we need a <m>\pm</m> because we used the even root property, or to see if we need to check our answer because there was an even root in the problem. When checking we will usually want to check in the radical form as it will be easier to evaluate.
+  </p>
+
+    <exercises xml:id="exercises-solving-with-exponents">
+    <title>Exercises - Solving with Exponents</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve </p>      </introduction>
+      <exercise><statement> <p> <m>x^2=75 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^3=-8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2 +5=13 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4x^3 -2=106 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x^2+1=73 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x-4)^2=49 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x+2)^5 =-243 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (5x+1)^4 =16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2x+5)^3 -6=21 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2x+1)^2+3=21 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(x-1)^{\frac{2}{3}} =16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(x-1)^{\frac{3}{2}} =8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2-x)^{\frac{3}{2}} =27 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2x+3)^{\frac{4}{3}} =16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2x-3)^{\frac{2}{3}} =4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x+3)^{-\frac{1}{3}} =4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\left(x+\frac{1}{2}\right)^{-\frac{2}{3}}=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(x-1)^{-\frac{5}{3}}=32 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x-1)^{-\frac{5}{2}}=32 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(x+3)^{\frac{3}{2}}=-8  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3x-2)^{\frac{4}{5}} =16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2x+3)^{\frac{3}{2}} =27 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4x+2)^{\frac{3}{5}} =-8</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3-2x)^{\frac{4}{3}} =-81 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+  

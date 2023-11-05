@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-inverse" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>  Inverse Functions  </title> 
+ 
+  <introduction> <alert> Objective: Identify and find inverse functions. </alert> </introduction> 
+ 
+   <p> 
+When a value goes into a function it is called the input. The result that we get when we evaluate the function is called the output. When working with functions sometimes we will know the output and be interested in what input gave us the output. To find this we use an inverse function. As the name suggests an inverse function undoes whatever the function did. If a function is named <m>f(x)</m>, the inverse function will be named <m>f^{-1}(x)</m> (read “f inverse of x”). The negative one is not an exponent, but merely a symbol to let us know that this function is the inverse of <m>f</m>.
+</p> 
+ 
+  <p> <alert> World View Note:</alert> The notation used for functions was first introduced by 
+  the great Swiss mathematician, Leonhard Euler in the <m>18^{\text{th}}</m> century. </p> 
+ 
+  <p> 
+For example, if <m>f(x)=x+5</m>, we could deduce that the inverse function would be 
+<m>f^{-1}(x)=x-5</m>. If we had an input of <m>3</m>, we could calculate <m>f(3)=(3)+5=8</m>. 
+Our output is 8. If we plug this output into the inverse function we get <m>f ^{-1}(8)=(8)-5=3</m>, which is the original input.
+  </p> 
+
+<p>
+Often the functions are much more involved than those described above. It may be difficult to determine just by looking at the functions if they are inverses. In order to test if two functions, <m>f(x)</m> and <m>g(x)</m> are inverses we will calculate the composition of the two functions at <m>x</m>. If <m>f</m> changes the variable <m>x</m> in some way, then <m>g</m> undoes whatever <m>f</m> did, then we will be back at <m>x</m> again for our final solution. In other words, if we simplify <m>(f \circ g)(x)</m> the solution will be <m>x</m>. If it is anything but <m>x</m> the functions are not inverses.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> \text{Are } f(x)=\sqrt[3]{3x+4} \text{ and } g(x)= \frac{x^3-4}{3} \text{ inverses?}  \amp \quad  \text{   Calculate composition   }   </mrow> 
+      <mrow> f\left(g(x)\right) \amp\quad  \text{  Replace $g(x)$ with }  \frac{x^3-4}{3}</mrow> 
+      <mrow> f\left(\frac{x^3-4}{3}\right) \amp\quad  \text{  Substitute} \frac{x^3-4}{3} \text{for variable in }f </mrow> 
+      <mrow> \sqrt[3]{3\left(\frac{x^3-4}{3}\right)+4} \amp\quad  \text{  Divide out the $3$’s  }  </mrow> 
+      <mrow> \sqrt[3]{x^3-4+4} \amp\quad  \text{  Combine like terms  }  </mrow> 
+      <mrow> \sqrt[3]{x^3} \amp\quad  \text{  Take cube root   }  </mrow> 
+      <mrow> x \amp\quad  \text{   Simplified to $x$! }  </mrow> 
+      <mrow> \text{Yes, they are inverses!} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+ 
+  
+  <example>
+    <md> 
+      <mrow>  \text{Are } h(x)=2x+5 \text{ and } g(x)= \frac{x}{2}-5 \text{ inverses?} \amp \quad  \text{Calculate composition }   </mrow> 
+      <mrow>  h\left(g(x)\right)   \amp\quad  \text{Replace $g(x)$ with }  \frac{x}{2}-5  </mrow> 
+      <mrow> h\left(\frac{x}{2}-5\right)   \amp\quad  \text{Substitute } \frac{x}{2}-5  \text{ for variable in } h  </mrow> 
+      <mrow> 2\left(\frac{x}{2}-5\right)+5   \amp\quad  \text{Distrubte $2$ }  </mrow> 
+      <mrow>  x-10+5    \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> x-5  \amp\quad  \text{Did not simplify to } x   </mrow> 
+      <mrow> \text{No, they are not inverses}    \amp\quad  \text{ Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+<example>
+    <md> 
+      <mrow>  \text{Are } f(x)= \frac{3x-2}{4x+1} \text{ and } g(x)= \frac{x+2}{3-4x} \text{ inverses?} \amp \quad  \text{Calculate composition }   </mrow> 
+      <mrow>  f\left(g(x)\right)   \amp\quad  \text{Replace $g(x)$ with }  \frac{x+2}{3-4x}  </mrow> 
+      <mrow>   f\left(\frac{x+2}{3-4x}\right) \amp\quad  \text{Substitute} \frac{x+2}{3-4x} \text{for variable in } f  </mrow> 
+      <mrow> </mrow>
+      <mrow>  \frac{3\left(\frac{x+2}{3-4x}\right)-2}{4\left(\frac{x+2}{3-4x}\right)+1}    \amp\quad  \text{Distrubte $3$ and $4$ into numerators }  </mrow> 
+            <mrow> </mrow>
+      <mrow>  \frac{\left(\frac{3x+6}{3-4x}\right)-2}{\left(\frac{4x+8}{3-4x}\right)+1}      \amp\quad  \text{Multiply each term by LCD: }3-4x  </mrow> 
+       <mrow> </mrow>
+      <mrow>  \frac{\frac{(3x+6)(3-4x)}{3-4x}-2(3-4x)}{\frac{(4x+8)(3-4x)}{3-4x}+1(3-4x)}   \amp\quad  \text{Reduce fractions }  </mrow> 
+       <mrow> </mrow>
+      <mrow>   \frac{3x+6-2(3-4x)}{4x+8+1(3-4x)}  \amp\quad  \text{Distribute }  </mrow> 
+       <mrow> </mrow>
+      <mrow>   \frac{3x+6-6+8x}{4x+8+3-4x}  \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow>   \frac{11x}{11}  \amp\quad  \text{Divide out } 11  </mrow> 
+       <mrow> </mrow>
+      <mrow> x  \amp\quad  \text{Simplified to $x$!  }  </mrow> 
+      <mrow> \text{Yes, they are inverses!}    \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+<p>
+While the composition is useful to show two functions are inverses, a more common problem is to find the inverse of a function. If we think of <m>x</m> as our input and <m>y</m> as our output from a function, then the inverse will take <m>y</m> as an input and give <m>x</m> as the output. This means if we switch <m>x</m> and <m>y</m> in our function we will find the inverse! This process is called the switch and solve strategy.
+</p>
+<p><alert> Switch and solve strategy to find an inverse:</alert>
+<ol>  
+<li> Replace <m> f(x)</m> with  <m> y</m> </li>
+<li> Switch <m> x </m> and <m>y</m>’s </li>
+<li> Solve for <m>y </m> </li>
+<li> Replace <m>y</m> with <m>f^{-1}(x) </m></li>
+</ol>
+</p>
+
+  <example>
+    <md> 
+      <mrow>  \text{Find the inverse of } f(x)=(x+4)^3-2   \amp \quad  \text{Replace $f(x)$ with $y$ }   </mrow> 
+      <mrow>  y=(x+4^3)-2   \amp\quad  \text{Switch $x$ and $y$ }  </mrow> 
+      <mrow>  x=(y+4)^3-2   \amp\quad  \text{Solve for} y  </mrow> 
+      <mrow>  \underline{+2 \qquad \qquad +2}   \amp\quad  \text{Add $2$ to both sides }  </mrow> 
+      <mrow>  x+2=(y+4)^3  \amp\quad  \text{Cube root both sides }  </mrow> 
+      <mrow>  \sqrt[3]{x+2}=y+4  \amp\quad  \text{Subtract $4$ from both sides }  </mrow> 
+      <mrow>  \underline{-4 \qquad -4}  </mrow> 
+      <mrow>  \sqrt[3]{x-2}-4=y  \amp\quad  \text{Replacing $y$ with } f^{-1}(x)  </mrow> 
+      <mrow> f^{-1}(x)=\sqrt[3]{x+2}-4   \amp\quad  \text{Our Solution }  </mrow> 
+
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow>  \text{Find the inverse of } g(x)=\frac{2x-3}{4x+2}   \amp \quad  \text{Replace $g(x)$ with $y$ }   </mrow> 
+       <mrow> </mrow>
+      <mrow>  y=\frac{2x-3}{4x+2}	 \amp\quad  \text{Switch $x$ and $y$ }  </mrow> 
+       <mrow> </mrow>
+      <mrow>  x=\frac{2y-3}{4y+2}	 \amp\quad  \text{Multiply } (4y+2)  </mrow> 
+       <mrow> </mrow>
+      <mrow>  x(4y+2)=2y-3  \amp\quad  \text{Distrubute }  </mrow> 
+      <mrow>  4xy+2x=2y-3 \amp\quad  \text{ Move all $y$’s to one side, rest to other side  }  </mrow> 
+      <mrow>  \underline{-4xy+3\ -4xy+3} \amp\quad  \text{ Subtract $4xy$ and add $3$ to both sides }  </mrow> 
+      <mrow>   2x+3=2y-4xy  \amp\quad  \text{   Factor out }y  </mrow> 
+       <mrow> </mrow>
+      <mrow> 2x+3=y(2-4x)   \amp\quad  \text{ Divide by }2-4x  </mrow> 
+      <mrow> \overline{2-4x}\qquad \quad \overline{2-4x}</mrow>
+       <mrow> </mrow>
+      <mrow> \frac{2x+3}{2-4x}=y \amp\quad  \text{  Replacing $y$ with } g^{-1}(x)  </mrow> 
+       <mrow> </mrow>
+      <mrow> g^{-1}(x)=\frac{2x+3}{2-4x} \amp\quad  \text{  Our Solution }  </mrow> 
+
+    </md>
+  </example> 
+
+ 
+
+
+  <p> 
+ In this lesson we looked at two different things, first showing functions are inverses by calculating the composition, and second finding an inverse when we only have one function. Be careful not to get them backwards. When we already have two functions and are asked to show they are inverses, we do not want to use the switch and solve strategy, what we want to do is calculate the inverse. There may be several ways to represent the same function so the switch and solve strategy may not look the way we expect and can lead us to conclude two functions are not inverses when they are in fact inverses.
+  </p> 
+ 
+
+ 
+  <exercises xml:id="exercises-functions-inverse">
+    <title>Exercises - Inverse Functions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>   State if the given functions are inverses. </p>      </introduction>
+      <exercise><statement> 
+<p><m> g(x)=-x^5-3 </m> </p> <p><m>\quad f(x)=\sqrt[5]{-x-3} </m> </p>
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> g(x)=\frac{4-x}{x} </m> </p> 
+<p> <m> \quad  f(x)=\frac{4}{x} </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> f(x)=\frac{-x-1}{x-2} </m> </p> 
+<p> <m> \quad  g(x)=\frac{-2x+1}{-x-1} </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> h(x)=\frac{-2-2x}{x} </m> </p> 
+<p> <m> \quad  \frac{-2}{x+2} </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> g(x)=-10x+5 </m> </p> 
+<p> <m> \quad  f(x)=\frac{x-5}{10} </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> f(x)=\frac{x-5}{10} </m> </p> 
+<p> <m> \quad  h(x)=10+5 </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> f(x)=-\frac{2}{x+3} </m> </p> 
+<p> <m> \quad  g(x)=\frac{3x+2}{x+2} </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> f(x)=\sqrt[5]{\frac{x+1}{2}} </m> </p> 
+<p> <m> \quad  g(x)=2x^5-1 </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> g(x)=\sqrt[5]{\frac{x-1}{2}} </m> </p> 
+<p> <m> \quad  f(x)=2x^5+1 </m> </p> 
+</statement> </exercise>
+      <exercise><statement> 
+<p> <m> g(x)=\frac{8+9x}{2} </m> </p> 
+<p> <m> \quad  f(x)=\frac{5x-9}{2} </m> </p> 
+</statement> </exercise>
+ </exercisegroup>
+ 
+ <exercisegroup cols="2">
+  <introduction>    <p>   Find the inverse of each functions. </p>      </introduction>
+ <exercise><statement> <p> <m> f(x)=(x-2)^5+3	 </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)=\sqrt[3]{x+1}+2 </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> g(x)=\frac{4}{x+2} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=\frac{-3}{x-3} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> f(x)=\frac{-2x-2}{x+2} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)=\frac{9+x}{3} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> f(x)=\frac{10-x}{5}</m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=\frac{5x-15}{2} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> g(x)=-(x-1)^3 </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=\frac{12-3x}{4} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> g(x)=(x-3)^3 </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)=\sqrt[5]{\frac{-x+2}{2}} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> g(x)=\frac{x}{x-1} </m> </p> </statement> </exercise>    
+<exercise><statement> <p> <m> f(x)=\frac{-3-2x}{x+3} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> f(x)=\frac{x-1}{x+1} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> h(x)=\frac{x}{x+2} </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> g(x)=\frac{8-5x}{4} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)=\frac{-x+2}{3} </m> </p> </statement> </exercise> 
+<exercise><statement> <p> <m> g(x)=-5x+1 </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=\frac{5x-5}{4} </m> </p> </statement> </exercise> 
+<exercise><statement> <p> <m> g(x)=-1+x^3</m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=3-2x^5 </m> </p> </statement> </exercise>
+<exercise><statement> <p> <m> h(x)=\frac{4-\sqrt[3]{4x}}{2} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)= (x-1)^3+2</m> </p> </statement> </exercise> 
+<exercise><statement> <p> <m> f(x)=\frac{x+1}{x+2} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=\frac{-1}{x+1} </m> </p> </statement> </exercise> 
+<exercise><statement> <p> <m> f(x)=\frac{7-3x}{x-2} </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> f(x)=-\frac{3x}{4} </m> </p> </statement> </exercise> 
+<exercise><statement> <p> <m> g(x)=-x </m> </p> </statement> </exercise>      
+<exercise><statement> <p> <m> g(x)=\frac{-2x+1}{3} </m> </p> </statement> </exercise> 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>

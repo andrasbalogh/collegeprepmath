@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-expressions-LCD" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>   Least Common Denominators  </title> 
+
+  <introduction> <alert> Objective:  Idenfity the least common denominator and build up denominators to match this common denominator. </alert> </introduction> 
+
+   <p> 
+As with fractions, the least common denominator or LCD is very important to working with rational expressions. 
+The process we use to find the LCD is based on the process used to find the LCD of intergers.
+   </p> 
+
+  <example>
+    <md> 
+      <mrow>  \text{Find the LCD of $8$ and $6$.} \amp \quad  \text{ Consider multiples of the larger number.     }   </mrow> 
+      <mrow>  8, 16, 24,\ldots \amp\quad  24 \text{ is the first multiple of $8$ that is also divisible by } 6  </mrow> 
+      <mrow> 24  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p> When finding the LCD of several monomials we first find the LCD of the coefficients, 
+then use all variables and attach the highest exponent on each variable.</p>
+  
+  <example>
+  Find the LCD of <m>4x^2y^5</m> and <m>6x^4y^3z^6</m>.
+    <md> 
+      <mrow>    \amp \quad  \text{ First find the LCD of coefficients $4$ and } 6   </mrow> 
+      <mrow>  12 \amp\quad  12 \text{ is the LCD of $4$ and } 6  </mrow> 
+      <mrow>  x^4y^5z^6 \amp\quad  \text{ Use all variables with highest exponents on each variable. }   </mrow> 
+      <mrow> 12 x^4y^5z^6 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>The same pattern can be used on polynomials that have more than one term. 
+However, we must first factor each polynomial so we can identify all the factors to be used 
+(attaching highest exponent if necessary).</p>
+
+  <example>
+  Find the LCD of <m> x^2 + 2x - 3</m> and <m>x^2 - x - 12</m>.
+    <md> 
+      <mrow>  x^2 + 2x - 3  \text{ and } x^2 - x - 12  \amp \quad  \text{ Factor each polynomial }    </mrow> 
+      <mrow> (x - 1)(x + 3) \text{ and } (x - 4)(x + 3) \amp\quad   \text{ LCD uses all unique factors }   </mrow> 
+      <mrow> (x - 1)(x + 3)(x - 4) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>Notice we only used <m>(x + 3)</m> once in our LCD. 
+This is because it only appears as a factor once in either polynomial. 
+The only time we need to repeat a factor or use an exponent on a factor is if there are exponents when one of the 
+polynomials is factored.</p>
+
+<example>
+    Find the LCD of <m>  x^2 -10x+25</m> and <m>x^2 -14x+45</m>.
+    <md> 
+      <mrow>  x^2 -10x+25  \text{ and } x^2 -14x+45  \amp \quad  \text{ Factor each polynomial. }    </mrow> 
+      <mrow> (x - 5)^2 \text{ and } (x - 5)(x - 9) \amp\quad   \text{ LCD uses all unique factors with highest exponent. }   </mrow> 
+      <mrow> (x - 5)^2(x - 9) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example> 
+
+<p>
+The previous example could have also been done with factoring the first polynomial to <m>(x-5)(x-5)</m>. 
+Then we would have used <m>(x-5)</m> twice in the LCD because it showed up twice in one of the polynomials. 
+However, it is the author’s suggestion to use the exponents in factored form so as to use the same pattern (highest exponent) 
+as used with monomials.</p>
+
+<p>Once we know the LCD, our goal will be to build up fractions so they have matching denominators. 
+In this lesson we will not be adding and subtracting frac- tions, just building them up to a common denominator. 
+We can build up a fraction’s denominator by multipliplying the numerator and denoinator by any factors that are not already 
+in the denominator.
+</p>
+
+<example>
+    <md> 
+      <mrow>  \frac{5a}{3a^2b}= \frac{?}{6a^5b^3}  \amp \quad  \text{ Idenfity what factors we need to match denominators. }    </mrow> 
+      <mrow> 2a^3b^2 \amp\quad   3\cdot2=6 \text{ and we need three more $a$'s and two more $b$'s. }   </mrow> 
+      <mrow>   \frac{5a}{3a^2b}\left(\frac{2a^3b^3}{2a^3b^2}\right) \amp\quad  \text{  Multiply numerator and denominator by this   }  </mrow> 
+      <mrow>   \frac{10a^4b^2}{6a^5b^3} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example> 
+
+<example>
+    <md> 
+      <mrow>  \frac{x-2}{x+4}= \frac{?}{x^2+7x+12}  \amp \quad  \text{ Factor to idenfity factors we need to match denominators. }    </mrow> 
+      <mrow> \frac{x-2}{x+4}= \frac{?}{(x+4)(x+3)} \amp\quad      </mrow> 
+      <mrow>   (x+3) \amp\quad  \text{  The missing factor   }  </mrow> 
+      <mrow>   \frac{x-2}{x+4}\left(\frac{x+3}{x+3} \right) \amp\quad  \text{  Multiply numerator and denominator by missing factor, FOIL numerator. }  </mrow> 
+      <mrow>    \frac{x^2+x-6}{(x+4)(x+3)} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example> 
+
+<p>As the above example illustrates, we will multiply out our numerators, but keep our denominators factored. 
+The reason for this is to add and subtract fractions we will want to be able to combine like terms in the numerator, 
+then when we reduce at the end we will want our denominators factored.</p>
+
+<p>Once we know how to find the LCD and how to build up fractions to a desired denominator we can combine them together 
+by finding a common denominator and building up those fractions.
+</p>
+
+<example>
+Build up each fraction so they have a common denominator.
+    <md> 
+      <mrow>  \frac{5a}{4b^3c} \text{ and } \frac{3c}{6a^2b}  \amp \quad  \text{ First identify LCD. }    </mrow> 
+      <mrow> 12a^2b^3c \amp\quad  \text{ Determine what factors each fraction is missing. }    </mrow> 
+      <mrow>   \text{First: } 3a^2 \text{ Second: } 2b^2c \amp\quad  \text{  Multiply each fraction by missing factors.   }  </mrow> 
+      <mrow>   \frac{5a}{4b^3c}\left(\frac{3a^2}{3a^2} \right) \text{ and } \frac{3c}{6a^2b}\left(\frac{2b^2c}{2b^2c} \right) \amp\quad   </mrow> 
+      <mrow>    \frac{15a^3}{12a^2b^3c} \text{ and } \frac{6b^2c^2}{12a^2b^3c} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example> 
+
+<example>
+Build up each fraction so they have a common denominator.
+    <md> 
+      <mrow>  \frac{5x}{x^2-5x-6} \text{ and } \frac{x-2}{x^2+4x+3}  \amp \quad  \text{ Factor to find LCD. }    </mrow> 
+      <mrow> \frac{5x}{(x-6)(x+1)} \text{ and } \frac{x-2}{(x+1)(x+3)}  \amp\quad  \text{ Use factors to find LCD. }    </mrow> 
+      <mrow>   \text{LCD: } (x-6)(x+1)(x+3) \amp\quad  \text{  Identify which factors are missing.   }  </mrow> 
+      <mrow>   \text{First: } (x+3) \text{ Second: } (x-6) \amp\quad  \text{  Multiply each fraction by missing factors.   }  </mrow> 
+      <mrow>   \frac{5x}{(x-6)(x+1)}\left(\frac{x+3}{x+3} \right) \text{ and } \frac{x-2}{(x+1)(x+3)}\left(\frac{x-6}{x-6} \right) 
+       \amp\quad  \text{ Multiply numerators.} </mrow> 
+      <mrow>    \frac{5x^2+15x}{(x-6)(x+1)(x+3)} \text{ and } \frac{x^2-8x+12}{(x+1)(x+3)(x-6)}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example> 
+
+  <p> <alert> World View Note:</alert>  When the Egyptians began working with fractions, they
+expressed all fractions as a sum of unit fraction. Rather than <m>\frac{4}{5}</m>, they would write
+the fraction as the sum, <m>\frac{1}{2} + \frac{1}{4} + \frac{1}{20}</m>. An interesting problem with this system is that
+this is not a unique solution, <m>\frac{4}{5}</m> is also equal to the sum <m>\frac{1}{3} + \frac{1}{5} + \frac{1}{6} +\frac{1}{10}</m>.
+  </p> 
+
+  <exercises xml:id="exercises-rational-LCD">
+    <title>Exercises - Least Common Denominator</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Build up denominators. 	</p>      </introduction>
+      <exercise><statement> <p> <m> \frac{2}{8}=\frac{?}{48} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{a}{5}=\frac{?}{5a} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{a}{x}=\frac{?}{xy} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5}{2x^2}=\frac{?}{8x^3y} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{3a^3b^2c}=\frac{?}{9a^5b^2c^4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4}{3a^5b^2c^4}=\frac{?}{9a^5b^2c^4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{x+4}=\frac{?}{x^2-16} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+1}{x-3}=\frac{?}{x^2-6x+9} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x-4}{x+2}=\frac{?}{x^2+5x+6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x-6}{x+3}=\frac{?}{x^2-2x-15} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+   <exercisegroup cols="2">
+      <introduction>	<p>	  Find Least Common Denominators. 	</p>      </introduction>
+      <exercise><statement> <p> <m> 2a^3,\ 6a^4b^2,\ 4a^3b^5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5x^2y,\ 25x^3y^5z </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2-3x,\ x-3,\ x </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4x-8,\ x-2,\ 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  x+2,\ x-4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x,\ x-7,\ x+1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2 -25,\ x+5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2 -9,\ x^2 -6x+9 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2 +3x+2,\ x^2 +5x+6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2-7x+10,\ x^2-2x-15,\ x^2+x-6 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+   <exercisegroup cols="2">
+      <introduction>	<p>	  Find LCD and build up each fraction. 	</p>      </introduction>
+      <exercise><statement> <p> <m> \frac{3a}{5b^2},\ \frac{2}{10a^3b} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x}{x-4},\ \frac{2}{x+2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+2}{x-3},\ \frac{x-3}{x+2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5}{x^2-6x},\ \frac{2}{x},\ \frac{-3}{x-6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  \frac{x}{x^2-16},\ \frac{3x}{x^2-8x+16} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5x+1}{x^2-3x-10},\ \frac{4}{x-5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+1}{x^2-36},\ \frac{2x+3}{x^2+12x+36} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x+1}{x^2-x-12},\ \frac{2x}{x^2+4x+3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4x}{x^2-x-6},\ \frac{x+2}{x-3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x}{x^2-6x+8},\ \frac{x-2}{x^2+x-20},\ \frac{5}{x^2+3x-10} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+
+

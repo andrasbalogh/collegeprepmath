@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-build-from-roots" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>Build Quadratics From Roots</title> 
+ 
+  <introduction> <alert> Objective: Find a quadratic equation that has given roots using reverse factoring and reverse completing the square.</alert> </introduction> 
+ 
+   <p> 
+Up to this point we have found the solutions to quadratics by a method such as factoring or completing the square. Here we will take our solutions and work backwards to find what quadratic goes with the solutions.
+   </p> 
+ 
+  <p> 
+We will start with rational solutions. If we have rational solutions we can use factoring in reverse, we will set each solution equal to x and then make the equation equal to zero by adding or subtracting. Once we have done this our expressions will become the factors of the quadratic.
+  </p> 
+ 
+  <example>
+    <md> 
+      <mrow> \text{The solutions are $4$ and } -2 \amp \quad  \text{Set each solution equal to $x$}   </mrow> 
+      <mrow> x =4 \text{ or } x = - 2 \amp\quad  \text{Make each equation equal zero }  </mrow> 
+      <mrow> \underline{- 4 \ – 4} \quad \underline{+2 \ \ + 2}  \amp\quad  \text{Subtract $4$ from first, add $2$ to second }  </mrow> 
+      <mrow> x – 4 = 0 \text{ or } x + 2= 0 \amp\quad  \text{These expressions are the factors}  </mrow>
+      <mrow>(x-4)(x+2)=0  \amp\quad  \text{FOIL  }  </mrow> 
+      <mrow> x^2+2x-4x-8=0 \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> x^2-2x-8=0  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+If one or both of the solutions are fractions we will clear the fractions by multiplying by the denominators.
+</p>
+
+  <example>
+    <md> 
+      <mrow>  \text{The solutions are } \frac{2}{3} \text{ and } \frac{3}{4}\amp \quad  \text{Set each solution equal to }x   </mrow> 
+      <mrow>  x=\frac{2}{3} \text{ or } x=\frac{3}{4}   \amp\quad  \text{ Clear fractions by multiplying by denominators    }  </mrow> 
+      <mrow>  3x=2 \text{ or } 4x=3  \amp\quad  \text{   Make each equation equal zero  }  </mrow> 
+      <mrow> \underline{-2-2} \quad \underline{ -3-3}   \amp\quad  \text{  Subtract $2$ from the first, subtract $3$ from the second   }  </mrow>
+      <mrow>3x-2=0 \text{ or } 4x-3=0     \amp\quad  \text{   These expressions are the factors  }  </mrow>
+      <mrow>(3x-2)(4x-3)=0     \amp\quad  \text{ FOIL    }  </mrow>
+      <mrow> 12x^2-9x-8x+6=0    \amp\quad  \text{Combine like terms     }  </mrow>
+      <mrow> 12x^2-17x+6=0     \amp\quad  \text{Our Solution }  </mrow>
+    </md>
+  </example> 
+ 
+  <p> 
+ If the solutions have radicals (or complex numbers) then we cannot use reverse factoring. In these cases we will use reverse completing the square. When there are radicals the solutions will always come in pairs, one with a plus, one with a minus, that can be combined into “one” solution using <m>\pm</m>. We will then set this solution equal to <m>x</m> and square both sides. This will clear the radical from our problem.
+  </p> 
+
+
+  <example>
+    <md> 
+      <mrow> \text{The solutions are } \sqrt{3} \text{ and } -\sqrt{3} \amp \quad  \text{Write as “one” expression equal to } x </mrow> 
+      <mrow> x=\pm \sqrt{3} \amp\quad  \text{Square both sides }  </mrow> 
+      <mrow> x^2=3  \amp\quad  \text{Make equal to zero}  </mrow> 
+      <mrow> \underline{-3-3} \amp\quad  \text{Subtract $3$ from both sides }  </mrow>
+      <mrow> x^2-3=0  \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+We may have to isolate the term with the square root (with plus or minus) by adding or subtracting. With these problems, remember to square a binomial we use the formula <m>(a + b)^2 = a^2 + 2ab + b^2</m>
+</p>
+
+  <example>
+    <md> 
+      <mrow> \text{The solutions are } 2-5\sqrt{2} \text{ and } 2+5\sqrt{2} \amp \quad  \text{Write as “one” expression equal to } x </mrow> 
+      <mrow> x=2 \pm  5\sqrt{2}\amp\quad  \text{Isolate the square root term }  </mrow> 
+      <mrow> \underline{-2\ -2 } \quad \qquad \amp\quad  \text{Subtract $2$ from both sides}  </mrow> 
+      <mrow> x-2=\pm 5\sqrt{2} \amp\quad  \text{Square both sides }  </mrow>
+      <mrow> x^2-4x+4=25 \cdot 2  \amp\quad  \text{ }  </mrow> 
+      <mrow> x^2-4x+4=50 \amp\quad  \text{Make equal to zero }  </mrow> 
+      <mrow> \underline{-50-50} \amp\quad  \text{Subtract 50 }  </mrow> 
+      <mrow> x^2-4x-46=0  \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+  <p> <alert> World View Note:</alert> Before the quadratic formula, before completing the square, before factoring, quadratics were solved geometrically by the Greeks as early as <m>300</m> BC! In <m>1079</m> Omar Khayyam, a Persian mathematician solved cubic equations geometrically! </p>
+
+<p>
+If the solution is a fraction we will clear it just as before by multiplying by the denominator.
+</p>
+
+<example>
+    <md> 
+      <mrow> \text{The solutions are } \frac{2+\sqrt{3}}{4} \text{ and } \frac{2-\sqrt{3}}{4} \amp \quad  \text{Write as “one” expression equal to} x </mrow> 
+      <mrow> x=\frac{2\pm \sqrt{3}}{4}\amp\quad  \text{Clear fraction by multiplying by } 4  </mrow> 
+      <mrow> 4x=2\pm \sqrt{3}  \amp\quad  \text{Isolate the square root term}  </mrow> 
+      <mrow> \underline{-2\  -2\ }\qquad  \amp\quad  \text{Subtract $2$ from both sides }  </mrow>
+      <mrow> 4x-2=\pm \sqrt{3} \amp\quad  \text{Square both sides }  </mrow>
+      <mrow> 16x^2-16x+4=3 \amp\quad  \text{Make equal to zero}  </mrow>
+      <mrow> \underline{-3-3} \amp\quad  \text{ Subtract } 3  </mrow>
+      <mrow> 16x^2-16x+1=0 \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The process used for complex solutions is identical to the process used for radicals.
+</p>
+
+<example>
+    <md> 
+      <mrow> \text{The solutions are } 4+5i \text{ and } 4-5i \amp \quad  \text{Write as “one” expression equal to} x </mrow> 
+      <mrow> x=4\pm 5i \amp\quad  \text{Isolate the $i$ term}  </mrow> 
+      <mrow> \underline{-4\ -4}\qquad  \amp\quad  \text{Subtract $4$ from both sides }  </mrow>
+      <mrow> x-4=\pm 5i \amp\quad  \text{Square both sides }  </mrow>
+      <mrow> x^2-8x+16=25i^2 \amp\quad  \text{}i^2=-1 </mrow>
+      <mrow> x^2-8x+16=-25 \amp\quad  \text{Make equal to zero}  </mrow>
+      <mrow> \underline{+25\quad +25}\amp\quad  \text{ Add $25$ to both sides}   </mrow>
+      <mrow> x^2 -8x +41 =0 \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+
+<example>
+    <md> 
+      <mrow> \text{The solutions are } \frac{3-5i}{2} \text{ and } \frac{3+5i}{2} \amp \quad  \text{Write as “one” expression equal to} x </mrow> 
+      <mrow> x=\frac{3\pm 5i}{2} \amp\quad  \text{Clear fraction by multiplying by denominator }  </mrow> 
+      <mrow> 2x=3\pm 5i \amp\quad  \text{Isolate the $i$ term}  </mrow> 
+      <mrow> \underline{-3\ -3}\qquad   \amp\quad  \text{Subtract $3$ from both sides }  </mrow>
+      <mrow> 2x-3=\pm 5i \amp\quad  \text{Square both sides }  </mrow>
+      <mrow> 4x^2-12x+9=5i^2 \amp\quad  \text{}i^2=-1 </mrow>
+      <mrow> 4x^2-12x+9=-25 \amp\quad  \text{Make equal to zero}  </mrow>
+      <mrow> \underline{+25\quad +25}\amp\quad  \text{ Add $25$ to both sides}   </mrow>
+      <mrow> 4x^2-12x+34=0 \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+  <exercises xml:id="exercises-quadratics-from-roots">
+    <title>Exercises - Build Quadratics from Roots</title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>    From each problem, find a quadratic equation with those numbers as its solutions.    </p>      </introduction>
+      <exercise><statement> <p> <m> 2, 5  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3, 6 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 20, 2  </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 13, 1 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 4, 4</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>  0, 9</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 0, 0 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>-2, -5 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> -4, 11</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 3, -1</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3}{4}, \frac{1}{4} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{5}{8}, \frac{5}{7} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{1}{2}, \frac{1}{3}</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{1}{2}, \frac{2}{3} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>\frac{3}{7}, 4 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 2, \frac{2}{9}</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> -\frac{1}{3}, \frac{5}{6} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>\frac{5}{3}, -\frac{1}{2} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> -6, \frac{1}{9} </m> </p> </statement> </exercise>
+     <exercise><statement> <p> <m> -\frac{2}{5}, 0</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm 5</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>  \pm 1</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  \pm \frac{1}{5}</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm \sqrt{7} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm \sqrt{11} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm 2\sqrt{3} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm \frac{\sqrt{3}}{4}</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm 11i  </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm i\sqrt{13} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \pm 5i\sqrt{2}  </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 2\pm \sqrt{6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -3 \pm \sqrt{2}  </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 1 \pm 3i </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> -2 \pm 4i </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> 6\pm i\sqrt{3} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> -9 \pm i\sqrt{5} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{-1\pm \sqrt{6}}{2} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{2 \pm 5i}{3} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{6\pm i\sqrt{2}}{8} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \frac{-2\pm i\sqrt{15}}{2} </m> </p> </statement> </exercise>
+
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>
+

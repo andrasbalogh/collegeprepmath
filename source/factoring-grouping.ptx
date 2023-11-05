@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-grouping" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+  <title>   Grouping   </title> 
+
+  <introduction> <alert> Objective:  Factor polynomials with four terms using grouping. </alert> </introduction> 
+
+   <p> 
+     The first thing we will always do when factoring is try to factor out a GCF. This GCF is often a monomial like in the problem <m>5xy + 10xz</m> the GCF is the monomial <m>5x</m>, so we would have <m>5x(y + 2z)</m>. However, a GCF does not have to be a monomial, it could be a binomial. To see this, consider the following two example.
+   </p>
+
+  <example>
+    <md> 
+      <mrow> 3a x - 7b x \amp \quad  \text{ Both have $x$ in common, factor it out     }   </mrow> 
+      <mrow> x(3a - 7b) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Now the same problem, but instead of <m>x</m> we have <m>(2a + 5b)</m>.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 3a(2a + 5b) - 7b(2a + 5b) \amp \quad  \text{Both have $(2a + 5b)$ in common, factor it out     }   </mrow> 
+      <mrow> (2a + 5b)(3a - 7b) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    In the same way we factored out a GCF of <m>x</m> we can factor out a GCF which is a binomial, <m>(2a + 5b)</m>. This process can be extended to factor problems where there is no GCF to factor out, or after the GCF is factored out, there is more factoring that can be done. Here we will have to use another strategy to factor. We will use a process known as grouping. Grouping is how we will factor if there are four terms in the problem. Remember, factoring is like multiplying in reverse, so first we will look at a multiplication problem and then try to reverse the process.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> (2a + 3)(5b + 2) \amp \quad  \text{Distribute $(2a + 3)$ into second parenthesis     }   </mrow> 
+      <mrow> 5b(2a + 3) + 2(2a + 3) \amp\quad  \text{ Distribute each monomial   }  </mrow> 
+      <mrow> 10ab + 15b + 4a + 6 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    The solution has four terms in it. We arrived at the solution by looking at the two parts, <m>5b(2a + 3)</m> and <m>2(2a + 3)</m>. When we are factoring by grouping we will always divide the problem into two parts, the first two terms and the last two terms. Then we can factor the GCF out of both the left and right sides. When we do this our hope is what is left in the parenthesis will match on both the left and right. If they match we can pull this matching GCF out front, putting the rest in parenthesis and we will be factored. The next example is the same problem worked backwards, factoring instead of multiplying.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 10ab + 15b + 4a + 6 \amp \quad  \text{  Split problem into two groups    }   </mrow> 
+      <mrow> ( 10ab + 15b) + (4a + 6)  \amp\quad  \text{ GCF on left is $5b$, on the right is  } 2  </mrow> 
+      <mrow> 5b(2a+3) +2(2a+3) \amp\quad (2a+3)  \text{   is the same! Factor out this GCF   }  </mrow> 
+      <mrow> (2a + 3)(5b + 2) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+The key for grouping to work is after the GCF is factored out of the left and right, the two binomials must match exactly. If there is any difference between the two we either have to do some adjusting or it can’t be factored using the grouping method. Consider the following example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 6x^2 + 9xy - 14x - 21y \amp \quad  \text{  Split problem into two groups    }   </mrow> 
+      <mrow> (6x^2+9xy) + (-14x-21y) \amp\quad  \text{ GCF on left is $3x$, on the right is  } 7  </mrow> 
+      <mrow> 3x(2x + 3y) + 7( - 2x - 3y) \amp\quad \text{ The signs in the parenthesis don't match!   }  </mrow> 
+    </md>
+    <p>
+When the signs don’t match on both terms we can easily make them match by fac- toring the opposite of the GCF on the right side. Instead of <m>7</m> we will use <m>-7</m>. This will change the signs inside the second parenthesis.
+    </p>
+    <md> 
+      <mrow> 3x(2x + 3y) - 7(2x + 3y) \amp \quad   (2x + 3y) \text{ is the same! Factor out this GCF    }   </mrow> 
+      <mrow> (2x + 3y)(3x - 7) \amp\quad \text{ Our solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Often we can recognize early that we need to use the opposite of the GCF when factoring. If the first term of the first binomial is positive in the problem, we will also want the first term of the second binomial to be positive. If it is negative then we will use the opposite of the GCF to be sure they match.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 5xy-8x-10y+16 \amp \quad  \text{  Split the problem into two groups    }   </mrow> 
+      <mrow> (5xy-8x)+ (-10y+16) \amp\quad  \text{   GCF on left is $x$, on right we need a negative,  }  </mrow> 
+      <mrow>  \amp\quad  \text{ so we use    } -2  </mrow> 
+      <mrow> x(5y -8) -2(5y -8) \amp\quad  (5y-8) \text{  is the same! Factor out this GCF   }  </mrow> 
+      <mrow> (5y - 8)(x - 2) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Sometimes when factoring the GCF out of the left or right side there is no GCF to factor out. In this case we will use either the GCF of <m>1</m> or <m>- 1</m>. Often this is all we need to be sure the two binomials match.
+  </p>
+  
+  <example>
+    <md> 
+      <mrow> 12a b - 14a - 6b + 7 \amp \quad  \text{  Split the problem into two groups    }   </mrow> 
+      <mrow> (12ab-14a) + (-6b+7) \amp\quad  \text{  GCF on left is $2a$, on right, no GCF, use   }-1  </mrow> 
+      <mrow>  2a(6b-7) -1(6b-7) \amp\quad  (6b-7) \text{  is the same! Factor out this GCF   }  </mrow> 
+      <mrow>  (6b - 7)(2a - 1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 6x^3 - 15x^2 + 2x - 5 \amp \quad  \text{ Split problem into two groups     }   </mrow> 
+      <mrow> (6x^3 - 15x^2) + (2x - 5) \amp\quad  \text{ GCF on left is $3x^2$, on right, no GCF, use   } 1  </mrow> 
+      <mrow> 3x^2(2x - 5) + 1(2x - 5) \amp\quad  (2x - 5)  \text{  is the same! Factor out this GCF   }  </mrow> 
+      <mrow> (2x - 5)(3x^2 + 1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Another problem that may come up with grouping is after factoring out the GCF on the left and right, the binomials don’t match, more than just the signs are different. In this case we may have to adjust the problem slightly. One way to do this is to change the order of the terms and try again. To do this we will move the second term to the end of the problem and see if that helps us use grouping.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 4a^2-21b^3+6ab-14ab^2 \amp \quad  \text{   Split the problem into two groups   }   </mrow> 
+      <mrow> (4a^2 - 21b^3) +( 6ab - 14ab^2) \amp\quad  \text{ GCF on left is $1$, on right is } 2ab  </mrow> 
+      <mrow> 1(4a^2 - 21b^3) + 2a b(3 - 7b) \amp\quad  \text{Binomials don't match! Move second term to end.     }  </mrow> 
+      <mrow> 4a^2+6ab-14ab^2-21b^3 \amp\quad  \text{ Start over, split the problem into two groups    }  </mrow>
+      <mrow> (4a^2 + 6ab) + (- 14ab^2 - 21b^3) \amp\quad  \text{ GCF on left is $2a$, on right is } -7b^2  </mrow>
+      <mrow> 2a(2a + 3b) - 7b^2(2a + 3b) \amp\quad  (2a + 3b) \text{  is the same! Factor out this GCF   }  </mrow>
+      <mrow> (2a + 3b)(2a - 7b^2) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+When rearranging terms the problem can still be out of order. Sometimes after factoring out the GCF the terms are backwards. There are two ways that this can happen, one with addition, one with subtraction. If it happens with addition, for example the binomials are <m>(a + b)</m> and <m>(b + a)</m>, we don’t have to do any extra work. This is because addition is the same in either order <m>(5+3=3+5=8)</m>.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>  7 + y - 3 x y - 21x\amp \quad  \text{  Split the problem into two groups    }   </mrow> 
+      <mrow> (7+y)+( -3xy-21x) \amp\quad  \text{ GCF on left is $1$, on the right is } -3x  </mrow> 
+      <mrow>1(7+y) -3x(y+7)  \amp\quad  y+7 \text{  and $7+y$ are the same, use either one   }  </mrow> 
+      <mrow> (y+7)(1-3x) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    However, if the binomial has subtraction, then we need to be a bit more careful. For example, if the binomials are <m>(a - b)</m> and <m>(b - a)</m>, we will factor out the opposite of the GCF on one part, usually the second. Notice what happens when we factor out <m>- 1</m>.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> (b-a) \amp \quad  \text{  Factor out } -1  </mrow> 
+      <mrow>  - 1( - b + a) \amp\quad  \text{ Addition can be in either order, switch order    }  </mrow> 
+      <mrow> - 1(a - b) \amp\quad  \text{ The order of the subtraction has been switched!    }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+Generally we won’t show all the above steps, we will simply factor out the opposite of the GCF and switch the order of the subtraction to make it match the other binomial.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 8xy - 12y + 15 - 10x \amp \quad  \text{ Split the problem into two groups     }   </mrow> 
+      <mrow> (8xy-12y) + ( 15-10x) \amp\quad  \text{   GCF on left is $4y$, on right, } 5  </mrow> 
+      <mrow> 4y(2x-3) +5(3-2x) \amp\quad  \text{  Need to switch subtraction order, use $- 5$ in middle   }  </mrow> 
+      <mrow>  4y(2y-3) -5(2x-3) \amp\quad  \text{  Now $2x - 3$ match on both! Factor out this GCF   }  </mrow> 
+      <mrow> (2x - 3)(4y - 5) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <p> <alert> World View Note:</alert>  Sofia Kovalevskaya of Russia was the first woman on the editorial staff of a mathematical journal in the late <m>19</m>th century. She also did research on how the rings of Saturn rotated.</p> 
+
+  <exercises xml:id="exercises-factoring-grouping">
+    <title>Exercises - Grouping</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Factor each completely.</p>      </introduction>
+      <exercise><statement> <p> <m>40r^3-8r^2-25r+5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 35x^3-10x^2-56x+16</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3n^3 -2n^2 -9n+6</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>14v^3 +10v^2 -7v -5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>15b^3+21b^2-35b-49</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6x^3-48x^2+5x-40 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x^3+15x^2+2x+10</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>28p^3+21p^2+20p+15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>35x^3-28x^2-20x+16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7n^3+21n^2-5n-15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7xy-49x+5y-35 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 42r^3-49r^2+18r-21</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 32xy+40x^2+12y+15x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>15ab-6a+5b^3-2b^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>16xy-56x+2y-7 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3mn-8m+15n-40 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2xy-8x^2+7y^3-28y^2x </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5mn+2m-25n-10 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 40xy+35x-8y^2-7y </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 8xy+56x-y-7</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>32uv-20u+24v-15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4uv+14u^2+12v+42u </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 10xy+30+25x+12y</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>24xy+25y^2-20x-30y^3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3uv+14u-6u^2-7v</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 56ab+14-49a-16b</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 16xy-3x-6x^2+8y</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+  
+</section>

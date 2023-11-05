@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<section xml:id="radicals-multiply-divide" xmlns:xi="http://www.w3.org/2001/XInclude">  
+  
+  <title>Multiply and Divide Radicals </title>
+
+  <introduction> <alert> Objective: Multiply and divide radicals using the product and quotient
+  rules of radicals. </alert> </introduction>
+  
+<p>
+Multiplying radicals is very simple if the index on all the radicals match. The product rule of radicals which we have already been using can be generalized as follows:
+</p>
+
+<me> \textbf{ Product Rule of Radicals: } \mathbf{a\sqrt[m]{b} \cdot c\sqrt[m]{d}  = a  c\sqrt[m]{bd}} </me>
+
+<p>
+Another way of stating this rule is we are allowed to multiply the factors outside the radical and we are allowed to multiply the factors inside the radicals, as long as the index matches. This is shown in the following example.
+</p>
+
+<example> 
+    <md>  
+      <mrow> -5\sqrt{14} \cdot 4\sqrt{6} \amp \quad \text {Multiply outside and inside the radical}   </mrow>  
+      <mrow>  -20\sqrt{84} \amp \quad \text{Simplify the radical, divisible by 4}  </mrow>  
+      <mrow>  -20\sqrt{4 \cdot 21}  \amp \quad \text{Take the square root where possible}  </mrow>
+      <mrow> -20 \cdot 2\sqrt{21} \amp \quad \text {Multiply coefficients}   </mrow>  
+      <mrow>  -40\sqrt{21} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+
+  <p>
+The same process works with higher roots
+</p>
+
+<example> 
+    <md>  
+      <mrow> 2\sqrt[3]{18} \cdot 6\sqrt[3]{15} \amp \quad \text {Multiply outside and inside the radical}   </mrow>  
+      <mrow>  12\sqrt[3]{270} \amp \quad \text{Simplify the radical, divisible by 27}  </mrow>  
+      <mrow>  12\sqrt[3]{27 \cdot 10}  \amp \quad \text{Take cube root where possible}  </mrow>
+      <mrow> 12 \cdot 3\sqrt[3]{10} \amp \quad \text {Multiply coefficients}   </mrow>  
+      <mrow>  36\sqrt[3]{10} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+<p>
+When multiplying with radicals we can still use the distributive property or FOIL just as we could with variables.
+</p>
+  <example> 
+    <md>  
+      <mrow> 7\sqrt{6}(3\sqrt{10} – 5\sqrt{15}) \amp \quad \text {Distribute, following rules for multiplying radicals}   </mrow>  
+      <mrow>  21\sqrt{60} – 35\sqrt{90} \amp \quad \text{Simplify each radical, finding perfect square factors}  </mrow>  
+      <mrow>  21\sqrt{4 \cdot 15} – 35\sqrt{90}  \amp \quad \text{Take square root where possible}  </mrow>
+      <mrow> 21 \cdot 2\sqrt{15} – 35 \cdot 3\sqrt{10} \amp \quad \text {Multiply coefficients}   </mrow>  
+      <mrow>  42\sqrt{15} – 105\sqrt{10} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+  <example> 
+    <md>  
+      <mrow> (\sqrt{5} - 2\sqrt{3})(4\sqrt{10} + 6\sqrt{6}) \amp \quad \text {FOIL, following rules for multiplying radicals}   </mrow>  
+      <mrow>  4\sqrt{50} + 6\sqrt{30} – 8\sqrt{30} – 12\sqrt{18} \amp \quad \text{Simplify radicals, finding perfect square factors}  </mrow>  
+      <mrow>  4\sqrt{25 \cdot 2} + 6\sqrt{30} – 8\sqrt{30} – 12\sqrt{9 \cdot 2}  \amp \quad \text{Take square root where possible}  </mrow>
+      <mrow> 4 \cdot 5\sqrt{2} + 6\sqrt{30} – 8\sqrt{30} – 12 \cdot 3\sqrt{2} \amp \quad \text {Multiply coefficients}   </mrow>  
+      <mrow>  20\sqrt{2} + 6\sqrt{30} – 8\sqrt{30} – 36\sqrt{2} \amp \quad \text{Combine like terms}  </mrow>  
+      <mrow>  -16\sqrt{2} - 2\sqrt{30} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+   <p> <alert> World View Note: </alert> Clay tablets have been discovered revealing much about
+Babylonian mathematics dating back from <m>1800</m> to <m>1600</m> BC. In one of the tables
+there is an approximation of <m>\sqrt{2}</m> accurate to five decimal places (<m>1.41421</m>)
+</p>
+  <example> 
+    <md>  
+      <mrow> (2\sqrt{5} - 3\sqrt{6})(7\sqrt{2} - 8\sqrt{7}) \amp \quad \text {FOIL, following rules for multiplying radicals}   </mrow>  
+      <mrow>  14\sqrt{10} - 16\sqrt{35} – 21\sqrt{4 \cdot 3} – 24\sqrt{42} \amp \quad \text{Simplify radicals, finding perfect square factors}  </mrow>  
+      <mrow>  14\sqrt{10} - 16\sqrt{35} – 21\sqrt{4 \cdot 3} – 24\sqrt{42}  \amp \quad \text{Take square root where possible}  </mrow>
+      <mrow> 14\sqrt{10} - 16\sqrt{35} – 21 \cdot 2\sqrt{3} – 24\sqrt{42} \amp \quad \text {Multiply coefficient}   </mrow>  
+      <mrow>  14\sqrt{10} - 16\sqrt{35} – 42\sqrt{3} – 24\sqrt{42} \amp \quad \text{Our Solution}  </mrow>   
+    </md> 
+  </example>  
+<p>
+As we are multiplying we always look at our final solution to check if all the radicals are simplified and all like radicals or like terms have been combined. Division with radicals is very similar to multiplication, if we think about division as reducing fractions, we can reduce the coefficients outside the radicals and reduce the values inside the radicals to get our final solution.
+</p>
+
+<me> \textbf{ Quotient Rule of Radicals: } \mathbf{ \frac{a\sqrt[m]{b}} {c\sqrt[m]{d}}  = \frac{a}{c} \sqrt[m]{\frac{b}{d}} }</me>
+
+  <example> 
+    <md>  
+      <mrow> \frac{15\sqrt[3]{108}} {20\sqrt[3]{2}} \amp \quad \text {Reduce $\frac{15}{20}$ and $\frac{\sqrt[3]{108}}{\sqrt{2}}$ by dividing by $5$ and $2$ respectively }   </mrow>  
+      <mrow>  \frac{3\sqrt[3]{54}}{4} \amp \quad \text{Simplify radical, $54$ is divisible by $27$}  </mrow>  
+      <mrow>  \frac{3\sqrt[3]{27 \cdot 2}}{4}  \amp \quad \text{Take the cube root of $27$}  </mrow>
+      <mrow> \frac{3 \cdot 3\sqrt[3]{2}}{4} \amp \quad \text {Multiply coefficients}   </mrow>  
+      <mrow>  \frac{9\sqrt[3]{2}}{4} \amp \quad \text{Our Solution}  </mrow>   
+    </md> 
+  </example>  
+<p>
+There is one catch to dividing with radicals, it is considered bad practice to have a radical in the denominator of our final answer. If there is a radical in the denominator we will rationalize it, or clear out any radicals in the denominator. We do this by multiplying the numerator and denominator by the same thing. The problems we will consider here will all have a monomial in the denominator. The way we clear a monomial radical in the denominator is to focus on the index. The index tells us how many of each factor we will need to clear the radical. For example, if the index is <m>4</m>, we will need <m>4</m> of each factor to clear the radical. This is shown in the following examples.
+</p>
+  <example> 
+    <md>  
+      <mrow> \frac{\sqrt{6}} {\sqrt{5}} \amp \quad \text {Index is $2$, we need two fives in denominator, need $1$ more }   </mrow>  
+      <mrow>  \frac{\sqrt{6}}{\sqrt{5}}\left(\frac{\sqrt{5}}{\sqrt{5}}\right) \amp \quad \text{Multiply numerator and denominator by $\sqrt{5}$}  </mrow>  
+      <mrow>  \frac{\sqrt{30}}{5} \amp \quad \text{Our Solution}  </mrow>   
+    </md> 
+  </example>  
+  <example> 
+    <md>  
+      <mrow> \frac{3\sqrt[4]{11}} {\sqrt[4]{2}} \amp \quad \text {Index is $4$, we need four twos in denominator, need $3$ more }   </mrow>  
+      <mrow>  \frac{3\sqrt[4]{11}}{\sqrt[4]{2}}\left(\frac{\sqrt[4]{2^3}}{\sqrt[4]{2^3}}\right) \amp \quad \text{Multiply numerator and denominator by $\sqrt[4]{2^3}$}  </mrow>  
+      <mrow>  \frac{3\sqrt[4]{88}}{2} \amp \quad \text{Our Solution}  </mrow>   
+    </md> 
+  </example>  
+  <example> 
+    <md>  
+      <mrow> \frac{4\sqrt[3]{2}} {7\sqrt[3]{25}} \amp \quad \text {The $25$ can be written as $5^2$. This will help us keep the numbers small }   </mrow>  
+      <mrow>  \frac{4\sqrt[3]{2}}{7\sqrt[3]{5^2}} \amp \quad \text{Index is $3$, we need three fives in denominator, need $1$ more}  </mrow>  
+      <mrow>  \frac{4\sqrt[3]{2}}{7\sqrt[3]{5^2}}\left(\frac{\sqrt[3]{5}}{\sqrt[3]{5}}\right) \amp \quad \text{Multiply numerator and denominator by $\sqrt[3]{5}$}  </mrow>   
+      <mrow>  \frac{4\sqrt[3]{10}}{7 \cdot 5} \amp \quad \text{Multiply out denominator}  </mrow>   
+      <mrow>  \frac{4\sqrt[3]{10}}{35} \amp \quad \text{Our Solution }  </mrow>   
+  </md> 
+  </example>  
+<p>
+  The previous example could have been solved by multiplying numerator and denominator by <m>\sqrt[3]{25^2}</m>. However, this would have made the numbers very large and we would have needed to reduce our solution at the end. This is why rewriting the radical as <m>\sqrt[3]{5^2}</m> and multiplying by just <m>\sqrt[3]{5}</m> was the better way to simplify.
+</p>
+
+<p>
+  We will also always want to reduce our fractions (inside and out of the radical) before we rationalize.
+</p>
+  <example> 
+    <md>  
+      <mrow> \frac{6\sqrt{14}} {12\sqrt{22}} \amp \quad \text {Reduce coefficients and inside radical }   </mrow>  
+      <mrow>  \frac{\sqrt{7}}{2\sqrt{11}} \amp \quad \text{Index is $2$, we need two elevens, need $1$ more}  </mrow>  
+      <mrow>  \frac{\sqrt{7}}{2\sqrt{11}}\left(\frac{\sqrt{11}}{\sqrt{11}}\right) \amp \quad \text{Multiply numerator and denominator by $\sqrt{11}$}  </mrow>   
+      <mrow>  \frac{\sqrt{77}}{2 \cdot 11} \amp \quad \text{Multiply denominator}  </mrow>   
+      <mrow>  \frac{\sqrt{77}}{22} \amp \quad \text{Our Solution }  </mrow>   
+    </md> 
+  </example>
+  
+<p>
+The same process can be used to rationalize fractions with variables.
+</p>
+
+  <example> 
+    <md>  
+      <mrow> \frac{18\sqrt[4]{6x^3y^4z}} {8\sqrt[4]{10xy^6z^3}} \amp \quad \text {Reduce coefficients and inside radical }   </mrow>  
+      <mrow>  \frac{9\sqrt[4]{3x^2}}{4\sqrt[4]{5y^2z^3}} \amp \quad \text{Index is $4$, we need four of everything to rationalize, three more fives, two more y’s and one more z. }  </mrow>  
+      <mrow>  \frac{9\sqrt[4]{3x^2}}{4\sqrt[4]{5y^2z^3}}\left(\frac{\sqrt[4]{5^3y^2z}}{\sqrt[4]{5^3y^2z}}\right) \amp \quad \text{Multiply numerator and denominator by $\sqrt[4]{5^3y^2z}$}  </mrow>   
+      <mrow>  \frac{9\sqrt[4]{375x^2y^2z}}{4 \cdot 5yz} \amp \quad \text{Multiply denominator}  </mrow>   
+      <mrow>  \frac{9\sqrt[4]{375x^2y^2z}}{20yz} \amp \quad \text{Our Solution }  </mrow>   
+    </md> 
+  </example>  
+
+  <exercises xml:id="exercises-multiply-divide-radicals"> 
+  <title>Exercises – Multiply and Divide Radicals</title>  
+
+  <exercisegroup cols="2"> 
+    <introduction> 
+      <p>  Multiply or Divide and Simplify. </p>  
+    </introduction> 
+       
+    <exercise><statement>  <p> <m> 3\sqrt{5} \cdot - 4\sqrt{16} </m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> -5\sqrt{10} \cdot \sqrt{15} </m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \sqrt{12m} \cdot \sqrt{15m} </m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> \sqrt{5r^3} \cdot - 5\sqrt{10r^2} </m></p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{4x^3} \cdot \sqrt[3]{2x^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  3\sqrt[3]{4a^4} \cdot \sqrt[3]{10a^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{6}(\sqrt{2} + 2) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{10}(\sqrt{5} + \sqrt{2}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -5\sqrt{15}(  3\sqrt{3} + 2) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 5\sqrt{15}( 3\sqrt{3} + 2) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  5\sqrt{10} (5n + \sqrt{2}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{15}( \sqrt{5} - 3\sqrt{3v}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  (2 + 2\sqrt{2}) (-3 + \sqrt{2}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  (-2 + \sqrt{3}) (-5 + 2\sqrt{3}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> (\sqrt{5} - 5)(2\sqrt{5} - 1) </m> </p></statement></exercise> 
+      <exercise><statement><p><m> (2\sqrt{3} + \sqrt{5})(5\sqrt{3} + 2\sqrt{4}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  (\sqrt{2a} + 2\sqrt{3a})(3\sqrt{2a} + \sqrt{5a}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  (-2\sqrt{2p} + 5\sqrt{5}) ( \sqrt{5p} + \sqrt{5p}) </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  (-5 - 4\sqrt{3})( -3 - 4\sqrt{3}) </m> </p></statement></exercise> 
+    <exercise><statement>  <p> <m> (5\sqrt{2} -1)( -\sqrt{2m} + 5) </m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> \frac{\sqrt{12}}{5\sqrt{100}} </m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \frac{\sqrt{15}}{2\sqrt{4}}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt{5}}{4\sqrt{125}}</m></p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt{12}}{\sqrt{3}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{\sqrt{10}}{\sqrt{6}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt{2}}{3\sqrt{5}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{2\sqrt{4}}{3\sqrt{3}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{4\sqrt{3}}{\sqrt{15}}  </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{5x^2}{4\sqrt{3x^3y^3}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{4}{5\sqrt{3xy^4}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt{2p^2}}{\sqrt{3p}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{\sqrt{8n^2}}{\sqrt{10n}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{3\sqrt[3]{10}}{5\sqrt[3]{27}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt[3]{15}}{5\sqrt[3]{64}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt[3]{5}}{4\sqrt[3]{4}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\sqrt[4]{2}}{2\sqrt[4]{64}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{5\sqrt[4]{5r^4}}{\sqrt[4]{8r^2}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{4}{\sqrt[4]{64m^4n^2}} </m> </p></statement></exercise> 
+    </exercisegroup> 
+    
+  </exercises>
+
+</section>

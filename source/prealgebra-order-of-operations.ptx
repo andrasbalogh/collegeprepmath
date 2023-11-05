@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="prealgebra-order-of-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Order of Operations</title>
+
+  <introduction>
+    <alert>
+      Objective: Evaluate expressions using the order of operations, including the use of absolute value.
+    </alert>
+  </introduction>
+  
+  <p>
+    When simplifying expressions it is important that we simplify them in the correct order. Consider the following problem done two different ways:
+  </p>
+  
+  <example>
+    <md>
+      <mrow> 2\quad +\quad 5 \quad \cdot \quad 3 \amp \quad \text{ Add First } \amp  || \amp \qquad 2\quad +\quad 5 \quad \cdot \quad 3 \amp \quad \text{ Multiply }  </mrow>
+      <mrow> 7 \quad \cdot \quad 3 \amp \quad \text{ Multiply } \amp  || \amp \qquad 2\quad +\quad 15 \amp \quad \text{ Add }  </mrow>
+      <mrow> 21 \amp\quad  \text{ Solution } \amp || \amp \qquad 17 \amp\quad \text{ Solution } </mrow>
+    </md>
+  </example>
+
+  <p>
+    The previous example illustrates that if the same problem is done two different
+    ways we will arrive at two different solutions. However, only one method can be
+    correct. It turns out the second method, <m>17</m>, is the correct method. The order of
+    operations ends with the most basic of operations, addition (or subtraction).
+    Before addition is completed we must do repeated addition or multiplication (or
+    division). Before multiplication is completed we must do repeated multiplication
+    or exponents. When we want to do something out of order and make it come first
+    we will put it in parenthesis (or grouping symbols). This list then is our order of
+    operations we will use to simplify expressions. 
+  </p>
+
+  <table>
+    <tabular halign="center">
+      <row bottom="minor" >
+	<cell>Order of Operations</cell>
+      </row>
+      <row>
+	<cell>Parenthesis (Grouping)</cell>
+      </row>
+      <row>
+	<cell>Exponents</cell>
+      </row>
+      <row>
+	<cell>Multiply and Divide (Left to Right)</cell>
+      </row>
+      <row>
+	<cell>Add and Subtract (Left to Right)</cell>
+      </row>
+    </tabular>
+  </table>
+
+  <p>
+    Multiply and Divide are on the same level because they are the same operation
+    (division is just multiplying by the reciprocal). This means they must be done left
+    to right, so some problems we will divide first, others we will multiply first. The
+    same is true for adding and subtracting (subtracting is just adding the opposite).
+  </p>
+
+  <p>
+    Often students use the word <em>PEMDAS</em> to remember the order of operations, as
+    the first letter of each operation creates the word <em>PEMDAS</em>. However, it is the
+    author’s suggestion to think about PEMDAS as a vertical word written as:
+    <cd>
+      P
+      E
+      MD
+      AS
+    </cd>
+    so we don’t forget that multiplication and division are done left to right (same
+    with addition and subtraction). Another way students remember the order of
+    operations is to think of a phrase such as “Please Excuse My Dear Aunt Sally”
+    where each word starts with the same letters as the order of operations start with.
+  </p>
+
+  
+  <p>
+    <alert> World View Note:</alert>
+    The first use of grouping symbols are found in <m>1646</m> in the
+    Dutch mathematician, Franciscus van Schooten’s text, Vieta. He used a bar over
+    the expression that is to be evaluated first. So problems like <m>2(3 + 5)</m>
+    were written as <m>2\cdot \overline{3+5}</m>.
+  </p>
+
+
+  <example>
+    <md>
+      <mrow> 2+3(9-4)^2 \amp \quad  \text{Parenthesis first} </mrow>
+      <mrow> 2+3\cdot 5^2 \amp\quad  \text{Exponents} </mrow>
+      <mrow> 2+3\cdot 25 \amp\quad  \text{Multiply} </mrow>
+      <mrow> 2+75 \amp\quad  \text{Add} </mrow>
+      <mrow> 77 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+<p>  It is very important to remember to multiply and divide from from left to right!</p>
+
+  <example>
+    <md>
+      <mrow> 30\div3\cdot 2 \amp \quad  \text{Divide first(left to right!)} </mrow>
+      <mrow> 10\cdot 2 \amp\quad  \text{Multiply} </mrow>
+      <mrow> 20 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <p>
+    In the previous example, if we had multiplied first, five would have been the
+    answer which is incorrect.
+  </p>
+  
+  <p>
+    If there are several parenthesis in a problem we will start with the inner most
+    parenthesis and work our way out. Inside each parenthesis we simplify using the
+    order of operations as well. To make it easier to know which parenthesis goes with
+    which parenthesis, different types of parenthesis will be used such as <m>\{ \quad\}</m> and <m>\left[ \quad\right]</m> and <m>\left(\quad \right)</m>, these parenthesis all mean the same thing, they are parenthesis and must
+    be evaluated first.
+  </p>
+  
+  <example>
+    <md>
+      <mrow> 2\left\{8^2-7\left[32-4\left(\widetilde{3^2}+1\right)\right](-1)\right\}  \amp \quad  \text{Inner most parenthesis, exponents first} </mrow>
+      <mrow> 2\left\{8^2-7\left[32-4\left(\widetilde{9+1}\right)\right](-1)\right\}  \amp \quad  \text{Add inside inner most those parenthesis} </mrow>
+      <mrow> 2\left\{8^2-7\left[32-\widetilde{4\cdot 10}\right](-1)\right\}  \amp \quad  \text{Multiply inside inner most parenthesis} </mrow>
+      <mrow> 2\left\{8^2-7\left[\widetilde{32-40}\right](-1)\right\}  \amp \quad  \text{Subtract inside inner most parenthesis} </mrow>
+      <mrow> 2\left\{\widetilde{8^2}-7\left[-8\right](-1)\right\}  \amp \quad  \text{Exponents inside inner most parenthesis} </mrow>
+      <mrow> 2\left\{64-\widetilde{7\left[-8\right]}(-1)\right\}  \amp \quad  \text{Multiply left to right, sign with the number} </mrow>
+      <mrow> 2\left\{64+\widetilde{56(-1)}\right\}  \amp \quad  \text{Finish multiplying} </mrow>
+      <mrow> 2\left\{\widetilde{64-56}\right\}  \amp \quad  \text{Subtract inside parenthesis} </mrow>
+      <mrow> 2\cdot 8  \amp \quad  \text{Multiply} </mrow>
+      <mrow> 16 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    As the above example illustrates, it can take several steps to complete a problem.
+    The key to successfully solve order of operations problems is to take the time to
+    show your work and do one step at a time. This will reduce the chance of making
+    a mistake along the way.
+  </p>
+
+  <p>
+    There are several types of grouping symbols that can be used besides parenthesis.
+    One type is a fraction bar. If we have a fraction, the entire numerator and the
+    entire denominator must be evaluated before we reduce the fraction. In these
+    cases we can simplify in both the numerator and denominator at the same time.
+  </p>
+  
+  <example>
+    <md>
+      <mrow> \frac{\widetilde{2^4}-(-8)3}{\widetilde{15\div 5}-1} \amp \quad  \text{Exponent in the numerator, divide in denominator} </mrow>
+      <mrow> \frac{16-\widetilde{(-8)3}}{\widetilde{3-1}} \amp \quad  \text{Multiply in the numerator, subtract in denominator} </mrow>
+      <mrow> \frac{\widetilde{16-(-24)}}{2} \amp \quad  \text{Add the opposite to simplify numerator, denominator is done.} </mrow>
+      <mrow> \frac{40}{2} \amp \quad  \text{Reduce, divide} </mrow>
+      <mrow> 20 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  
+  <p>
+    Another type of grouping symbol that also has an operation with it, absolute
+    value. When we have absolute value we will evaluate everything inside the absolute value, just as if it were a normal parenthesis. Then once the inside is completed we will take the absolute value, or distance from zero, to make the number
+    positive.
+  </p>
+  
+  <example>
+    <md>
+      <mrow> 1+3\left|-\widetilde{4^2}-(-8)\right|+2\left|3+\widetilde{(-5)^2}\right| \amp \quad  \text{Evaluate absolute values first, exponents }  </mrow>
+      <mrow> 1+3\left|\widetilde{-16-(-8)}\right|+2\left|\widetilde{3+25}\right| \amp \quad  \text{Add inside absolute values }  </mrow>
+      <mrow> 1+3\widetilde{\left|-8\right|}+2\widetilde{\left|28\right|} \amp \quad  \text{Evaluate absolute values }  </mrow>
+      <mrow> 1+\widetilde{3(8)}+2(28) \amp \quad  \text{Multiply left to right }  </mrow>
+      <mrow> 1+24+\widetilde{2(28)} \amp \quad  \text{Finish multiplying }  </mrow>
+      <mrow> \widetilde{1+24}+56 \amp \quad  \text{Add left to right }  </mrow>
+      <mrow> \widetilde{25+56} \amp \quad  \text{Add }  </mrow>
+      <mrow> 81 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    The above example also illustrates an important point about exponents.
+    Exponents only are considered to be on the number they are attached to.
+    This means when we see <m>- 4^2</m>, only the <m>4</m> is squared,
+    giving us <m>- (4^2)</m> or <m>- 16</m>.
+    But when the negative is in parentheses, such as <m>(-5)^2</m> the negative is part of the number and is also squared giving us a positive solution, <m>25</m>.
+  </p>
+
+
+  <exercises xml:id="exercises-order-of-operations">
+    <title>Exercises - Order of Operations</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve. 	</p>      </introduction>
+      <exercise><statement>  <p> <m> -6\cdot 4(-1)</m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m> (-6\div 6)^3</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 3+(8)\div|4|</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 5(-5+6)\cdot 6^2</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 8\div 4\cdot 2</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 7-5+6</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> [-9-(2-5)]\div(-6)</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> (-2\cdot 2^3\cdot 2)\div (-4)</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> -6+(-3-3)^2\div|3|</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> (-7-5)\div[-2-2-(-6)]</m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 4-2|3^2-16|</m> </p>   </statement></exercise>
+      <exercise><statement> <p> <m> \frac{-10-6}{(-2)^2}-5</m> </p>  </statement></exercise>
+      <exercise><statement><p><m> [-1-(-5)]|3+2|</m></p></statement></exercise>
+      <exercise><statement><p><m> -3-\{3-[-3(2+4)-(-2)]\} </m> </p></statement></exercise>
+      <exercise><statement><p><m> \frac{2+4|7+2^2|}{4\cdot 2+5\cdot 3} </m> </p></statement></exercise>
+      <exercise><statement><p><m> -4-[2+4(-6)-4-|2^2-5\cdot 2|] </m> </p></statement></exercise>
+      <exercise><statement><p><m>  \small{[6\cdot 2+2-(-6)]\left(-5+\left|\frac{-18}{6}\right|\right)} </m> </p></statement></exercise>
+      <exercise><statement><p><m> 2\cdot(-3)+3-6[-2-(-1-3)] </m> </p></statement></exercise>
+      <exercise><statement><p><m> \small{\frac{-13-2}{2-(-1)^3+(-6)-[-1-(-3)]}} </m> </p></statement></exercise>
+      <exercise><statement><p><m> \frac{-5^2+(-5)^2}{\left|4^2-2^5\right|-2\cdot 3} </m> </p></statement></exercise>
+      <exercise><statement><p><m> \frac{-8-4+(-4)-[-4-(-3)]}{(4^2+3^2)\div 5} </m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-9\cdot 2-(3-6)}{1-(-2+1)-(-3)} </m> </p></statement></exercise>
+      <exercise><statement><p><m> \small{\frac{2^3+4}{-18-6+(-4)-[-5(-1)(-5)]}} </m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{13+(-3)^2+4(-3)+1-[-10-(-6)]}{\{[4+5]\div[4^2-3^2(4-3)-8]\}+12} </m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{5+3^2-24\div 6\cdot 2}{[5+3(2^2-5)]+|2^2-5|^2} </m> </p></statement></exercise>
+    </exercisegroup>
+
+
+    </exercises>
+
+
+</section>
+

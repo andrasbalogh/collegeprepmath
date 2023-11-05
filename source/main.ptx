@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="collegeprepmath">
+    <title>College Preparatory Mathematics</title>
+    <!-- <subtitle>An example to get you started</subtitle> -->
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+
+    <chapter  xml:id="chapter-prealgebra">
+      <title>Pre-Algebra</title>
+      <xi:include href="./prealgebra-integers.ptx" /> 
+      <xi:include href="./prealgebra-fractions.ptx" /> 
+      <xi:include href="./prealgebra-order-of-operations.ptx" /> 
+      <xi:include href="./prealgebra-properties-of-algebra.ptx" /> 
+    </chapter>
+
+    <chapter  xml:id="chapter-linear-equations">
+      <title>Solving Linear Equations</title>
+      <xi:include href="./linear-equations-one-step.ptx" /> 
+      <xi:include href="./linear-equations-two-step.ptx" /> 
+      <xi:include href="./linear-equations-general.ptx" /> 
+      <xi:include href="./linear-equations-fractions.ptx" /> 
+      <xi:include href="./linear-equations-formulas.ptx" /> 
+      <xi:include href="./linear-equations-absolutev.ptx" /> 
+      <xi:include href="./linear-equations-variation.ptx" /> 
+      <xi:include href="./linear-equations-num-geom.ptx" /> 
+    </chapter>
+
+    <chapter  xml:id="chapter-graphing">
+      <title>Graphing</title>
+      <xi:include href="./graphing-points-lines.ptx" /> 
+      <xi:include href="./graphing-slope.ptx" /> 
+      <xi:include href="./graphing-slope-intercept.ptx" /> 
+      <xi:include href="./graphing-point-slope.ptx" /> 
+      <xi:include href="./graphing-parallel-perpendicular.ptx" />
+    </chapter>
+
+    <chapter  xml:id="chapter-inequalities">
+      <title>Inequalities</title>
+      <xi:include href="./inequalities-solve-graph.ptx" /> 
+      <xi:include href="./inequalities-compound.ptx" /> 
+      <xi:include href="./inequalities-absolute-value.ptx" /> 
+    </chapter>
+
+    <chapter  xml:id="chapter-systems">
+      <title>Systems of Equations </title>
+      <xi:include href="./systems-graphing.ptx" />
+      <xi:include href="./systems-substitution.ptx" /> 
+      <xi:include href="./systems-elimination.ptx" />
+      <xi:include href="./systems-three-variables.ptx" />
+      <xi:include href="./systems-value-problems.ptx" /> 
+      <xi:include href="./systems-mixture-problems.ptx" />
+    </chapter>
+
+    <chapter  xml:id="chapter-polynomials">
+      <title>Polynomials</title>
+      <xi:include href="./polynomials-exponent-properties.ptx" /> 
+      <xi:include href="./polynomials-negative-exponents.ptx" /> 
+      <xi:include href="./polynomials-scientific-notation.ptx" /> 
+      <xi:include href="./polynomials-introduction.ptx" /> 
+      <xi:include href="./polynomials-multiplying.ptx" /> 
+      <xi:include href="./polynomials-special-products.ptx" /> 
+      <xi:include href="./polynomials-divide.ptx" /> 
+    </chapter>
+
+    <chapter  xml:id="chapter-factoring">
+      <title>Factoring</title>
+    <xi:include href="./factoring-gcf.ptx" /> 
+    <xi:include href="./factoring-grouping.ptx" /> 
+    <xi:include href="./factoring-trinomials-a-1.ptx" /> 
+    <xi:include href="./factoring-trinomials-a-not-1.ptx" /> 
+    <xi:include href="./factoring-special-products.ptx" /> 
+    <xi:include href="./factoring-strategy.ptx" /> 
+    <xi:include href="./factoring-solve-by.ptx" /> 
+    </chapter>
+  
+    <chapter  xml:id="chapter-rational-expressions">
+      <title>Rational Expressions</title>
+      <xi:include href="./rational-expressions-reduce.ptx" />  
+        <xi:include href="./rational-expressions-multiply-devide.ptx" />
+        <xi:include href="./rational-expressions-LCD.ptx" />  
+        <xi:include href="./rational-add-subtract.ptx" /> 
+        <xi:include href="./rational-complex-fractions.ptx" /> 
+        <xi:include href="./rational-expressions-proportions.ptx" /> 
+        <xi:include href="./rational-expressions-equations.ptx" /> 
+        <xi:include href="./rational-expressions-dimensional.ptx" /> 
+    </chapter> 
+
+    <chapter  xml:id="chapter-radicals">
+      <title>Radicals</title>
+     <xi:include href="./radicals-square-roots.ptx" />  
+      <xi:include href="./radicals-higher-roots.ptx" />
+      <xi:include href="./radicals-adding-radicals.ptx" />
+      <xi:include href="./radicals-multiply-divide.ptx" />
+      <xi:include href="./radicals-rationalize-denominators.ptx" />
+      <xi:include href="./radicals-rational-exponents.ptx" />
+     <xi:include href="./radicals-mixed-index.ptx" />
+     <xi:include href="./radicals-complex-numbers.ptx" />
+    </chapter>
+
+    <chapter  xml:id="chapter-quadratics">
+      <title>Quadratics</title>
+      <xi:include href="./quadratics-solving-with-radicals.ptx"/>
+      <xi:include href="./quadratics-solving-with-exponents.ptx" />  
+      <xi:include href="./quadratics-complete-the-square.ptx" />  
+      <xi:include href="./quadratics-quadratic-formula.ptx" /> 	
+      <xi:include href="./quadratics-build-from-roots.ptx" /> 	
+      <xi:include href="./quadratics-quadratic-in-form.ptx" /> 	
+      <xi:include href="./quadratics-rectangles.ptx" />
+      <xi:include href="./quadratics-teamwork.ptx" /> 	
+      <xi:include href="./quadratics-graphs.ptx" /> 	
+   </chapter>
+
+  <chapter  xml:id="chapter-functions">
+    <title>Functions</title>
+    <xi:include href="./functions-notation.ptx" /> 
+    <xi:include href="./functions-operations.ptx" /> 
+    <xi:include href="./functions-inverse.ptx" /> 
+    <xi:include href="./functions-exponential.ptx" /> 
+    <xi:include href="./functions-logarithmic.ptx" /> 
+    <xi:include href="./functions-compound-interest.ptx" /> 
+  </chapter>
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

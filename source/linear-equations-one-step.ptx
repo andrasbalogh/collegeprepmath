@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="linear-equations-one-step-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>One Step Equations   </title>
+  <introduction> <alert> Objective: Solve one step linear equations by balancing using inverse operations   </alert> 
+
+  <p>Solving linear equations is an important and fundamental skill in algebra. In algebra, we are often presented with a problem where the answer is known, but part of the problem is missing. The missing part of the problem is what we seek to find. An example of such a problem is shown below. </p>
+ <example>
+    <me> 4x + 16 = -4 </me>
+  </example>
+
+  <p>
+Notice the above problem has a missing part, or unknown, that is marked by <m> x </m>. 
+If we are given that the solution to this equation is <m>-5</m>, 
+it could be plugged into the equation, replacing the <m>x</m> with <m>-5</m>. 
+This is shown in the next example.      </p>
+
+<example>
+  <md>
+    <mrow> 4( - 5) + 16 = - 4  \amp \quad \text{Multiply } 4( - 5)</mrow>
+    <mrow> -20 + 16 = -4 \amp \quad \text{Add  } - 20 + 16</mrow>
+      <mrow> - 4= - 4 \amp \quad \text{True!} </mrow>
+</md>
+  </example>
+
+<p>
+Now the equation comes out to a true statement! Notice also that if another number, 
+for example, <m>3</m>, was plugged in, we would not get a true statement as seen in the next example. </p>
+
+<example>
+  <md>
+    <mrow>4(3) + 16 = - 4  \amp \quad \text{Multiply }4(3) </mrow>
+    <mrow>12 + 16 = - 4  \amp \quad \text{Add } 12 + 16 </mrow>
+     <mrow>28 - 4  \amp \quad \text{False!}  </mrow>
+  </md>
+   </example>
+
+    Since this is not a true statement, this demonstrates that <m>3</m> is not the solution. However, depending on the complexity of the problem, this “guess and check” method is not very efficient. Thus, we take a more algebraic approach to solving equations. Here we will focus on what are called “one-step equations” or equations that only require one step to solve. While these equations often seem very fundamental, it is important to master the pattern for solving these problems so we can solve more complex problems.
+</introduction>
+
+<subsection>
+  <title>Addition Problems  </title>
+  <p>
+To solve equations, the general rule is to do the opposite. For example, consider the following example.
+  </p>
+  <example>
+    <md>
+    <mrow>x +7 = - 5 \amp \quad \text{The $7$ is added to the $x$}. </mrow>
+    <mrow> - 7 - 7 \amp \quad \text{Subtract $7$ from both sides to get rid of it}.</mrow>
+     <mrow> x = -12 \amp \quad \text{Our solution!} </mrow>
+    </md>
+   </example>
+
+<p>
+  Then we get our solution, <m>x = - 12</m>. The same process is used in each of the following examples.
+  </p>
+  <example>
+    <title>Addition Examples</title>
+    <p>
+      <me>
+	\begin{array}{r}
+        4 +x=8  \\
+        -4 \qquad -4  \\
+        \hline
+        x=4 
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        7=x+9  \\
+        -9 \qquad -9  \\
+        \hline
+        -2=x
+        \end{array}
+	\qquad \qquad
+
+	\begin{array}{r}
+        5=8+x  \\
+        -8 \ -8 \qquad  \\
+        \hline
+        -3=x \qquad
+        \end{array}
+      </me>
+
+  </p>
+  </example>
+</subsection>
+
+  <subsection>   <title> Subtraction Problems   </title>
+  <p> 
+  In a subtraction problem, we get rid of negative numbers by adding them to both sides of the equation. For example, consider the following example. </p>
+
+  <example>
+    <md>
+    <mrow>x -5 = 4 \amp \quad \text{The $5$ is negative, it is subtracted from } x. </mrow>
+    <mrow> +5 +5 \amp \quad \text{Aff $5$ from both sides}.</mrow>
+     <mrow> x = 9 \amp \quad \text{Our solution!} </mrow>
+    </md>
+   </example>
+
+  <p>
+  Then we get our solution <m>x = 9</m>. The same process is used in each of the following examples. Notice that each time we are getting rid of a negative number by adding. </p>
+
+  <example>
+    <title>Subtraction Examples</title>
+    <p>
+      <me>
+	\begin{array}{r}
+        -6 +x=-2  \\
+        +6 \qquad +6  \\
+        \hline
+        x=4 \quad
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        -10=x-7  \\
+        +7 \qquad +7  \\
+        \hline
+        -3=x \quad
+        \end{array}
+	\qquad \qquad
+
+	\begin{array}{r}
+        5=-8+x  \\
+        +8 \ +8 \qquad  \\
+        \hline
+        13=x \qquad
+        \end{array}
+      </me>
+
+  </p>
+  </example>
+  
+    </subsection>
+
+    <subsection> <title> Multiplication Problems </title>
+<p>
+  With a multiplication problem, we get rid of the number by dividing on both sides. For example, consider the following example.
+</p>
+<example>
+  <md>
+    <mrow> 4x  = 20  \amp \quad \text{Variable is multiplied by } 4</mrow>
+    <mrow> \div 4 \quad \div 4 \amp \quad \text{Divide both sides by  } 4</mrow>
+      <mrow> x= 5 \amp \quad \text{Our solution!} </mrow>
+</md>
+  </example>
+
+<p>
+With multiplication problems it is very important that care is taken with signs. If <m>x</m> is multiplied by a negative, then we will divide by a negative. This is shown in the next example. </p>
+
+<example>
+  <md>
+    <mrow> -5x  = 30  \amp \quad \text{Variable is multiplied by } -5</mrow>
+    <mrow> \div -5 \quad \div -5 \amp \quad \text{Divide both sides by  } -5</mrow>
+      <mrow> x= -6 \amp \quad \text{Our solution!} </mrow>
+</md>
+  </example>
+
+  <p>
+    The same process is used in each of the following examples. Notice how negative
+    and positive numbers are handled as each problem is solved.
+  </p>
+
+  <example>
+    <title>Multiplication Examples</title>
+    <p>
+      <me>
+	\begin{array}{r}
+        8x=-24  \\
+        \div 8 \qquad \div 8  \\
+        \hline
+        x=-3
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        -4x=-20  \\
+        \div -4 \quad \div -4  \\
+        \hline
+        x=5 \quad
+        \end{array}
+	\qquad \qquad
+
+	\begin{array}{r}
+        42=7x  \\
+        \div 7 \quad \div 7 \\
+        \hline
+        6=x 
+        \end{array}
+      </me>
+  </p>
+  </example>
+
+</subsection>
+    
+ <subsection>   <title> Division Problems:  </title>
+  <p>
+  In division problems, we get rid of the denominator by multiplying on both sides. For example consider our next example
+  </p>
+<example>
+    <md>
+      <mrow> \frac{x}{5} = -3 \amp \quad  \text{    Variable is divided by } 5   </mrow>
+      <mrow>   \frac{x}{5}(5)=-3(5) \amp\quad  \text{   Multiply both sides by } 5  </mrow>
+      <mrow>     x = -15         \amp\quad  \text{   Our Solution!  }  </mrow>
+    </md>
+  </example>
+
+  <p>
+  Then we get our solution <m>x = -15</m>. The same process is used in each of the following examples.
+  </p>
+
+  <example>
+    <title>Division Examples</title>
+    <p>
+      <me>
+	\begin{array}{c}
+        \frac{x}{-7}=-2  \\
+        \frac{x}{-7}(-7)=-2(-7)  \\
+        \hline
+        x=14
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{c}
+        \frac{x}{8}=5  \\
+        \frac{x}{8}(8)=5(8)  \\
+        \hline
+        x=40
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        \frac{x}{-4}=9  \\
+        \frac{x}{-4}(-4)=9(-4)  \\
+        \hline
+        x=-36
+        \end{array}
+      </me>
+  </p>
+  </example>
+
+  
+
+   </subsection>
+
+   <conclusion>
+     <p>
+       The process described above is fundamental to solving equations. once this process is mastered, the problems we will see have several more steps. These problems may seem more complex, but the process and patterns used will remain the same.
+     </p>
+     
+     <p> <alert> World View Note:</alert> The study of algebra originally was called the “Cossic Art” from the Latin, the study of “things” (which we now call variables). </p>
+   </conclusion>
+
+   <exercises xml:id="exercises-one-step-equations">
+     <title> Exercises - One Step Equations </title>
+
+     <exercisegroup cols="2">
+       <introduction>	<p>	  Solve each equation.  	</p>      </introduction>
+    <exercise><statement> <p> <m>   v + 9= 16      </m>   </p> </statement></exercise>
+    <exercise><statement><p> <m>       14 = b + 3     </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>        x - 11 = -16   </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>       - 14 = x - 18   </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>        30 = a + 20 </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>         - 1+ k = 5 </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>          x - 7= -26 </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m> - 13 + p = - 19         </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>       13 = n - 5    </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>        22 = 16 + m   </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>       340 = -17x    </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>    4r = -28       </m> </p>  </statement></exercise>
+    <exercise><statement><p> <m>    -9=  \frac{n}{4}     </m> </p>  </statement></exercise>
+     <exercise><statement><p> <m>  \frac{5}{9}  =  \frac{b}{9}          </m> </p></statement></exercise>   
+ <exercise><statement><p> <m>       20v =-160    </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     -20x = - 80    </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>       340 = 20n   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>   \frac{1}{2}  =  \frac{a}{8}       </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>      16x = 320    </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>       \frac{k}{13}      =-16         </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     - 16 + n = - 13     </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>       21 = x + 5   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>      p - 8 = - 21    </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     m - 4= - 13     </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>        180 = 12x  </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>   3n = 24       </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>  20b =-200      </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     -17=  \frac{x}{12}             </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>  \frac{r}{14} =  \frac{5}{14}  </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     n + 8= 10   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     - 7= a +4   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     v - 16 = - 30   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>      10 = x - 4  </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>      - 15 = x - 16  </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>       13a = - 143 </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>      - 8k = 120  </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>     \frac{p}{20}  =12   </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>   -15=\frac{x}{9}       </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>  9 + m = -7      </m> </p>  </statement></exercise>
+<exercise><statement><p> <m>-19= \frac{n}{20}         </m> </p>  </statement></exercise>
+
+     </exercisegroup>
+   </exercises>
+   
+    
+ </section>
+

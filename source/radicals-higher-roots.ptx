@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<section xml:id="radicals-higher-roots" xmlns:xi="http://www.w3.org/2001/XInclude">  
+  
+  <title> Higher Roots </title>
+<introduction> <alert> Objective: Simplify radicals with an index greater than two. </alert> </introduction>
+   <p>  
+     While square roots are the most common type of radical we work with, we can
+     take higher roots of numbers as well: cube roots, fourth roots, fifth roots, etc. Following
+   is a definition of radicals.   
+<me> \mathbf{ \sqrt[m]{a}  = b } \textbf{ if } \mathbf{b^m = a} </me>
+The small letter <m>m</m> inside the radical is called the index. It tells us which root we are taking, or which power we are "un-doing". For square roots the index is <m>2</m>. As this is the most common root, the two is not usually written.
+   </p>
+   
+   <p> <alert> World View Note: </alert> The word for root comes from the French mathematician
+Franciscus Vieta in the late 16th century. </p> 
+<p>
+The following table includes several higher roots.
+</p>
+
+    <table>
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row>  <cell><m> \sqrt[3]{125} = 5</m></cell> <cell><m>\sqrt[3]{-64} = -4</m></cell>	</row>
+	<row>  <cell><m> \sqrt[4]{81} = 3 </m></cell> <cell><m> \sqrt[7]{-128} = -2</m></cell></row> 
+	<row>  <cell><m> \sqrt[5]{32} = 2  </m></cell> <cell><m>\sqrt[4]{-16} = </m> Undefined </cell></row>
+     </tabular>
+    </table>
+  
+<p>
+We must be careful of a few things as we work with higher roots. First its important
+not to forget to check the index on the root. <m> \sqrt{81} = 9 </m> but <m> \sqrt[4]{81} = 3. </m> This is
+because <m> 9^2 = 81 </m> and <m> 3^4 = 81. </m> Another thing to watch out for is negatives under
+roots. We can take an odd root of a negative number, because a negative number
+raised to an odd power is still negative. However, we cannot take an even root of
+a negative number, this we will say is undefined. In a later section we will discuss
+how to work with roots of negative, but for now we will simply say they are undefined.
+</p>
+
+<p>
+We can simplify higher roots in much the same way we simplified square roots,
+using the product property of radicals.
+</p> 
+
+<me>\textbf{ Product Property of Radicals: } \mathbf{\sqrt[m]{a b}  = \sqrt[m]{a} \cdot \sqrt[m]{b} } </me>
+
+<p>
+Often we are not as familiar with higher powers as we are with squares. It is important to remember what index we are working with as we try and work our way to the solution.
+</p>
+
+  <example> 
+    <md>  
+      <mrow>   \sqrt[3]{54} \amp \quad \text {We are working with a cubed root, want third powers }   </mrow>  
+      <mrow>   2^3 = 8 \amp \quad \text{Test $2$, $2^3$ = $8$, $54$ is not divisible by $8$. }  </mrow>  
+      <mrow>  3^3 = 27  \amp \quad \text{Test $3$, $3^3$ = $27$, $54$ is divisible by $27$!}  </mrow>
+      <mrow>   \sqrt[3]{27\cdot 2} \amp \quad \text{Write as factors}   </mrow>  
+      <mrow>   \sqrt[3]{27} \cdot \sqrt[3]{2} \amp \quad \text{Product rule, take cubed root of $27$}  </mrow>  
+      <mrow>   3\sqrt[3]{2} \amp \quad \text{Our Solution}  </mrow>
+    </md> 
+  </example>
+  
+<p>
+Just as with square roots, if we have a coefficient, we multiply the new coefficients
+together.
+</p>
+
+<example> 
+    <md>  
+      <mrow>   3\sqrt[4]{48} \amp \quad \text {We are working with a fourth root, want fourth powers }   </mrow>  
+      <mrow>   2^4 = 16  \amp \quad \text{Test $2$, $2^4$ = $16$.  $48$ is divisible by $16$! }  </mrow>  
+      <mrow> 3\sqrt[4]{16\cdot 3} \amp \quad \text{Write as factors}  </mrow>
+      <mrow>  3\sqrt[4]{16} \cdot\sqrt[4]{3} \amp \quad \text{Product rule, take fourth root of $16$}   </mrow>  
+      <mrow>  3\cdot 2\sqrt[4]{3} \amp \quad \text{Multiply coefficients}  </mrow>  
+      <mrow>  6\sqrt[4]{3} \amp \quad \text{Our Solution}  </mrow>
+    </md> 
+</example>
+
+<p>
+We can also take higher roots of variables. As we do, we will divide the exponent on the variable by the index. Any whole answer is how many of that variable will come out of the square root. Any remainder is how many are left behind inside the square root. This is shown in the following examples.
+</p>
+
+  <example> 
+    <md>  
+      <mrow> \sqrt[5]{x^{25}y^{17}z^3} \amp \quad \text {Divide each exponent by $5$, whole number outside, remainder inside }   </mrow>  
+      <mrow> x^5y^3\sqrt[5]{y^2z^3},  \amp \quad \text{Our Solution }  </mrow>  
+    </md> 
+    In the above calculations, for the <m>x</m>, we divided <m>\frac{25}{5} = 5 R 0</m>, so <m>x^5</m> came out, no <m>x</m>’s remain inside. For the <m>y</m>, we divided <m>\frac{17}{5} = 3 R 2</m>, so <m>y^3</m> came out, and <m>y^2</m> remains inside. For the <m>z</m>, when we divided <m>\frac{3}{5} = 0 R 3</m>, all three or <m>z^3</m> remained inside.
+  </example>
+
+  <p>
+    The following example includes integers in our problem.
+</p>
+  <example> 
+    <md>  
+      <mrow> 2\sqrt[3]{40a^4b^8} \amp \quad \text {Looking for cubes that divide into $40$. The number $8$ works! }   </mrow>  
+      <mrow> 2\sqrt[3]{8\cdot 5a^4b^8} \amp \quad \text{Take cube root of $8$, dividing exponents on variables by $3$ }  </mrow>  
+      <mrow> 2\cdot 2ab^2\sqrt[3]{5ab^2} \amp \quad \text {Remainders are left in radical. Multiply coefficients }   </mrow>  
+      <mrow> 4ab^2 \sqrt[3]{5ab^2} \amp \quad \text{Our Solution }  </mrow>  
+    </md> 
+  </example>
+  
+  <exercises xml:id="exercises-higher-roots"> 
+  <title>Exercises – Higher Roots</title>  
+ <exercisegroup cols="2"> 
+    <introduction> 
+      <p>  Simplify. </p>  
+    </introduction> 
+       
+    <exercise><statement>  <p> <m> \sqrt[3]{625}</m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> \sqrt[3]{375}</m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \sqrt[3]{750}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{250}</m></p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{875} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt[3]{24} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -4\sqrt[4]{96} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -8\sqrt[4]{48} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 6\sqrt[4]{112} </m> </p></statement></exercise>
+      <exercise><statement><p><m> 3\sqrt[4]{48} </m> </p></statement></exercise>       
+      <exercise><statement><p><m> -\sqrt[4]{112} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 5\sqrt[4]{243} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt[4]{648a^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[4]{64n^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt[5]{224n^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt[5]{-96x^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[5]{224p^5} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[6]{256x^6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt[7]{896r} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -8\sqrt[7]{384b^8} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -2\sqrt[3]{-48v^7} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  4\sqrt[3]{250a^6} </m> </p></statement></exercise> 
+    <exercise><statement>  <p> <m> -7\sqrt[3]{320n^6}</m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> -\sqrt[3]{512n^6}</m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \sqrt[3]{-135x^5y^3}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt[3]{64u^5v^3}</m></p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{-32x^4y^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt[3]{1000a^4b^5} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{256x^4y^6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt[3]{189x^3y^6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 7\sqrt[3]{-81x^3y^7} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -4\sqrt[3]{56x^2y^8} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  2\sqrt[3]{375u^2v^8} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 8\sqrt[3]{-750xy} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt[3]{192ab^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  3\sqrt[3]{135xy^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 6\sqrt[3]{-54m^8n^3p^7} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -6\sqrt[4]{80m^4p^7q^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  6\sqrt[4]{648x^5y^7z^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -6\sqrt[4]{405a^5b^8c} </m> </p></statement></exercise>
+      <exercise><statement><p><m>  7\sqrt[4]{128h^6j^8k^8} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -6\sqrt[4]{324x^7yz^7} </m> </p></statement></exercise>  
+
+    </exercisegroup> 
+
+  </exercises>
+
+</section>
+ 
+

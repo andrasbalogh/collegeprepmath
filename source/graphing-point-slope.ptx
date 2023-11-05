@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="graphing-point-slope" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>  Point-Slope Form   </title>
+  <introduction> <alert> Objective: Give the equation of a line with a known slope and point.  </alert> </introduction>
+
+  <p>
+   The slope-intercept form has the advantage of being simple to remember and use, however, 
+   it has one major disadvantage: we must know the y-intercept in order to use it! 
+   Generally, we do not know the y-intercept, we only know one or more points 
+   (that are not the y-intercept). In these cases, we can’t use the slope intercept equation, 
+   so we will use a different more flexible formula. If we let the slope of an equation be <m>m</m>, 
+   and a specific point on the line be <m> (x_1, y_1), </m> and any other point on the line 
+   be <m> (x, y) </m>. We can use the slope formula to make a second equation.
+  </p>
+  
+  <example>
+    <p>
+    <md>
+      <mrow>          m,(x_1, y_1),(x, y)     \amp \quad  \text{ Recall slope formula    }   </mrow>
+      <mrow>     \frac{y_2-y_1}{ x_2 - x_1} = m      \amp\quad  \text{  Plug in values   }  </mrow>
+      <mrow>  \frac{y - y_1}{ x - x_1} = m      \amp\quad  \text{ Multiply both sides by  } (x - x_1) </mrow>
+<mrow>            y -y_1 = m(x -x_1)    \amp \quad  \text{ Our Solution  }   </mrow>
+    </md>
+    </p>
+  </example>
+  
+  <p>
+    If we know the slope, <m> m</m> of an equation and any point on the line <m> (x_1, y_1) </m> we can easily plug these values into the equation above which will be called the point slope formula.
+  </p>
+
+  <p>
+    <alert>Point - Slope Formula: <m>y - y_1 = m(x - x_1)</m></alert>
+  </p>
+
+  <example>
+    <p>
+      Write the equation of the line through the point <m> (3, - 4) </m> with a slope of <m>\frac{3}{5}</m>. 
+      <md>
+	<mrow>   y -y_1 = m(x -x_1)   \amp \quad  \text{  Plug values into point - slope formula   }   </mrow>
+	<mrow>  y - ( - 4)= \frac{3}{ 5} (x-3)         \amp\quad  \text{ Simplify signs  }  </mrow>
+	<mrow>        y + 4=\frac{ 3}{ 5} (x -3)       \amp\quad  \text{ Our Solution  }  </mrow>
+      </md>
+    </p>
+  </example>
+
+  <p>
+    Often, we will prefer final answers be written in slope intercept form. 
+    If the directions ask for the answer in slope-intercept form we will simply distribute 
+    the slope, then solve for <m> y</m>.
+  </p>
+  
+<example>
+  <p>
+    Write the equation of the line through the point <m>  ( - 6, 2) </m> with a slope of <m> -\frac{2}{ 3}</m>  in slope-intercept form. 
+    <md>
+      <mrow>    y-y_1 = m(x - x_1)    \amp \quad  \text{ Plug values into point - slope formula   }   </mrow>
+      <mrow>      y - 2=-\frac{2}{ 3} (x - ( -6))           \amp\quad  \text{   Simplify signs  }  </mrow>
+      <mrow>       y -2 = -\frac{ 2}{ 3} (x + 6)       \amp\quad  \text{ Distribute slope   }  </mrow>     
+      <mrow>       y -2= -\frac{2 }{3} x - 4      \amp \quad  \text{  Solve for y   }   </mrow>
+      <mrow>            + 2 \qquad \qquad + 2    \amp\quad  \text{     }  </mrow>
+      <mrow>          y = -\frac{ 2}{ 3} x -2    \amp\quad  \text{ Our Solution   }  </mrow>
+    </md>
+  </p>
+</example>
+
+  <p>
+    An important thing to observe about the point slope formula is
+    that the operation between the <m>x</m>’s and <m>y</m>’s is
+    subtraction. This means when you simplify the signs you will have
+    the opposite of the numbers in the point. We need to be very
+    careful with signs as we use the point-slope formula.
+  </p>
+  <p>
+    In order to find the equation of a line we will always need to know the slope. If we don’t know the slope to begin with, we will have to do some work to find it first before we can get an equation.
+  </p>
+
+  <example>
+    <p>
+      Find the equation of the line through the points <m> ( -2, 5) </m>  and <m>  (4, - 3) </m>. 
+      <md>
+	<mrow>    m =\frac{ y_2 -y_1}{ x_2 - x_1}       \amp \quad  \text{  First we must find the slope   }   </mrow>
+	<mrow>     m =\frac{ - 3 – 5}{ 4 - ( - 2) }= \frac{-8 }{6} = -\frac{ 4}{ 3} \amp\quad  \text{ Plug values in slope formula and evaluate   }  </mrow>
+	<mrow>    y - y_1 = m(x-x_1)           \amp\quad  \text{  With slope and either point, use point - slope formula  }  </mrow>
+	<mrow>   y -5= -\frac{ 4}{ 3}\left(x - ( - 2)\right)     \amp \quad  \text{ Simplify signs   }   </mrow>
+	<mrow>  y - 5=-\frac{4}{ 3} (x +2)             \amp\quad  \text{Our Solution  }  </mrow>
+      </md>
+    </p>
+  </example>
+    
+  <example>
+    <p>
+      Find the equation of the line through the points <m> ( - 3, 4) </m> and <m> ( -1, -2) </m> in slope intercept form. 
+      <md>
+	<mrow>  m =\frac{ y_2 - y_1}{ x_2 - x_1}   \amp \quad  \text{  First we must find the slope   }   </mrow>
+	<mrow>     m =\frac{- 2 – 4}{ - 1 - ( - 3)} = \frac{-6}{ 2} =
+	- 3           \amp\quad  \text{ Plug values in slope formula and evaluate   }  </mrow>
+	<mrow>   y - y_1 = m(x - x_1) \amp\quad  \text{ With slope and either point, point - slope formula }  </mrow>      
+	<mrow>   y - 4= -3(x - ( - 3))    \amp \quad  \text{ Simplify signs   }   </mrow>
+	<mrow>     y - 4= - 3(x + 3)            \amp\quad  \text{ Distribute slope  }  </mrow>
+	<mrow>        y - 4= -3x -9      \amp\quad  \text{  Solve for y   }  </mrow>   
+	<mrow>      +4 \qquad \quad + 4          \amp \quad  \text{ Add $4$ to both sides   }   </mrow>
+	<mrow>      y = -3x -5          \amp\quad  \text{ Our Solution    }  </mrow>
+      </md>
+    </p>
+  </example>
+      
+<example>
+  <p>
+    Find the equation of the line through the points <m>  (6, - 2) </m> and <m> ( - 4, 1) </m> in slope intercept form. 
+    <md>
+      <mrow>       m =\frac{y_2 -y_1}{ x_2 - x_1}   \amp \quad  \text{  First we must find the slope    }   </mrow>
+      <mrow>     m =\frac{1 - ( - 2)}{- 4 - 6 }= \frac{3}{ -10} = -\frac{ 3}{ 10}   \amp\quad  \text{  Plug values into slope formula and evaluate }  </mrow>
+      <mrow> y -y_1 = m(x- x_1)    \amp\quad  \text{ Use slope and either point, use point - slope formula   }  </mrow>    
+      <mrow>   y - ( - 2) = - \frac{3}{ 10} (x - 6)             \amp \quad  \text{ Simplify signs   }   </mrow>
+      <mrow>    y +2 = -\frac{ 3}{ 10} (x - 6)             \amp\quad  \text{ Distribute slope   }  </mrow>
+      <mrow>   y +2=-\frac{ 3}{ 10}x +\frac{ 9}{ 5}           \amp\quad  \text{  Solve for $y$. Subtract $2$ from both sides   }  </mrow>      
+      <mrow>     - 2 \qquad \quad -\frac{10}{ 5}            \amp\quad  \text{ Using $\frac{10}{ 5}$ on right so we have a common denominator   }  </mrow>
+      <mrow>        y = -\frac{ 3}{ 10}x -\frac{1}{5}      \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </p>
+</example>
+  
+
+<p> <alert> World View Note:</alert> The city of Konigsberg (now Kaliningrad, Russia) had a river that flowed through the city breaking it into several parts. There were 7 bridges that connected the parts of the city. In 1735 Leonhard Euler considered the question of whether it was possible to cross each bridge exactly once and only once. It turned out that this problem was impossible, but the work laid the foundation of what would become graph theory  </p>
+
+<exercises xml:id="exercises-graphing-point-slope">
+  <title> Exercises - Point-Slope Form   </title>
+
+  <exercisegroup cols="2">
+      <introduction>	<p>Write the point-slope form of the equation of the line through the given point with the given slope.  </p>      </introduction>
+    <exercise><statement>  <p> through <m>(2, 3)</m>, slope <m>=</m> undefined    </p>  </statement></exercise>
+    <exercise><statement><p> through <m>(1, 2)</m>, slope <m>=</m> undefined  </p>   </statement></exercise>   
+ <exercise><statement>  <p>  through <m>(2, 2)</m>, slope <m>=\frac{1}{ 2}  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through <m>(2, 1)</m>, slope <m>= -\frac{1 }{2}  </m> </p>   </statement></exercise>
+<exercise><statement>  <p>  through <m>(- 1, -5)</m>, slope <m>= 9  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>through <m>(2, - 2)</m>, slope <m>= -2 </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p>  through <m>( - 4, 1)</m>, slope <m>=\frac{ 3}{ 4}  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>through <m>(4, - 3)</m>, slope <m>= - 2  </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p>  through <m>(0, -2)</m>, slope <m>= - 3  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>   through <m>( -1, 1)</m>, slope <m>= 4  </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> through <m>(0, - 5)</m>, slope <m>= -\frac{ 1}{ 4} </m>   </p>  </statement></exercise>
+    <exercise><statement><p>    through <m>(0, 2)</m>, slope <m>= -\frac{ 5}{ 4}  </m> </p>   </statement></exercise><exercise><statement> 
+ <p>   through <m>( - 5, -3)</m>, slope <m>=\frac{ 1}{ 5}    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through <m>( -1, - 4)</m>, slope <m>= -\frac{2}{ 3}           </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> through <m>( - 1, 4)</m>, slope <m>= -\frac{5}{ 4}         </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through <m>(1, - 4)</m>, slope <m>= -\frac{3}{ 2}        </m> </p>   </statement></exercise>
+  </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	Write the slope-intercept form of the equation of the line through the given point with the given slope.</p>      </introduction>
+    <exercise><statement>  <p> through:   <m>( -1, - 5)</m>, slope <m>=2 </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(2, - 2)</m>, slope <m>= - 2 </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> through: <m>(5, - 1)</m>, slope <m>= -\frac{3}{ 5}       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( -2, - 2)</m>, slope <m>= -\frac{2}{ 3}           </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> through: <m>( -4, 1)</m>, slope <m> = \frac{1}{2} </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(4, - 3)</m>, slope <m>= -\frac{7}{ 4}            </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> through: <m>(4, -2)</m>, slope <m>= -\frac{ 3}{ 2}      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 2, 0)</m>, slope <m>= -\frac{ 5}{ 2}           </m> </p>   </statement></exercise>    
+<exercise><statement>  <p> through: <m>( - 5, - 3)</m>, slope <m>= -\frac{2}{ 5}         </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through: <m>(3, 3)</m>, slope <m>=\frac{ 7 }{3}        </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p>   through: <m>(2, - 2)</m>, slope <m>=1    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 4, - 3)</m>, slope <m>= 0   </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> through:<m>( - 3, 4)</m>, slope <m>= </m> undefined    </p>  </statement></exercise>
+    <exercise><statement><p>    through: <m>( - 2, - 5)</m>, slope <m>= 2      </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p>    through: <m>( - 4, 2)</m>, slope <m>= -\frac{1}{ 2}   </m>   </p>  </statement></exercise>
+    <exercise><statement><p>    through: <m>(5, 3)</m>, slope <m>= \frac{6}{ 5}      </m> </p>   </statement></exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Write the point-slope form of the
+      equation of the line through the given points. </p>      </introduction>
+    <exercise><statement>  <p> through: <m>( - 4, 3)</m> and <m>( - 3, 1)   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(1, 3)</m> and <m>( - 3, 3) </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> through: <m>(5, 1)</m> and <m>(- 3, 0)    </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through: <m>(- 4, 5)</m> and <m>(4, 4)    </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p>   through: <m>( - 4, -2)</m> and <m>(0, 4)</m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( -4, 1)</m> and <m>(4, 4)     </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p>    through: <m>(3, 5)</m> and <m>( - 5, 3)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through: <m>( - 1, -4)</m> and <m>( - 5, 0)    </m> </p>   </statement></exercise>    
+<exercise><statement>  <p> through: <m>(3, - 3)</m> and <m>( -4, 5)   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 1, - 5)</m> and <m>( -5, -4)      </m> </p>   </statement></exercise>  
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Write the slope-intercept form of
+      the equation of the line through the given points. </p>      </introduction>
+    <exercise><statement>  <p> through: <m>( - 5, 1)</m> and <m>( -1, -2)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 5, -1)</m> and <m>(5, - 2)        </m> </p>   </statement></exercise>
+<exercise><statement>  <p>    through: <m>( - 5, 5)</m> and <m>(2, -3)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>    through: <m>(1, - 1)</m> and <m>( -5,- 4)  </m> </p>   </statement></exercise>
+<exercise><statement>  <p>  through: <m>(4, 1)</m> and <m>(1, 4) </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(0, 1)</m> and <m>( - 3, 0)  </m> </p>   </statement></exercise>
+<exercise><statement>  <p> through: <m>(0, 2)</m> and <m>(5, - 3)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p>    through: <m>(0, 2)</m> and <m>(2, 4)  </m> </p>   </statement></exercise>
+<exercise><statement><p>     through: <m>(0, 3)</m> and <m>(- 1,- 1) </m> </p>   </statement></exercise>
+<exercise><statement><p>     through: <m>( - 2, 0)</m> and <m>(5, 3) </m> </p>   </statement></exercise>
+    </exercisegroup>
+    
+  </exercises>
+  
+</section>

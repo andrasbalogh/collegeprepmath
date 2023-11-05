@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="graphing-parallel-perpendicular" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Parallel and Perpendicular Lines    </title>
+  <introduction> <alert> Objective:  : Identify the equation of a line given a parallel or perpendicular line.  </alert> </introduction>
+
+  <p>
+   There is an interesting connection between the slope of lines that are parallel and the slope of lines that are perpendicular (meet at a right angle). This is shown in the following example.
+  </p>
+
+  <example>
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <figure xml:id="graph-parallel">
+	<caption> The above graph has two parallel lines. The slope of the top line is down <m> 2</m>, run <m>  3</m>,  or  <m>   -\frac{2}{ 3}</m>  . The slope of the bottom line is down <m>  2</m>, run <m> 3</m>  as well, or <m> -\frac{2}{ 3}</m>.
+	</caption>
+	<image source="images/graph-parallel.jpg" />
+      </figure>
+
+      <figure xml:id="graph-perpendicular">
+	<caption> The above graph has two perpendicular lines. The slope of the flatter line is up <m>2</m>, run <m>3</m> or <m>\frac{2}{ 3}</m>. The slope of the steeper line is down <m> 3 </m>, run <m>  2 </m> or <m>-\frac{ 3}{ 2} </m>.
+	</caption>
+	<image source="images/graph-perpendicular.jpg" />
+      </figure>
+    </sidebyside>
+  </example>
+  
+  <p> <alert> World View Note:</alert> Greek Mathematician Euclid lived around <m> 300</m> BC and published a book titled, <em>The Elements</em>. In it is the famous parallel postulate which mathematicians have tried for years to drop from the list of postulates. The attempts have failed, yet all the work done has developed new types of geometries!
+  </p>
+  <p>
+  As the above graphs illustrate, parallel lines have the same slope and perpendicular lines have opposite (one positive, one negative) reciprocal (flipped fraction) slopes. We can use these properties to make conclusions about parallel and perpendicular lines  </p>
+
+  <example>
+    <p>
+      Find the slope of a line parallel to <m>  5y - 2x = 7</m>. 
+      <md>
+	<mrow>5y - 2x =7   \amp \quad  \text{ To find the slope we will put equation in slope - intercept form    }   </mrow>
+	<mrow>   +2x + 2x   \amp\quad  \text{  Add $2x$ to both sides    }  </mrow>
+	<mrow>     5y = 2x +7          \amp\quad  \text{ Put $x$ term first  }  </mrow>
+	<mrow> \frac{5y}{5}=\frac{2x+7}{5}         \amp \quad  \text{   Divide each term by    }  5 </mrow>
+	<mrow>      y =\frac{ 2}{ 5} x +\frac{ 7}{ 5}          \amp\quad  \text{  The slope is the coefficient of  } x </mrow>
+	<mrow>          m =\frac{ 2}{ 5}     \amp\quad  \text{  Slope of first line. Parallel lines have the same slope   }  </mrow>
+	<mrow>   m = \frac{2}{5}            \amp \quad  \text{ Our Solution   }   </mrow>
+      </md>
+    </p>
+  </example>
+  
+  <example>
+    <p>
+      Find the slope of a line perpendicular to <m>  3x - 4y = 2</m>
+      <md>
+	<mrow>   3x - 4y = 2\amp \quad  \text{ To find slope we will put equation in slope - intercept form    }   </mrow>
+	<mrow>     -3x \qquad - 3x         \amp\quad  \text{ Subtract $3x$ from both sides }  </mrow>
+	<mrow>      -4y = -3x + 2        \amp\quad  \text{ Put x term first   }  </mrow>
+	<mrow> \frac{-4y}{-4}=\frac{-3x+2}{-4}     \amp \quad  \text{ Divide each term by     }  -4 </mrow>
+	<mrow>    y = \frac{3}{ 4} x -\frac{ 1}{ 2}  \amp\quad  \text{ The slope is the coefficient of x  }  </mrow>
+	<mrow>     m =\frac{ 3}{ 4}         \amp\quad  \text{Slope of firstlines. Perpendicular lines have opposite reciprocal slopes   }  </mrow>
+      <mrow>       m = -\frac{ 4}{ 3}        \amp \quad  \text{ Our Solution  }   </mrow>    </md>
+    </p>
+  </example>
+
+<p>
+  Once we have a slope, it is possible to find the complete equation of the second line if we know one point on the second line. 
+  </p>
+
+  <example>
+    <p>
+      Find the equation of a line through <m> (4, - 5) </m> and parallel to <m>  2x - 3y =6</m>. 
+      <md>
+	<mrow>     2x -3y =6          \amp \quad  \text{We first need slope of parallel line    }   </mrow>
+	<mrow>       -2x \quad - 2x      \amp\quad  \text{  Subtract $2x$ from each side   }  </mrow>
+	<mrow>      -3y = - 2x +6         \amp\quad  \text{   Put $x$ term first  }  </mrow>    
+	<mrow>\frac{-3y}{-3}=\frac{-2x+6}{-3}               \amp \quad  \text{    Divide each term by  } -3</mrow>
+	<mrow>   y =\frac{2} {3} x - 2 \amp\quad  \text{Identify the slope, the coefficient of  } x </mrow>
+	<mrow>       m =\frac{2}{3} \amp\quad  \text{Parallel lines have the same slope    }  </mrow>
+	<mrow>  m =\frac{ 2}{ 3} \amp \quad  \text{ We will use this slope and our point  } (4, - 5) </mrow>
+	<mrow>   y - y_1 = m(x -x_1)             \amp\quad  \text{ Plug this information into point slope formula    }  </mrow>
+	<mrow>    y - ( - 5)= \frac{2 }{3} (x - 4)          \amp\quad  \text{  Simplify signs   }  </mrow>   
+	<mrow>       y +5=\frac{2}{ 3} (x - 4)     \amp \quad  \text{ Our Solution     }   </mrow>
+      </md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Find the equation of the line through <m> (6, - 9) </m>  perpendicular to <m> y = -\frac{3}{ 5} x + 4</m>  in slope-intercept form. 
+      <md>
+	<mrow>    y = -\frac{3}{ 5} x + 4   \amp \quad  \text{ Identify the slope, coefficient of }  x </mrow>
+	<mrow>   m = -\frac{3}{ 5}  \amp\quad  \text{ Perpendicular lines have opposite reciprocal slopes   }  </mrow>
+	<mrow> m = \frac{5}{ 3}      \amp\quad  \text{ We will use this slope and our point }  (6, - 9)    </mrow>    
+	<mrow>     y - y_1 = m(x - x_1) \amp \quad  \text{ Plug this information into point - slope formula   }   </mrow>
+	<mrow>      y - ( -9) = \frac{5 }{3} (x - 6)           \amp\quad  \text{ Simplify signs   }  </mrow>
+	<mrow>     y + 9=\frac{5}{ 3} (x - 6)          \amp\quad  \text{  Distribute slope  }  </mrow>     
+	<mrow>       y + 9= \frac{5}{ 3} x -10 \amp \quad  \text{  Solve for  }  y </mrow>
+	<mrow>  - 9 \qquad \quad -9              \amp\quad  \text{  Subtract $9$ from both sides   }  </mrow>
+	<mrow>     y =\frac{ 5}{ 3} x -19         \amp\quad  \text{  Our Solution   }  </mrow>
+      </md>
+    </p>
+  </example>
+
+  <p>
+  Zero slopes and no slopes may seem like opposites (one is a horizontal line, one is a vertical line). Because a horizontal line is perpendicular to a vertical line, we can say that no slope and zero slope are actually perpendicular slopes!
+  </p>
+
+  <example>
+    <p>
+      Find the equation of the line through <m> (3, 4) </m>  perpendicular to <m>  x = - 2</m>
+      <md>
+	<mrow>     x = -2          \amp \quad  \text{  This equation has no slope, a vertical line    }   </mrow>
+	<mrow> \text{no slope }    \amp\quad  \text{   Perpendicular line then would have a zero slope  }  </mrow>
+	<mrow>    m = 0    \amp\quad  \text{  Use this and our point  } (3, 4) </mrow>     
+	<mrow>     y - y_1 = m(x -x_1)  \amp \quad  \text{  Plug this information into point - slope formula   }   </mrow>
+	<mrow>        y - 4=0(x - 3)         \amp\quad  \text{ Distribute slope    }  </mrow>
+	<mrow>        y - 4= 0       \amp\quad  \text{  Solve for    } y </mrow>   
+	<mrow>      + 4+ 4          \amp \quad  \text{  Add $4$ to each side   }   </mrow>
+	<mrow>           y = 4      \amp\quad  \text{  Our Solution   }  </mrow>
+      </md>
+    </p>
+    </example>
+    
+    <p>
+      Being aware that to be perpendicular to a vertical line means we have a horizontal line through a <m>y</m> value of <m> 4</m>, thus we could have jumped from this point right to the solution, <m>  y =4</m>.
+    </p>
+
+<exercises xml:id="exercises-graphing-parallel-perpendicular">
+  <title> Exercises - Parallel and Perpendicular Lines </title>
+
+  <exercisegroup cols="2">
+    <introduction>	<p>	  Find the slope of a line parallel to
+    each given line. </p> </introduction>
+    <exercise><statement>  <p> <m>    y = 2x +4     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   y = -\frac{2}{ 3} x + 5         </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m> y = 4x -5        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  y = -\frac{10}{3} x - 5          </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>    x - y = 4     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   6x - 5y = 20         </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m> 7x + y = -2        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      3x +4y = -8      </m> </p>   </statement></exercise>   
+  </exercisegroup>
+
+  <exercisegroup cols="2">
+    <introduction>	<p>	 Find the slope of a line perpendicular to each given line.  </p>      </introduction>
+    <exercise><statement>  <p> <m>   x =3      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    y = -\frac{ 1 }{2} x -1        </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m> y = -\frac{ 1}{ 3} x        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  y =\frac{ 4}{ 5} x          </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    x - 3y = -6     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   3x - y = - 3         </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>  x +2y =8       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      8x - 3y =-9      </m> </p>   </statement></exercise>
+  </exercisegroup>
+
+  <exercisegroup >
+    <introduction>	<p>	  Write the point-slope form of the
+    equation of the line described. </p>      </introduction>
+    <exercise><statement>  <p> through: <m>(2, 5)</m>, parallel to <m>x =0      </m>   </p>  </statement></exercise> 
+   <exercise><statement>  <p> through: <m> (5, 2)</m>, parallel to <m>y = \frac{7}{ 5} x + 4      </m>   </p>  </statement></exercise>
+    <exercise><statement><p>   through: <m>(3, 4)</m>, parallel to <m>y =\frac{9}{ 2} x - 5        </m> </p>   </statement></exercise>
+ <exercise><statement><p> through: <m> (1, - 1)</m>, parallel to <m>y = -\frac{ 3}{ 4} x + 3           </m> </p>   </statement></exercise>
+<exercise><statement> <p>   through: <m>(2, 3)</m>, parallel to <m>y = \frac{7}{ 5} x +4     </m>   </p>  </statement></exercise> 
+   <exercise><statement>  <p> through: <m>( - 1, 3)</m>, parallel to <m>y = - 3x -1      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(4, 2)</m>, parallel to <m>x =0         </m> </p>   </statement></exercise>
+ <exercise><statement><p> through: <m>(1, 4)</m>, parallel to <m>y = \frac{7}{ 5} x +2         </m> </p>   </statement></exercise>
+<exercise><statement>  <p>     through: <m> (1, -5)</m>, perpendicular to <m>- x + y =1   </m>   </p>  </statement></exercise> 
+   <exercise><statement>  <p> through: <m>(1, - 2)</m>, perpendicular to <m>-x +2y =2       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(5, 2)</m>, perpendicular to <m>5x + y = -3         </m> </p>   </statement></exercise>
+ <exercise><statement><p>    through: <m> (1, 3)</m>, perpendicular to <m>- x + y = 1        </m> </p>   </statement></exercise>
+<exercise><statement> <p>    through: <m>(4, 2)</m>, perpendicular to <m>- 4x + y = 0     </m>   </p>  </statement></exercise> 
+   <exercise><statement>  <p> through: <m> ( - 3, - 5)</m>, perpendicular to <m>3x + 7y = 0      </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through: <m>(2, - 2) </m>, perpendicular to <m>3y -x =0        </m> </p>   </statement></exercise>
+ <exercise><statement><p> through: <m> (- 2, 5) </m>, perpendicular to <m>y - 2x =0         </m> </p>   </statement></exercise>
+  </exercisegroup>
+
+  <exercisegroup >
+    <introduction>	<p>	Write the slope-intercept form of the equation of the line described.  </p>      </introduction>
+    <exercise><statement>  <p>  through: <m>(4, - 3)</m>, parallel to <m>y = -2x     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 5, 2)</m>, parallel to <m>y =\frac{ 3}{ 5} x          </m> </p>   </statement></exercise>
+<exercise><statement>  <p> through: <m>( - 3, 1)</m>, parallel to <m>y = -\frac{ 4}{ 3} x - 1       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 4, 0)</m>, parallel to <m>y = -\frac{ 5}{ 4 }x + 4          </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> through: <m>( - 4, - 1)</m>, parallel to <m>y = -\frac{1}{ 2} x + 1        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(2, 3)</m>, parallel to <m>y =\frac{ 5}{ 2} x - 1           </m> </p>   </statement></exercise>
+<exercise><statement>  <p> through: <m>( - 2, -1)</m>, parallel to <m>y = -\frac{1}{ 2} x - 2    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( - 5, -4)</m>, parallel to <m>y =\frac{ 3}{ 5} x - 2          </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> through: <m>(4, 3)</m>, perpendicular to <m>x + y = -1      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>( -3, - 5)</m>, perpendicular to <m>x + 2y = -4         </m> </p>   </statement></exercise>
+<exercise><statement>  <p> through: <m>(5, 2)</m>, perpendicular to <m>x = 0    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> through: <m>(5, - 1)</m>, perpendicular to <m>- 5x + 2y = 10       </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> through: <m>( - 2, 5)</m>, perpendicular to <m>-x + y = -2      </m>   </p>  </statement></exercise>
+    <exercise><statement><p>  through: <m>(2, - 3)</m>, perpendicular to <m>-2x +5y = -10        </m> </p>   </statement></exercise>
+<exercise><statement>  <p> through: <m>(4, - 3)</m>, perpendicular to <m>- x +2y = -6      </m>   </p>  </statement></exercise>
+    <exercise><statement><p>    through: <m>( - 4, 1)</m>, perpendicular to <m>4x +3y = - 9      </m> </p>   </statement></exercise>  
+  </exercisegroup>
+
+</exercises>
+
+
+</section>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-graphs" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title> Quadratics - Graphs of Quadratics  </title> 
+ 
+  <introduction> <alert> Objective: Graph quadratic equations using the vertex, x-intercepts, and y-intercept. 
+ </alert> </introduction> 
+ 
+   <p> 
+ Just as we drew pictures of the solutions for lines or linear equations, we can draw a picture of solution 
+ to quadratics as well. One way we can do that is to make a table of values. 
+   </p> 
+
+  <example>
+    <md> 
+      <mrow>  y=x^2-4x+3  \amp\quad  \text{Make a table of values} </mrow>
+      <mrow> \begin{array}{|c|c|} \hline x  \amp y \\ \hline 0  \amp  \\ \hline
+      1  \amp  \\ \hline  2 \amp  \\ \hline 3  \amp  \\ \hline 4  \amp  \\ \hline
+      \end{array}
+\amp\quad  \text{We will test $5$ values to get an idea of shape} </mrow>
+      <mrow>  y=(0)^2-4(0)+3=0-0+3=3 \amp\quad  \text{Plug $0$ in for $x$ and evaluate}</mrow>
+      <mrow> y=(1)^2-4(1)+3=1-4+3=0 \amp\quad  \text{Plug $1$ in for $x$ and evaluate}</mrow>
+      <mrow>  y=(2)^2-4(2)+3=4-8+3=-1 \amp\quad  \text{Plug $2$ in for $x$ and evaluate}</mrow>
+      <mrow>  y=(3)^2-4(3)+3=9-12+3=0   \amp\quad  \text{Plug $3$ in for $x$ and evaluate }</mrow>
+      <mrow>   y=(4)^2-4(4)+3=16-16+3=3   \amp\quad  \text{Plug $4$ in for $x$ and evaluate} </mrow>
+      <mrow> \begin{array}{|c|c|} \hline x  \amp y \\ \hline 0  \amp 3 \\ \hline
+      1  \amp 0 \\ \hline  2 \amp -1  \\ \hline 3  \amp  0 \\ \hline 4  \amp 3  \\ \hline
+      \end{array}
+\amp\quad  \text{Our completed table. Plot points on graph} </mrow>
+      </md>
+
+      <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/quadratics-graphs-01.jpg" /> 
+   <p> <p>
+     Plot the points <m>(0, 3)</m>, <m>(1, 0)</m>, <m>(2, - 1)</m>, <m>(3, 0)</m>, and <m>(4, 3)</m>. </p>
+<p>     Connect the dots with a smooth curve.</p>
+<p>    Our Solution   </p> </p>
+    </sidebyside>
+
+  </example> 
+
+    <p>
+When we have <m>x^2</m> in our equations, the graph will no longer be a straight line. Quadratics have a graph that looks like a U shape that is called a parabola. 
+</p>
+
+  <p> <alert> World View Note:</alert> The first major female mathematician was Hypatia of Egypt who was born around 370 AD. She studied conic sections. The parabola is one type of conic section.
+</p>
+  <p> 
+The above method to graph a parabola works for any equation, however, it can be very tedious to find all the correct points to get the correct bend and shape. For this reason we identify several key points on a graph and in the equation to help us graph parabolas more efficiently. These key points are described below. 
+  </p> 
+
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/quadratics-graphs-02.jpg" /> 
+<p>
+<p>Point <m>A:</m> <m> y</m>-intercept: Where the graph crosses the vertical <m>y</m>-axis. </p>
+<p>Points <m>B</m> and <m>C:</m> <m>x</m>-intercepts: Where the graph crosses the horizontal <m>x</m>-axis </p>
+<p>Point <m>D:</m> Vertex: The point where the graph curves and changes directions. </p>
+   </p>
+    </sidebyside>
+
+<p> We will use the following method to find each of the points on our parabola. </p>
+<p><alert> To graph the equation <m> y=ax^2+bx+c </m>, find the following points </alert>
+<ol>
+<li> <m>y</m>-intercept: Found by making <m> x = 0 </m>, this simplifies down to <m>y = c </m></li>
+<li> <m>x</m>-intercepts: Found by making <m>y = 0 </m>, this means solving <m>0 = ax^2+bx+c </m></li>
+<li> Vertex: Let <m>x = \frac{-b}{2a}</m> to find <m>x</m>. Then plug this value into the equation to find <m> y </m>.</li>
+</ol>
+After finding these points we can connect the dots with a smooth curve to find our graph! 
+</p>
+
+ <example>
+    <md> 
+<mrow> y=x^2+4x+3 \amp \quad  \text{Find the key points}  </mrow>
+<mrow> y=3 \amp \quad  \text{$y=c$ is the $y$-intercept}  </mrow>  
+<mrow> 0=x^2+4x+3 \amp \quad  \text{To find $x$-intercept we solve the equation}  </mrow>  
+<mrow> 0=(x+3)(x+1) \amp \quad  \text{Factor}  </mrow>
+<mrow> x+3=0 \text{ and } x+1=0 \amp \quad  \text{Set each factor equal to zero}  </mrow> 
+<mrow> -3  -3 \qquad  \quad -1  -1 \amp \quad  \text{Solve each equation}  </mrow>  
+<mrow> x=-3 \text{ and } x=-1 \amp \quad  \text{Our $x$-intercepts}  </mrow>
+<mrow> x=\frac{-4}{2(1)}= \frac{-4}{2}=-2  \amp \quad  \text{To find the vertex, first use } x= \frac{-b}{ 2a}  </mrow>  
+<mrow> y=(-2)^2+4(-2)+3 \amp \quad  \text{Plug this answer into equation to find $y$-coordinate}  </mrow>  
+<mrow> y=4-8+3 \amp \quad  \text{Evaluate}  </mrow>
+<mrow> y=-1 \amp \quad  \text{The $y$-coordinate}  </mrow>
+<mrow> (-2,-1) \amp \quad  \text{Vertex as a point}  </mrow>
+</md>
+
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/quadratics-graphs-03.jpg" /> 
+   <p>
+  <p>Graph the<m> y</m>-intercept at <m> 3</m>, the <m>x</m>- intercepts at <m>-3</m> and <m>-1</m>, and 
+  the vertex at <m>(-2, -1). </m>. Connect the dots with a smooth curve in a U shape to get our parabola. </p>
+<p>Our Solution </p>
+</p>
+</sidebyside>
+  </example> 
+
+
+<p>
+  If the a in <m>y=ax^2 +bx+c </m> is a negative value, the parabola
+  will end up being an upside-down U. The process to graph it is
+  identical, we just need to be very careful of how our signs operate.
+  Remember, if <m>a</m> is negative, then <m>ax^2 </m>
+  will also be negative because we only square the <m>x </m>, not the <m>a</m>. 
+</p>
+
+  <example>
+    <md> 
+      <mrow> y=-3x^2+12x-9  \amp \quad  \text{Find key points} </mrow>  
+      <mrow>     y=-9 \amp \quad   \text{ $y$-intercept is } y=c </mrow>  
+      <mrow> 0=-3x^2+12x-9 \amp \quad  \text{To find $x$-intercept solve this equation}   </mrow>
+      <mrow> 0=-3(x^2-4x+3) \amp \quad  \text{Factor out GCF first, then factor rest} </mrow> 
+      <mrow> 0=-3(x-3)(x-1) \amp \quad  \text{Set each factor with a variable equal to zero} </mrow> 
+      <mrow> x-3=0 \text{ and } x-1=0 \amp \quad  \text{Solve each equation} </mrow>
+      <mrow> +3 +3  \qquad \quad +1 +1 \amp \quad  </mrow>
+      <mrow> x=3 \text{ and } x=1  \amp \quad   \text{Our $x$ - intercepts} </mrow>
+      <mrow> x=\frac{-12}{2(-3}=\frac{-12}{-6}=2 \amp \quad  \text{To
+      find the vertex, first use } x=\frac{-b}{2a}   </mrow>
+      <mrow> y=-3(2)^2+12(2)-9 \amp \quad  \text{Plug this value into equation to find $y$ - coordinate} </mrow>  
+      <mrow> y=-3(4)+24-9 \amp \quad  \text{Evaluate}   </mrow>
+      <mrow> y=-12+24-9 \amp \quad  </mrow>
+      <mrow> y=3 \amp \quad  \text{$y$-value of vertex}   </mrow>
+      <mrow> (2,3) \amp \quad  \text{Vertex as a point}   </mrow>
+   </md>
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/quadratics-graphs-04.jpg" /> 
+   <p>
+<p>Graph the y-intercept at <m>-9</m>, the <m>x</m>- intercepts at <m>3</m> and <m>1</m>, and the vertex at <m>(2, 3)</m>. Connect the dots with smooth curve in an upside-down U shape to get our parabola. 
+</p>
+<p>Our Solution </p>
+  </p> 
+</sidebyside>
+  </example> 
+
+<p>
+It is important to remember the graph of all quadratics is a parabola with the same U shape (they could be 
+upside-down). If you plot your points and we cannot connect them in the correct U shape then one of your 
+points must be wrong. Go back and check your work to be sure they are correct!
+</p>
+<p>
+Just as all quadratics (equation with <m>y = x^2</m>) all have the same U-shape to them and all linear equations (equations such as <m>y = x</m>) have the same line shape when graphed, different equations have different shapes to them. Below are some common equations (some we have yet to cover!) with their graph shape drawn. 
+</p>
+
+<tabular halign="center" >
+<row> <cell> Absolute Value </cell>  <cell> Cubic </cell> </row>
+<row> <cell> <m>y=|x|</m></cell>  <cell> <m>y=x^3</m></cell> </row>
+<row> <cell> <image source="images/quadratics-graphs-05.jpg" /> </cell>  <cell> <image source="images/quadratics-graphs-06.jpg" /> </cell> </row>
+<row> <cell> </cell>  <cell> </cell> </row>
+<row> <cell> Quadratic </cell>  <cell> Exponential</cell> </row>
+<row> <cell> <m>y=x^2</m> </cell>  <cell> <m>y=a^x</m> </cell> </row>
+<row> <cell> <image source="images/quadratics-graphs-07.jpg" /> </cell>  <cell> <image source="images/quadratics-graphs-08.jpg" /> </cell> </row>
+<row> <cell> </cell>  <cell> </cell> </row>
+<row> <cell> Square Root </cell>  <cell> Logarithmic </cell> </row>
+<row> <cell> <m>y=/sqrt{x}</m> </cell>  <cell> <m>y=\log_{a}x</m> </cell> </row>
+<row> <cell> <image source="images/quadratics-graphs-09.jpg" /> </cell>  <cell> <image source="images/quadratics-graphs-10.jpg" /> </cell> </row>
+
+</tabular>
+
+  <exercises xml:id="exercises-quadratics">
+    <title>Exercises - Graphs of Quadratics </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>  Find the vertex and intercepts of the following quadratics. Use this information to graph the quadratic. </p>      </introduction>
+      <exercise><statement> <p> <m> y=x^2-2x-8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=x^2-2x-3 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=2x^2-12x+10 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=2x^2-12x+16 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-2x^2+12x-18 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=-2x^2+12-10 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-3x^2+24x-45 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> y=-3x^2+12x-9</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=-x+4x+5 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-3x^2+4x-3 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-x^2+6x-5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=-2x^2+16x-30 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-2x^2+16x-24 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=2x^2+4x-6 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=3x^2+12x+9 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=5x^2+30+45 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=5x^2-40x+75 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=5x^2+20x+15 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> y=-5x^2-60x-175 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> y=-5x^2+20x-15 </m> </p> </statement> </exercise>
+ 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+</section>  

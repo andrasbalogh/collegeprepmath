@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="polynomials-special-products" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Multiply Special Products   </title> 
+
+  <introduction> <alert> Objective:  Recognize and use special product rules of a sum and difference and perfect squares to multiply polynomials. </alert> </introduction> 
+
+   <p> 
+     There are a few shortcuts that we can take when multiplying polynomials. If we can recognize them the shortcuts can help us arrive at the solution much quicker. These shortcuts will also be useful to us as our study of algebra continues.
+   </p> 
+
+   <p>
+     The first shortcut is often called a <alert>sum and a difference</alert>. A sum and a difference is easily recognized as the numbers and variables are exactly the same, but the sign in the middle is different (one sum, one difference). To illustrate the shortcut consider the following example, multiplied by the distributing method.
+   </p>
+
+  <example>
+    <md> 
+      <mrow> (a+b)(a-b) \amp \quad  \text{  Distribute } (a + b)   </mrow> 
+      <mrow> a(a+b)-b(a+b) \amp\quad  \text{ Distribute $a$ and } -b   </mrow> 
+      <mrow>  a^2+ab-ab-b^2\amp\quad  \text{ Combine like terms } ab-ab  </mrow> 
+      <mrow>  a^2-b^2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    The important part of this example is the middle terms subtracted to zero. Rather than going through all this work, when we have a sum and a difference we will jump right to our solution by squaring the first term and squaring the last term, putting a subtraction between them. This is illustrated in the following example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> (x - 5)(x + 5) \amp \quad  \text{  Recognize sum and difference    }   </mrow> 
+      <mrow>  x^2 - 25 \amp\quad  \text{  Square both, put subtraction between. Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    This is much quicker than going through the work of multiplying and combining like terms. Often students ask if they can just multiply out using another method and not learn the shortcut. These shortcuts are going to be very useful when we get to factoring polynomials, or reversing the multiplication process. For this reason it is very important to be able to recognize these shortcuts. More examples are shown here.
+  </p>
+
+ <example>
+    <md> 
+      <mrow> (3x +7)(3x -7) \amp \quad  \text{  Recognize sum and difference    }   </mrow> 
+      <mrow>  9x^2 - 49 \amp\quad  \text{  Square both, put subtraction between. Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+   <example>
+    <md> 
+      <mrow> (2x - 6y)(2x +6y) \amp \quad  \text{  Recognize sum and difference    }   </mrow> 
+      <mrow>  4x^2 - 36y^2 \amp\quad  \text{  Square both, put subtraction between. Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    It is interesting to note that while we can multiply and get an answer like <m>a^2 - b^2</m> (with subtraction), it is impossible to multiply real numbers and end up with a product such as <m>a^2 + b^2</m> (with addition).
+  </p>
+
+  <p>
+    Another shortcut used to multiply is known as a <alert>perfect square</alert>. These are easy to recognize as we will have a binomial with a <m>2</m> in the exponent. The following example illustrates multiplying a perfect square
+  </p>
+
+  <example>
+    <md> 
+      <mrow> (a+b)^2 \amp \quad  \text{  Squared is same as multiplying by itself    }   </mrow> 
+      <mrow>  (a+b)(a+b)\amp\quad  \text{  Distribute }  (a + b)  </mrow> 
+      <mrow> a(a+b)+b(a+b) \amp\quad  \text{ Distribute again through final parenthesis    }  </mrow>
+      <mrow> a^2+ab+ab+b^2 \amp\quad \text{ Combine like terms } ab+ab </mrow>
+      <mrow> a^2 +2ab+b^2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    This problem also helps us find our shortcut for multiplying. The first term in the answer is the square of the first term in the problem. The middle term is <m>2</m> times the first term times the second term. The last term is the square of the last term. This can be shortened to square the first, twice the product, square the last. If we can remember this shortcut we can square any binomial. This is illustrated in the following example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> (x-5)^2 \amp \quad  \text{   Recognize perfect square   }   </mrow> 
+      <mrow> x^2 \amp\quad  \text{   Square the first  }  </mrow> 
+      <mrow>  2(x)(-5)=-10x \amp\quad  \text{  Twice the product   }  </mrow> 
+      <mrow> (-5)2 =25 \amp\quad  \text{  Square the last   }  </mrow> 
+      <mrow> x^2 -10x+25 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Be very careful when we are squaring a binomial to NOT distribute the square through the parenthesis. A common error is to do the following: <m>(x - 5)2 = x^2 - 25</m> (or <m>x^2 + 25</m>). Notice both of these are missing the middle term, <m>- 10x</m>. This is why it is important to use the shortcut to help us find the correct solution. Another important observation is that the middle term in the solution always has the same sign as the middle term in the problem. This is illustrated in the next examples.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  (2x + 5)^2\amp \quad  \text{   Recognize perfect square   }   </mrow> 
+      <mrow>  (2x)^2 = 4x^2\amp\quad  \text{  Square the first   }  </mrow> 
+      <mrow> 2(2x)(5) = 20x \amp\quad  \text{  Twice the product   }  </mrow> 
+      <mrow>  5^2=25\amp\quad  \text{  Square the last   }  </mrow> 
+      <mrow> 4x^2 +20x+25 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>  (3x - 7y)^2 \amp \quad  \text{   Recognize perfect square   }   </mrow> 
+      <mrow> 9x^2 - 42xy + 49y^2 \amp\quad  \text{  Square the first, twice the product, square the last.  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>  (5a + 9b)^2 \amp \quad  \text{   Recognize perfect square   }   </mrow> 
+      <mrow> 25a^2 + 90ab + 81b^2 \amp\quad  \text{  Square the first, twice the product, square the last.  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    These two formulas will be important to commit to memory. The more familiar we are with them, the easier factoring, or multiplying in reverse, will be. The final example covers both types of problems (two perfect squares, one positive, one negative), be sure to notice the difference between the examples and how each formula is used.
+  </p>
+  
+  <example>
+    <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+   <p><me>(4x-7)(4x+7) \\  16x^2 - 49</me> </p>
+   <p><me>(4x+7)^2 \\  16x^2 + 56x + 49</me> </p>
+   <p><me> (4x-7)^2\\  16x^2 - 56x + 49</me> </p>
+    </sidebyside>
+  </example> 
+
+  <p> <alert> World View Note:</alert>  There are also formulas for higher powers of binomials as well, such as <m>(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3</m>. While French mathematician Blaise Pascal often gets credit for working with these expansions of binomials in the <m>17</m>th century, Chinese mathematicians had been working with them almost <m>400</m> years earlier!</p> 
+
+
+  <exercises xml:id="exercises-polynomials-special-products">
+    <title>Exercises -Multiply Special Products</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Find each product.	</p>      </introduction>
+      <exercise><statement> <p> <m>(x+8)(x-8) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(a-4)(a+4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(1+3p)(1-3p) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (x-3)(x+3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1-7n)(1+7n)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8m + 5)(8m - 5) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (5n - 8)(5n + 8)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (2r + 3)(2r - 3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4x + 8)(4x - 8)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(b-7)(b+7) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4y-x)(4y+x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(7a + 7b)(7a - 7b) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(4m - 8n)(4m + 8n) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3y - 3x)(3y + 3x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (6x - 2y)(6x + 2y)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1 + 5n)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (a+5)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (v + 4)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x - 8)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1 - 6n)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(p+7)^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7k - 7)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7 - 5n)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4x - 5)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(5m - 8)^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3a + 3b)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (5x + 7y)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(4m - n)^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (2x + 2y)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8x + 5y)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (5 + 2r)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(m - 7)^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (2 + 5x)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8n + 7)(8n - 7)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(4v-7)(4v+7) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (b+4)(b-4)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (n-5)(n+5)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7x + 7)^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(4k + 2)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3a - 8)(3a + 8) </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+  
+   
+</section>

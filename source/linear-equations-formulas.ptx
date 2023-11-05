@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="linear-equations-formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Formulas </title>
+  <introduction> <alert> Objective: Solve linear formulas for a given variable.  </alert> </introduction>
+
+  <p>
+    Solving formulas is much like solving general linear equations. The only difference is we will have several variables in the problem, and we will be attempting to solve for one specific variable. For example, we may have a formula such as <m> A = \pi r^2 + \pi rs</m>  (formula for surface area of a right circular cone) and we may be interested in solving for the variable s. This means we want to isolate the s so the equation has s on one side, and everything else on the other. So a solution might look like<m>  s = \frac{A - \pi r^2}{ \pi s}</m>. This second equation gives the same information as the first, they are algebraically equivalent, however, one is solved for the area, while the other is solved for s (slant height of the cone). In this section we will discuss how we can move from the first equation to the second.
+  </p>
+  <p>
+    When solving formulas for a variable we need to focus on the one variable we are trying to solve for, all the others are treated just like numbers. This is shown in the following example. Two parallel problems are shown, the first is a normal one-step equation, the second is a formula that we are solving for <m>  x</m>.
+ </p>
+<example>
+    <md>
+      <mrow>        3x \amp = 12  \amp    \quad  wx \amp = z     \amp \quad  \amp \text{  In both problems, $x $ is multiplied by something  }   </mrow>
+      <mrow>    \frac{3x}{3} \amp =\frac{12}{3}  \amp \quad \frac{wx}{w} \amp =\frac{z}{w} \amp\quad \amp \text{ To isolate the $x $ we divide by $3$ or   }  w</mrow>
+      <mrow>          x \amp = 4  \amp  \quad x \amp =\frac{ z }{w}   \amp \quad  \amp \text{ Our Solution       }  </mrow>
+    </md>
+  </example>
+
+  <p>
+We use the same process to solve <m> 3x = 12 </m> for <m> x</m> as we use to solve <m>  wx = z</m>  for <m> x</m>. Because we are solving for <m> x</m> we treat all the other variables the same way we would treat numbers. Thus, to get rid of the multiplication we divided by <m> w</m>. This same idea is seen in the following example.
+  </p>
+<example>
+    <md>
+      <mrow>          m + n = p      \amp \quad  \text{ Solving for $n$, treat all other variables like numbers     }   </mrow>
+      <mrow>           -m-m     \amp\quad  \text{ Subtract m from both sides    }  </mrow>
+      <mrow>       n = p -m       \amp\quad  \text{ Our Solution     }  </mrow>
+    </md>
+  </example>
+<p>
+As <m>  p </m> and <m> m</m>  are not like terms, they cannot be combined. For this reason, we leave the expression as <m> p - m</m>. This same one-step process can be used with grouping symbols.
+  </p>
+<example>
+    <md>
+      <mrow>      a(x - y) = b          \amp \quad  \text{ Solving for $a$, treat $(x - y)$ like a number  }   </mrow>
+      <mrow>          \frac{a(x - y) }{(x -y)}=\frac{b}{ (x - y)}       \amp\quad  \text{  Divide both sides by   } (x-y)  </mrow>
+      <mrow>          a =\frac{b}{ x – y}    \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example>
+
+  <p>
+Because <m>  (x - y) </m>  is in parenthesis, if we are not searching for what is inside the parenthesis, we can keep them together as a group and divide by that group. However, if we are searching for what is inside the parenthesis, we will have to break up the parenthesis by distributing. The following example is the same formula, but this time we will solve for <m>  x</m>.
+  </p>
+
+
+
+
+<example>
+    <md>
+      <mrow>   a(x - y) = b      \amp \quad  \text{  Solving for $x$, we need to distribute to clear parenthesis     }   </mrow>
+      <mrow>          ax - ay = b       \amp\quad  \text{  This is a two -  step equation, $ay$ is subtracted from our x term   }  </mrow>
+      <mrow>     + ay + ay          \amp\quad  \text{  Add $ay$ to both sides   }  </mrow>
+<mrow>    ax = b + ay            \amp \quad  \text{ The $x $ is multiplied by    }  a </mrow>
+      <mrow> \frac{ax}{a}=\frac{b+ay}{a}         \amp\quad  \text{ Divide both sides by     } a  </mrow>
+      <mrow>       x = \frac{b + ay}{ a}      \amp\quad  \text{ Our Solution  }  </mrow>
+ </md>
+  </example>
+  <p>
+Be very careful as we isolate x that we do not try and cancel the <m>a</m> on top and bottom of the fraction. This is not allowed if there is any adding or subtracting in the fraction. There is no reducing possible in this problem, so our final reduced answer remains <m> x =\frac{ b + ay}{ a}</m>. The next example is another two-step problem.
+  </p>
+<example>
+    <md>
+      <mrow> y = mx + b  \amp \quad  \text{    Solving for $ m$, focus on addition first  }   </mrow>
+      <mrow>          -b\qquad -b      \amp\quad  \text{  Subtract $ b$ from both sides  }  </mrow>
+      <mrow>         y - b = mx     \amp\quad  \text{ Notice that $ m$ is multiplied by $ x$.   }  </mrow>
+<mrow>     \frac{y-b}{x}=\frac{mx}{x}  \amp \quad  \text{    Divide both sides by   }   x</mrow>
+      <mrow>   \frac {y - b}{ x} = m         \amp\quad  \text{ Our Solution   }  </mrow>
+        </md>
+  </example>
+<p>
+  It is important to note that we know we are done with the problem when the variable we are solving for is isolated or alone on one side of the equation and it does not appear anywhere on the other side of the equation.
+</p>
+<p>
+  The next example is also a two-step equation, it is the problem we started with at the beginning of the lesson.
+  </p>
+<example>
+    <md>
+      <mrow>    A = \pi r^2 + \pi rs            \amp \quad  \text{ Solving for$ s$, focus on what is added to the term with     }  s </mrow>
+      <mrow>    - \pi r^2 \qquad -\pi r^2        \amp\quad  \text{ Subtract $\pi r^2 $ from both sides    }  </mrow>
+      <mrow>         A - \pi r^2 = \pi rs      \amp\quad  \text{ Notice that $ s $ is multiplied by }  \pi r  </mrow>   
+   <mrow>   \frac{ A - \pi r^2}{\pi r} =\frac{\pi rs}{\pi r}   \amp \quad  \text{    Divide both sides by  }   \pi r </mrow>
+      <mrow>          \frac{ A - \pi r^2}{\pi r} =s      \amp\quad  \text{  Our Solution   }  </mrow>
+     </md>
+  </example>
+  <p>
+Again, we cannot reduce the <m>  \pi r</m>  in the numerator and denominator because of the subtraction in the problem. 
+Formulas often have fractions in them and can be solved in much the same way we solved with fractions before. First identify the LCD and then multiply each term by the LCD. After we reduce there will be no more fractions in the problem so we can solve like any general equation from there.
+  </p>
+
+<example>
+    <md>
+      <mrow>   h=\frac{2m}{ n}        \amp \quad  \text{ Solving for $ m $. To clear the fraction we use LCD =   }   n</mrow>
+      <mrow>       (n)h = (n)\frac{2m}{ n}         \amp\quad  \text{   Multiply each term by  }  n</mrow>
+      <mrow>        nh =2m       \amp\quad  \text{  Reduce $n$ with denominators }  </mrow>
+<mrow>    \frac{nh}{2}=\frac{2m}{2}   \amp \quad  \text{  Divide both sides by  } 2  </mrow>
+      <mrow> \frac{nh}{2}=m     \amp\quad  \text{  Our Solution   }  </mrow>
+       </md>
+  </example>
+  <p>
+The same pattern can be seen when we have several fractions in our problem.
+  </p>
+<example>
+    <md>
+      <mrow>  \frac{a}{ b} + \frac{c}{ b} = e  \amp \quad \text{ Solving  for $a$. To clear the fraction we use LCD =  }  b </mrow>
+      <mrow>  \frac{ (b)a}{ b} + \frac{(b)c}{ b} = e (b)  \amp\quad  \text{Multiply each term by } b  </mrow>
+      <mrow>        a + c = eb      \amp\quad  \text{  Reduce $ b $ with denominators  }  </mrow>
+<mrow>           -c\quad -c    \amp \quad  \text{ Subtract $ c $ from both sides    }   </mrow>
+      <mrow>             a = eb -c   \amp\quad  \text{   Our Solution }  </mrow>
+ </md>
+  </example>
+<p>
+Depending on the context of the problem we may find a formula that uses the same letter, one capital, one lowercase. These represent different values and we must be careful not to combine a capital variable with a lower-case variable.
+  </p>
+<example>
+    <md>
+      <mrow>     a = \frac{A }{2 -b}     \amp \quad  \text{   Solving for $b$. Use LCD$= (2 - b) $ as a group  }   </mrow>
+      <mrow>  (2 - b)a =\frac{ (2 - b)A}{ 2 -b} \amp\quad  \text{  Multiply each term by } (2-b) </mrow>
+      <mrow> (2 - b)a = A       \amp\quad  \text{ reduce $ (2 - b) $ with denominator  }  </mrow>
+<mrow>        2a - ab = A      \amp \quad  \text{  Distribute through parenthesis  }   </mrow>
+      <mrow>           - 2a\qquad - 2a      \amp\quad  \text{ Subtract $ 2a$ from both sides    }  </mrow>
+      <mrow>         - ab = A - 2a      \amp\quad  \text{ The $b$ is multiplied by } -a </mrow>
+<mrow>   \frac{-ab}{-a}=\frac{A-2a}{-a} \amp \quad  \text{    Divide both sides by  }  -a </mrow>
+      <mrow>     b=\frac{A-2a}{-a}         \amp\quad  \text{ Our Solution  }  </mrow>
+        </md>
+  </example>
+<p>
+Notice the <m>  A </m> and <m> a</m>  were not combined as like terms. This is because a formula will often use a capital letter and lower-case letter to represent different variables. Often with formulas there is more than one way to solve for a variable. The next example solves the same problem in a slightly different manner. After clearing the denominator, we divide by <m> a</m>  to move it to the other side, rather than distributing.
+  </p>
+<example>
+    <md>
+      <mrow>     a =\frac{A}{ 2 – b}  \amp \quad  \text{ Solving for $b$. Use LCD $=(2 - b) $ as a group     }   </mrow>
+      <mrow>   (2 - b)a =\frac{ (2 - b)A}{ 2 - b}   \amp\quad  \text{ Multiply each term by  }(2-b)  </mrow>
+      <mrow>         (2 - b)a = A      \amp\quad  \text{  Reduce $ (2 -b)$ with denominator   }  </mrow>
+<mrow>  \frac{(2 - b)a}{a} =\frac{ A}{a}    \amp \quad  \text{   Divide both sides by    }  a </mrow>
+      <mrow>            2 - b = \frac{A}{ a}  \amp\quad  \text{Focus on the positive   } 2 </mrow>
+      <mrow>     -2 \qquad - 2 \amp\quad  \text{  Subtract $ 2 $ from both sides   }  </mrow>   
+   <mrow>   - b =\frac{ A}{ a} - 2      \amp \quad  \text{  Still need to clear the negative  }   </mrow>
+      <mrow>   ( -1)( - b)= ( -1)\frac{A}{ a} - 2( - 1) \amp\quad  \text{ Multiply (or divide) each term by  } -1 </mrow>
+      <mrow>     b =- \frac {A}{ a} + 2       \amp\quad  \text{ Our Solution   }  </mrow>
+</md>
+  </example>
+  <p>
+Both answers to the last two examples are correct, they are just written in a different form because we solved them in different ways. This is very common with formulas, there may be more than one way to solve for a variable, yet both are equivalent and correct. 
+  </p>
+
+  <p> <alert> World View Note: </alert> The father of algebra, Persian mathematician Muhammad ibn Musa Khwarizmi, introduced the fundamental idea of blancing by subtracting the same term to the other side of the equation. He called this process al-jabr which later became the world algebra.  </p>
+
+  <exercises xml:id="exercises-linear-formulas">
+    <title>Exercises - Formulas </title>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each of the following equations for the indicated variable. </p>      </introduction>
+    <exercise><statement>  <p> <m>  ab = c \text{ for } b       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   g = \frac{h}{ i} \text{ for } h     </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>\frac{f}{g}x=b \text{ for } x   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> p = \frac{3y}{ q} \text{ for } y      </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m> 3x = \frac{a }{b} \text{ for } x      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>\frac{ym}{ b} = \frac{c}{ d} \text{ for } y          </m> </p>   </statement></exercise>
+  <exercise><statement>  <p> <m>    E = mc^2 \text{ for } m     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    DS = ds \text{ for } D        </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   V =\frac {4 }{3} \pi r^3 \text{ for } \pi    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   E =\frac{mv^2}{ 2 }\text{ for } m          </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     a + c = b \text{ for } c    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  x - f = g \text{ for } x   </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   V = \frac{\pi Dn}{12} \text{ for } D      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      F = k(R - L) \text{ for } k    </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     P = n(p - c) \text{ for } n    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     S = L + 2B \text{ for } L       </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     T =\frac{ D-d}{ L} \text{ for } D    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      I = \frac{E_a – E_q}{ R} \text{ for } E_a      </m> </p>   </statement></exercise>
+    <exercise><statement><p> <m>        L = L_o(1 + at)\text{ for } L_o    </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     ax + b = c \text{ for } x </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     2m + p = 4m + q \text{ for } m       </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   q = 6(L - p) \text{ for } L      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{k – m}{ r} = q \text{ for } k        </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   R = aT + b \text{ for } T      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  h = vt -16t ^2 \text{ for } v    </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   S = \pi rh + \pi r^2 \text{ for } h      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       Q_1 = P(Q_2 - Q_1)\text{ for } Q_2     </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     L = \pi (r_1 + r_2) +2d \text{ for } r_1</m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   R =\frac{ kA\left(T_1 + T_2\right)} {d} \text{ for } T_1</m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>  P =\frac{ V_1\left(V_2 -V_1\right) }{g }\text{ for } V_2     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   ax + b = c \text{ for } a      </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     rt = d \text{ for } r    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         lwh = V \text{ for } w   </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     V =\frac{ \pi r^2h}{ 3} \text{ for } h    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   \frac{1}{ a} + b =\frac{c }{a} \text{ for } a   </m> </p>   </statement></exercise>
+    <exercise><statement><p> <m>  \frac{1}{ a} + b =\frac{c}{ a} \text{ for } b       </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   at- bw = s \text{ for } t    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     at - bw = s \text{ for } w       </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>      ax + bx = c \text{ for } a   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      x + 5y = 3 \text{ for } x      </m> </p>   </statement></exercise>
+  <exercise><statement>  <p> <m>      x + 5y = 3 \text{ for } y   </m>   </p>  </statement></exercise>
+  <exercise><statement><p> <m>       3x + 2y = 7 \text{ for } x     </m> </p>   </statement></exercise>
+  <exercise><statement><p> <m>   3x + 2y = 7 \text{ for } y   </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     5a - 7b = 4 \text{ for } a    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       5a - 7b = 4 \text{ for } b     </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>    4x -5y = 8 \text{ for } x     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>        4x - 5y = 8 \text{ for } y    </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     C =\frac{ 5}{ 9}{ (F - 32)}\text{ for } F    </m>   </p>  </statement></exercise>
+
+    </exercisegroup>
+
+  </exercises>
+
+</section>

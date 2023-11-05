@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-compound-interest" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title> Compound Interest </title> 
+ 
+  <introduction> <alert> Objective: Calculate final account balances using the formulas for 
+  compound and continuous interest. </alert> </introduction> 
+ 
+   <p> 
+An application of exponential functions is compound interest. When money is invested in an 
+account (or given out on loan) a certain amount is added to the balance. This money added to 
+the balance is called interest. Once that interest is added to the balance, it will earn 
+more interest during the next compounding period. This idea of earning interest on interest 
+is called compound interest. For example, if you invest <m>\$100</m> at <m>10\%</m>  
+interest compounded annually, after one year you will earn <m>\$10</m> in interest, 
+giving you a new balance of <m>\$110</m>. The next year you will earn another <m>10\%</m> 
+or <m>\$11</m>, giving you a new balance of <m>\$121</m>. The third year you will earn another 
+<m>10\%</m> or <m>\$12.10</m>, giving you a new balance of <m>\$133.10</m>. 
+This pattern will continue each year until you close the account.
+   </p> 
+
+<p>
+There are several ways interest can be paid. The first way, as described above, is compounded annually. In this model the interest is paid once per year. But interest can be compounded more often. Some common compounds include compounded semi-annually (twice per year), quarterly (four times per year, such as quarterly taxes), monthly (<m>12</m> times per year, such as a savings account), weekly (<m>52</m> times per year), or even daily (<m>365</m> times per year, such as some student loans). When interest is compounded in any of these ways, we can calculate the balance after any amount of time using the following formula:
+</p>
+ 
+<me>\textbf{Compount Interest Formula: } \mathbf{ A=P\left(1+\frac{r}{n}\right)^{nt},} </me>
+<me> A= \text{Final Amount} </me>
+<me> P= \text{Principle (starting balance)} </me>
+<me> r= \text{Interest rate (as a decimal)} </me>
+<me> n=\text{number of compounds per year} </me>
+<me> t= \text{time (in years)} </me>
+
+  <example>
+<p> If you take a car loan for <m>\$25000</m> with an interest rate of <m>6.5\%</m> compounded quarterly, no payments required for the first five years, what will your balance be at the end of those five years? </p>
+    <md> 
+      <mrow> P=25000, r=0.065, n=4, t=5 \amp \quad  \text{ Identify each variable }   </mrow> 
+      <mrow> A=25000\left(1+\frac{0.065}{4}\right)^{4 \cdot 5} \amp\quad  \text{ Plug each value into formula, evaluate parentheses }  </mrow> 
+      <mrow> A=25000(1.01625)^{4 \cdot 5} \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow> A= 25000(1.01625)^{20} \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow> A=25000(1.38041977) \amp\quad  \text{ Multiply }  </mrow> 
+      <mrow> A=34510.49 \amp\quad  \text{   }  </mrow> 
+      <mrow> \$34,510.49 \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example> 
+ 
+<p>
+We can also find a missing part of the equation by using our techniques for solving equations.
+</p>
+
+  <example>
+<p> What principle will amount to <m>\$3000</m> if invested at <m>6.5\%</m> compounded weekly for <m>4</m> years </p>
+    <md> 
+      <mrow> A=3000, r=0.065, n=52, t=4 \amp \quad  \text{ Identify each variable }   </mrow> 
+      <mrow> 3000=P\left(1+\frac{0.065}{52}\right)^{52 \cdot 4} \amp\quad  \text{ Evaluate parenthesis }  </mrow> 
+      <mrow> 3000=P(1.00125)^{52 \cdot 4} \amp\quad  \text{ Multiply exponent }  </mrow> 
+      <mrow> 3000=P(1.00125)^{208}  \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow> 3000=P(1.296719528) \amp\quad  \text{ Divide each side by } 1.296719528  </mrow> 
+      <mrow> \overline{\ 1.296719528\ } \qquad \ \overline{\ 1.296719528\ } \amp\quad  \text{ }  </mrow> 
+      <mrow> 2313.53=P \amp\quad  \text{ Solution for } P  </mrow>
+      <mrow> \$2,313.53 \amp\quad  \text{ Our Solution  }  </mrow>
+
+    </md>
+  </example> 
+
+<p>
+It is interesting to compare equal investments that are made at several different types of 
+compounds. The next few examples do just that.
+</p>
+
+<example>
+<p>
+If <m>\$4,000</m> is invested in an account paying <m>3\%</m> interest compounded monthly, what is the balance after <m>7</m> years?
+</p> 
+    <md> 
+      <mrow> P=4000, r=0.03, n=12, t=7 \amp \quad  \text{ Identify each variable }   </mrow> 
+      <mrow> A=4000\left(1+\frac{0.03}{12}\right)^{12 \cdot 7} \amp\quad  \text{ Plug each value into formula,  evaluate parenthesis }  </mrow> 
+      <mrow> A=4000(1.0025)^{12 \cdot 7} \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow> A=4000(1.0025)^{84}  \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow> A=4000(1.2333548) \amp\quad  \text{ Multiply } </mrow> 
+      <mrow> A=4933.42 \amp\quad  \text{ }   </mrow>
+      <mrow> \$4,933.42 \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example> 
+
+<p>
+To investigate what happens to the balance if the compounds happen more often, 
+we will consider the same problem, this time with interest compounded daily.
+</p>
+
+<example>
+<p>
+If <m>\$4,000</m> is invested in an account paying <m>3\%</m> interest compounded daily, 
+what is the balance after <m>7</m> years?
+</p>
+    <md> 
+      <mrow> P=4000, r=0.03, n=365, t=7 \amp \quad  \text{ Identify each variable }   </mrow> 
+      <mrow> A=4000\left(1+\frac{0.03}{365}\right)^{365 \cdot 7} \amp\quad  \text{ Plug each value into formula,  evaluate parenthesis }  </mrow> 
+      <mrow> A=4000(1.00008219)^{365 \cdot 7} \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow> A=4000(1.00008219)^{2555}  \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow> A=4000(1.23366741) \amp\quad  \text{ Multiply } </mrow> 
+      <mrow> A=4934.67 \amp\quad  \text{ }   </mrow>
+      <mrow> \$4,934.67 \amp\quad  \text{ Our Solution  }  </mrow>
+
+    </md>
+  </example> 
+
+<p>
+While this difference is not very large, it is a bit higher. 
+The table below shows the result for the same problem with different compounds.
+</p>
+
+
+<tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+  <row>     <cell> Compound </cell>    <cell> Balance </cell>  </row>
+  <row>     <cell> Annually </cell>    <cell> <m>\$4,919.50</m> </cell>   </row>
+  <row>     <cell> Semi-Annually </cell>    <cell> <m>\$4,927.02</m> </cell>    </row>
+  <row>     <cell> Quarterly </cell>    <cell> <m>\$4,930.85</m> </cell>    </row>
+  <row>     <cell> Monthly </cell>    <cell> <m>\$4,933.42</m> </cell>    </row>
+  <row>     <cell> Weekly </cell>    <cell> <m>\$4,934.41</m> </cell>    </row>
+  <row>     <cell> Daily </cell>    <cell> <m>\$4,934.67</m> </cell>    </row>
+      </tabular>
+
+<p>
+As the table illustrates, the more often interest is compounded, the higher the final balance 
+will be. The reason is because we are calculating compound interest or interest on interest. 
+So once interest is paid into the account it will start earning interest for the next compound 
+and thus giving a higher final balance. The next question one might consider is what is the 
+maximum number of compounds possible? We actually have a way to calculate interest compounded 
+an infinite number of times a year. This is when the interest is compounded continuously. 
+When we see the word “continuously” we will know that we cannot use the first formula. 
+Instead we will use the following formula:
+</p>
+
+<me>\textbf{Interest Compounded Continuously: } \mathbf{ A=Pe^{rt}} </me>
+<me> A= \text{Final Amount} </me>
+<me> P= \text{Principle (starting balance)} </me>
+<me> e= \text{a constant approximately $2.71828183…$} </me>
+<me> r=\text{Interest rate (written as a decimal)} </me>
+<me> t= \text{time (years)} </me>
+
+<p>
+The variable <m>e</m> is a constant similar in idea to pi (<m>\pi</m>) in that it goes on forever without repeat or pattern, but just as pi (<m>\pi</m>) naturally occurs in several geometry applications, so does <m>e</m> appear in many exponential applications, continuous interest being one of them. If you have a scientific calculator you probably have an <m>e</m> button (often using the 2nd or shift key, then hit <m>\ln</m>) that will be useful in calculating interest compounded continuously.
+</p>
+
+<p> <alert> World View Note: </alert> <m>e</m> first appeared in <m>1618</m> in 
+Scottish mathematician’s Napier’s work on logarithms. However, it was Euler in Switzerland 
+who used the letter <m>e</m> first to represent this value. Some say he used e because his 
+name begins with E. Others, say it is because exponent starts with <m>e</m>. 
+Others say it is because Euler’s work already had the letter <m>a</m> in use, so <m>e</m> 
+would be the next value. Whatever the reason, ever since he used it in <m>1731</m>, <m>e</m> 
+became the natural base.  </p>
+
+<example>
+<p>
+If <m>\$4,000</m> is invested in an account paying <m>3\%</m> interest compounded continuously, 
+what is the balance after <m>7</m> years?
+</p>
+    <md> 
+      <mrow> P=4000, r=0.03, t=7 \amp \quad  \text{ Identify each of the variables }   </mrow>
+      <mrow> A=4000e^{0.03 \cdot 7} \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow> A=4000e^{0.21}  \amp\quad  \text{ Evaluate } e^{0.21}  </mrow> 
+      <mrow> A=4000(1.23367806…) \amp\quad  \text{ Multiply } </mrow> 
+      <mrow> A=4934.71 \amp\quad  \text{ }   </mrow>
+      <mrow> \$4,934.71 \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+<p>
+Albert Einstein once said that the most powerful force in the universe is compound interest. 
+Consider the following example, illustrating how powerful compound interest can be.
+</p>
+
+<example>
+<p>
+If you invest <m>\$6.16</m> in an account paying <m>12\%</m> interest compounded continuously for <m>100</m> years, and that is all you have to leave your children as an inheritance, what will the final balance be that they will receive?
+</p>
+    <md> 
+      <mrow> P=6.16, r=0.12, t=100 \amp \quad  \text{ Identify each of the variables }   </mrow>
+      <mrow> A=6.16e^{0.12 \cdot 100} \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow> A=6.16e^{12}  \amp\quad  \text{ Evaluate }  </mrow> 
+      <mrow> A=6.16(162,544.79) \amp\quad  \text{ Multiply } </mrow> 
+      <mrow> A=1,002,569.52 \amp\quad  \text{ }   </mrow>
+      <mrow> \$1,002,569.52 \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+<p>
+In <m>100</m> years that one-time investment of <m>\$6.16</m> 
+grew to over one million dollars! That’s the power of compound interest!
+</p>
+
+  <exercises xml:id="exercises-functions-compound-interest">
+    <title>Exercises – Compound Interest </title>
+
+    <exercisegroup >
+      <introduction>    <p>    Solve.     </p>      </introduction>
+      <exercise><statement> <p> Find each of the following: 
+      <ol>
+      <li> <p><m>\$500</m> invested at  <m>4\%</m> compounded annually for <m>10</m> years. </p></li> 
+      <li> <p><m>\$600</m> invested at <m>6\%</m> compounded annually for <m>6</m> years. </p></li>
+    <li><p> <m>\$750</m> at <m>3\%</m>  compounded annually for <m>8</m> years. </p></li>
+    <li><p>  <m>\$1500</m> at <m>4\%</m> compounded   semiannually for <m>7</m> years.</p></li>
+    <li><p> <m>\$900</m> at <m>6\%</m> compounded semiannually  for <m>5</m> years. </p></li>
+    <li><p> <m>\$950</m> at <m>4\%</m> compounded semiannually for <m>12</m>  years. </p></li>
+    <li><p> <m>\$2000</m> at <m>5\%</m> compounded quarterly for <m>6</m> years. </p></li>
+    <li><p> <m>\$2250</m> at <m>4\%</m> compounded quarterly for <m>9</m> years. </p></li>
+    <li><p>  <m>\$3500</m> at <m>6\%</m> compounded quarterly for <m>12</m> years. </p></li>
+    <li><p> All of the above compounded continuously. </p></li>
+    </ol>
+      </p> </statement> </exercise>
+      <exercise><statement> <p> What principal will amount to <m>\$2000</m> if invested at <m>4\%</m> interest compounded semiannually for <m>5</m> years?  </p> </statement> </exercise>
+        <exercise><statement> <p> What principal will amount to <m>\$3500</m> if invested at <m>4\%</m> interest compounded quarterly for <m>5</m> years?  </p> </statement> </exercise>
+      <exercise><statement> <p> What principal will amount to <m>\$3000</m> if invested at <m>3\%</m> interest compounded semiannually for <m>10</m> years?  </p> </statement> </exercise>
+      <exercise><statement> <p> What principal will amount to <m>\$2500</m> if invested at <m>5\%</m> interest compounded semiannually for <m>7.5</m> years?  </p> </statement> </exercise>
+      <exercise><statement> <p> What principal will amount to <m>\$1750</m> if invested at <m>3\%</m> interest compounded quarterly for <m>5</m> years?  </p> </statement> </exercise>
+      <exercise><statement> <p>  A thousand dollars is left in a bank savings account drawing <m>7\%</m> interest, compounded quarterly for <m>10</m> years. What is the balance at the end of that time? </p> </statement> </exercise>
+      <exercise><statement> <p> A thousand dollars is left in a credit union drawing <m>7\%</m> compounded monthly. What is the balance at the end of <m>10</m> years? </p> </statement> </exercise>
+      <exercise><statement> <p> <m>\$1750</m> is invested in an account earning <m>13.5\%</m> interest compounded monthly for a <m>2</m> year period. What is the balance at the end of <m>9</m> years?  </p> </statement> </exercise>
+      <exercise><statement> <p> You lend out <m>\$5500</m> at <m>10\%</m> compounded monthly. If the debt is repaid in <m>18</m> months, what is the total owed at the time of repayment? </p> </statement> </exercise>
+      <exercise><statement> <p> A <m>\$10, 000</m> Treasury Bill earned <m>16\%</m> compounded monthly. If the bill matured in <m>2</m> years, what was it worth at maturity?  </p> </statement> </exercise>
+      <exercise><statement> <p>  You borrow <m>\$25000</m> at <m>12.25\%</m> interest compounded monthly. If you are unable to make any payments the first year, how much do you owe, excluding penalties?</p> </statement> </exercise>
+      <exercise><statement> <p> A savings institution advertises <m>7\%</m> annual interest, compounded daily, How much more interest would you earn over the bank savings account or credit union in problems <m>7</m> and <m>8</m>? </p> </statement> </exercise>
+      <exercise><statement> <p> An <m>8.5\%</m> account earns continuous interest. If <m>\$2500</m> is deposited for <m>5</m> years, what is the total accumulated?  </p> </statement> </exercise>
+      <exercise><statement> <p> You lend <m>\$100</m> at <m>10\%</m> continuous interest. If you are repaid <m>2</m> months later, what is owed?  </p> </statement> </exercise>
+</exercisegroup>
+      </exercises>
+ 
+ 
+</section>
+

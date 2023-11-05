@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-gcf" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>   Greatest Common Factor  </title> 
+
+  <introduction> <alert> Objective:   Find the greatest common factor of a polynomial and factor it out of the expression. </alert> </introduction> 
+
+   <p> 
+     The opposite of multiplying polynomials together is factoring polynomials. There are many benifits of a polynomial being factored. We use factored polynomials to help us solve equations, learn behaviors of graphs, work with fractions and more. Because so many concepts in algebra depend on us being able to factor polynomials it is very important to have very strong factoring skills.
+   </p> 
+
+   <p>
+     In this lesson we will focus on factoring using the greatest common factor or GCF of a polynomial. When we multiplied polynomials, we multiplied monomials by polynomials by distributing, solving problems such as <m>4x^2(2x^2 - 3x + 8) = 8x^4 - 12x^3 + 32x</m>. In this lesson we will work the same problem backwards. We will start with <m>8x^2 - 12x^3 + 32x</m> and try and work backwards to the <m>4x^2(2x - 3x + 8)</m>.
+   </p>
+
+   <p>
+     To do this we have to be able to first identify what is the GCF of a polynomial. We will first introduce this by looking at finding the GCF of several numbers. To find a GCF of sevearal numbers we are looking for the largest number that can be divided by each of the numbers. This can often be done with quick mental math and it is shown in the following example.
+   </p>
+
+     <example> Find the GCF of <m>15</m>, <m>24</m>, and <m>27</m>.
+    <md> 
+      <mrow> \frac{15}{3}=5,\ \frac{24}{3}=6,\ \frac{27}{3}=9 \amp \quad  \text{   Each of the numbers can be divided by   }   3 </mrow> 
+      <mrow>  \text{GCF} = 3\amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    When there are variables in our problem we can first find the GCF of the numbers using mental math, then we take any variables that are in common with each term, using the lowest exponent. This is shown in the next example.
+  </p>
+
+  <example> Find the GCF of <m>24x^4y^2z</m>, <m>18x^2y^4</m>, and <m>12x^3yz^5</m>.
+    <md> 
+      <mrow> \frac{24}{6}=4,\ \frac{18}{6}=3,\ \frac{12}{6}=2 \amp \quad  \text{   Each of the numbers can be divided by   }   6 </mrow> 
+      <mrow> x^2y \amp \quad  \text{ $x$ and $y$ are in all $3$, using lowest exponets     }   </mrow> 
+      <mrow> \text{GCF}=6x^2y \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    To factor out a GCF from a polynomial we first need to identify the GCF of all the terms, this is the part that goes in front of the parenthesis, then we divide each term by the GCF, the answer is what is left inside the parenthesis. This is shown in the following examples.
+  </p>
+  
+  <example>
+    <md> 
+      <mrow>4x^2 -20x+16 \amp \quad  \text{ GCF is $4$, divide each term by } 4    </mrow> 
+      <mrow> \frac{4x^2}{4}=x^2,\ \frac{-20x}{4}=-5x,\ \frac{16}{4}=4 \amp \quad  \text{   This is what is left inside the parenthesis   }  </mrow> 
+      <mrow> 4(x^2 - 5x + 4) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+With factoring we can always check our solutions by multiplying (distributing in this case) out the answer and the solution should be the original equation.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>25x^4 - 15x^3 + 20x^2 \amp \quad  \text{ GCF is $5x^2$, divide each term by this}     </mrow> 
+      <mrow> \frac{25x^4}{5x^2}=5x^2,\ \frac{-15x^3}{5x^2}=-3x,\ \frac{20x^2}{5x^2}=4 \amp \quad  \text{   This is what is left inside the parenthesis   }  </mrow> 
+      <mrow> 5x^2(5x^2 - 3x + 4) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow>3x^3y^2z + 5x^4y^3z^5 - 4xy^4 \amp \quad  \text{ GCF is $xy^2$, divide each term by this}     </mrow> 
+      <mrow> \frac{3x^3y^2z}{xy^2}=5x^2,\ \frac{5x^4y^3z^5}{xy^2}=5x^3yz^5,\ \frac{-4xy^4}{xy^2}=-4y^2 \amp \quad  \text{   This is what is left inside the parenthesis   }  </mrow> 
+      <mrow> xy^2(3x^2z + 5x^3yz^5 - 4y^2) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p> <alert> World View Note:</alert> The first recorded algorithm for finding the greatest common factor comes from Greek mathematician Euclid around the year <m>300</m> BC! </p> 
+
+  <example>
+    <md> 
+      <mrow>21x^3 + 14x^2 + 7x \amp \quad  \text{ GCF is $7x$, divide each term by this}     </mrow> 
+      <mrow> \frac{21x^3}{7x}=3x^2,\ \frac{14x^2}{7x}=2x,\ \frac{7x}{7x}=1 \amp \quad  \text{   This is what is left inside the parenthesis   }  </mrow> 
+      <mrow> 7x(3x^2 + 2x + 1) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    It is important to note in the previous example, that when the GCF was <m>7x</m> and <m>7x</m> was one of the terms, dividing gave an answer of <m>1</m>. Students often try to factor out the <m>7x</m> and get zero which is incorrect, factoring will never make terms dissapear. Anything divided by itself is <m>1</m>, be sure to not forget to put the 1 into the solution.
+  </p>
+
+  <p>
+    Often the second line is not shown in the work of factoring the GCF. We can simply identify the GCF and put it in front of the parenthesis as shown in the following two examples.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>12x^5y^2 - 6x^4y^4 + 8x^3y^5 \amp \quad  \text{ GCF is $2x^3y^2$, put this in front of parenthesis and divide }     </mrow> 
+      <mrow> 2x^3y^2(6x^2 - 3xy^2 + 4y^3) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>18a^4 b^3 - 27a^3b^3 + 9a^2b^3 \amp \quad  \text{ GCF is $9a^2b^3$, put this in front of parenthesis and divide }     </mrow> 
+      <mrow>9a^2b^3(2a^2 - 3a + 1) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Again, in the previous problem, when dividing <m>9a^2b^3</m> by itself, the answer is <m>1</m>, not zero. Be very careful that each term is accounted for in your final solution.
+  </p>
+  
+  <exercises xml:id="exercises-factoring-gcf">
+    <title>Exercises - Greatest Common Factor</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Factor the common factor out of each expression.	</p>      </introduction>
+      <exercise><statement> <p> <m>  9+8b^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x-5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>45x^2 - 25 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 1+2n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>56-35p </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>50x-80y </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7ab - 35a^2b </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 27x^2y^5 - 72x^3y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -3a^2b+6a^3b^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>8x^3y^2+4x^3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -5x^2 -5x^3 -15x^4</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-32n^9+32n^6+40n^5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>20x^4 - 30x + 30 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>21p^6+30p^2+27 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>28m^4 + 40m^3 + 8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-10x^4+20x^2+12x </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>30b^9 + 5ab - 15a^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 27y^7 + 12y^2x + 9y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-48a^2b^2-56a^3b-56a^5b </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>30m^6 + 15mn^2 - 25 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>20x^8y^2z^2 + 15x^5y^2z + 35x^3y^3z </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3p + 12q - 15q^2r^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>50x^2y + 10y^2 + 70xz^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 30y^4z^3x^5 + 50y^4z^5 - 10y^4z^3x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>30qpr-5qp+5q </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 28b + 14b^2 + 35b^3 + 7b^5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-18n^5 +3n^3 -21n+3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>30a^8+6a^5+27a^3+21a^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-40x^{11}-20x^{12}+50x^{13}-50x^{14} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -24x^6 -4x^4 +12x^3 +4x^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-32mn^8+4m^6n+12mn^4+16mn </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-10y^7+6y^{10}-4y^{10}x-8y^8x </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+
+
+
+  
+</section>

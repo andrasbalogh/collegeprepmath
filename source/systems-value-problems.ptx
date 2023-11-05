@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="systems-value-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+  <title>Value Problems</title>
+ 
+  <introduction> <alert> Objective: Solve value problems by setting up a system of equations. </alert> </introduction>
+
+   <p>
+ One application of system of equations are known as value problems. 
+ Value problems are ones where each variable has a value attached to it. 
+ For example, if our variable is the number of nickles in a person’s pocket, 
+ those nickles would have a value of five cents each. We will use a table to help us 
+ set up and solve value problems. The basic structure of the table is shown below.
+   </p>
+ <p>
+<tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+  <row>     <cell>  </cell>    <cell> Number </cell>    <cell>Value</cell>    <cell>Total</cell>      </row>
+  <row>     <cell> Item <m>1</m> </cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell> Item <m>2</m> </cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell>Total</cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+      </tabular>
+</p>
+ 
+<p>
+The first column in the table is used for the number of things we have. Quite often, this will be our variables. The second column is used for the that value each item has. The third column is used for the total value which we calculate by multiplying the number by the value. For example, if we have <m>7</m> dimes, each with a value of <m>10</m> cents, the total value is <m>7 · 10 = 70</m> cents. The last row of the table is for totals. We only will use the third row (also marked total) for the totals that are given to use. This means sometimes this row may have some blanks in it. Once the table is filled in we can easily make equations by adding each column, setting it equal to the total at the bottom of the column. This is shown in the following example.
+</p>
+
+  <example>
+<p>
+In a child’s bank are <m>11</m> coins that have a value of <m>\$ 1.85</m>. The coins are either quarters or dimes. How many coins each does the child have?
+</p>
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Quarter</cell> <cell><m>q</m></cell> <cell><m>25</m></cell> <cell></cell> </row>
+                <row>     <cell>Dime</cell>  <cell><m>d</m></cell> <cell><m>10</m></cell> <cell></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+      Using value table, use <m>q</m> for quarters, <m>d</m> for dimes <m>\\</m>
+     Each quarter’s value is <m>25</m> cents, dime’s is <m>10</m> cents
+   </p>
+                </sidebyside>
+
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Quarter</cell>  <cell><m>q</m></cell> <cell><m>25</m></cell> <cell><m>25q</m></cell> </row>
+                <row>     <cell>Dime</cell>  <cell><m>d</m></cell> <cell><m>10</m></cell> <cell><m>10d</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>Multiply number by value to get totals</p>
+   </p>
+                </sidebyside>
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Quarter</cell>  <cell><m>q</m></cell> <cell><m>25</m></cell> <cell><m>25q</m></cell> </row>
+                <row>     <cell>Dime</cell>  <cell><m>d</m></cell> <cell><m>10</m></cell> <cell><m>10d</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell><m>11</m></cell> <cell></cell> <cell><m>185</m></cell> </row>
+      </tabular>
+   <p>
+     We have <m>11</m> coins total. This is the number total. <m>\\</m>
+    We have <m>1.85</m> for the final total.<m>\\</m>
+    Write final total in cents <m>(185)</m>.<m>\\</m>
+    Because <m>25</m> and <m>10</m> are cents
+   </p>
+                </sidebyside>
+<md>
+<mrow> q+d=11 \amp \quad  \text{First and last columns are our equations by adding} </mrow>
+<mrow> 25q+10d=185 \amp \quad  \text{Solve by either addition or substitution} </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow> -10(q+d)=(11)(-10) \amp \quad   \text{Using addition, multiply first equation by} -10 </mrow>
+<mrow>-10q-10d=-110 \amp \quad \text{} </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow>-10q-10d=-110  \amp \quad \text{Add together equations} </mrow>
+<mrow>\underline{25q+10d=185} \amp \quad \text{} </mrow>
+<mrow>15q \quad\quad =75 \amp \quad \text{Divide both sides by } 15 </mrow>
+<mrow>\overline{15} \qquad\quad \ \overline{15} \amp \quad \text{} </mrow>
+<mrow> q=5 \amp \quad \text{We have our $q$, number of quarters is } 5 </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow> (5)+d=11 \amp \quad \text{Plug into one of original equations} </mrow>
+<mrow> \underline{-5 \qquad \ -5} \amp \quad \text{Subtract $5$ from both sides} </mrow>
+<mrow>d=6 \amp \quad \text{We have our $d$, number of dimes is } 6 </mrow>
+<mrow> 5 \text{ quarters and } 6 \text{ dimes } \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p> <alert> World View Note: </alert> American coins are the only coins that do not state the value of the coin. On the back of the dime it says “one dime” (not <m>10</m> cents). On the back of the quarter it says “one quarter” (not <m>25</m> cents). On the penny it says “one cent” (not <m>1</m> cent). The rest of the world (Euros, Yen, Pesos, etc) all write the value as a number so people who don’t speak the language can easily use the coins. </p>
+
+<p>
+Ticket sales also have a value. Often different types of tickets sell for different prices (values). These problems can be solve in much the same way.
+</p>
+
+
+  <example>
+<p>
+There were <m>41</m> tickets sold for an event. 
+Tickets for children cost <m>\$ 1.50</m> and tickets for adults cost <m>\$2.00</m>. 
+Total receipts for the event were <m>\$73.50</m>. How many of each type of ticket were sold?
+</p>
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Child</cell>  <cell><m>c</m></cell> <cell><m>1.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Adult</cell>  <cell><m>a</m></cell> <cell><m>2</m></cell> <cell></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+    Using our value table, <m>c</m> for child, <m>a</m> for adult<m>\\</m>
+     Child tickets have value <m>1.50</m>, adult value is <m>2.00</m><m>\\</m>
+     (we can drop the zeros after the decimal point)
+   </p>
+                </sidebyside>
+
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Child</cell>  <cell><m>c</m></cell> <cell><m>1.5</m></cell> <cell><m>1.5c</m></cell> </row>
+                <row>     <cell>Adult</cell>  <cell><m>a</m></cell> <cell><m>2</m></cell> <cell><m>2a</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>Multiply number by value to get totals</p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Child</cell>  <cell><m>c</m></cell> <cell><m>1.5</m></cell> <cell><m>1.5c</m></cell> </row>
+                <row>     <cell>Adult</cell>  <cell><m>a</m></cell> <cell><m>2</m></cell> <cell><m>2a</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell><m>41</m></cell> <cell></cell> <cell><m>73.5</m></cell> </row>
+      </tabular>
+   <p>
+    We have <m>41</m> tickets sold. This is our number total<m>\\</m>
+    The final total was <m>73.50</m><m>\\</m>
+    Write in dollars as <m>1.5</m> and <m>2</m> are also dollars
+   </p>
+                </sidebyside>
+<md>
+<mrow> c+a=41 \amp \quad  \text{First and last columns are our equations by adding} </mrow>
+<mrow> 1.5c+2a=73.5 \amp \quad  \text{Solve by either addition or substitution} </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow> c+a=41 \amp \quad   \text{We will solve by substitution} </mrow>
+<mrow> \underline{-c \qquad -c} \amp \quad \text{Solve for $a$ by subtracting } c </mrow>
+<mrow>a=41-c \amp \quad \text{} </mrow>
+<mrow> 1.5c+2(41-c)=73.5  \amp \quad \text{Substitute into untouched equation} </mrow>
+<mrow>1.5c+82-2c=73.5 \amp \quad \text{Distribute } </mrow>
+<mrow>-0.5+82=73.5 \amp \quad \text{Combine like terms } </mrow>
+<mrow> \underline{-82 \quad -82 }\amp \quad \text{Subtract $82$ from both sides } </mrow>
+<mrow> -0.5c=-8.5 \amp \quad \text{Divide both sides by } -0.5 </mrow>
+<mrow> \overline{-0.5} \quad \overline{-0.5} \amp \quad \text{} </mrow>
+<mrow> c=17 \amp \quad \text{We have $c$, number of child tickets is } 17 </mrow>
+<mrow> a=41-(17) \amp \quad \text{Plug into $a=$ equation to find } a  </mrow>
+<mrow>a=24 \amp \quad \text{We have our $a$, number of adult tickets is } 24 </mrow>
+<mrow> 17 \text{ child tickets and } 24 \text{ adult tickets } \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p>
+Some problems will not give us the total number of items we have. Instead they will give a relationship between the items. Here we will have statements such as “There are twice as many dimes as nickles”. While it is clear that we need to multiply one variable by <m>2</m>, it may not be clear which variable gets multiplied by <m>2</m>. Generally the equations are backwards from the English sentence. If there are twice as many dimes, than we multiply the other variable (nickels) by two. So the equation would be <m>d=2n</m>. This type of problem is in the next example.
+</p>
+ 
+  <example>
+<p>
+A man has a collection of stamps made up of <m>5</m> cent stamps and <m>8</m> cent stamps. There are three times as many <m>8</m> cent stamps as <m>5</m> cent stamps. The total value of all the stamps is <m>\$3.48</m>. How many of each stamp does he have?
+</p>
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Five</cell>  <cell><m>f</m></cell> <cell><m>5</m></cell> <cell><m>5f</m></cell> </row>
+                <row>     <cell>Eight</cell>  <cell><m>3f</m></cell> <cell><m>8</m></cell> <cell><m>24f</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell><m>348</m></cell> </row>
+      </tabular>
+   <p>
+     Using our value table, <m>f</m> for five cent stamp, and  <m>e</m> for eight.<m>\\</m>
+     Also list value of each stamp under value column.
+   </p>
+                </sidebyside>
+
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Five</cell>  <cell><m>f</m></cell> <cell><m>5</m></cell> <cell><m>5f</m></cell> </row>
+                <row>     <cell>Eight</cell>  <cell><m>e</m></cell> <cell><m>8</m></cell> <cell><m>8e</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell><m>348</m></cell> </row>
+      </tabular>
+   <p>
+     <p>Multiply number by value to get total</p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="40% 57%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Five</cell>  <cell><m>f</m></cell> <cell><m>5</m></cell> <cell><m>5f</m></cell> </row>
+                <row>     <cell>Eight</cell>  <cell><m>e</m></cell> <cell><m>8</m></cell> <cell><m>8e</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell><m>348</m></cell> </row>
+      </tabular>
+   <p>
+     The final total was <m>338</m> (written in cents)<m>\\</m>
+     We do not know the total number, this is left blank.
+   </p>
+                </sidebyside>
+<md>
+<mrow>e=3f \amp \quad  \textbf{$3$ times as many $8$ cent stamples as $5$ cent stamps} </mrow>
+<mrow> 5f+8e=348 \amp \quad  \text{Total column gives second equation} </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow> 5f+8(3f)=348 \amp \quad   \text{Substitution, substitute first equation in second} </mrow>
+<mrow> 5f+24f=348 \amp \quad \text{Multiply first} </mrow>
+<mrow>29f=348 \amp \quad \text{Combine like terms} </mrow>
+<mrow> \overline{29} \qquad \overline{29}  \amp \quad \text{Divide both sides by} 39 </mrow>
+<mrow>f=12 \amp \quad \text{We have $f$. There are $12$ five cent stamps} </mrow>
+<mrow> e=3(12) \amp \quad \text{Plug into first equation} </mrow>
+<mrow> e=36  \amp \quad \text{We have $e$, There are $36$ eight cent stamps} </mrow>
+<mrow> 12 \text{ five cent, } 36 \text{ eight cent stamps } \amp \quad \text{Our solution} </mrow>
+</md>
+</example>
+
+  <p>
+The same process for solving value problems can be applied to solving interest problems. Our table titles will be adjusted slightly as we do so.
+  </p>
+
+<tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+  <row>     <cell>  </cell>    <cell> Invest </cell>    <cell>Rate</cell>    <cell>Interest</cell>      </row>
+  <row>     <cell> Account <m>1</m></cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell> Account <m>2</m> </cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell>Total</cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+
+      </tabular>
+
+<p>
+Our first column is for the amount invested in each account. The second column is the interest rate earned (written as a decimal - move decimal point twice left), and the last column is for the amount of interest earned. Just as before, we multiply the investment amount by the rate to find the final column, the interest earned. This is shown in the following example.
+</p>
+
+  <example>
+<p>
+A woman invests <m>\$4000</m> in two accounts, one at <m>6\%</m> interest, the other at <m>9\%</m> interest for one year. At the end of the year she had earned <m>\$270</m> in interest. How much did she have invested in each account?
+</p>
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Invest</cell> <cell>Rate</cell> <cell>Interest</cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>x</m></cell> <cell><m>0.06</m></cell> <cell></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>y</m></cell> <cell><m>0.09</m></cell> <cell></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     Use our investment table, <m>x</m> and <m>y</m> for accounts<m>\\</m>
+     Fill in interest rates as decimals
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Invest</cell> <cell>Rate</cell> <cell>Interest</cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>x</m></cell> <cell><m>0.06</m></cell> <cell><m>0.06x</m></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>y</m></cell> <cell><m>0.09</m></cell> <cell><m>0.09y</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     Multiply across to find interest earned.
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Number</cell> <cell>Value</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>x</m></cell> <cell><m>0.06</m></cell> <cell><m>0.06x</m></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>y</m></cell> <cell><m>0.09</m></cell> <cell><m>0.09y</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell><m>4000</m></cell> <cell></cell> <cell><m>270</m></cell> </row>
+      </tabular>
+   <p>
+ Total investment is <m>4000</m><m>\\</m>
+Total interest was <m>276</m>
+   </p>
+                </sidebyside>
+<md>
+<mrow> x+y=4000 \amp \quad  \text{First and last column give our two equations} </mrow>
+<mrow> 0.06+0.09y=270 \amp \quad  \text{Solve by either substitution or addition} </mrow>
+<mrow>  </mrow>
+<mrow> -0.06(x+y)=(4000)(-0.06) \amp \quad   \text{Use addition, multiply first equation by } -0.06 </mrow>
+<mrow> -0.06x-0.06y=-240 \amp \quad \text{}  </mrow>
+<mrow> -0.06x-0.06y=-240 \amp \quad \text{Add equations together} </mrow>
+<mrow> \underline{0.06x+0.09y=270}  \amp \quad \text{} </mrow>
+<mrow> 0.03y=30 \amp \quad \text{Divide both sides by } 0.03 </mrow>
+<mrow> \overline{0.03} \quad \overline{0.03} \amp \quad \text{} </mrow>
+<mrow> y=1000 \amp \quad \text{We have $y$, $\$1000$ invested at } 9\% </mrow>
+<mrow> x+1000=4000 \amp \quad \text{Plug into original equation } </mrow>
+<mrow> -1000-1000 \amp \quad \text{Subtract $1000$ from both sides} </mrow>
+<mrow> x=3000 \amp \quad \text{We have $x$, $\$3000$ invested at } 6\% </mrow>
+<mrow> \$1000 \text{ at } 9\% \text{ and } \$3000 \text{ at } 6\% \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p>
+The same process can be used to find an unknown interest rate.
+</p>
+
+
+  <example>
+<p>
+John invests <m>\$5000</m> in one account and <m>\$8000</m> in an account paying <m>4\%</m> 
+more in interest. He earned <m>\$1230</m> in interest after one year. 
+At what rates did he invest?
+</p>
+<sidebyside widths="47% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Invest</cell> <cell>Rate</cell> <cell>Interest</cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>5000</m></cell> <cell><m>x</m></cell> <cell></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>8000</m></cell> <cell><m>x+0.04</m></cell> <cell></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     Our investment table. Use <m>x</m> for first rate.
+     The second rate is <m>4\%</m> higher, or <m>x+0.04</m>.
+     Be sure to write this rate as a decimal!
+   </p>
+                </sidebyside>
+
+<sidebyside widths="53% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Invest</cell> <cell>Rate</cell> <cell>Interest</cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>5000</m></cell> <cell><m>x</m></cell> <cell><m>x</m></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>8000</m></cell> <cell><m>x+0.04</m></cell> <cell><m>8000x+320</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     Multiply to fill in interest column.
+     Be sure to distribute <m>8000(x+0.04)</m>
+   </p>
+</sidebyside>
+
+<sidebyside widths="53% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Invest</cell> <cell>Rate</cell> <cell>Interest</cell>       </row>
+                <row>     <cell>Account <m>1</m></cell>  <cell><m>5000</m></cell> <cell><m>x</m></cell> <cell><m>5000x</m></cell> </row>
+                <row>     <cell>Account <m>2</m></cell>  <cell><m>8000</m></cell> <cell><m>x+0.04</m></cell> <cell><m>8000x+320</m></cell> </row>
+                <row>     <cell>Total</cell>  <cell></cell> <cell></cell> <cell>1230</cell> </row>
+      </tabular>
+   <p>
+     Total interest was <m>1230</m>
+   </p>
+</sidebyside>
+
+<md>
+<mrow> 5000x+8000x+320=1230 \amp \quad  \text{Last column gives us our equation} </mrow>
+<mrow> 13000x+320=1230 \amp \quad  \text{Combine like terms } </mrow>
+<mrow> \underline{-320 \ -320} \amp \quad   \text{Subtract $320$ from both sides}</mrow>
+<mrow> 13000x=910 \amp \quad \text{Divide both sides by }  13000 </mrow>
+<mrow> \overline{13000} \ \ \overline{13000}   \amp \quad \text{} </mrow>
+<mrow> x=0.07  \amp \quad \text{We have our $x$, $7\%$ interest} </mrow>
+<mrow> (0.07)+0.04  \amp \quad \text{Second account is $4\%$ higher} </mrow>
+<mrow> 0.11 \amp \quad \text{The account with $\$8000$ is at } 11\% </mrow>
+<mrow> \$5000 \text{ at } 7\% \text{ and } \$8000 \text{ at } 11\% \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+
+  <exercises xml:id="exercises-value-problems">
+    <title>Exercises – Value Problems </title>
+    
+      <introduction>    <p>      Solve.     </p>      </introduction>
+      <exercise><statement> <p> A collection of dimes and quarters is worth <m>\$15.25</m>. 
+      There are <m>103</m> coins in all. How many of each is there?</p> </statement> </exercise>
+      <exercise><statement> <p>A collection of half dollars and nickels is worth <m>\$13.40</m>. There are <m>34</m> coins in all. How many of each are there? </p> </statement> </exercise>
+      <exercise><statement> <p> The attendance at a school concert was <m>578</m>. Admission was <m>\$2.00</m> for adults and <m>\$1.50</m> for children. The total receipts were <m>\$985.00</m>. How many adults and how many children attended?</p> </statement> </exercise>
+      <exercise><statement> <p>A purse contains <m>\$3.90</m> made up of dimes and quarters. If there are <m>21</m> coins in all, how many dimes and how many quarters were there? </p> </statement> </exercise>
+      <exercise><statement> <p> A boy has <m>\$2.25</m> in nickels and dimes. If there are twice as many dimes as nickels, how many of each kind has he?</p> </statement> </exercise>
+      <exercise><statement> <p> <m>\$3.75</m> is made up of quarters and half dollars. If the number of quarters exceeds the number of half dollars by <m>3</m>, how many coins of each denomination are there?</p> </statement> </exercise>
+      <exercise><statement> <p> A collection of <m>27</m> coins consisting of nickels and dimes amounts to <m>\$2.25</m>. How many coins of each kind are there?</p> </statement> </exercise>
+      <exercise><statement> <p><m>\$3.25</m> in dimes and nickels, were distributed among <m>45</m> boys. If each received one coin, how many received dimes and how many received nickels? </p> </statement> </exercise>
+      <exercise><statement> <p>There were <m>429</m> people at a play. Admission was <m>\$1</m> each for adults and <m>75</m> cents each for children. The receipts were <m>\$372.50</m>. How many children and how many adults attended? </p> </statement> </exercise>
+      <exercise><statement> <p>There were <m>200</m> tickets sold for a women’s basketball game. Tickets for students were <m>50</m> cents each and for adults <m>75</m> cents each. The total amount of money collected was <m>\$132.50</m>. How many of each type of ticket was sold? </p> </statement> </exercise>
+      <exercise><statement> <p> There were <m>203</m> tickets sold for a volleyball game. For activity-card holders, the price was <m>\$1.25</m> each and for noncard holders the price was <m>\$2</m> each. The total amount of money collected was <m>\$310</m>. How many of each type of ticket was sold?</p> </statement> </exercise>
+      <exercise><statement> <p> At a local ball game the hotdogs sold for <m>\$2.50</m> each and the hamburgers sold for <m>\$2.75</m> each. There were <m>131</m> total sandwiches sold for a total value of <m>\$342</m>. How many of each sandwich was sold? </p> </statement> </exercise>
+      <exercise><statement> <p> At a recent Vikings game <m>\$445</m> in admission tickets was taken in. The cost of a student ticket was <m>\$1.50</m> and the cost of a non-student ticket was <m>\$2.50</m>. A total of <m>232</m> tickets were sold. How many students and how many non- students attended the game?</p> </statement> </exercise>
+      <exercise><statement> <p>A bank contains <m>27</m> coins in dimes and quarters. The coins have a total value of <m>\$4.95</m>. Find the number of dimes and quarters in the bank. </p> </statement> </exercise>
+      <exercise><statement> <p> A coin purse contains <m>18</m> coins in nickels and dimes. The coins have a total value of <m>\$1.15</m>. Find the number of nickels and dimes in the coin purse.</p> </statement> </exercise>
+      <exercise><statement> <p>A business executive bought <m>40</m> stamps for <m>\$9.60</m>. The purchase included <m>25c</m> stamps and <m>20c</m> stamps. How many of each type of stamp were bought? </p> </statement> </exercise>
+      <exercise><statement> <p> A postal clerk sold some <m>15c</m> stamps and some <m>25c</m> stamps. Altogether, <m>15</m> stamps were sold for a total cost of <m>\$3.15</m>. How many of each type of stamps were sold?</p> </statement> </exercise>
+      <exercise><statement> <p> A drawer contains <m>15c</m> stamps and <m>18c</m> stamps. The number of <m>15c</m> stamps is four less than three times the number of <m>18c</m> stamps. The total value of all the stamps is <m>\$1.29</m>. How many <m>15c</m> stamps are in the drawer?</p> </statement> </exercise>
+      <exercise><statement> <p> The total value of dimes and quarters in a bank is <m>\$6.05</m>. There are six more quarters than dimes. Find the number of each type of coin in the bank.</p> </statement> </exercise>
+      <exercise><statement> <p>A child’s piggy bank contains <m>44</m> coins in quarters and dimes. The coins have a total value of <m>8.60</m>. Find the number of quarters in the bank. </p> </statement> </exercise>
+      <exercise><statement> <p>A coin bank contains nickels and dimes. The number of dimes is <m>10</m> less than twice the number of nickels. The total value of all the coins is <m>\$2.75</m>. Find the number of each type of coin in the bank. </p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>26</m> bills are in a cash box. Some of the bills are one dollar bills, and the rest are five dollar bills. The total amount of cash in the box is <m>\$50</m>. Find the number of each type of bill in the cash box. </p> </statement> </exercise>
+      <exercise><statement> <p>A bank teller cashed a check for <m>\$200</m> using twenty dollar bills and ten dollar bills. In all, twelve bills were handed to the customer. Find the number of twenty dollar bills and the number of ten dollar bills. </p> </statement> </exercise>
+      <exercise><statement> <p>A collection of stamps consists of <m>22c</m> stamps and <m>40c</m> stamps. The number of <m>22c</m> stamps is three more than four times the number of <m>40c</m> stamps. The total value of the stamps is <m>\$8.34</m>. Find the number of <m>22c</m> stamps in the collection. </p> </statement> </exercise>
+      <exercise><statement> <p> A total of <m>\$27000</m> is invested, part of it at <m>12\%</m> and the rest at <m>13\%</m>. The total interest after one year is <m>\$3385</m>. How much was invested at each rate?</p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$50000</m> is invested, part of it at <m>5\%</m> and the rest at <m>7.5\%</m>. The total interest after one year is <m>\$3250</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p> A total of <m>\$9000</m> is invested, part of it at <m>10\%</m> and the rest at <m>12\%</m>. The total interest after one year is <m>\$1030</m>. How much was invested at each rate?</p> </statement> </exercise>
+      <exercise><statement> <p> A total of <m>\$18000</m> is invested, part of it at <m>6\%</m> and the rest at<m>9\%</m>. The total interest after one year is <m>\$1248</m>. How much was invested at each rate?</p> </statement> </exercise>
+      <exercise><statement> <p>An inheritance of <m>\$10000</m> is invested in <m>2</m> ways, part at <m>9.5\%</m> and the remainder at <m>11\%</m>. The combined annual interest was <m>\$1038.50</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>Kerry earned a total of <m>\$900</m> last year on his investments. If <m>\$7000</m> was invested at a certain rate of return and <m>\$9000</m> was invested in a fund with a rate that was <m>2\%</m> higher, find the two rates of interest. </p> </statement> </exercise>
+      <exercise><statement> <p> Jason earned <m>\$256</m> interest last year on his investments. If <m>\$1600</m> was invested at a certain rate of return and <m>\$2400</m> was invested in a fund with a rate that was double the rate of the first fund, find the two rates of interest.</p> </statement> </exercise>
+      <exercise><statement> <p>Millicent earned <m>\$435</m> last year in interest. If <m>\$3000</m> was invested at a certain rate of return and <m>\$4500</m> was invested in a fund with a rate that was <m>2\%</m> lower, find the two rates of interest. </p> </statement> </exercise>
+      <exercise><statement> <p> A total of <m>\$8500</m> is invested, part of it at <m>6\%</m> and the rest at <m>3.5\%</m>. The total interest after one year is <m>\$385</m>. How much was invested at each rate?</p> </statement> </exercise>
+      <exercise><statement> <p> A total of <m>\$12000</m> was invested, part of it at <m>9\%</m> and the rest at <m>7.5\%</m>. The total interest after one year is <m>\$1005</m>. How much was invested at each rate?</p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$15000</m> is invested, part of it at <m>8\%</m> and the rest at <m>11\%</m>. The total interest after one year is <m>\$1455</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$17500</m> is invested, part of it at <m>7.25\%</m> and the rest at <m>6.5\%</m>. The total interest after one year is <m>\$1227.50</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$6000</m> is invested, part of it at <m>4.25\%</m> and the rest at <m>5.75\%</m>. The total interest after one year is <m>\$300</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$14000</m> is invested, part of it at <m>5.5\%</m> and the rest at <m>9\%</m>. The total interest after one year is <m>\$910</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>A total of <m>\$11000</m> is invested, part of it at <m>6.8\%</m> and the rest at <m>8.2\%</m>. The total interest after one year is <m>\$797</m>. How much was invested at each rate? </p> </statement> </exercise>
+      <exercise><statement> <p>An investment portfolio earned <m>\$2010</m> in interest last year. If <m>\$3000</m> was invested at a certain rate of return and <m>\$24000</m> was invested in a fund with a rate that was <m>4\%</m> lower, find the two rates of interest. </p> </statement> </exercise>
+      <exercise><statement> <p>Samantha earned <m>\$1480</m> in interest last year on her investments. If <m>\$5000</m> was invested at a certain rate of return and <m>\$11000</m> was invested in a fund with a rate that was two-thirds the rate of the first fund, find the two rates of interest. </p> </statement> </exercise>
+      <exercise><statement> <p>A man has <m>\$5.10</m> in nickels, dimes, and quarters. There are twice as many nickels as dimes and <m>3</m> more dimes than quarters. How many coins of each kind were there? </p> </statement> </exercise>
+      <exercise><statement> <p> <m>30</m> coins having a value of <m>\$3.30</m> consists of nickels, dimes and quarters. If there are twice as many quarters as dimes, how many coins of each kind were there?</p> </statement> </exercise>
+      <exercise><statement> <p> A bag contains nickels, dimes and quarters having a value of <m>\$3.75</m>. If there are <m>40</m> coins in all and <m>3</m> times as many dimes as quarters, how many coins of each kind were there? </p> </statement> </exercise>
+
+      </exercises>
+      
+</section>
+
+

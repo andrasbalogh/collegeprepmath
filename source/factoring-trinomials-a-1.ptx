@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-trinomials-A-1" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Trinomials where <m >a= 1</m>    </title> 
+
+  <introduction> <alert> Objective:  Factor trinomials where the coefficient of <m>x^2</m> is one. </alert> </introduction> 
+
+   <p> 
+     Factoring with three terms, or trinomials, is the most important type of factoring to be able to master. As factoring is multiplication backwards we will start with a multipication problem and look at how we can reverse the process.
+   </p>
+
+   <example>
+    <md> 
+      <mrow> (x + 6)(x - 4) \amp \quad  \text{  Distribute $(x + 6)$ through second parenthesis    }   </mrow> 
+      <mrow>x(x + 6) - 4(x + 6)  \amp\quad  \text{ Distribute each monomial through parenthesis    }  </mrow> 
+      <mrow> x^2 + 6x - 4x - 24 \amp\quad  \text{  Combine like terms   }  </mrow> 
+      <mrow>  x^2 + 2x - 24\amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+You may notice that if you reverse the last three steps the process looks like grouping. This is because it is grouping! The GCF of the left two terms is <m>x</m> and the GCF of the second two terms is <m>- 4</m>. The way we will factor trinomials is to make them into a polynomial with four terms and then factor by grouping. This is shown in the following example, the same problem worked backwards.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> x^2+2x-24 \amp \quad  \text{  Split middle term into  } + 6x - 4x   </mrow> 
+      <mrow>  x^2+6x-4x-24 \amp\quad  \text{  Grouping: GCF on left is x, on right is   } -4  </mrow> 
+      <mrow> x(x+6)-4(x+6) \amp\quad  (x+6) \text{  is the same, factor out this GCF   }  </mrow> 
+      <mrow>  (x+6)(x-4) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+The trick to make these problems work is how we split the middle term. Why did we pick <m>+6x-4x</m> and not <m>+5x-3x</m>? The reason is because <m>6x-4x</m> is the only combination that works! So how do we know what is the one combination that works? To find the correct way to split the middle term we will use what is called the ac method. In the next lesson we will discuss why it is called the ac method. The way the ac method works is we find a pair of numers that multiply to a cer- tain number and add to another number. Here we will try to multiply to get the last term and add to get the coefficient of the middle term. In the previous example that would mean we wanted to multiply to <m>- 24</m> and add to <m>+ 2</m>. The only numbers that can do this are <m>6</m> and <m>-4</m>:  <m>(6\times(-4)=-24</m> and <m>6+(-4)=2)</m>. This process is shown in the next few examples.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>  x^2 + 9x + 18\amp \quad  \text{  Want to multiply to $18$, add to $9$    }   </mrow> 
+      <mrow> x^2 +6x+3x+18 \amp\quad  \text{  $6$ and $3$, split the middle term   }  </mrow> 
+      <mrow> x(x + 6) + 3(x + 6) \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> (x + 6)(x + 3) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>  x^2 -4x+3 \amp \quad  \text{  Want to multiply to $3$, add to } - 4    </mrow> 
+      <mrow> x2-3x-x+3 \amp\quad  \text{ $-3$ and $-1$, split the middle term    }  </mrow> 
+      <mrow> x(x-3)-1(x-3) \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> (x-3)(x-1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> x^2 - 8x - 20 \amp \quad  \text{ Want to multiply to $- 20$, add to  } - 8   </mrow> 
+      <mrow> x^2-10x+2x-20 \amp\quad  \text{  $-10$ and $2$, split the middle term   }  </mrow> 
+      <mrow> x(x - 10) + 2(x - 10) \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> (x - 10)(x + 2) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Often when factoring we have two variables. These problems solve just like prob- lems with one variable, using the coefficients to decide how to split the middle term.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> a^2 -9ab+14b^2 \amp \quad  \text{ Want to multiply to $14$, add to } -9   </mrow> 
+      <mrow> a^2 - 7a b - 2a b + 14b^2 \amp\quad  \text{  $- 7$ and $- 2$, split the middle term   }  </mrow> 
+      <mrow> a(a - 7b) - 2b(a - 7b) \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow>  (a - 7b)(a - 2b) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+As the past few examples illustrate, it is very important to be aware of negatives as we find the pair of numbers we will use to split the middle term. Consier the following example, done incorrectly, ignoring negative signs.
+  </p>
+
+  <warning>
+    <md> 
+      <mrow> x^2+5x-6 \amp \quad  \text{  Want to multiply to $6$, add } 5    </mrow> 
+      <mrow> x^2+2x+3x-6 \amp\quad  \text{ $2$ and $3$, split the middle term    }  </mrow> 
+      <mrow> x(x + 2) + 3(x - 2) \amp\quad  \text{  Factor by grouping   }  </mrow> 
+      <mrow>  \text{???} \amp\quad  \text{ Binomials do not match! }  </mrow> 
+    </md>
+  </warning> 
+
+  <p>
+Because we did not use the negative sign with the six to find our pair of numbers, the binomials did not match and grouping was not able to work at the end. Now the problem will be done correctly.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  x^2+5x-6 \amp \quad  \text{ Want to multiply to $-6$, add to } 5     </mrow> 
+      <mrow> x^2+6x-x-6 \amp\quad  \text{ $6$ and $-1$, split the middle term    }  </mrow> 
+      <mrow> x(x+6)-1(x+6) \amp\quad  \text{  Factor by grouping   }  </mrow> 
+      <mrow>  (x+6)(x-1)\amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+You may have noticed a shortcut for factoring these problems. Once we identify
+the two numbers that are used to split the middle term, these are the two num-
+bers in our factors! In the previous example, the numbers used to split the middle
+term were <m>6</m> and <m>- 1</m>, our factors turned out to be <m>(x + 6)(x - 1)</m>. This pattern does not always work, so be careful getting in the habit of using it. We can use it however, when we have no number (technically we have a <m>1</m>) in front of <m>x</m> . In all <m>2</m>
+the problems we have factored in this lesson there is no number in front of <m>x</m>. If this is the case then we can use this shortcut. This is shown in the next few examples.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>  x^2 - 7x - 18\amp \quad  \text{ Want to multiply to $- 18$, add to  } - 7  </mrow> 
+      <mrow>  \amp\quad  \text{  $- 9$ and $2$, write the factors   }  </mrow> 
+      <mrow>(x - 9)(x + 2)  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> m^2 - m n - 30n^2 \amp \quad  \text{  Want to multiply to $- 30$, add to  } - 1   </mrow> 
+      <mrow>  \amp\quad  \text{  $5$ and $- 6$, write the factors, don't forget second variable   }  </mrow> 
+      <mrow> (m + 5n)(m - 6n) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    It is possible to have a problem that does not factor. If there is no combination of numbers that multiplies and adds to the correct numbers, then we say we cannot factor the polynomial, or we say the polynomial is prime. This is shown in the following example.
+  </p>
+  
+  <example>
+    <md>
+      <mrow> x^2+2x+6  \amp \quad  \text{  Want to multiply to $6$, add to } 2    </mrow> 
+      <mrow> 1\times 6 \text{ and } 2 \times 3 \amp\quad  \text{  Only possibilities to multiply to six, none add to } 2  </mrow> 
+      <mrow> \text{ Prime, can't factor} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    When factoring it is important not to forget about the GCF. If all the terms in a problem have a common factor we will want to first factor out the GCF before we factor using any other method.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 3x^2 -24x+45 \amp \quad  \text{ GCF of all terms is $3$, factor this out     }   </mrow> 
+      <mrow> 3(x^2-8x+15) \amp\quad  \text{ Want to multiply to $15$, addt o  } -8  </mrow> 
+      <mrow>  \amp\quad  \text{  $- 5$ and $- 3$, write the factors   }  </mrow> 
+      <mrow>  3(x-5)(x-3) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Again it is important to comment on the shortcut of jumping right to the factors,
+this only works if there is no coefficient on <m>x^2</m> . In the next lesson we will look at how this process changes slightly when we have a number in front of <m>x^2</m>. Be careful not to use this shortcut on all factoring problems!
+  </p>
+
+  <p> <alert> World View Note:</alert> The first person to use letters for unknown values was Francois Vieta in <m>1591</m> in France. He used vowels to represent variables we are solving for, just as codes used letters to represent an unknown message. </p> 
+
+  <exercises xml:id="exercises-factoring-trinomials-A-1">
+    <title>Exercises - Trinomials where <m>a = 1</m></title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Factor each completely. </p>      </introduction>
+      <exercise><statement> <p> <m> p^2+17p+72</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2+x-72</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2 - 9n + 8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2 + x - 30 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2 - 9x - 10</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+13x+40 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>b^2 +12b+32 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> b^2 -17b+70</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+3x-70 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+3x-18 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2-8n+15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>a^2-6a-27 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> p^2+15p+54</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>p^2+7p-30 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2 -15n+56 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> m^2-15mn+50n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> u^2-8uv+15v^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>m^2-3mn-40n^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> m^2+2mn-8n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+10xy+16y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2-11xy+18y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> u^2-9uv+14v^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+xy-12y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+14xy+45y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2+4xy-12y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4x^2 + 52x + 168 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5a^2 + 60a + 100</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^2 -45n+40 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6a^2+24a-192 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5v^2+20v-25 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6x^2+18xy+12y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5m^2+30mn-90n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6x^2+96xy+378y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6m^2-36mn-162n^2</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+  
+</section>

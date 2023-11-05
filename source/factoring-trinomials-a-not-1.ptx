@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-trinomials-A-not-1" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Trinomials where <m >a\neq 1</m>    </title> 
+
+  <introduction> <alert> Objective: Factor trinomials using the ac method when the coefficient of <m>x^2</m> is not one. </alert> </introduction> 
+
+  <p>
+    When factoring trinomials we used the ac method to split the middle term and then factor by grouping. The ac method gets it’s name from the general trinomial equation, <m>ax^2 + bx + c</m>, where <m>a</m>, <m>b</m>, and <m>c</m> are the numbers in front of <m>x^2</m>, <m>x</m> and the constant at the end respectively.
+   </p>
+
+   <p> <alert> World View Note:</alert> It was French philosopher Rene Descartes who first used letters from the beginning of the alphabet to represent values we know <m>(a, b, c)</m> and letters from the end to represent letters we don’t know and are solving for <m>(x, y, z)</m>. </p> 
+
+   <p>
+     The ac method is named ac because we multiply <m>a \times c</m> to find out what we want to multiply to. In the previous lesson we always multiplied to just <m>c</m> because there was no number in front of <m>x^2</m>. This meant the number was <m>1</m> and we were multiplying to <m>1c</m> or just <m>c</m>. Now we will have a number in front of <m>x^2</m> so we will be looking for numbers that multiply to <m>ac</m> and add to <m>b</m>. Other than this, the process will be the same.
+  </p> 
+
+    <example>
+    <md> 
+      <mrow> 3x^2 +11x+6 \amp \quad  \text{   Multiply to $ac$ or $(3)(6)=18$, add to  } 11   </mrow> 
+      <mrow>  3x^2 +9x+2x+6\amp\quad  \text{  The numbers are $9$ and $2$, split the middle term   }  </mrow> 
+      <mrow> 3x(x + 3) + 2(x + 3) \amp\quad  \text{  Factor by grouping   }  </mrow> 
+      <mrow>  (x + 3)(3x + 2) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+When <m>a = 1</m>, or no coefficient in front of <m>x^2</m>, we were able to use a shortcut, using the numbers that split the middle term in the factors. The previous example illustrates an important point, the shortcut does not work when <m>a\neq 1</m>. We must go through all the steps of grouping in order to factor the problem.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 8x^2 - 2x - 15 \amp \quad  \text{  Multiply to $ac$ or $(8)( - 15) = - 120$, add to  } - 2   </mrow> 
+      <mrow> 8x^2 - 12x + 10x - 15 \amp\quad  \text{  The numbers are $- 12$ and $10$, split the middle term   }  </mrow> 
+      <mrow> 4x(2x - 3) + 5(2x - 3) \amp\quad  \text{   Factor by grouping  }  </mrow> 
+      <mrow> (2x - 3)(4x + 5) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 10x^2 -27x+5 \amp \quad  \text{ Multiply to $ac$ or $(10)(5)=50$, add to  } -27   </mrow> 
+      <mrow> 10x^2-25x-2x+5 \amp\quad  \text{ The numbers are $-25$ and $-2$, split the middle term }  </mrow> 
+      <mrow> 5x(2x - 5) - 1(2x - 5) \amp\quad  \text{   Factor by grouping  }  </mrow> 
+      <mrow> (2x - 5)(5x - 1)  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p>
+The same process works with two variables in the problem.
+  </p>
+
+  
+  <example>
+    <md> 
+      <mrow>  4x^2 - xy - 5y^2\amp \quad  \text{  Multiply to $ac$ or $(4)( - 5) = - 20$, add to  } - 1    </mrow> 
+      <mrow>  4x^2 + 4xy - 5xy - 5y^2\amp\quad  \text{ The numbers are $4$ and $-5$, split the middle term    }  </mrow> 
+      <mrow> 4x(x + y) - 5y(x + y) \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> (x + y)(4x - 5y) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+As always, when factoring we will first look for a GCF before using any other method, including the ac method. Factoring out the GCF first also has the added bonus of making the numbers smaller so the ac method becomes easier.
+  </p>
+  
+
+  <example>
+    <md> 
+      <mrow>  18x^3 + 33x^2 - 30x\amp \quad  \text{GCF $= 3x$, factor this out first}   </mrow> 
+      <mrow> 3x(6x^2+11x-10) \amp\quad  \text{  Multiply to $ac$ or $(6)(-10)=-60$, add to $11$   }  </mrow> 
+      <mrow> 3x(6x^2+15x-4x-10) \amp\quad  \text{ The numbers are $15$ and $- 4$, split the middle term    }  </mrow> 
+      <mrow> 3x(3x(2x + 5) - 2(2x + 5)) \amp\quad  \text{  Factor by grouping  }  </mrow> 
+      <mrow>3x(2x + 5)(3x - 2)  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p>
+    As was the case with trinomials when <m>a = 1</m>, not all trinomials can be factored. If there is no combinations that multiply and add correctly then we can say the trinomial is prime and cannot be factored.
+  </p>
+
+  
+  <example>
+    <md> 
+      <mrow> 3x^2+2x-7 \amp \quad  \text{ Multiply to $ac$ or $(3)(-7)=-21$, add to  } 2   </mrow> 
+      <mrow> - 3(7) \text{ and } - 7(3) \amp\quad  \text{  Only two ways to multiply to $- 21$, it doesn't add to $2$   }  </mrow> 
+      <mrow>  \text{Prime, cannot be factored} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <exercises xml:id="exercises-factoring-trinomials-a-not-1">
+    <title>Exercises -Trinomials where <m>a\neq 1</m> </title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Factor each completely.	</p>      </introduction>
+      <exercise><statement> <p> <m> 7x^2 -48x+36</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7n^2 -44n+12</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7b^2 + 15b + 2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7v^2 -24v -16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5a^2-13a-28</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^2-4n-20 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^2 - 5x + 2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3r^2-4r-4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^2 +19x+35</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7x^2+29x-30</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  2b^2 - b - 3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5k^2-26k+24 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5k^2 + 13k + 6</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3r^2+16r+21</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x^2 -17x+20</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3u^2+13uv-10v^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3x^2+17xy+10y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7x^2-2xy-5y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5x^2+28xy-49y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5u^2+31uv-28v^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6x^2-39x-21 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>10a^2-54a-36 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 21k^2-87k-90</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 21n^2+45n-54</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>14x^2-60x+16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4r^2+r-3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6x^2+29x+20 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6p^2+11p-7</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4k^2 - 17k + 4</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4r^2 + 3r - 7 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4x^2+9xy+2y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4m^2+6mn+6n^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4m^2-9mn-9n^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4x^2-6xy+30y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  4x^2+13xy+3y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>18u^2-3uv-36v^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>12x^2+62xy+70y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>16x^2+60xy+36y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 24x^2-52xy+8y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 12x^2+50xy+28y^2</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+  
+</section>

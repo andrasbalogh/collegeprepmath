@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="systems-substitution" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+  
+  <title>  Substitution   </title> 
+  
+  <introduction> <alert> Objective:  Solve systems of equations using substitution. </alert> </introduction> 
+
+  <p>
+    When solving a system by graphing has several limitations. First, it requires the graph to be perfectly drawn, if the lines are not straight we may arrive at the wrong answer. Second, graphing is not a great method to use if the answer is really large, over <m>100</m> for example, or if the answer is a decimal the that graph will not help us find, <m>3.2134</m> for example. For these reasons we will rarely use graphing to solve our systems. Instead, an algebraic approach will be used.
+  </p>
+
+  <p>
+    The first algebraic approach is called substitution. We will build the concepts of substitution through several example, then end with a five-step process to solve problems using this method.
+  </p>
+
+
+  <example>
+    <md> 
+      <mrow>  \begin{matrix}  x=5 \\  y=2x-3 \end{matrix}  \amp \quad  \text{  We already know $x = 5$, substitute this into the other equation    }   </mrow>
+      <mrow> </mrow>
+      <mrow> y=2(5)-3 \amp\quad  \text{  Evaluate, multiply first   }  </mrow> 
+      <mrow> y=10-3  \amp\quad  \text{  Subtract   }  </mrow> 
+      <mrow>  y=7 \amp\quad  \text{ We now also have    } y  </mrow> 
+      <mrow>(5, 7)  \amp\quad  \text{   Our Solution  }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    When we know what one variable equals we can plug that value (or expression) in for the variable in the other equation. It is very important that when we substitute, the substituted value goes in parenthesis. The reason for this is shown in the next example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>  \begin{matrix}  2x-3y=7 \\ y=3x-7 \end{matrix}  \amp \quad  \text{    We know $y = 3x - 7$, substitute this into the other equation  }   </mrow> 
+      <mrow>  2x - 3(3x - 7) = 7 \amp\quad  \text{ Solve this equation, distributing $- 3$ first    }  </mrow> 
+      <mrow> 2x-9x+21=7 \amp\quad  \text{ Combine like terms    }  2x-9x</mrow> 
+      <mrow>  -7x+21=7\amp\quad  \text{  Subtract   } 21  </mrow> 
+      <mrow> -21\ -21 \amp\quad  \text{     }  </mrow> 
+      <mrow>  \frac{-7x}{-7}=\frac{-14}{-7} \amp\quad  \text{   Divideby  } -7  </mrow> 
+      <mrow> x=2 \amp\quad  \text{ We now have our $x$, plugin to the $y$-equation to find } y  </mrow> 
+      <mrow> y=3(2)-7 \amp\quad  \text{ Evaluate, multiply first    }  </mrow> 
+      <mrow> y=6-7 \amp\quad  \text{  Subtract   }  </mrow> 
+      <mrow>  y=-1 \amp\quad  \text{   We now also have  } y  </mrow> 
+      <mrow>(2,-1)  \amp\quad  \text{ Our Solution    }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    By using the entire expression <m>3x - 7</m> to replace <m>y</m> in the other equation we were able to reduce the system to a single linear equation which we can easily solve for our first variable. However, the lone variable (a variable without a coefficient) is not always alone on one side of the equation. If this happens we can isolate it by solving for the lone variable.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  \begin{matrix}  3x+2y=1 \\ {\mathbf x} -5y=6  \end{matrix}  \amp \quad  \text{   Lone variable is $x$, isolate by adding $5y$ to both sides.   }   </mrow> 
+      <mrow> +5y\ +5y \amp\quad  \text{     }  </mrow> 
+      <mrow>  x=6+5y \amp\quad  \text{ Substitute this into the untouched equation    }  </mrow> 
+      <mrow> 3(6+5y)+2y=1 \amp\quad  \text{  Solve this equation, distributing $3$ first   }  </mrow> 
+      <mrow> 18+15y+2y=1 \amp\quad  \text{  Combine like terms }15y+2y    </mrow> 
+      <mrow>  18+17y=1 \amp\quad  \text{   Subtract $18$ from both sides  }  </mrow> 
+      <mrow> -18 \qquad -18 \amp\quad  \text{     }  </mrow> 
+      <mrow> \frac{17y}{17}=\frac{-17}{17} \amp\quad  \text{  Divide both sides by } 17  </mrow> 
+      <mrow> y=-1 \amp\quad  \text{   We have our $y$, plug this into the $x$-equation to find  } x  </mrow> 
+      <mrow>x=6+5(-1)  \amp\quad  \text{ Evaluate, multiply first    }  </mrow> 
+      <mrow> x=6-5 \amp\quad  \text{   Subtract  }  </mrow> 
+      <mrow>  x=1 \amp\quad  \text{  We now also have   } x  </mrow> 
+      <mrow> (1,-1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    The process in the previous example is how we will solve problems using substitution. This process is described and illustrated in the following table which lists the five steps to solving by substitution.
+  </p>
+
+      <table>
+      <title>  Solving Systems of Equations by Substitution </title>
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row>	  <cell>Problem	</cell>	  <cell> <m>\begin{matrix} 4x-2y=2 \\ 2x+y=-5\end{matrix}</m>      </cell>	</row>
+	<row>  <cell> 1. Find the lone variable	</cell>	  <cell> <m>\begin{matrix} \text{Second Equation, } y \\2x+{\mathbf y} =-5\end{matrix}</m>        </cell>	</row>
+	<row>  <cell>2. Solve for the lone variable </cell>  <cell> <m>  \begin{matrix} -2x \qquad -2x \\ y=-5-2x \end{matrix}  </m> </cell>	</row>
+	<row>  <cell>3. Substitute into the untouched equation</cell>	  <cell>      </cell> <m>4x - 2( - 5 - 2x) = 2</m>	</row>
+	<row> <cell>	4. Solve </cell>  <cell><m>  \begin{matrix}  4x+10+4x=2 \\  8x+10=2 \\ -10\ -10 \\ \frac{8x}{8}=\frac{-8}{8} \\ x=-1\end{matrix}  </m>   </cell>	</row>
+	<row>  <cell>5. Plug into lone variable equation and evaluate </cell>	  <cell>  <m>  \begin{matrix} y=-5-2(-1) \\ y=-5+2\\ y=-3 \end{matrix}  </m></cell>	</row>
+	<row>  <cell>Solution </cell>  <cell>(-1,-3) </cell>	</row>
+      </tabular>
+    </table>
+
+    <p>
+      Sometimes we have several lone variables in a problem. In this case we will have the choice on which lone variable we wish to solve for, either will give the same final result.
+    </p>
+
+
+  <example>
+    <md> 
+      <mrow> x+y=5 \amp \quad  \text{  Find the lone variable: $x$ or $y$ in first, or $x$ in second.    }   </mrow> 
+      <mrow>x-y=-1  \amp\quad  \text{   We will chose $x$ in the first  }  </mrow> 
+      <mrow>   </mrow> 
+      <mrow> x+y=5  \amp\quad  \text{  Solve for the lone variable, subtract $y$ from both sides   }  </mrow> 
+      <mrow>  -y\ -y \amp\quad  \text{     }  </mrow> 
+      <mrow> x=5-y  \amp\quad  \text{ Plug into the untouched equation, the second equation    }  </mrow> 
+      <mrow> (5-y)-y=-1 \amp\quad  \text{  Solve, parenthesis are not needed here, combine like terms  }  </mrow> 
+      <mrow> 5-2y=-1 \amp\quad  \text{   Subtract $5$ from both sides  }  </mrow> 
+      <mrow> -5\qquad \quad -5 \amp\quad  \text{     }  </mrow> 
+      <mrow> \frac{-2y}{-2}=\frac{-6}{-2} \amp\quad  \text{Divide both sides by } -2  </mrow> 
+      <mrow> y=3  \amp\quad  \text{  We have our   } y  </mrow> 
+      <mrow>  x=5-(3) \amp\quad  \text{Plug into lone variable equation, evaluate}  </mrow> 
+      <mrow> x=2 \amp\quad  \text{  Now we have our   } x  </mrow> 
+      <mrow> (2, 3) \amp\quad  \text{ Our Solution    }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Just as with graphing it is possible to have no solution <m>\emptyset</m> (parallel lines) or infinite solutions (same line) with the substitution method. While we won’t have a parallel line or the same line to look at and conclude if it is one or the other, the process takes an interesting turn as shown in the following example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>  \begin{matrix} {\mathbf y}+4=3x\\ 2y - 6x = - 8 \end{matrix}  \amp \quad  \text{ Find the lone variable, $y$ in the first equation     }   </mrow> 
+      <mrow>y+4=3x  \amp\quad  \text{   Solve for the lone variable, subtract $4$ from both sides
+  }  </mrow> 
+      <mrow> -4\quad -4 \amp\quad  \text{     }  </mrow> 
+      <mrow> y=3x-4 \amp\quad  \text{  Plug into untouched equation   }  </mrow> 
+      <mrow>  2(3x-4)-6x=-8 \amp\quad  \text{ Solve, distribute through parenthesis    }  </mrow> 
+      <mrow> 6x-8-6x=-8 \amp\quad  \text{ Combine like terms  6x-6x   }  </mrow> 
+      <mrow>  -8=-8 \amp\quad  \text{Variables are gone! A true statement.}  </mrow> 
+      <mrow>\text{Infinite solutions}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Because we had a true statement, and no variables, we know that anything that
+    works in the first equation, will also work in the second equation. However, we do not always end up with a true statement.
+  </p>
+
+
+  <example>
+    <md> 
+      <mrow>  \begin{matrix}  6x-3y=-9 \\ -2x+y=5 \end{matrix}  \amp \quad  \text{  Find the lone variable, $y$ in the second equation    }   </mrow> 
+      <mrow>-2x+{\mathbf y}=5  \amp\quad  \text{ Solve for the lone variable, add $2x$ to both sides    }  </mrow> 
+      <mrow> +2x\qquad +2x \amp\quad  \text{     }  </mrow> 
+      <mrow>  y=5+2x \amp\quad  \text{  Plug into untouched equation   }  </mrow> 
+      <mrow>  6x-3(5+2x)=-9 \amp\quad  \text{  Solve, distribute through parenthesis   }  </mrow> 
+      <mrow> 6x-15-6x=-9 \amp\quad  \text{   Combine like terms } 6x-6x    </mrow> 
+      <mrow> -15\neq  -9 \amp\quad  \text{  Variables are gone! A false statement.   }  </mrow> 
+      <mrow> \text{No Solution } \emptyset \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Because we had a false statement, and no variables, we know that nothing will work in both equations.
+  </p>
+
+  <p> <alert> World View Note:</alert> French mathematician Rene Descartes wrote a book which included an appendix on geometry. It was in this book that he suggested using letters from the end of the alphabet for unknown values. This is why often we are solving for the variables <m>x</m>, <m>y</m>, and <m>z</m>.
+ </p> 
+
+ <p>
+   One more question needs to be considered, what if there is no lone variable? If there is no lone variable substitution can still work to solve, we will just have to select one variable to solve for and use fractions as we solve.
+ </p>
+
+   <example>
+    <md> 
+      <mrow> 5x - 6y = - 14  \amp \quad  \text{No lone variable,}   </mrow> 
+      <mrow> -2x+4y=12 \amp\quad  \text{  we will solve for $x$ in the first equation.}  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+    <mrow> 5x-6y=-14 \amp\quad  \text{   Solve for our variable, add $6y$ to both sides  }  </mrow> 
+   <mrow> +6y\quad +6y  \amp\quad  \text{     }  </mrow> 
+    <mrow> \frac{5x}{5}=\frac{-14}{5}+\frac{6y}{5}  \amp\quad  \text{  Divide each term by  } 5  </mrow> 
+    <mrow> x=\frac{-14}{5}+\frac{6y}{5}  \amp\quad  \text{  Plug into untouched equation }  </mrow> 
+    <mrow> -2\left(\frac{-14}{5}+\frac{6y}{5}\right)+4y=12 \amp\quad  \text{    Solve, distribute through parenthesis }  </mrow> 
+    <mrow> \frac{28}{5}- \frac{12y}{5}+4y=12 \amp\quad  \text{  Clear fractions by multiplying by } 5  </mrow> 
+    <mrow>  \frac{28(5)}{5}- \frac{12y(5)}{5}+4y(5)=12(5)  \amp\quad  \text{  Reduce fractions and multiply   }  </mrow> 
+    <mrow>  28-12y+20y=60 \amp\quad  \text{  Combine like terms } - 12y + 20y  </mrow> 
+    <mrow> 28+8y=60 \amp\quad  \text{  Subtract 28 from both sides   }  </mrow> 
+    <mrow> -28 \qquad -28  \amp\quad  \text{     }  </mrow> 
+    <mrow> \frac{8y}{8}=\frac{32}{8} \amp\quad  \text{Divide both sides by } 8  </mrow> 
+    <mrow> y=4 \amp\quad  \text{We have our } y  </mrow> 
+    <mrow>  x=\frac{-14}{5}+\frac{6(4)}{5} \amp\quad  \text{  Plug into lone variable equation, multiply   }  </mrow> 
+    <mrow>   x=\frac{-14}{5}+\frac{24}{5}  \amp\quad  \text{  Add fractions   }  </mrow> 
+    <mrow> x=\frac{10}{5} \amp\quad  \text{ Reduce fraction    }  </mrow> 
+    <mrow>x=2  \amp\quad  \text{   Now we have our  } x  </mrow> 
+    <mrow>(x,y)=(2,4)  \amp\quad  \text{ Our solution    }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Using the fractions does make the problem a bit more tricky. This is why we have another method for solving systems of equations that will be discussed in another lesson.
+  </p>
+
+    <exercises xml:id="exercises-systems-substitution">
+    <title>Exercises - Substitution</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Solve each system by substitution.</p>      </introduction>
+      <exercise><statement> <p> <m> \begin{matrix} y=-3x\\ y=6x-9 \end{matrix} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} y=x+5\\ y=-2x-4 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}  y=-2x-9 \\ y=2x-1 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-6x+3 \\y=6x+3  \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=6x+4\\ y=-3x-5 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=3x+13\\ y=-2x-22 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=3x+2\\ y=-3x+8 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-2x-9\\ y=-5x-21 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=2x-3\\ y=-2x+9 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=7x-24 \\ y=-3x+16 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=6x-6 \\ -3x-3y=-24 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -x+3y=12 \\ y=6x+21 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-6\\ 3x-6y=30 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 6x-4y=-8 \\ y=-6x+2 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-5 \\ 3x+4y=-17 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 7x+2y=-7 \\y=5x+5 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -2x+2y=18 \\ y=7x+15 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=x+4 \\3x-4y=-19 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-8x+19 \\-x+6y=16  \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} y=-2x+8\\-7x-6y=-8 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 7x-2y=-7 \\ y=7 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} x-2y=-13 \\ 4x+2y=18 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} x-5y=7\\2x+7y=-20  \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}3x-4y=15 \\7x+y=4 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} - 2x - y = - 5\\ x-8y=-23 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 6x+4y=16\\ -2x+y=-3 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -6x+y=20\\-3x-3y=-18 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 7x+5y=-13\\x-4y=-16 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 3x + y = 9\\2x+8y=-16 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}-5x-5y=-20 \\ -2x+y=7 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 2x+y=2\\3x+7y=14  \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}2x+y=-7 \\ 5x+3y=-21 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} x+5y=15 \\ -3x+2y=6 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} 2x+3y=-10\\ 7x+y=3 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -2x+4y=-16 \\y=-2  \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -2x+2y=-22\\ -5x-7y=-19 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -6x+6y=-12\\ 8x-3y=16 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix} -8x+2y=-6\\-2x+3y=11 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}  2x+3y=16 \\ -7x-y=20 \end{matrix} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \begin{matrix}-x-4y=-14 \\ -6x+8y=12 \end{matrix} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+</section>

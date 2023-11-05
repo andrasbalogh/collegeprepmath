@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="inequalities-compound" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>Compound Inequalities </title> 
+
+  <introduction> <alert> Objective:  Solve, graph and give interval notation to the solution of compound inequalities. </alert> </introduction> 
+
+   <p> 
+     Several inequalities can be combined together to form what are called compound inequalities. There are three types of compound inequalities which we will investi- gate in this lesson.
+   </p> 
+
+   <p>
+     The first type of a compound inequality is an OR inequality. For this type of inequality we want a true statment from either one inequality OR the other inequality OR both. When we are graphing these type of inequalities we will graph each individual inequality above the number line, then move them both down together onto the actual number line for our graph that combines them together.
+   </p>
+
+   <p>
+     When we give interval notation for our solution, if there are two different parts to the graph we will put a <m>\cup</m> (union) symbol between two sets of interval notation, one for each part.
+   </p>
+
+
+   <example>
+      Solve each inequality, graph the solution, and give interval notation of solution.
+       <md> 
+	 <mrow>   2x-5\gt 3 \text{ or } 4-x\geq 6 \amp \quad  \text{  Solve each inequality.    }   </mrow> 
+	 <mrow>    +5\ +5 \quad -4 \quad -4 \amp\quad  \text{ Add or subtract first    }  </mrow> 
+	 <mrow>   \frac{2x}{2}\gt\frac{ 8}{2} \text{ or } \frac{-x }{-1} \leq \frac{2}{-1}           \amp\quad  \text{ Divide. Dividing by negative flips sign.    }  </mrow> 
+	 <mrow> x\gt 4 \text{ or } x\leq -2 \amp\quad \text{Graph the inequalities separatly above number line.} </mrow>
+</md>
+  <image source="images/inequalities-compound-1.jpg" /> 
+  <md>
+    <mrow> \left(-\infty,-2\right]\cup\left(4,\infty\right) \amp\quad \text{Interval notation} </mrow>
+  </md>
+   </example> 
+   
+   
+  <p> <alert> World View Note:</alert>  The symbol for infinity was first used by the Romans, although at the time the number was used for <m>1000</m>. The greeks also used the symbol for <m>10,000</m>.</p> 
+
+  <p> 
+    There are several different results that could result from an <alert>OR</alert> statement. The graphs could be pointing different directions, as in the graph above, or pointing in the same direction as in the graph below on the left, or pointing opposite direc- tions, but overlapping as in the graph below on the right. Notice how interval notation works for each of these cases.
+  </p> 
+
+  <sidebyside widths="45% 45%" margins="auto" valign="middle">
+    <image source="images/inequalities-compound-2.jpg" /> 
+    <image source="images/inequalities-compound-3.jpg" /> 
+  </sidebyside>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <p>As the graphs overlap, we take the largest graph for our solution.</p>
+      <p>When the graphs are combined they cover the entire number line.</p>
+  </sidebyside>
+
+  <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <p>Interval Notation: <m>\left(-\infty,1\right)</m></p>
+      <p>Interval Notation: <m>\left(-\infty,\infty\right)</m>, or <m>\mathbb{R}</m></p>
+  </sidebyside>
+
+  <p>
+    The second type of compound inequality is an AND inequality. AND inequalities require both statements to be true. If one is false, they both are false. When we graph these inequalities we can follow a similar process, first graph both inequali- ties above the number line, but this time only where they overlap will be drawn onto the number line for our final graph. When our solution is given in interval notation it will be expressed in a manner very similar to single inequalities (there is a symbol that can be used for AND, the intersection - <m>\cap</m> , but we will not use it here).
+  </p>
+    
+  <example>
+    Solve each inequality, graph the solution, and express it interval notation.
+    <md> 
+      <mrow>  2x+8\geq 5x -7  \text{ and } 5x-3\gt 3x+1             \amp \quad  \text{ Move variables to one side.  }   </mrow> 
+      <mrow>      -2x\qquad -2x\qquad -3x \quad \qquad -3x    \quad      \amp\quad  \text{      }  </mrow> 
+      <mrow>    8\geq 3x-7 \text{ and }  2x-3>1          \amp\quad  \text{  Add $7$ or $3$  to both sides   }  </mrow> 
+      <mrow> +7\qquad +7 \qquad \quad +3\ +3               \amp\quad  \text{     }  </mrow> 
+      <mrow>            15\geq 3x \text{ and } 2x\gt 4  \amp\quad  \text{ Divide    }  </mrow> 
+      <mrow>        \frac{ 15}{3}\geq \frac{3x}{3} \text{ and } \frac{2x}{2}\gt \frac{4}{2}        \amp\quad  \text{     }  </mrow> 
+      <mrow>   5\geq x \text{ and } x\gt 2           \amp\quad  \text{  Graph, $x$ is smaller (or equal) than $5$, greater than $2$   }  </mrow> 
+    </md>
+  <image source="images/inequalities-compound-4.jpg" width="70%"/> 
+  <md>
+    <mrow> \left(2,5\right] \amp\quad \text{Interval notation} </mrow>
+  </md>
+  </example> 
+
+  <p> 
+    Again, as we graph AND inequalities, only the overlapping parts of the individual graphs makes it to the final number line. As we graph AND inequalities there are also three different types of results we could get. The first is shown in the above example. The second is if the arrows both point the same way, this is shown below on the left. The third is if the arrows point opposite ways but don’t overlap, this is shown below on the right. Notice how interval notation is expressed in each case.
+  </p> 
+
+  <sidebyside widths="45% 45%" margins="auto" valign="middle">
+    <image source="images/inequalities-compound-5.jpg" /> 
+    <image source="images/inequalities-compound-6.jpg" /> 
+  </sidebyside>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <p>In this graph, the overlap is only the smaller graph, so this is what makes it to the final number line.</p>
+      <p>In this graph there is no overlap of the parts. Because their is no overlap, no values make it to the final number line.</p>
+  </sidebyside>
+
+  <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <p>Interval Notation: <m>\left(-\infty,-2\right)</m></p>
+      <p>Interval Notation: No Solution or <m>\emptyset </m></p>
+  </sidebyside>
+
+  <p>
+The third type of compound inequality is a special type of AND inequality. When our variable (or expression containing the variable) is between two numbers, we can write it as a single math sentence with three parts, such as <m>5\lt  x \leq 8</m>, to show <m>x</m> is between <m>5</m> and <m>8</m> (or equal to <m>8</m>). When solving these type of inequalities, because there are three parts to work with, to stay balanced we will do the same thing to all three parts (rather than just both sides) to isolate the variable in the middle. The graph then is simply the values between the numbers with appropriate brackets on the ends.
+  </p>
+
+  <example>
+     Solve the inequality, graph the solution, and give interval notation.
+    <md> 
+      <mrow>  -6\leq -4x+2\lt 2             \amp \quad  \text{  Subtract $2$ from all three parts }   </mrow> 
+      <mrow> -2\qquad -2\quad -2               \amp\quad  \text{ Divideallthreepartsby    } -4  </mrow> 
+      <mrow>      -8\leq -4x\lt 0         \amp\quad  \text{     }  </mrow> 
+      <mrow>       \frac{-8}{-4}\geq \frac{-4x}{-4}\gt \frac{0}{-4}  \amp \quad  \text{  Dividing by a negative flips the symbols    }   </mrow> 
+      <mrow>   2 \geq x \gt 0             \amp\quad  \text{ Flip entire statement so values get larger left to right    }  </mrow> 
+      <mrow>   0\lt x\leq 2 \amp\quad  \text{  Graph $x$ between $0$ and $2$   }  </mrow> 
+    </md>
+  <image source="images/inequalities-compound-7.jpg" width="70%"/> 
+  <md>
+    <mrow> \left(0,2\right] \amp\quad \text{Interval notation} </mrow>
+  </md>
+  </example> 
+
+
+  
+  <exercises xml:id="exercises-inequalities-compound">
+    <title>Exercises - Compound Inequalities</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Solve each compound inequality, graph its solution, and give interval notation.	</p>      </introduction>
+ <exercise><statement> <p> <m>\frac{n}{3}\leq-3\text{ or } -5n\leq-10</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6m\ge -24\text{ or } m-7\lt -12</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x+7\geq12\text{ or } 9x\lt -45 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 10r\gt 0\text{ or } r-5\lt-12</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x-6\lt-13\text{ or }6x\leq -60</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 9+n\lt 2\text{ or } 5n\gt 40</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{v}{8}\gt -1\text{ and } v-2\lt 2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-9x\lt 63\text{ and }\frac{x}{4}\lt 1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-8+b\lt -3 \text{ and } 4b\lt 20 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-6n\leq 12\text{ and } \frac{n}{3}\leq 2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>a+10\geq 3\text{ and } 8a\leq 48 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-6+v\geq 0 \text{ and } 2v\gt4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3\leq9+x\leq7</m> </p> </statement>      </exercise>
+      <exercise><statement> <p> <m>0\geq \frac{x}{9}\geq-1</m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m>11\lt8+k\leq12 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m>-11\leq n-9\leq-5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-3\lt x-1\lt  1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>1\leq\frac{p}{8}\leq 0 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m>-4\lt 8-3m\leq 11 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3+7r\gt 59\text{ or } -6r-3\gt 33</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -16\leq 2n-10\leq -22</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-6-8x\geq -6\text{ or }2+10x\gt 82 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-5b+10\leq 30\text{ and } 7b+2 \leq -40 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n+10 \geq 15 \text{ or } 4n-5\lt-1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x-9 \lt 2x+10 \text{ and } 5+7x \leq 10x-10  </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4n+8 \lt 3n-6 \text{ or } 10n-8 \geq 9+9n </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-8-6v\leq8-8v\text{ and }7v+9\leq6+10v </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5-2a\geq2a+1\text{ or }10a-10\geq9a+9 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 1+5k\leq7k-3\text{ or }k-10\gt2k+10</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 8-10r\leq8+4r\text{ or }-6+8r\lt2+8r</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>2x+9\geq10x+1\text{ and }3x-2\lt 7x+2 </m> </p> </statement> </exercise>
+    <exercise><statement> <p> <m>-9m+2\lt-10-6m\text{ or } -m+5\geq10+4m </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+
+</exercises>
+
+    
+</section> 
+

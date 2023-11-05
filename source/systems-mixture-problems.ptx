@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="systems-mixture-problems" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>Mixture Problems</title> 
+ 
+  <introduction> <alert> Objective: Solve mixture problems by setting up a system of equations. </alert> </introduction> 
+
+   <p> 
+One application of systems of equations are mixture problems. Mixture problems are ones where two different solutions are mixed together resulting in a new final solution. We will use the following table to help us solve mixture problems:
+   </p> 
+ 
+<tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+  <row>     <cell>  </cell>    <cell> Amount </cell>    <cell>Part</cell>    <cell>Total</cell>      </row>
+  <row>     <cell> Item <m>1</m> </cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell> Item <m>2</m> </cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+  <row>     <cell>Final</cell>    <cell> </cell>    <cell></cell>    <cell></cell>      </row>
+
+      </tabular>
+
+<p>
+The first column is for the amount of each item we have. The second column is labeled “part”. If we mix percentages we will put the rate (written as a decimal) in this column. If we mix prices we will put prices in this column. Then we can multiply the amount by the part to find the total. Then we can get an equation by adding the amount and/or total columns that will help us solve the problem and answer the questions.
+</p>
+<p>
+These problems can have either one or two variables. We will start with one variable problems.
+</p>
+
+  <example>	
+<p>
+A chemist has <m>70</m> mL of a <m>50\%</m> methane solution. How much of a <m>80\%</m> solution must she add so the final solution is <m>60\%</m> methane?
+</p>
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>70</m></cell> <cell><m>0.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>0.8</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p> Set up the mixture table. We start with <m>70</m>, but don’t know how much we add, that is <m>x</m>. The part is the percentages, <m>0.5</m> for start, <m>0.8</m> for add.</p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>70</m></cell> <cell><m>0.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>0.8</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>70+x</m></cell> <cell><m>0.6</m></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>Add amount column to get final amount. The part for this amount is <m>0.6</m> because we want the final solution to be <m>60\%</m> methane. </p>
+   </p>
+                </sidebyside>
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>70</m></cell> <cell><m>0.5</m></cell> <cell><m>35</m></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>0.8</m></cell> <cell><m>0.8x</m></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>70+x</m></cell> <cell><m>0.6</m></cell> <cell><m>42+0.6x</m></cell> </row>
+      </tabular>
+   <p>
+     <p>Multiply amount by part to get total.</p>
+     <p>Be sure to distribute on the last row: <m>(70+x)0.6</m></p>
+   </p>
+                </sidebyside>
+<md>
+<mrow> 35+0.8x=42+0.6x \amp \quad  \text{The last column is our equation by adding} </mrow>
+<mrow> \underline{-0.6x \quad -0.6x} \amp \quad  \text{Move variables to one side, subtract } 0.6x </mrow>
+<mrow> 35+0.2x=42 \amp \quad \text{Subtract $35$ from both sides} </mrow>
+<mrow> \underline{-35 \qquad\quad -35} \amp \quad   \text{ } </mrow>
+<mrow> 0.2x=7 \amp \quad \text{Divide both sides by } 0.2 </mrow>
+<mrow> \overline{0.2} \ \ \overline{0.2} \amp \quad \text{} </mrow>
+<mrow> x=35 \amp \quad \text{We have our } x! </mrow>
+<mrow> 35 \text{ mL must be added} \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p> The same process can be used if the starting and final amount have a price attached to them, 
+rather than a percentage.</p>
+
+  <example>	
+<p>
+A coffee mix is to be made that sells for <m>\$2.50</m> by mixing two types of coffee. The cafe has <m>40</m> mL of coffee that costs <m>\$3.00</m>. How much of another coffee that costs <m>\$1.50</m> should the cafe mix with the first?
+</p>
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>40</m></cell> <cell><m>3</m></cell> <cell></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>1.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell></cell> <cell></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p> Set up the mixture table. We know the starting amount and its cost, <m>\$3</m>. The added amount we do not know but we do know its cost is <m>\$1.50</m>.</p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>40</m></cell> <cell><m>3</m></cell> <cell></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>1.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>40+x</m></cell> <cell><m>2.5</m></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>Add the amounts to get the final amount. We want this final amount to sell for <m>\$2.50</m>.</p>
+   </p>
+                </sidebyside>
+<sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Start</cell>  <cell><m>40</m></cell> <cell><m>3</m></cell> <cell><m>120</m></cell> </row>
+                <row>     <cell>Add</cell>  <cell><m>x</m></cell> <cell><m>1.5</m></cell> <cell><m>1.5x</m></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>40+x</m></cell> <cell><m>2.5</m></cell> <cell><m>100+2.5x</m></cell> </row>
+      </tabular>
+   <p>
+     <p>Multiply amount by part to get the total.</p>
+     <p>Be sure to distribute on the last row: <m>(40+x)2.5</m></p>
+   </p>
+                </sidebyside>
+<md>
+<mrow> 120+1.5x=100+2.5x \amp \quad  \text{Adding down the total column gives our equation } </mrow>
+<mrow> \underline{-1.5x \qquad\quad -1.5x} \amp \quad  \text{Move variables to one side by subtracting } 1.5x </mrow>
+<mrow> 120=100+x \amp \quad \text{Subtract $100$ from both sides} </mrow>
+<mrow> \underline{-100 -100 \qquad} \amp \quad   \text{ } </mrow>
+<mrow> 20=x \amp \quad \text{We have our } x </mrow>
+<mrow> 20 \text{ mL must be added.} \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p> <alert> World View Note: </alert> Brazil is the world’s largest coffee producer, producing 
+<m>2.59</m> million metric tons of coffee a year! That is over three times as much coffee as
+ second place Vietnam! </p>
+
+<p>
+The above problems illustrate how we can put the mixture table together and get an equation to solve. However, here we are interested in systems of equations, with two unknown values. The following example is one such problem.
+</p>
+
+  <example>	
+<p>
+A farmer has two types of milk, one that is <m>24\%</m> butterfat and another which is <m>18\%</m> butterfat. How much of each should he use to end up with <m>42</m> gallons of <m>20\%</m> butterfat?
+</p>
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Milk <m>1</m></cell>  <cell><m>x</m></cell> <cell><m>0.24</m></cell> <cell></cell> </row>
+                <row>     <cell>Milk <m>2</m></cell>  <cell><m>y</m></cell> <cell><m>0.18</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>42</m></cell> <cell><m>0.2</m></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>We don't know either start value, but we do know final is <m>42</m>.Also fill in part column with percentage of each type of milk including the final solution</p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+             <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+             <row>     <cell>Milk <m>1</m></cell>  <cell><m>x</m></cell> <cell><m>0.24</m></cell> <cell><m>0.24x</m></cell> </row>
+             <row>     <cell>Milk <m>2</m></cell>  <cell><m>y</m></cell> <cell><m>0.18</m></cell> <cell><m>0.18y</m></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>42</m></cell> <cell><m>0.2</m></cell> <cell><m>8.4</m></cell> </row>   </tabular>
+   <p>
+     <p>Multiply amount by part to get totals.</p>
+   </p>
+                   </sidebyside>
+
+<md>
+<mrow> x+y=42 \amp \quad  \text{The amount column gives one equation } </mrow>
+<mrow> 0.24x+0.18y=8.4 \amp \quad  \text{The total column gives a second equation } </mrow>
+<mrow> -0.18(x+y)=(42)(-0.18) \amp \quad \text{Use addition. Multiply first equation by } -0.18 </mrow>
+<mrow> -0.18x-0.18y=-7.56\amp \quad   \text{ } </mrow>
+<mrow> \amp \quad \text{} </mrow>
+<mrow> -0.18x-0.18y=7.56 \amp \quad \text{ Add the equations together } </mrow>
+<mrow> \underline{0.24x+0.18y=8.4} \amp \quad \text{ } </mrow>
+<mrow> 0.06x \quad\quad =0.84 \amp \quad \text{ Divide both sides by } 0.06 </mrow>
+<mrow>  \overline{0.06} \qquad\quad \ \overline{0.06} \amp \quad \text{ } </mrow>
+<mrow> x=14 \amp \quad \text{We have our $x$, $14$ gal of $24\%$ butterfat} </mrow>
+<mrow> (14)+y=42 \amp \quad \text{Plug into original equation to find } y </mrow>
+<mrow> \underline{-14 \qquad -14} \amp \quad \text{Subtract $14$ form both sides} </mrow>
+<mrow> y=28 \amp \quad \text{We have our $y$, $28$ gal of $18\%$ butterfat} </mrow>
+<mrow> 14 \text{ gal of } 24\% \text{ and } 28 \text{ gal of } 18\%  \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p>
+The same process can be used to solve mixtures of preces with two unknowns.
+</p>
+
+  <example>	
+<p>
+In a candy shop, chocolate which sells for <m>\$4</m> a pound is mixed with nuts which are sold for <m>\$2.50</m> a pound are mixed to form a chocolate-nut candy which sells for <m>\$3.50</m> a pound. How much of each are used to make <m>30</m> pounds of the mixture?
+</p>
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Chocolate</cell>  <cell><m>c</m></cell> <cell><m>4</m></cell> <cell></cell> </row>
+                <row>     <cell>Nut</cell>  <cell><m>n</m></cell> <cell><m>2.5</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>30</m></cell> <cell><m>3.5</m></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>Using our mixture table, use <m>c</m> and <m>n</m> for variables. We do know the final amount <m>(30)</m> and price, include this in the table </p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                 <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Chocolate</cell>  <cell><m>c</m></cell> <cell><m>4</m></cell> <cell><m>4c</m></cell> </row>
+                <row>     <cell>Nut</cell>  <cell><m>n</m></cell> <cell><m>2.5</m></cell> <cell><m>2.5n</m></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>30</m></cell> <cell><m>3.5</m></cell> <cell><m>105</m></cell> </row>
+</tabular>
+   <p>
+     <p>Multiply amount by part to get totals.</p>
+   </p>
+    </sidebyside>
+
+<md>
+<mrow> c+n=30 \amp \quad  \text{First equation comes from the first column } </mrow>
+<mrow> 4c+2.5n=105 \amp \quad  \text{Second equation comes from the total column } </mrow>
+<mrow>  \amp \quad \text{ } </mrow>
+<mrow> c+n=30 \amp \quad   \text{We will solve this problem with substitution  } </mrow>
+<mrow> -n-n \amp \quad \text{Solve for $c$ by subtracting $n$ form the first equation} </mrow>
+<mrow> c=30-n \amp \quad \text{ } </mrow>
+<mrow> 4(30-n)+2.5n=105 \amp \quad \text{Substitute into untouched equation } </mrow>
+<mrow> 120-4n+2.5n=105 \amp \quad \text{ Distribute }  </mrow>
+<mrow> 120-1.5n=105 \amp \quad \text{ Combine like terms }  </mrow>
+<mrow>  \underline{-120 \qquad\quad -120} \amp \quad \text{Subtract $120$ from both sides } </mrow>
+<mrow> -1.5n=-15 \amp \quad \text{Divide both sides by } -1.5 </mrow>
+<mrow> \overline{-1.5} \ \ \overline{-1.5} \amp \quad \text{Plug into original equation to find } y </mrow>
+<mrow> n=10 \amp \quad \text{We have our $n$, $10$ lbs of nuts } </mrow>
+<mrow> c=30-(10) \amp \quad \text{Plug into $c=$ equation to find } c </mrow>
+<mrow> c=20 \amp \quad \text{We have our $c$, $20$ lbs of chocolate } </mrow>
+<mrow> 10 \text{ lbs of nuts and } 20 \text{ lbs of chocolate } \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+<p>
+With mixture problems we often are mixing with a pure solution or using water which contains none of our chemical we are interested in. For pure solutions, the percentage is <m>100\%</m> (or <m>1</m> in the table). For water, the percentage is <m>0\%</m>. This is shown in the following example.
+</p>
+
+  <example>	
+<p>
+A solution of pure antifreeze is mixed with water to make a $65%$ antifreeze solution. How much of each should be sued to make $70$ L?
+</p>
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+                <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+                <row>     <cell>Antifreeze</cell>  <cell><m>a</m></cell> <cell><m>1</m></cell> <cell></cell> </row>
+                <row>     <cell>Water</cell>  <cell><m>w</m></cell> <cell><m>0</m></cell> <cell></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>70</m></cell> <cell><m>0.65</m></cell> <cell></cell> </row>
+      </tabular>
+   <p>
+     <p>We use <m>a</m> and <m>w</m> for our variables. Antifreeze is pure, <m>100\%</m> or <m>1</m> in our table, written as a decimal. Water has no antifreeze, its percentage is <m>0</m>. We also fill in the final percent </p>
+   </p>
+                </sidebyside>
+
+<sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+             <row>     <cell> </cell>  <cell>Amount</cell> <cell>Part</cell> <cell>Total </cell>       </row>
+             <row>     <cell>Antifreeze</cell>  <cell><m>a</m></cell> <cell><m>1</m></cell> <cell><m>a</m></cell> </row>
+             <row>     <cell>Water</cell>  <cell><m>w</m></cell> <cell><m>0</m></cell> <cell><m>0</m></cell> </row>
+                <row>     <cell>Final</cell>  <cell><m>70</m></cell> <cell><m>0.65</m></cell> <cell><m>45.5</m></cell> </row>   </tabular>
+   <p>
+     <p>Multiply to find final amounts</p>
+   </p>
+    </sidebyside>
+
+<md>
+<mrow> a+w=70 \amp \quad  \text{First equation comes from first column } </mrow>
+<mrow> a=45.5 \amp \quad  \text{Second equation comes from second column } </mrow>
+<mrow> (45.5)+w=70 \amp \quad \text{We have $a$, plug into to other equation }  </mrow>
+<mrow> -45.5 \quad -45.5 \amp \quad   \text{Subtract $45.5$ from both sides } </mrow>
+<mrow> w=24.5 \amp \quad \text{We have our } w </mrow>
+<mrow> 45.5 \text{ L of antifreeze and } 24.5 \text{ L of water }  \amp \quad \text{Our Solution} </mrow>
+</md>
+</example>
+
+
+
+  <exercises xml:id="exercises-mixture-problems">
+    <title>Exercises – Mixture Problems </title>
+    
+      <introduction>    <p>      Solve.     </p>      </introduction>
+      <exercise><statement> <p>A tank contains <m>8000</m> liters of a solution that is <m>40\%</m> acid.  How much water should be added to make a solution that is <m>30\%</m> acid? </p> </statement> </exercise> 
+      <exercise><statement> <p>How much antifreeze should be added to <m>5</m> quarts of a <m>30\%</m> mixture of antifreeze to make a solution that is <m>50\%</m> antifreeze? </p> </statement> </exercise> 
+      <exercise><statement> <p>Of <m>12</m> pounds of salt water <m>10\%</m> is salt; of another mixture <m>3\%</m> is salt. How many pounds of the second should be added to the first in order to get a mixture of <m>5\%</m> salt? </p> </statement> </exercise> 
+      <exercise><statement> <p>How much alcohol must be added to <m>24</m> gallons of a <m>14\%</m> solution of alcohol in order to produce a <m>20\%</m> solution? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many pounds of a <m>4\%</m> solution of borax must be added to <m>24</m> pounds of a <m>12\%</m> solution of borax to obtain a <m>10\%</m> solution of borax? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many grams of pure acid must be added to <m>40</m> grams of a <m>20\%</m> acid solution to make a solution which is <m>36\%</m> acid? </p> </statement> </exercise> 
+      <exercise><statement> <p>A <m>100</m> LB bag of animal feed is <m>40\%</m> oats. How many pounds of oats must be added to this feed to produce a mixture which is <m>50\%</m> oats? </p> </statement> </exercise> 
+      <exercise><statement> <p>A <m>20</m> oz alloy of platinum that costs <m>\$220</m> per ounce is mixed with an alloy that costs <m>\$400</m> per ounce. How many ounces of the <m>\$400</m> alloy should be used to make an alloy that costs <m>\$300</m> per ounce? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many pounds of tea that cost <m>\$4.20</m> per pound must be mixed with <m>12</m> lb of tea that cost <m>\$2.25</m> per pound to make a mixture that costs <m>\$3.40</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p> How many liters of a solvent that costs <m>\$80</m> per liter must be mixed with <m>6</m> L of a solvent that costs <m>\$25</m> per liter to make a solvent that costs <m>\$36</m> per liter?</p> </statement> </exercise> 
+      <exercise><statement> <p>How many kilograms of hard candy that cost <m>\$7.50</m> per kilogram must be mixed with <m>24</m> kg of jelly beans that cost <m>\$3.25</m> per kilogram to make a mixture that sells for <m>\$4.50</m> per kilogram? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many kilograms of soil supplement that costs <m>\$7.00</m> per kilogram must be mixed with <m>20</m> kg of aluminum nitrate that costs <m>\$3.50</m> per kilogram to make a fertilizer that costs <m>\$4.50</m> per kilogram? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many pounds of lima beans that cost <m>90c</m> per pound must be mixed with <m>16</m> lb of corn that cost <m>50c</m> per pound to make a mixture of vegetables that costs <m>65c</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many liters of a blue dye that costs <m>\$1.60</m> per liter must be mixed with <m>18</m> L of anil that costs <m>\$2.50</m> per liter to make a mixture that costs <m>\$1.90</m> per liter? </p> </statement> </exercise> 
+      <exercise><statement> <p>Solution A is <m>50\%</m> acid and solution B is <m>80\%</m> acid. How much of each should be used to make <m>100cc</m>. of a solution that is <m>68\%</m> acid? </p> </statement> </exercise> 
+      <exercise><statement> <p>A certain grade of milk contains <m>10\%</m> butter fat and a certain grade of cream <m>60\%</m> butter fat. How many quarts of each must be taken so as to obtain a mixture of <m>100</m> quarts that will be <m>45\%</m> butter fat? </p> </statement> </exercise> 
+      <exercise><statement> <p>A farmer has some cream which is <m>21\%</m> butterfat and some which is <m>15\%</m> butter fat. How many gallons of each must be mixed to produce <m>60</m> gallons of cream which is <m>19\%</m> butterfat? </p> </statement> </exercise> 
+      <exercise><statement> <p>A syrup manufacturer has some pure maple syrup and some which is <m>85\%</m> maple syrup. How many liters of each should be mixed to make <m>150</m>L which is <m>96\%</m> maple syrup? </p> </statement> </exercise> 
+      <exercise><statement> <p>A chemist wants to make <m>50</m>ml of a <m>16\%</m> acid solution by mixing a <m>13\%</m> acid solution and an <m>18\%</m> acid solution. How many milliliters of each solution should the chemist use? </p> </statement> </exercise> 
+      <exercise><statement> <p>A hair dye is made by blending <m>7\%</m> hydrogen peroxide solution and a <m>4\%</m> hydrogen peroxide solution. How many milliliters of each are used to make a <m>300</m> ml solution that is <m>5\%</m> hydrogen peroxide? </p> </statement> </exercise> 
+      <exercise><statement> <p>A paint that contains <m>21\%</m> green dye is mixed with a paint that contains <m>15\%</m> green dye. How many gallons of each must be used to make <m>60</m> gal of paint that is <m>19\%</m> green dye? </p> </statement> </exercise> 
+      <exercise><statement> <p>A candy mix sells for <m>\$2.20</m> per kilogram. It contains chocolates worth <m>\$1.80</m> per kilogram and other candy worth <m>\$3.00</m> per kilogram. How much of each are in <m>15</m> kilograms of the mixture? </p> </statement> </exercise> 
+      <exercise><statement> <p>To make a weed and feed mixture, the Green Thumb Garden Shop mixes fertilizer worth <m>\$4.00</m>/lb. with a weed killer worth <m>\$8.00</m>/lb. The mixture will cost <m>\$6.00</m>/lb. How much of each should be used to prepare <m>500</m> lb. of the mixture? </p> </statement> </exercise> 
+      <exercise><statement> <p>A grocer is mixing <m>40</m> cent per lb. coffee with <m>60</m> cent per lb. coffee to make a mixture worth <m>54</m>c per lb. How much of each kind of coffee should be used to make <m>70</m> lb. of the mixture? </p> </statement> </exercise> 
+      <exercise><statement> <p>A grocer wishes to mix sugar at <m>9</m> cents per pound with sugar at <m>6</m> cents per pound to make <m>60</m> pounds at <m>7</m> cents per pound. What quantity of each must he take? </p> </statement> </exercise> 
+      <exercise><statement> <p>A high-protein diet supplement that costs <m>\$6.75</m> per pound is mixed with a vitamin supplement that costs <m>\$3.25</m> per pound. How many pounds of each should be used to make <m>5</m> lb of a mixture that costs <m>\$4.65</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p>A goldsmith combined an alloy that costs <m>\$4.30</m> per ounce with an alloy that costs <m>\$1.80</m> per ounce. How many ounces of each were used to make a mixture of <m>200</m> oz costing <m>\$2.50</m> per ounce? </p> </statement> </exercise> 
+      <exercise><statement> <p>A grocery store offers a cheese and fruit sampler that combines cheddar cheese that costs <m>\$8</m> per kilogram with kiwis that cost <m>\$3</m> per kilogram. How many kilograms of each were used to make a <m>5</m> kg mixture that costs <m>\$4.50</m> per kilogram? </p> </statement> </exercise> 
+      <exercise><statement> <p>The manager of a garden shop mixes grass seed that is <m>60\%</m> rye grass with <m>70</m> lb of grass seed that is <m>80\%</m> rye grass to make a mixture that is <m>74\%</m> rye grass. How much of the <m>60\%</m> mixture is used? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many ounces of water evaporated from <m>50</m> oz of a <m>12\%</m> salt solution to produce a <m>15\%</m>salt solution? </p> </statement> </exercise> 
+      <exercise><statement> <p>A caterer made an ice cream punch by combining fruit juice that cost <m>\$2.25</m> per gallon with ice cream that costs <m>\$3.25</m> per gallon. How many gallons of each were used to make <m>100</m> gal of punch costing <m>\$2.50</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p>A clothing manufacturer has some pure silk thread and some thread that is <m>85\%</m> silk. How many kilograms of each must be woven together to make <m>75</m> kg of cloth that is <m>96\%</m> silk? </p> </statement> </exercise> 
+      <exercise><statement> <p>A carpet manufacturer blends two fibers, one <m>20\%</m> wool and the second <m>50\%</m> wool. How many pounds of each fiber should be woven together to produce <m>600</m> lb of a fabric that is <m>28\%</m> wool? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many pounds of coffee that is <m>40\%</m> java beans must be mixed with <m>80</m> lb of coffee that is <m>30\%</m> java beans to make a coffee blend that is <m>32\%</m> java beans? </p> </statement> </exercise> 
+      <exercise><statement> <p>The manager of a specialty food store combined almonds that cost <m>\$4.50</m> per pound with walnuts that cost <m>\$2.50</m> per pound. How many pounds of each were used to make a <m>100</m> lb mixture that cost <m>\$3.24</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p>A tea that is <m>20\%</m> jasmine is blended with a tea that is <m>15\%</m> jasmine. How many pounds of each tea are used to make <m>5</m> lb of tea that is <m>18\%</m> jasmine? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many ounces of dried apricots must be added to <m>18</m> oz of a snack mix that contains <m>20\%</m> dried apricots to make a mixture that is <m>25\%</m> dried apricots? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many milliliters of pure chocolate must be added to <m>150</m> ml of chocolate topping that is <m>50\%</m> chocolate to make a topping that is <m>75\%</m> chocolate? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many ounces of pure bran flakes must be added to <m>50</m> oz of cereal that is <m>40\%</m> bran flakes to produce a mixture that is <m>50\%</m> bran flakes? </p> </statement> </exercise> 
+      <exercise><statement> <p>A ground meat mixture is formed by combining meat that costs <m>\$2.20</m> per pound with meat that costs <m>\$4.20</m> per pound. How many pounds of each were used to make a <m>50</m> lb mixture that costs <m>\$3.00</m> per pound? </p> </statement> </exercise> 
+      <exercise><statement> <p>How many grams of pure water must be added to <m>50</m> g of pure acid to make a solution that is <m>40\%</m> acid? </p> </statement> </exercise> 
+      <exercise><statement> <p> A lumber company combined oak wood chips that cost <m>\$3.10</m> per pound with pine wood chips that cost <m>\$2.50</m> per pound. How many pounds of each were used to make an <m>80</m> lb mixture costing <m>\$2.65</m> per pound?</p> </statement> </exercise> 
+      <exercise><statement> <p>How many ounces of pure water must be added to <m>50</m> oz of a <m>15\%</m> saline solution to make a saline solution that is <m>10\%</m> salt? </p> </statement> </exercise> 
+
+
+
+      </exercises>
+
+</section>
+

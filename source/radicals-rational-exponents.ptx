@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<section xml:id="radicals-rational-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">  
+  
+  <title> Rational Exponents </title>
+<introduction> <alert> Objective: Convert between radical notation and exponential notation and simplify expressions with rational exponents using the properties of exponents. </alert> </introduction>
+<p>
+When we simplify radicals with exponents, we divide the exponent by the index. Another way to write division is with a fraction bar. This idea is how we will define rational exponents.
+</p>
+<me> \textbf{Definition of Rational Exponents: } \mathbf{a^{\frac{n}{m}} = \left(\sqrt[m]{a}\right)^n }</me>
+<p>
+The denominator of a rational exponent becomes the index on our radical, likewise the index on the radical becomes the denominator of the exponent. We can use this property to change any radical expression into an exponential expression.
+</p>
+
+<example>
+      <tabular halign="center"  top="minor"  left="minor" bottom="minor" right="minor">
+	<row>  <cell><m> (\sqrt[5]{x})^3 = x^\frac{3}{5}</m></cell>  <cell><m>\left(\sqrt[6]{3x}\right)^5 = (3x)^{\frac{5}{6}} </m> </cell> <cell>     Index is denominator</cell></row>
+	<row>  <cell><m> \frac{1}{\left(\sqrt[7]{a}\right)^3} = a^{\frac{-3}{7}}</m></cell>  <cell><m> \frac{1}{\left(\sqrt[3]{xy}\right)^2} = (xy)^{-\frac{2}{3}}</m> </cell> <cell>Negative exponents from reciprocals </cell></row>
+      </tabular>
+  </example>  
+
+  <p>
+We can also change any rational exponent into a radical expression by using the denominator as the index.
+</p>
+<example>
+        <tabular halign="center"  top="minor"  left="minor" bottom="minor" right="minor">
+<row> <cell><m> a^{\frac{5}{3}} = \left(\sqrt[3]{a}\right)^5
+	</m></cell>  <cell><m>     (2mn)^{\frac{2}{7}} = \left(\sqrt[7]{2mn}\right)^2</m> </cell> <cell>     Index is denominator</cell></row>
+	<row>  <cell><m> x^{-\frac{4}{5}} = \frac{1}{\left(\sqrt[5]{x}\right)^4}</m></cell>  <cell><m> (xy)^{-\frac{2}{9}} = \frac{1}{\left(\sqrt[9]{xy}\right)^2}</m> </cell> <cell>Negative exponents means reciprocals </cell></row>
+	</tabular>
+  </example>  
+
+  <p> <alert> World View Note: </alert> Nicole Oresme, a Mathematician born in Normandy was the first to use rational exponents. He used the notation <m>\frac{1}{3} \bullet 9^p</m> to represent <m>9^{\frac{1}{3}}</m>. However his notation went largely unnoticed.
+  </p>
+  <p>
+The ability to change between exponential expressions and radical expressions allows us to evaluate problems we had no means of evaluating before by changing to a radical.
+</p>
+  <example> 
+    <md>  
+<mrow> 27^\frac{-4}{3} \amp \quad \text {Change to radical, denominator is index, negative means reciprocal}   </mrow>  
+<mrow> \frac{1}{(\sqrt[3]{27})^4} \amp \quad \text{Evaluate radical}  </mrow>  
+<mrow> \frac{1}{(3)^4} \amp \quad \text {Evaluate exponent}   </mrow>  
+<mrow> \frac{1}{81} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+<p>
+The largest advantage of being able to change a radical expression into an exponential expression is we are now allowed to use all our exponent properties to simplify. The following table reviews all of our exponent properties.
+</p>
+<me> \textbf{Properties of Exponents }</me>
+    <md>  
+      <mrow>\amp \quad  a^m a^n = a^{m+n}   \amp \quad      (ab)^m = a^m b^m     \amp \quad       \amp \quad    a^{-m} = \frac{1}{a^m}  </mrow>
+      <mrow> </mrow>
+<mrow> \amp \quad \frac{a^m}{a^n} = a^{m-n}  \amp \quad   \left(\frac{a}{b}\right)^m = \frac{a^m}{b^m}   \amp \quad \amp \quad  \frac{1}{a^{-m}} = a^m  </mrow>  
+      <mrow> </mrow>
+<mrow>\amp \quad  \left(a^m\right)^n = a^{mn}      \amp \quad      a^0 = 1       \amp \quad    \amp \quad    \left(\frac{a}{b}\right)^{-m} = \frac{b^m}{a^m} </mrow>  
+    </md> 
+<p>
+When adding and subtracting with fractions we need to be sure to have a common denominator. When multiplying we only need to multiply the numerators together and denominators together. The following examples show several different problems, using different properties to simplify the rational exponents.
+</p>
+  <example> 
+    <md>  
+<mrow> a^{\frac{2}{3}}b^{\frac{1}{2}}a^{\frac{1}{6}}b^{\frac{1}{5}} \amp \quad \text {Need common denominator on $a$’s  ($6$) and $b$’s ($10$)}   </mrow>  
+<mrow> a^{\frac{4}{6}}b^{\frac{5}{10}}a^{\frac{1}{6}}b^{\frac{2}{10}} \amp \quad \text{Add exponents on a’s and b’s}  </mrow>  
+<mrow> a^{\frac{5}{6}}b^{\frac{7}{10}} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+  <example> 
+    <md>  
+<mrow> \left(x^{\frac{1}{3}}y^{\frac{2}{5}}\right)^{\frac{3}{4}} \amp \quad \text {Multiply $\frac{3}{4}$ by each exponent}   </mrow>  
+<mrow> x^{\frac{1}{4}}y^{\frac{3}{10}} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>
+  
+  <example> 
+    <md>  
+<mrow> \frac{x^2y^{\frac{2}{3}} \cdot 2x^{\frac{1}{2}}y^{\frac{5}{6}}}{x^\frac{7}{2}y^0} \amp \quad \text {In numerator, need common denominator to add exponents}   </mrow>  
+<mrow> \frac{x^{\frac{4}{2}}y^{\frac{4}{6}} \cdot 2x^\frac{1}{2}y^\frac{5}{6}}{x^\frac{7}{2}y^0} \amp \quad \text{Add exponents in numerator, in denominator, $y^0 = 1$}  </mrow>  
+<mrow> \frac{2x^\frac{5}{2}y^\frac{9}{6}}{x^\frac{7}{2}} \amp \quad \text {Subtract exponents on $x$, reduce exponent on } y   </mrow>  
+<mrow> 2x^{-1} y^{\frac{3}{2}} \amp \quad \text{Negative exponent moves down to denominator}  </mrow>  
+<mrow> \frac{2y^\frac{3}{2}}{x} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>
+  
+  <example> 
+    <md>  
+<mrow> \left(\frac{25x^\frac{1}{3}y^\frac{2}{5}}{9x^\frac{4}{5}y^{-\frac{3}{2}}}\right)^{-\frac{1}{2}} \amp \quad \text {Using order of operations, simplify inside parenthesis first. Need common denominators before we can subtract exponents}   </mrow>  
+<mrow> \left(\frac{25x^\frac{5}{15}y^\frac{4}{10}}{9x^\frac{12}{15}y^{-\frac{15}{10}}}\right)^{-\frac{1}{2}} \amp \quad \text{Subtract exponents, be careful of the negative:  } \frac{4}{10} –\left( -\frac{15}{10}\right) = \frac{4}{10} + \frac{15}{10} = \frac{19}{10}  </mrow>  
+<mrow> \left(\frac{25x^\frac{-7}{15}y^\frac{19}{10}}{9}\right)^{-\frac{1}{2}} \amp \quad \text {The negative exponent will flip the fraction}   </mrow>  
+<mrow> \left(\frac{9}{25x^\frac{-7}{15}y^\frac{19}{10}}\right)^\frac{1}{2} \amp \quad \text{The exponent $\frac{1}{2}$ goes on each factor}  </mrow>  
+<mrow> \frac{9^\frac{1}{2}}{25^\frac{1}{2}x^\frac{-7}{30}y^\frac{19}{20}} \amp \quad \text{Evaluate $9\frac{1}{2}$ and $25\frac{1}{2}$ and move negative exponent}  </mrow>  
+<mrow> \frac{3x^\frac{7}{30}}{5y^\frac{19}{20}} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+<p>
+It is important to remember that as we simplify with rational exponents we are using the exact same properties we used when simplifying integer exponents. The only difference is we need to follow our rules for fractions as well. It may be worth reviewing your notes on exponent properties to be sure your comfortable with using the properties.
+</p>
+<exercises xml:id="exercises-rational-exponents"> 
+  <title>Exercises – Rational Exponents</title>
+  
+ <exercisegroup cols="2"> 
+    <introduction>  <p> Write each expression in radical form. </p>  </introduction>
+      <exercise><statement> <p> <m>m^{\frac{3}{5}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\left(10r\right)^{-\frac{3}{4}}</m></p> </statement> </exercise>
+      <exercise><statement> <p> <m> \left( 7x\right)^{\frac{3}{2}} </m> </p> </statement></exercise> 
+      <exercise><statement><p><m> (6b)^{-\frac{4}{3}} </m></p></statement></exercise> 
+      </exercisegroup> 
+
+ <exercisegroup cols="2"> 
+    <introduction> 
+      <p> Write each expression in exponential form. </p>  
+    </introduction> 
+
+      <exercise><statement><p><m> \frac{1}{\left(\sqrt{6x}\right)^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{v} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{1}{\left(\sqrt[4]{n}\right)^7} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{5a} </m> </p></statement></exercise>
+      </exercisegroup > 
+
+ <exercisegroup cols="2"> 
+    <introduction> 
+      <p> Evaluate. </p>  
+    </introduction> 
+      <exercise><statement><p><m> 8^\frac{2}{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 16^\frac{1}{4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 4^\frac{3}{2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 100^{-\frac{3}{2}} </m> </p></statement></exercise>
+      </exercisegroup> 
+
+      <exercisegroup cols="2"> 
+ <introduction> 
+      <p> Simplify. Your answer should contain only positive exponents. </p>  
+    </introduction> 
+ 
+      <exercise><statement><p><m>  yx^{\frac{1}{3}} \cdot xy^{\frac{3}{2}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  4v^{\frac{2}{3}} \cdot v^{-1} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \left((a^{\frac{1}{2}}b^{\frac{1}{2}}\right)^{-1} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \left(x^{\frac{5}{3}}b^{-2}\right)^0 </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{a^2b^0}{3a^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{2x^\frac{1}{2}y^\frac{1}{3}}{2x^\frac{4}{3}y^{-\frac{7}{4}}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> uv \cdot u \cdot \left(v^\frac{3}{2}\right)^3 </m> </p></statement></exercise> 
+      <exercise><statement><p><m> (x \cdot xy^2)^0 </m> </p></statement></exercise> 
+    <exercise><statement>  <p> <m> \left(x^0y^\frac{1}{3}\right)^\frac{3}{2}x^0 </m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> u^{-\frac{5}{4}}v^2 \cdot \left(u^\frac{3}{2}\right)^{-\frac{3}{2}} </m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \frac{a^\frac{3}{4}b^{-1} \cdot b^{\frac{7}{4}}}{3b^{-1}} </m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> \frac{2x^{-2}y^\frac{5}{3}}{x^{-\frac{5}{4}}y^{-\frac{5}{3}} \cdot xy^{\frac{1}{2}}} </m></p></statement></exercise> 
+      <exercise><statement><p><m> \frac{3y^{-\frac{5}{4}}}{y^{-1} \cdot 2y^{-\frac{1}{3}}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{ab^\frac{1}{3} \cdot 2b^{-\frac{5}{4}}}{4a^{-\frac{1}{2}}b^{-\frac{2}{3}}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \left(\frac{m^\frac{3}{2}n^{-2}}{\left(mn^\frac{4}{3}\right)^{-1}}\right)^\frac{7}{4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\left(y^{-\frac{1}{2}}\right)^\frac{3}{2}}{x^\frac{3}{2}y^\frac{1}{2}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\left(m^2n^\frac{1}{2}\right)^0}{n^\frac{3}{4}}  </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{y^0}{\left(x^\frac{3}{4}y^{-1}\right)^\frac{1}{3}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{\left(x^{-\frac{4}{3}}y^{-\frac{1}{3}} \cdot y^{-1}\right)}{x^\frac{1}{3}y^{-2}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \frac{\left(x^\frac{1}{2}y^0\right)^{-\frac{4}{3}}}{y^4 \cdot x^{-2}y^{-\frac{2}{3}}} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \frac{\left(uv^2\right)^\frac{1}{2}}{v^{-\frac{1}{4}}v^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \left(\frac{y^\frac{1}{3}y^{-2}}{\left(x^\frac{5}{3}y^3\right)^{-\frac{3}{2}}}\right)^\frac{3}{2} </m> </p></statement></exercise> 
+    </exercisegroup> 
+  </exercises>
+
+</section>

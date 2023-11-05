@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="prealgebra-properties-of-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Algebra</title>
+
+  <introduction>
+    <alert>
+      Objective: Simplify algebraic expressions by substituting given values,
+distributing, and combining like terms.
+    </alert>
+  </introduction>
+  
+  <p>
+    In algebra we will often need to simplify an expression to make it easier to use.
+    There are three basic forms of simplifying which we will review here.
+  </p>
+
+  <p>
+    <alert> World View Note:</alert>
+    The term "Algebra" comes from the Arabic word al-jabr which means "reunion".
+    It was first used in Iraq in <m>830</m> AD by Mohammad ibnMusa al-Khwarizmi.
+  </p>
+
+  <p>
+    The first form of simplifying expressions is used when we know what number each
+    variable in the expression represents. If we know what they represent we can
+    replace each variable with the equivalent number and simplify what remains using
+    order of operations.
+  </p>
+
+  <example>
+    <md>
+      <mrow> p(q + 6) \text{ when } p =3 \text{ and } q = 5 \amp \quad
+      \text{ Replace $p$ with $3$ and $q$ with $5$} </mrow>
+      <mrow> 3(5+6) \amp \quad \text{ Evaluate parenthesis} </mrow>
+      <mrow> 3\cdot 11 \amp \quad \text{ Multiply} </mrow>
+      <mrow> 33 \amp \quad \text{ Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    Whenever a variable is replaced with something, we will put the new number
+    inside a set of parenthesis. Notice the <m>3</m> and <m>5</m> in the previous example are in
+    parenthesis. This is to preserve operations that are sometimes lost in a simple
+    replacement. Sometimes the parenthesis won’t make a difference, but it is a good
+    habbit to always use them to prevent problems later.
+  </p>
+
+  <example>
+    <md>
+      <mrow> x+zx(3-z)\left(\frac{x}{3}\right) \text{ when } x=-6 \text{ and } z=-2 \amp \qquad \text{ Replace all x's with $6$ and z's with } 2 </mrow>
+      <mrow> (-6)+(-2)(-6)(3-(-2))\left(\frac{-6}{3}\right) \amp\quad \text{ Evaluate parenthesis}  </mrow>
+      <mrow>  -6 +(-2)(-6)(5)(-2) \amp\quad  \text{ Multiply left to right} </mrow>
+      <mrow> -6+12(5)(-2) \amp\quad  \text{ Multiply left to right} </mrow>
+      <mrow> -6+60(-2) \amp\quad  \text{ Multiply} </mrow>
+      <mrow>  -6-120 \amp\quad  \text{ Subtract} </mrow>
+      <mrow>  -126 \amp\quad  \text{ Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    It will be more common in our study of algebra that we do not know the value of
+    the variables. In this case, we will have to simplify what we can and leave the
+    variables in our final solution. One way we can simplify expressions is to combine
+    like terms. <alert> Like terms</alert> are terms where the variables match exactly (exponents
+    included). Examples of like terms would be <m>3xy</m> and <m>7xy</m> or <m>3a^2b</m>
+    and <m>8a^2b</m> or <m>3</m> and <m>5</m>. If we have like terms we are allowed to add (or subtract) the numbers in
+    front of the variables, then keep the variables the same. This is shown in the following examples
+  </p>
+  
+  <example>
+    <md>
+      <mrow> 5x-2y-8x+7y  \amp \quad  \text{ Combine like terms } 5x-8x \text{ and } -2y+7y </mrow>
+      <mrow> -3x+5y \amp\quad  \text{ Our Solution} </mrow>
+    </md>
+  </example>
+
+    <example>
+    <md>
+      <mrow> 8x^2-3x+7-2x^2+4x-3 \amp \quad  \text{ Combine like terms } 8x^2-2x^2 \text{ and } -3x+4x \text{ and  $7-3$} </mrow>
+      <mrow> 6x^2+x+4 \amp\quad  \text{ Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    As we combine like terms we need to interpret subtraction signs as part of the following term. This means if we see a subtraction sign, we treat the following term
+    like a negative term, the sign always stays with the term.
+  </p>
+  
+  <p>
+    A final method to simplify is known as distributing. Often as we work with problems there will be a set of parenthesis that make solving a problem difficult, if not
+    impossible. To get rid of these unwanted parenthesis we have the distributive
+    property. Using this property we multiply the number in front of the parenthesis
+    by each term inside of the parenthesis.
+  </p>
+
+  <p> <alert> Distributive Property: <m>a(b + c) = ab + ac</m> </alert></p>
+
+  <p> Several examples of using the distributive property are given below.</p>
+
+
+  <example>
+    <md>
+      <mrow> 4(2x-7)  \amp \quad  \text{Multiply each term by } 4 </mrow>
+      <mrow> 8x-28  \amp \quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <example>
+    <md>
+      <mrow> -7(5x-6)  \amp \quad  \text{Multiply each term by } -7 </mrow>
+      <mrow> -35x+42  \amp \quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    In the previous example we again use the fact that the sign goes with the number,
+    this means we treat the <m>-6</m> as a negative number, this gives <m>(-7)(-6) = 42</m>, a
+    positive number. The most common error in distributing is a sign error, be very
+    careful with your signs!
+  </p>
+
+  <p>
+    It is possible to distribute just a negative through parenthesis. If we have a negative in front of parenthesis we can think of it like a <m>-1</m> in front and distribute the
+    <m>-1</m> through. This is shown in the following example.
+  </p>
+  
+  <example>
+    <md>
+      <mrow> -(4x-5y+6)  \amp \quad  \text{Negative can be thought of as } -1 </mrow>
+      <mrow> -1(4x-5y+6)  \amp \quad  \text{Multiply each term by } -1</mrow>
+      <mrow> -4x+5y-6  \amp \quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    Distributing through parenthesis and combining like terms can be combined into
+    one problem. Order of operations tells us to multiply (distribute) first then add or
+    subtract last (combine like terms). Thus we do each problem in two steps, distribute then combine.
+  </p>
+
+  <example>
+    <md>
+      <mrow> 5+3(2x-4) \amp \quad  \text{Distribute $3$, multiply each term} </mrow>
+      <mrow> 5+6x-12 \amp \quad  \text{Combine like terms } 5-12 </mrow>
+      <mrow> -7+6x \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <example>
+    <md>
+      <mrow> 3x-2(4x-5) \amp \quad  \text{Distribute $-2$, multilpying each term }  </mrow>
+      <mrow> 3x-8x+10 \amp \quad  \text{Combine like terms } 3x-8x  </mrow>
+      <mrow> -5x+10 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    In the previous example we distributed <m>-2</m>, not just <m>2</m>.
+    This is because we will
+    always treat subtraction like a negative sign that goes with the number after it.
+    This makes a big difference when we multiply by the <m>5</m> inside the parenthesis,
+    we now have a positive answer. Following are more involved examples of distributing and combining like terms.
+  </p>
+
+  <example>
+    <md>
+      <mrow> 2(5x - 8) - 6(4x +3) \amp \quad  \text{Distribute $2$ into first parenthesis and $-6$ into second }  </mrow>
+      <mrow> 10x - 16 - 24x - 18 \amp \quad  \text{ Combine like terms $10x - 24x$ and $-16 - 18$ } </mrow>
+      <mrow> -14x-34 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <example>
+    <md>
+      <mrow> 4(3x - 8) - (2x - 7) \amp \quad  \text{Negative
+      (subtract) in middle can be thought of as } -1  </mrow>
+      <mrow> 4(3x - 8) - 1(2x - 7) \amp \quad  \text{Distribute $4$ into first parenthesis, $-1$ into second }  </mrow>
+      <mrow> 12x - 32 - 2x + 7 \amp\quad  \text{Combine like terms $12x - 2x$ and $-32 +7$} </mrow>
+      <mrow> 10x-25 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <exercises xml:id="exercises-properties-of-algebra" >
+    <title>Exercises - Properties of Algebra</title>
+
+      <exercisegroup cols="2">
+      <introduction>	<p>	  Evaluate each using the values given.  	</p>      </introduction>
+      <exercise><statement>  <p> <m> p + 1+ q - m</m>; use <m> m =1</m>, <m> p =3</m>, <m>q =4</m>  </p>  </statement></exercise>
+      <exercise><statement><p> <m> y^2 + y - z</m>; use  <m>y =5</m>, <m>z =1 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> p -\frac{pq}{6}</m>;  use  <m>p = 6</m>, <m>q =5 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> \frac{6+z-y}{3}</m>;  use  <m>y=1</m>, <m>z=4 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> c^2 - (a - 1)</m>;  use  <m>a =3</m>, <m>c =5 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> x +6z - 4y</m>;  use  <m>x =6</m>, <m>y = 4</m>, <m>z =4 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 5j +\frac{kh}{2}</m>;  use  <m>h = 5</m>, <m>j = 4</m>, <m>k =2  </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> 5(b + a)+1 + c</m>;  use  <m>a = 2</m>, <m>b = 6</m>, <m>c =5 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m> \frac{4 - (p - m)}{2}+ q</m>;  use  <m>m =4</m>, <m>p = 6</m>, <m>q = 6 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m>  z + x - (1^2)^3</m>;  use  <m>x =5</m>, <m>z =4 </m> </p>   </statement></exercise>
+      <exercise><statement><p> <m>  m + n + m +\frac{n}{2}</m>;  use <m> m = 1</m> and <m>n =2</m> </p>   </statement></exercise>
+      <exercise><statement> <p> <m> 3+ z - 1+ y - 1</m>; use <m>y = 5</m>, <m>z = 4</m> </p>  </statement></exercise>
+      <exercise><statement><p><m>  q - p - (q - 1 - 3)</m>; use <m>p =3</m>, <m>q = 6 </m></p></statement></exercise>
+      <exercise><statement><p><m> p + (q - r)(6 - p)</m>; use <m>p =6</m>, <m>q = 5</m>, <m>r = 5 </m> </p></statement></exercise>
+      <exercise><statement><p><m> y - [4 - y - (z - x)]</m>; use <m>x =3</m>, <m>y = 1</m>, <m>z = 6 </m> </p></statement></exercise>
+      <exercise><statement><p><m> 4z - (x + x - (z - z))</m>; use <m>x =3</m>, <m>z =2 </m> </p></statement></exercise>
+      <exercise><statement><p><m>   k \times 3^2 - (j + k) - 5</m>; use <m>j = 4</m>, <m>k =5 </m> </p></statement></exercise>
+      <exercise><statement><p><m> a^3(c^2 - c)</m>; use <m>a =3</m>, <m>c = 2 </m> </p></statement></exercise>
+      <exercise><statement><p><m> zx - \left(z -\frac{4 + x}{6}\right)</m>; use <m>x = 2</m>, <m>z =6 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  5+ qp + pq - q</m>; use <m>p =6</m>, <m>q = 3 </m> </p></statement></exercise>
+
+      </exercisegroup>
+
+      <exercisegroup cols="2">
+      <introduction>	<p>	  Combine Like Terms. 	</p>      </introduction>
+	<exercise><statement><p><m>  </m> r-9+10</p></statement></exercise>
+	<exercise><statement><p><m> -4x+2-4 </m> </p></statement></exercise>
+	<exercise><statement><p><m> n+n </m> </p></statement></exercise>
+	<exercise><statement><p><m>   4b +6+ 1+ 7b </m> </p></statement></exercise>
+	<exercise><statement><p><m>  8v +7v </m> </p></statement></exercise>
+	<exercise><statement><p><m>  - x + 8x </m> </p></statement></exercise>
+	<exercise><statement><p><m> - 7x - 2x  </m> </p></statement></exercise>
+	<exercise><statement><p><m> - 7a - 6+ 5  </m> </p></statement></exercise>
+	<exercise><statement><p><m> k - 2+7  </m> </p></statement></exercise>
+	<exercise><statement><p><m> -8p + 5p  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  x -10 -6x + 1  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  1 -10n - 10  </m> </p></statement></exercise>
+	<exercise><statement><p><m> m - 2m  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 1-r-6  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  9n - 1+ n + 4  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  -4b + 9b </m> </p></statement></exercise>
+
+      </exercisegroup>
+
+      <exercisegroup cols="2">
+      <introduction>	<p>	  Distribute.  	</p>      </introduction>
+	<exercise><statement><p><m> -8(x-4)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 3(8v+9)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 8n(n +9)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> -( - 5+9a)  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  7k( - k + 6)  </m> </p></statement></exercise>
+	<exercise><statement><p><m>   10x(1 +2x) </m> </p></statement></exercise>
+	<exercise><statement><p><m>  - 6(1+ 6x) </m> </p></statement></exercise>
+	<exercise><statement><p><m>  -2(n +1)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 8m(5 -m)  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  -2p(9p -1) </m> </p></statement></exercise>
+	<exercise><statement><p><m> - 9x(4 - x)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 4(8n - 2)  </m> </p></statement></exercise>
+	<exercise><statement><p><m>  -9b(b - 10) </m> </p></statement></exercise>
+	<exercise><statement><p><m>  -4(1+ 7r) </m> </p></statement></exercise>
+	<exercise><statement><p><m> -8n(5+ 10n)  </m> </p></statement></exercise>
+	<exercise><statement><p><m> 2x(8x -10)  </m> </p></statement></exercise>
+      </exercisegroup>
+      
+      <exercisegroup cols="2">
+      <introduction>	<p>	  Simplify.   	</p>      </introduction>
+      <exercise><statement><p><m>  9(b + 10)+ 5b  </m> </p></statement></exercise>
+      <exercise><statement><p><m> 4v - 7(1 - 8v)  </m> </p></statement></exercise>
+      <exercise><statement><p><m>  -3x(1 -4x) - 4x^2  </m> </p></statement></exercise>
+      <exercise><statement><p><m> -8x + 9( -9x +9)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> -4k^2 - 8k (8k + 1)  </m> </p></statement></exercise>
+      <exercise><statement><p><m>  -9 - 10(1 +9a) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  1 -7(5+ 7p) </m> </p></statement></exercise>
+      <exercise><statement><p><m> - 10(x - 2) - 3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>   -10- 4(n -5) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  -6(5 - m) +3m </m> </p></statement></exercise>
+      <exercise><statement><p><m>  4(x +7) +8(x +4) </m> </p></statement></exercise>
+      <exercise><statement><p><m> -2r(1+ 4r)+8r( -r +4)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> -8(n +6) -8n(n + 8)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> 9(6b +5) - 4b(b + 3)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> 7(7+ 3v) + 10(3 - 10v)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> -7(4x - 6) +2(10x -10) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  2n( - 10n + 5) - 7(6 - 10n) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  - 3(4+ a) +6a(9a + 10) </m> </p></statement></exercise>
+      <exercise><statement><p><m> 5(1 - 6k) + 10(k - 8)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> - 7(4x + 3) -10(10x + 10) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (8n^2 - 3n) - (5+ 4n^2) </m> </p></statement></exercise>
+      <exercise><statement><p><m>   (7x^2 - 3) - (5x^2 + 6x)</m> </p></statement></exercise>
+      <exercise><statement><p><m> (5p - 6) +(1 -p) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (3x^2 - x) - (7 - 8x) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (2 - 4v^2) +(3v^2 +2v) </m> </p></statement></exercise>
+      <exercise><statement><p><m> (2b - 8)+ (b - 7b^2) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (4 - 2k^2)+ (8 - 2k^2)  </m> </p></statement></exercise>
+      <exercise><statement><p><m> (7a^2 +7a) - (6a^2 + 4a) </m> </p></statement></exercise>
+      <exercise><statement><p><m> (x^2 - 8) +(2x^2 - 7) </m> </p></statement></exercise>
+      <exercise><statement><p><m> (3 - 7n^2)+ (6n^2 + 3) </m> </p></statement></exercise>
+      </exercisegroup>
+
+  </exercises>
+
+  
+</section>
+

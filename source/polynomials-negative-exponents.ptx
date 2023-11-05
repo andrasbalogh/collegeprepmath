@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="polynomials-negative-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title> Negative Exponents </title>
+<introduction> <alert> Objective: Simplify expressions with negative exponents using the properties of exponents. </alert> </introduction>
+
+<p>
+There are a few special exponent properties that deal with exponents that are not positive. The first is considered in the following example, which is worked out <m>2</m> different ways:
+</p>
+
+<example>
+    <md>
+    <mrow> \frac{a^3}{a^3} \amp \quad \text{Use the quotient rule to subtract exponents} </mrow>
+    <mrow> a^0 \amp \quad \text{Our solution, but now we consider the problem a second way:} </mrow>
+    <mrow> \frac{a^3}{a^3} \amp \quad \text{Rewrite exponents as repeated multiplication} </mrow>
+    <mrow> \frac{a a a}{a a a} \amp \quad \text{Reduce out all the $a$'s} </mrow>
+    <mrow> \frac{1}{1}=1 \amp \quad \text{Our solution. When we combine the two solutions we get:} </mrow>
+    <mrow> a^0=1 \amp \quad \text{Our final result} </mrow>
+    </md>
+</example>
+
+<p>
+This final result is an important property known as the zero power rule of exponents:
+</p>
+
+<me> \textbf{Zero Power Rule of Exponents: } {\mathbf a^0=1} </me>
+
+<p>
+Any number or expression raised to the zero power will always be <m>1</m>. This is illustrated in the following example.
+</p>
+
+<example>
+    <md>
+    <mrow> (3x^2)^0 \amp \quad \text{Zero power rule} </mrow>
+    <mrow> 1 \amp \quad \text{Our solution} </mrow>
+    </md>
+</example>
+
+<p>
+Another property we will consider here deals with negative exponents. Again we will solve the following example two ways.
+</p>
+
+<example>
+    <md>
+    <mrow> \frac{a^3}{a^5} \amp \quad \text{Using the quotient rule, subtract exponents} </mrow>
+    <mrow> a^{-2} \amp \quad \text{Our solution, but we will also solve this problem another way} </mrow>
+    <mrow> \frac{a^3}{a^5} \amp \quad \text{Rewrite exponents as repeated multiplication} </mrow>
+    <mrow> \frac{a a a}{a a a a a} \amp \quad \text{Reduce three $a$'s out of top and bottom} </mrow>
+    <mrow> \frac{1}{a a} \amp \quad \text{Simplify to exponents} </mrow>
+    <mrow> \frac{1}{a^2} \amp \quad \text{Our solution. Putting these solutions together gives:} </mrow>
+    <mrow> a^{-2}=\frac{1}{a^2} \amp \quad \text{Our final solution} </mrow>
+    </md>
+</example>
+
+<p>
+This example illustrates an important property of exponents. Negative exponents yield the reciprocal of the base. Once we take the reciprocal the exponent is now positive. Also, it is important to note a negative exponent does not mean the expression is negative, only that we need the reciprocal of the base. Following are the rules of negative exponents:
+</p>
+
+<p>
+  <md>
+    <mrow> \amp \quad a^{-m}=\frac{1}{a^m} </mrow>
+    <mrow> \textbf{Rules of Negative Exponents: } \amp \quad \frac{1}{a^{-m}}=a^m </mrow>
+    <mrow> \amp \quad \left( \frac{a}{b} \right)^{-m}=\frac{b^m}{a^m} </mrow>
+  </md>
+</p>
+
+<p>
+Negative exponents can be combined in several different ways. As a general rule, if we think of our expression as a fraction, negative exponents in the numerator must be moved to the denominator. Likewise, negative exponents in the denominator need to be moved to the numerator. When the base with exponent moves, the exponent is now positive. This is illustrated in the following example.
+</p>
+
+<example>
+    <md>
+    <mrow> \frac{a^3 b^{-2} c}{2d^{-1} e^{-4}f^2} \amp \quad \text{Negative exponents on $b$, $d$ and $e$ need to flip} </mrow>
+    <mrow> \frac{a^3 c d e^4}{2b^2 f^2} \amp \quad \text{Our solution} </mrow>
+    </md>
+</example>
+
+<p>
+As we simplified our fraction, we took special care to move the bases that had a negative exponent, but the expression itself did not become negative because of those exponents. Also, it is important to remember that exponents only effect what they are attached to. The <m>2</m> in the denominator of the above example does not have an exponent on it, so it does not move with the <m>d</m>.
+</p>
+
+<p>
+We now have the following nine properties of exponents. It is important that we are very familiar with all of them.
+</p>
+
+<me> \textbf{Properties of Exponents} </me>
+<md>
+<mrow> a^m a^n=a^{m+n} \amp \quad (ab)^m=a^m b^m \amp \quad a^{-m}=\frac{1}{a^m} </mrow>
+<mrow> \frac{a^m}{a^n}=a^{m-n} \amp \quad \left( \frac{a}{b} \right) ^m = \frac{a^m}{b^m} \amp \quad \frac{1}{a^{-m}}=a^m </mrow>
+<mrow> (a^m)^n=a^{m n} \amp \quad a^0=1 \amp \quad \left( \frac{a}{b} \right) ^{-m}=\frac{b^m}{a^m} </mrow>
+</md>
+
+<p>
+<alert>World View Note:</alert> Nicolas Chuquet, the French mathematician of the <m>15</m>th century, wrote <m>12^{1 \bar{m}}</m> to indicate <m>12x^{-1}</m>. This was the first known use of the negative exponent.
+</p>
+
+<p>
+Simplifying with negative exponents is much the same as simplifying with positive exponents. It is the advice of the author to keep the negative exponents until the end of the problem and then move them around to their correct location (numerator or denominator). As we do this it is important to be very careful of rules for adding, subtracting, and multiplying with negatives. This is illustrated in the following examples.
+</p>
+
+<example>
+    <md>
+    <mrow> \frac{4x^{-5}y^{-3} \cdot 3x^3y^{-2}}{6x^{-5}y^3} \amp \quad \text{Simplify numerator with product rule, adding exponents} </mrow>
+    <mrow> \frac{12x^{-2}y^{-5}}{6x^{-5}y^3} \amp \quad \text{Quotient rule to subtract exponents, be careful with negatives!} </mrow>
+<mrow> \amp \quad  x:\ (-2)-(-5)=(-2)+5=3 </mrow>
+<mrow> \amp \quad  y:\ (-5)-3=(-5)+(-3)=-8 </mrow>
+    <mrow> 2x^3y^{-8} \amp \quad \text{Negative exponent needs to move down to denominator} </mrow>
+    <mrow> \frac{2x^3}{y^8} \amp \quad \text{Our solution} </mrow>
+    </md>
+</example>
+
+<example>
+    <md>
+    <mrow> \frac{(3ab^3)^{-2}ab^{-3}}{2a^{-4}b^0} \amp \quad \text{In numerator, use power rule with $-2$, multiplying exponents. In denominator: }b^0=1 </mrow>
+  <mrow> \frac{3^{-2}a^{-2}b^{-6}ab^{-3}}{2a^{-4}} \amp \quad \text{In numerator, use product rule to add exponents} </mrow>
+    <mrow> \frac{3^{-2}a^{-1}b^{-9}}{2a^{-4}} \amp \quad \text{Use quotient rule to subtract exponents, be careful with negatives} </mrow>
+    <mrow> \amp \quad a:\ (-1)-(-4)=(-1)+4=3 </mrow>
+      <mrow> \frac{3^{-2}a^3b^{-9}}{2} \amp \quad \text{Move $3$ and $b$ to denominator because of negative exponents} </mrow>
+    <mrow> \frac{a^3}{3^2 2b^9} \amp \quad \text{Evaluate } 3^2 2 </mrow>
+    <mrow> \frac{a^3}{18b^9} \amp \quad \text{Our solution} </mrow>
+    </md>
+</example>
+
+<p>
+In the previous example it is important to point out that when we simplified <m>3^{-2}</m> we moved the three to the denominator and the exponent became positive. We did not make the number negative! Negative exponents never make the bases negative, they simply mean we have to take the reciprocal of the base. One final example with negative exponents is given here.
+</p>
+
+<example>
+    <md>
+      <mrow> \left( \frac{3x^{-2}y^5z^3 \cdot 6x^{-6}y^{-2}z^{-3}}{9(x^2y^{-2})^{-3}} \right)^{-3} \amp \quad \text{In numerator, use product rule, adding exponents.} </mrow>
+      <mrow> \amp\quad \text{In denominator, use power rule, multiplying exponents} </mrow>
+      <mrow> \left( \frac{18x^{-8}y^3z^0}{9x^{-6}y^6} \right)^{-3} \amp \quad \text{Use quotient rule to subtract exponents, be careful with negatives:}</mrow>
+<mrow>\amp\quad       x:\ (-8)-(-6)=(-8)+6=-2 </mrow>
+<mrow> \amp\quad y:\ 3-6=3+(-6)=-3 </mrow>
+    <mrow> (2x^{-2}y^{-3}z^0)^{-3} \amp \quad \text{Parenthesis are done, use power rule with $-3$} </mrow>
+    <mrow> 2^{-3}x^6 y^9 z^0 \amp \quad \text{Move $2$ with negative exponent down and $z^0=1$} </mrow>
+    <mrow> \frac{x^6 y^9}{2^3} \amp \quad \text{Evaluate $2^3$} </mrow>
+    <mrow> \frac{x^6 y^9}{8} \amp \quad \text{Our solution} </mrow>
+    </md>
+</example>
+
+<exercises xml:id="exercises-polynomials-negative-exponents">
+  <title>Exercises - Negative Exponents</title>
+
+  <exercisegroup cols="2">
+    <introduction>	<p>	  Simplify. Your answer should contain only positive expontents. </p>      </introduction>
+<exercise><statement> <p> <m> 2x^4 y^{-2} \cdot (2xy^3)^4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 2a^{-2} b^{-3} \cdot (2a^0 b^4)^4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (a^4 b^{-3})^3 \cdot 2a^3 b^{-2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 2x^3 y^2 \cdot (2x^3)^0 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (2x^2 y^2)^4 x^{-4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (m^0 n^3 \cdot 2m^{-3} n^{-3})^0 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (x^3 y^4)^3 \cdot x^{-4} y^4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 2m^{-1} n^{-3} \cdot (2m^{-1} n^{-3})^4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2x^{-3} y^2}{3x^{-3} y^3 \cdot 3x^0} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{3y^3}{3yx^3 \cdot 2x^4 y^{-3}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{4xy^{-3} \cdot x^{-4} y^0}{4y^{-1}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{3x^3 y^2}{4y^{-2} \cdot 3x^{-2} y^{-4}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{u^2 v^{-1}}{2u^0 v^4 \cdot 2uv} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2xy^2 \cdot 4x^3 y^{-4}}{4x^{-4} y^{-4} \cdot 4x} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{u^2}{4u^0 v^3 \cdot 3v^2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2x^{-2} y^2}{4yx^2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2y}{(x^0 y^2)^4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{(a^4)^4}{2b} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \left( \frac{2a^2 b^3}{a^{-1}} \right)^4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \left( \frac{2y^{-4}}{x^2} \right)^{-2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2n m^4}{(2m^2 n^2)^4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2y^2}{(x^4 y^0)^{-4}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{(2mn)^4}{m^0 n^{-2}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2x^{-3}}{(x^4 y^{-3})^{-1}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{y^3 \cdot x^{-3} y^2}{(x^4 y^2)^3} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2x^{-2} y^0 \cdot 2xy^4}{(xy^0)^{-1}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2u^{-2} v^3 \cdot (2uv^4)^{-1}}{2u^{-4} v^0} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2yx^2 \cdot x^{-2}}{(2x^0 y^4)^{-1}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \left( \frac{2x^0 \cdot y^4}{y^4} \right)^3 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{u^{-3} v^{-4}}{2v(2u^{-3} v^4)^0} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{y(2x^4 y^2)^2}{2x^4 y^0} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{b^{-1}}{(2a^4 b^0)^0 \cdot 2a^{-3} b^2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2yzx^2}{2x^4 y^4 z^{-2} \cdot (zy^2)^4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2b^4 c^{-2} \cdot (2b^3 c^2)^{-4}}{a^{-2} b^4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2kh^0 \cdot 2h^{-3} k^0}{(2kj^3)^2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \left( \frac{(2x^{-3} y^0 z^{-1})^3 \cdot x^{-3} y^2}{2x^3} \right)^{-2} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{(cb^3)^2 \cdot 2a^{-3} b^2}{(a^3 b^{-2} c^3)^3} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2q^4 \cdot m^2 p^2 q^4}{(2m^{-4} p^2)^3} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{(yx^{-4} z^2)^{-1}}{z^3 \cdot x^2 y^3 z^{-1}} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> \frac{2m p n^{-3}}{(m^0 n^{-4} p^2)^3 \cdot 2n^2 p^0} </m> </p> </statement></exercise>
+  </exercisegroup>
+  
+      </exercises>
+
+</section>

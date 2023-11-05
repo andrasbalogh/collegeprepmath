@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="graphing-slope" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title> Slope </title>
+<introduction> <alert> Objective: Find the slope of a line given a graph or two points. </alert> </introduction>
+
+<p>
+As we graph lines, we will want to be able to identify different properties of the lines we graph. One of the most important properties of a line is its slope. <alert>Slope</alert> is a measure of steepness. A line with a large slope, such as <m>25</m>, is very steep. A line with a small slope, such as <m>\frac{1}{10}</m>, is very flat. We will also use slope to describe the direction of the line. A line that goes up from left to right will have a positive slope and a line that goes down from left to right will have a negative slope.
+</p>
+
+<p>
+As we measure steepness, we are interested in how fast the line rises compared to how far the line runs. For this reason, we will describe slope as the fraction <m>\frac{\text{rise}}{\text{run}}</m>. Rise would be a vertical change, or a change in the <m>y</m>-values. Run would be a horizontal change, or a change in the <m>x</m>-values. So, another way to describe slope would be the fraction <m>\frac{\text{change in } y}{\text{change in } x}</m>. It turns out that if we have a graph, we can draw vertical and horizontal lines from one point to another to make what is called a slope triangle. The sides of the slope triangle give us our slope. The following examples show graphs that we find the slope of using this idea.
+</p>
+
+<example>
+      <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-slope-1.jpg" /> 
+   <p>
+     To find the slope of this line, we will consider the rise, or vertical change, and the run or, horizontal change. Drawing these lines in makes a slope
+     triangle that we can use to count from one point to the next. The graph goes
+   down <m>4</m>, right <m>6</m>. This is rise <m>-4</m>, run <m>6</m>. As a fraction it would be <m>\frac{-4}{6}</m>. Reduce the fraction to get <m>-\frac{2}{3}</m>. 
+<me> -\frac{2}{3} \quad \text{Our Solution} </me>
+</p>
+    </sidebyside>
+</example>
+
+<p>
+<alert>World View Note:</alert> When French mathematicians Rene Descartes and Pierre de Fermat first developed the coordinate plane and the idea of graphing lines (and other functions) the <m>y</m>-axis was not a vertical line!
+</p>
+
+<example>
+ <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-slope-2.jpg" /> 
+   <p>
+ To find the slope of this line, the rise is up <m>6</m>, and the run is right <m>3</m>. Our slope is then written as a fraction, <m>\frac{\text{rise}}{\text{run}}</m> or <m>\frac{6}{3}</m>. This fraction reduces to <m>2</m>. This will be our slope. 
+    <me> 2 \quad \text{Our Solution} </me>
+   </p>
+    </sidebyside>
+</example>
+
+<p>
+There are two special lines that have unique slopes that we need to be aware of. They are illustrated in the following example.
+</p>
+
+<example>
+      <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-slope-3.jpg" /> 
+   <p>
+     In this graph there is no rise, but the run is <m>3</m> units. This slope becomes <m>\frac{0}{3} = 0</m>. This line, and all horizontal lines, have a zero slope. 
+   </p>
+    </sidebyside>
+
+        <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-slope-4.jpg" /> 
+   <p>
+This line has a rise of <m>5</m>, but no run. The slope becomes <m>\frac{5}{0}=</m> undefined. This line, and all vertical lines, have no slope. 
+   </p>
+    </sidebyside>
+</example>
+
+
+    <p> As you can see there is a big difference between having a zero slope and having no slope or undefined slope. Remember, slope is a measure of steepness. The first slope is not steep at all, in fact it is flat. Therefore it has a zero slope. The second slope can’t get any steeper. It is so steep that there is no number large enough to express how steep it is. This is an undefined slope. </p>
+
+<p>
+We can find the slope of a line through two points without seeing the points on a graph. We can do this using a slope formula. If the rise is the change in <m>y</m> values, we can calculate this by subtracting the <m>y</m> values of a point. Similarly, if run is a change in the <m>x</m> values, we can calculate this by subtracting the <m>x</m> values of a point. In this way we get the following equation for slope.
+</p>
+
+<me>
+\textbf{The slope of a line through $\mathbf{ (x_1, y_1)}$ and $\mathbf{(x_2, y_2)}$ is } \mathbf{\frac{y_2 – y_1}{x_2 – x_1}}
+</me>
+
+<p>
+When mathematicians began working with slope, it was called the modular slope. For this reason, we often represent the slope with the variable <m>m</m>. Now, we have the following for slope.
+</p>
+
+<me>
+ \textbf{ Slope} \mathbf{= m = \frac{\text{ rise}}{\text{run}} = \frac{\text{change in } y }{\text{change in } x} = \frac{y_2 – y_1}{x_2 – x_1}}
+</me>
+
+  <p>
+As we subtract the <m>y</m> values and the <m>x</m> values when calculating slope, it is important we subtract them in the same order. This process is shown in the following examples.
+</p>
+
+<example>
+    <md>
+    <mrow> \text{Find the slope between $(-4,3)$ and $(2,-9)$} \amp \quad \text{Identify $x_1$, $y_1$, $x_2$, $y_2$} </mrow>
+    <mrow> (x_1, y_1) \text{ and } (x_2, y_2)  \amp \quad \text{Use the slope formula, $m=\frac{y_2 – y_1}{x_2 – x_1}$} </mrow>
+    <mrow> m=\frac{-9-3}{2-(-4)} \amp \quad \text{Simplify} </mrow>
+    <mrow> m=\frac{-12}{6} \amp \quad \text{Reduce} </mrow>
+    <mrow> m=-2 \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<example>
+    <md>
+    <mrow> \text{Find the slope between $(4,6)$ and $(2,-1)$} \amp \quad \text{Identify $x_1$, $y_1$, $x_2$, $y_2$} </mrow>
+    <mrow> (x_1, y_1) \text{ and } (x_2, y_2)  \amp \quad \text{Use the slope formula, $m=\frac{y_2 – y_1}{x_2 – x_1}$} </mrow>
+    <mrow> m=\frac{-1-6}{2-4} \amp \quad \text{Simplify} </mrow>
+    <mrow> m=\frac{-7}{-2} \amp \quad \text{Reduce, dividing by -1} </mrow>
+    <mrow> m=\frac{7}{2} \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<p>
+We may come up against a problem that has a zero slope (horizontal line) or no slope (vertical line) just as with using the graphs.
+</p>
+
+<example>
+    <md>
+    <mrow> \text{Find the slope between $(-4,-1)$ and $(-4,-5)$} \amp \quad \text{Identify $x_1$, $y_1$, $x_2$, $y_2$} </mrow>
+    <mrow> (x_1, y_1) \text{ and } (x_2, y_2)  \amp \quad \text{Use the slope formula, $m=\frac{y_2 – y_1}{x_2 – x_1}$} </mrow>
+    <mrow> m=\frac{-5-(-1)}{-4-(-4)} \amp \quad \text{Simplify} </mrow>
+    <mrow> m=\frac{-4}{0} \amp \quad \text{Can't divide by zero, undefined} </mrow>
+    <mrow> m=\text{no slope} \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<example>
+    <md>
+    <mrow> \text{Find the slope between $(3,1)$ and $(-2,1)$} \amp \quad \text{Identify $x_1$, $y_1$, $x_2$, $y_2$} </mrow>
+    <mrow> (x_1, y_1) \text{ and } (x_2, y_2)  \amp \quad \text{Use the slope formula, $m=\frac{y_2 – y_1}{x_2 – x_1}$} </mrow>
+    <mrow> m=\frac{1-1}{-2-3} \amp \quad \text{Simplify} </mrow>
+    <mrow> m=\frac{0}{-5} \amp \quad \text{Reduce} </mrow>
+    <mrow> m=0 \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<p>
+Again, there is a big difference between no slope and a zero slope. Zero is an integer and it has a value, the slope of a flat horizontal line. No slope has no value, it is undefined, the slope of a vertical line.
+</p>
+
+<p>
+Using the slope formula, we can also find missing points if we know what the slope
+is. This is shown in the following two examples.
+</p>
+
+<example>
+    <p> Find the value of <m>y</m> between the points <m> (2, y) </m> and <m> (5,-1) </m> with slope <m>-3</m>. </p>
+    <md>
+    <mrow> m=\frac{y_2-y_1}{x_2-x_1} \amp \quad \text{We will plug values into slope formula} </mrow>
+    <mrow> -3=\frac{-1-y}{5-2} \amp \quad \text{} </mrow>
+    <mrow> -3=\frac{-1-y}{3} \amp \quad \text{Simplify} </mrow>
+    <mrow> -3(3)=\frac{-1-y}{3}(3) \amp \quad \text{ Multiply both sides by 3} </mrow>
+    <mrow> -9=-1-y\amp \quad \text{Simplify} </mrow>
+    <mrow> -9+1=-1-y+1\amp \quad \text{Add $1$ to both sides} </mrow>
+    <mrow> -8=-y \amp \quad \text{Simplify} </mrow>
+    <mrow> \frac{-8}{-1} = \frac{-y}{-1} \amp \quad \text{Divide both sides by $-1$} </mrow>
+    <mrow> 8=y \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<example>
+    <p> Find the value of <m>x</m> between the points <m> (-3, 2) </m> and <m> (x, 6) </m> with slope <m>\frac{2}{5}</m>. </p>
+    <md>
+    <mrow> m=\frac{y_2-y_1}{x_2-x_1} \amp \quad \text{We will plug values into slope formula} </mrow>
+    <mrow> \frac{2}{5}=\frac{6-2}{x-(-3)} \amp \quad \text{} </mrow>
+    <mrow> \frac{2}{5}=\frac{4}{x+3} \amp \quad \text{Simplify} </mrow>
+    <mrow> \frac{2}{5}(x+3)=4 \amp \quad \text{Multiply both sides by $(x+3)$} </mrow>
+    <mrow> (5)\frac{2}{5}(x+3)=(5)4 \amp \quad \text{Multiply by $5$ to clear fraction} </mrow>
+    <mrow> 2(x+3)=20 \amp \quad \text{Simplify} </mrow>
+    <mrow> 2x+6=20 \amp \quad \text{Distribute} </mrow>
+    <mrow> 2x+6-6=20-6 \amp \quad \text{Subtract $6$ from both sides} </mrow>
+    <mrow> 2x=14 \amp \quad \text{Simplify} </mrow>
+    <mrow> \frac{2x}{2}=\frac{14}{2} \amp \quad \text{Divide each side by $2$} </mrow>
+    <mrow> x=7 \amp \quad \text{Our Solution} </mrow>
+    </md>
+</example>
+
+<exercises xml:id="exercises-graphing-slope">
+  <title>Exercises - Graphing - Slope</title>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Find the slope of each line.</p>      </introduction>
+<exercise><statement><p> <image source="images/graphing-slope-5.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-6.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-7.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-8.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-9.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-10.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-11.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-12.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-13.jpg" />   </p>  </statement></exercise>
+<exercise><statement><p> <image source="images/graphing-slope-14.jpg" />   </p>  </statement></exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	Find the slope of the line through each pair of points.</p>      </introduction>
+<exercise><statement> <p> <m> (-2, 10), (-2,-15) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (1, 2), (-6,-14) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-15, 10), (16,-7) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (13,-2), (7, 7)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (10, 18), (-11,-10) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-3, 6), (-20, 13)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-16,-14), (11,-14) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (13, 15), (2, 10)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-4, 14), (-16, 8) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (9,-6), (-7,-7)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (12,-19), (6, 14) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-16, 2), (15,-10)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-5,-10), (-5, 20) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (8, 11), (-3,-13) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-17, 19), (10,-7) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (11,-2), (1, 17)</m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (7,-14), (-8,-9) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-18,-5), (14,-3) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-5, 7), (-18, 14) </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (19, 15), (5, 11) </m> </p> </statement></exercise>
+    </exercisegroup>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Find the value of <m>x</m> or <m>y</m> so that the line through the points has the given slope. </p>      </introduction>
+<exercise><statement> <p> <m> (2,6) \text{ and } (x,2) \text{; slope: } \frac{4}{7} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (8,y) \text{ and } (-2,4) \text{; slope: } -\frac{1}{5} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-3,-2) \text{ and } (x,6) \text{; slope: } -\frac{8}{5} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-2,y) \text{ and } (2,4) \text{; slope: } \frac{1}{4} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (-8,y) \text{ and } (-1,1) \text{; slope: } \frac{6}{7} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (x,-1) \text{ and } (-4,6) \text{; slope: } -\frac{7}{10} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (x,-7) \text{ and } (-9,-9) \text{; slope: } \frac{2}{5} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (2,-5) \text{ and } (3,y) \text{; slope: } 6 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (x,5) \text{ and } (8,0) \text{; slope: } -\frac{5}{6} </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> (6,2) \text{ and } (x,6) \text{; slope: } -\frac{4}{5} </m> </p> </statement></exercise>
+    </exercisegroup>
+
+</exercises>
+
+</section>

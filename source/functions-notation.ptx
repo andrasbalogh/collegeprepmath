@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-notation" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title> Function Notation  </title> 
+ 
+  <introduction> <alert> Objective: Identify functions and use correct notation 
+  to evaluate functions at numerical and variable values.</alert> </introduction> 
+ 
+   <p> 
+ There are many different types of equations that we can work with in algebra. 
+ An equation gives the relationship between variables and numbers. 
+ Examples of several relationships are below:
+   </p> 
+
+<me>
+\frac{(x+3)^2}{9}-\frac{(y+2)^2}{4}=1 \text{ and } y=x^2-2x+7 \text{ and } \sqrt{y+x}-7=xy 
+</me>
+
+<p>
+There is a special classification of relationships known as functions. <alert>Functions</alert> have at most one output for any input. Generally <m>x</m> is the variable that we plug into an equation and evaluate to find <m>y</m>. For this reason <m>x</m>  is considered an input variable and <m>y</m> is considered an output variable. This means the definition of a function, in terms of equations in <m>x</m> and <m>y</m> could be said, for any <m>x</m> value there is at most one <m>y</m> value that corresponds with it.
+</p>
+
+ <p>
+A great way to visualize this definition is to look at the graphs of a few relation- ships. Because <m>x</m> values are vertical lines we will draw a vertical line through the graph. If the vertical line crosses the graph more than once, that means we have too many possible <m>y</m> values. If the graph crosses the graph only once, then we say the relationship is a function.
+</p>
+
+  <example>
+Which of the following graphs are graphs of functions?
+<sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+    <image source="images/functions-notation-01.jpg"/> 
+    <image source="images/functions-notation-02.jpg"/>
+    <image source="images/functions-notation-03.jpg"/> 
+</sidebyside>
+<sidebyside widths="30% 30% 30%" margins="auto" valign="top">
+<p> Drawing a vertical line through this graph will only cross the graph once, 
+    it is a function.  </p>      
+<p> Drawing a vertical line through this graph will cross the graph twice, 
+    once at top and once at bottom. This is not a function. </p>    
+    <p> Drawing a vertical line through this graph will cross the graph only once, 
+    it is a function.</p>  
+</sidebyside>
+ </example>
+
+<p>
+We can look at the above idea in an algebraic method by taking a relationship and solving it for <m>y</m>. If we have only one solution then it is a function.
+</p>
+  <example>
+    <md> 
+      <mrow>  \text{Is } 3x^2-y=5 \text{a function?}  \amp \quad  \text{ Solve the relation for }y   </mrow> 
+      <mrow>   -3x^2 \qquad  -3x^2 \qquad\quad \amp\quad  \text{Subtract $3x^2$ from both sides}  </mrow> 
+      <mrow>  -y=-3x^2+5  \amp\quad  \text{Divide each term by }-1  </mrow>
+      <mrow> \overline{-1} \qquad  \overline{-1}  \quad \overline{-1} \amp\quad  </mrow>
+      <mrow> y=3x^2-5   \amp\quad  \text{Only one solution for }y.  </mrow>
+      <mrow>    \text{Yes!}\amp\quad  \text{It is a function}  </mrow>
+</md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> \text{Is } y^2-x=5 \text{ a function?} \amp \quad \text{Solve the relation for } y </mrow>
+      <mrow> +x \quad +x \qquad \qquad \amp \quad  \text{Add $x$ to both sides}</mrow>
+      <mrow> y^2=x+5 \amp \quad  \text{Square root of both sides}</mrow>
+      <mrow> \sqrt{y^2}=\pm \sqrt{x+5} \amp \quad  \text{Simplify} </mrow>
+      <mrow> y=\pm \sqrt{x+5}  \amp \quad  \text{Two solutions for $y$ (one $+$, one $-$)} </mrow>
+      <mrow>  \text{No! } \amp \quad  \text{Not a function}</mrow>
+    </md>
+  </example> 
+
+<p>
+Once we know we have a function, often we will change the notation used to emphasis the fact 
+that it is a function. Instead of writing <m> y=</m>, we will use function notation which 
+can be written <m>f(x)=</m>. We read this notation “<m>f</m> of “<m>x</m>” So for the above 
+example that was a function, instead of writing <m>y = 3x^2-5</m>, we could have written 
+<m>f(x)=3x^2-5</m>. It is important to point out that <m>f(x)</m> does not mean <m>f</m> 
+times <m>x</m>, it is merely a notation that names the function with the first letter 
+(function <m>f</m>) and then in parenthesis we are given information about what variables 
+are in the function (variable <m>x</m>). The first letter can be anything we want it to be, 
+often you will see <m>g(x)</m>  (read <m>g</m>  of <m>x</m>).
+</p>
+
+  <p> <alert> World View Note:</alert> The concept of a function was first introduced by Arab 
+  mathematician Sharaf al-Din al-Tusi in the late 12th century
+</p>
+
+  <p> 
+Once we know a relationship is a function, we may be interested in what values can be put 
+into the equations. The values that are put into an equation (generally the <m>x</m> values) 
+are called the domain. When finding the <alert>domain</alert>, often it is easier to consider 
+what cannot happen in a given function, then exclude those values.
+  </p> 
+ 
+  <example>
+    <md> 
+      <mrow> \text{Find the domain:} f(x)=\frac{3x-1}{x^2+x-6} \amp \quad  \text{ With fractions, zero can't be in denominator}   </mrow> 
+      <mrow> x^2+x-6 \neq 0 \amp\quad  \text{Solve by factoring}  </mrow> 
+      <mrow> (x+3)(x-2) \neq 0 \amp\quad  \text{Set each factor not equal to zero}  </mrow> 
+ <mrow> x+3 \neq 0 \text{ and } x-2 \neq 0 \amp\quad  \text{Solve each equation }  </mrow> 
+<mrow> -3  -3	\quad \quad \ +2  +2  \amp\quad  </mrow>
+<mrow> x \neq -3,2  \amp\quad  \text{Our Solution}  </mrow>
+    </md>
+  </example> 
+
+<p>
+The notation in the previous example tells us that x can be any value except for <m> -3</m> and <m>2</m>. If <m>x</m> were one of those two values, the function would be undefined.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \text{Find the domain:} f(x)=3x^2-x \amp \quad  \text{ With this equation there are no bad values}   </mrow> 
+      <mrow> \text{All the Real Numbers or } \mathbb{R} \amp\quad  \text{Our Solution}  </mrow> 
+      </md>
+  </example> 
+
+<p>
+In the above example there are no real numbers that make the function undefined. 
+This means any number can be used for <m>x</m>.
+</p>
+
+
+  <example>
+    <md> 
+      <mrow> \text{Find the domain: } f(x)=\sqrt{2x-3}  \amp \quad  \text{ Square roots can't be negative}   </mrow> 
+      <mrow> 2x-3 \geq 0 \amp\quad  \text{ Set up an inequality }  </mrow> 
+      <mrow> +3  +3 \amp\quad  \text{ Solve }  </mrow> 
+      <mrow> 2x \geq 3\amp\quad  \text{ Solve }  </mrow> 
+      <mrow> \overline{2}  \qquad \overline{2}\amp\quad  \text{ Solve }  </mrow> 
+      <mrow> x \geq \frac{3}{2} \amp\quad  \text{Our Solution }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The notation in the above example states that our variable can be <m>\frac{3}{2}</m> or any 
+number larger than <m>\frac{3}{2}</m>. But any number smaller would make the function 
+undefined (without using imaginary numbers).
+</p>
+
+  <p> 
+ Another use of function notation is to easily plug values into functions. If we want to 
+ substitute a variable for a value (or an expression) we simply replace the vari- able with
+  what we want to plug in. This is shown in the following examples.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> f(x)=3x^2-4x; \text{ find } f(-2) \amp \quad  \text{Substitute $-2$ in for $x$ in the function }   </mrow> 
+      <mrow> f(-2)=3(-2)^2-4(-2) \amp\quad  \text{Evaluate, exponents first}  </mrow> 
+      <mrow> f(-2)=3(4)-4(-2) \amp\quad  \text{Multiply}  </mrow> 
+      <mrow> f(-2)=12+8 \amp\quad  \text{Add}  </mrow>
+      <mrow> f(-2)=20 \amp\quad  \text{Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> h(x)=3^{2x-6}; \text{ find } h(4) \amp\quad  \text{Substitute $4$ in for $x$ in the function} </mrow>
+      <mrow> h(3)=3^{2(4)-6}  \amp\quad  \text{Simplify exponent, multiplying first} </mrow>
+      <mrow> h(3)=3^{8-6}   \amp\quad  \text{Subtract in exponent} </mrow> 
+      <mrow> h(3)=3^{2}    \amp\quad  \text{Evaluate exponent} </mrow>
+      <mrow> h(4)=9  \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example> 
+
+
+  <example>
+    <md> 
+      <mrow> k(a)=2|a+4|;\text{ find } k(-7) \amp\quad  \text{Substitute $-7$ in for $a$ in the function}</mrow>
+      <mrow> k(-7)=2|-7+4| \amp\quad  \text{Add inside absolute values }</mrow> 
+      <mrow> k(-7)=2|-3| \amp\quad  \text{Evaluate absolute value } </mrow>
+      <mrow> k(-7)=2(3) \amp\quad  \text{Multiply}</mrow>
+      <mrow> k(-7)=6 \amp\quad  \text{Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+As the above examples show, the function can take many different forms, but the pattern to evaluate the function is always the same, replace the variable with what is in parenthesis and simplify. We can also substitute expressions into functions using the same process. Often the expressions use the same variable, it is important to remember each variable is replaced by whatever is in parenthesis.
+</p>
+
+
+  <example>
+    <md> 
+      <mrow> g(x)=x^4+1; \text{ find } g(3x) \amp \quad  \text{Replace $x$ in the function with $(3x)$ }   </mrow> 
+      <mrow> g(3x)=(3x)^4+1 \amp\quad  \text{Simplify exponent}  </mrow> 
+      <mrow> g(3x)=81x^4+1 \amp\quad  \text{ Our Solution}  </mrow> 
+   </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> p(t)=t^2-t; \text{ find } p(t+1) \amp \quad  \text{Replace each $t$ in $p(t)$ with } (t+1)  </mrow> 
+      <mrow> p(t+1)=(t+1)^2-(t+1) \amp\quad  \text{Square binomial }  </mrow> 
+      <mrow> p(t+1)=t^2+2t+1-(t+1) \amp\quad  \text{Distribute negative }  </mrow> 
+      <mrow> p(t+1)=t^2+2t+1-t-1  \amp\quad  \text{Combine like terms}  </mrow> 
+      <mrow> p(t+1)=t^2+t \amp\quad  \text{Our Solution   }  </mrow> 
+    </md>
+  </example> 
+<p>
+It is important to become comfortable with function notation and how to use it as we transition into more advanced algebra topics.
+</p>
+
+
+
+  <exercises xml:id="exercises-funtionnotation">
+    <title>Exercises – Function Notation </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p> Solve. Which of the following is a function?     </p>      </introduction>
+      <exercise><statement> <p> <image source="images/functions-notation-04.jpg" width="80%"/></p> </statement> </exercise>
+      <exercise><statement> <p> <image source="images/functions-notation-05.jpg" width="80%"/></p> </statement> </exercise>
+     <exercise><statement> <p> <image source="images/functions-notation-06.jpg" width="80%"/></p> </statement> </exercise>
+     <exercise><statement> <p>  <image source="images/functions-notation-07.jpg" width="80%"/></p> </statement> </exercise>
+     <exercise><statement> <p> <m>  y=3x-7 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{y}+x=2  </m></p> </statement> </exercise> 
+     <exercise><statement> <p> <m> y^2-x^2=1</m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> x^2+y^2=1</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+
+    <exercisegroup cols="2">
+      <introduction>    <p> Specify the domain of each of the following functions. </p>      </introduction>
+      <exercise><statement> <p> <m>f(x)=-5x+1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> f(x)=\sqrt{5-4x} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> s(t)=\frac{1}{t^2}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>f(x)=x^2-3x-4 </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> s(t)=\frac{1}{t^2+1}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>f(x)=\sqrt{x-16} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> </m> f(x)=\frac{-2}{x^2-3x-4}</p> </statement> </exercise> 
+      <exercise><statement> <p> <m>h(x)=\frac{\sqrt{3x-12}}{x^2-25} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m>y(x)=\frac{r}{x^2-25} </m> </p> </statement> </exercise>
+
+
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>    <p> Evaluate each function. </p>      </introduction>
+      <exercise><statement> <p> <m> g(x)4x-4;</m> Find <m>g(0)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> g(n)=-3*5^{-n};</m> Find <m>g(2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> f(x)=-2|-n-2|+1;</m> Find <m>f(-6)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> f(n)=n-3;</m> Find <m>f(10)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> f(t)3^t-2;</m> Find <m>f(-2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> f(a)=3^{a-1};</m> Find <m>f(2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> f(t)=|t+3|;</m> Find <m>f(10)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> w(x)=x^2+4x;</m> Find <m>>w(-5)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> w(n)=2^{n+2};</m> Find <m>w(-2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> w(x)=-4+3;</m> Find <m>w(6)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> p(n)=-3|n|;</m> Find <m>p(7)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> k(a)=a+3;</m> Find <m>k(-1)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> p(t)=-t^3+t;</m> Find <m>p(4)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> k(x)=-2*4^{2x-2};</m> Find <m>k(2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> k(n)=|n-1|;</m> Find <m>k(3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> p(t)=-2*4^{2t+1}; </m> >Find <m>p(-2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> h(x)=x^3+2;</m> Find <m>h(-4x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> h(n)=4n+2;</m> Find <m>h(n+2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> h(x)=3x+2;</m> Find <m>h(-1+x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -3*2^{a+3};</m> Find <m>h(\frac{a}{4})</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> h(t)=2|-3t-1|+2;</m> Find <m>h(n^2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> h(x)=x^2+1;</m> Find <m>h(\frac{x}{4})</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> g(x)=5^{x};</m> Find <m>g(3x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> h(t)=t^2+t;</m> Find <m>h(t^2)</m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> g(x)=5^x;</m> Find <m>g(-3-x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> h(n)=5^{n-1};</m> Find <m>h(\frac{n}{2})</m> </p> </statement> </exercise>
+    </exercisegroup>
+
+</exercises>
+ 
+ 
+</section>
+

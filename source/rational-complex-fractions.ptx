@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-complex-fractions" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>  Complex Fractions  </title> 
+ 
+  <introduction> <alert> Objective: Simplify complex fractions by multiplying each term by the least common denominator.   </alert> </introduction> 
+ 
+   <p> 
+Complex fractions have fractions in either the numerator, or denominator, or usually both. These fractions can be simplified in one of two ways. This will be illustrated first with integers, then we will consider how the process can be expanded to include expressions with variables.
+   </p>
+
+<p>
+The first method uses order of operations to simplify the numerator and denominator first, then divide the two resulting fractions by multiplying by the reciprocal.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{\frac{2}{3}-\frac{1}{4}}{\frac{5}{6}+\frac{1}{2}} \amp \quad  \text{Get common denominator in top and bottom fractions }   </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{8}{12}-\frac{3}{12}}{\frac{5}{6}+\frac{3}{6}}  \amp\quad  \text{Add and subtract fractions, reducing solutions }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{5}{12}}{\frac{4}{3}}  \amp\quad  \text{To divide fractions we multiply by the reciprocal }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \left(\frac{5}{12}\right)\left(\frac{3}{4}\right)  \amp\quad  \text{Reduce  }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \left(\frac{5}{4}\right)\left(\frac{1}{4}\right)  \amp\quad  \text{Multiply }  </mrow>
+      <mrow> </mrow> 
+      <mrow> \frac{5}{16}  \amp\quad  \text{Our Solution   }  </mrow> 
+
+    </md>
+  </example> 
+
+<p>
+The process above works just fine to simplify, but between getting common denominators, taking reciprocals, and reducing, it can be a very involved process. Generally, we prefer a different method to multiply the numerator and denominator of the large fraction (in effect each term in the complex fraction) by the least common denominator (LCD). This will allow us to reduce and clear the small fractions. We will simplify the same problem using this second method.
+</p>
+ 
+  
+  <example>
+    <md> 
+      <mrow> \frac{\frac{2}{3}-\frac{1}{4}}{\frac{5}{6}+\frac{1}{2}} \amp \quad  \text{LCD is $12$, multiply each term }   </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{2(12)}{3}-\frac{1(12)}{4}}{\frac{5(12)}{6}+\frac{1(12)}{2}}  \amp\quad  \text{Reduce each fraction}  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{2(4)-1(3)}{5(2)+1(6)}  \amp\quad  \text{Multiply }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{8-3}{10+6} \amp\quad  \text{Add and subtract }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{5}{16}  \amp\quad  \text{Our Solution   }  </mrow>
+    </md>
+  </example> 
+
+<p>
+Clearly the second method is a much cleaner and faster method to arrive at our solution. It is the method we will use when simplifying with variables as well. We will first find the LCD of the small fractions, and multiply each term by this LCD so we can clear the small fractions and simplify.
+</p>
+
+<example>
+    <md> 
+      <mrow> \frac{1-\frac{1}{x^2}}{1-\frac{1}{x}} \amp \quad  \text{Identify LCD (use highest exponent) }   </mrow> 
+      <mrow> </mrow>
+      <mrow> \text{LCD}=x^2  \amp\quad  \text{Multiply each term by LCD}  </mrow> 
+      <mrow> </mrow>
+      <mrow>  \frac{1(x^2)-\frac{1(x^2)}{x^2}}{1(x^2)-\frac{1(x^2)}{x}}   \amp\quad  \text{Reduce fractions (subtract exponents) }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{1(x^2)-1}{1(x^2)-x} \amp\quad  \text{Multiply }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{x^2-1}{x^2-x} \amp\quad  \text{Factor }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{(x+1)(x-1)}{x(x-1)} \amp\quad  \text{Divide out $(x-1)$ factor }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{x+1}{x}  \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example> 
+
+<p> The process is the same if the LCD is a binomial, we will need to distribute </p>
+<example>
+    <md>
+      <mrow>  \frac{\frac{3}{x+4}-2}{5+\frac{2}{x+4}} \amp\quad  \text{Multiply each term by LCD, } (x+4)  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{3(x+4)}{x+4}-2(x+4)}{5(x+4)+\frac{2(x+4)}{x+4}}  \amp\quad  \text{Reduce fractions }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{3-2(x+4)}{5(x+4)+2} \amp\quad  \text{Distribute }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{3-2x-8}{5x+20+2} \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{-2x-5}{5x+22}  \amp\quad  \text{Our Solution   }  </mrow>
+    </md>
+  </example> 
+
+<p>
+The more fractions we have in our problem, the more we repeat the same process.
+</p>
+
+<example>
+    <md> 
+      <mrow> \frac{\frac{2}{ab^2}-\frac{3}{ab^3}+\frac{1}{ab}}{\frac{4}{a^2b}+ab-\frac{1}{ab}} \amp \quad  \text{Identify LCD (highest exponnets) }   </mrow> 
+      <mrow> </mrow>
+      <mrow> \text{LCD}=a^2b^3 \amp\quad  \text{Multiply each term by LCD}  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{2(a^2b^3)}{ab^2}-\frac{3(a^2b^3)}{ab^3}+\frac{1(a^2b^3)}{ab}}{\frac{4(a^2b^3)}{a^2b}+ab(a^2b^3)-\frac{1(a^2b^3)}{ab}}  \amp\quad  \text{Reduce each fraction (subtract exponents) }  </mrow>  
+      <mrow> </mrow>
+      <mrow> \frac{2ab-3a+ab^2}{4b^2+a^3b^4-ab^2}  \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example>
+
+
+<p> <alert> World View Note:</alert> Sophie Germain is one of the most famous women in mathematics, many primes, which are important to finding an LCD, carry her name. Germain primes are prime numbers where one more than double the prime number is also prime, for example <m>3</m> is prime and so is <m>2 · 3 + 1 = 7</m> prime. The largest known Germain prime (at the time of printing) is <m>183027 · 2265440-1</m> which has <m>79911</m> digits! </p>
+ 
+  <p> 
+Some problems may require us to FOIL as we simplify. To avoid sign errors, if there is a binomial in the numerator, we will first distribute the negative through the numerator.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> \frac{\frac{x-3}{x+3}-\frac{x+3}{x-3}}{\frac{x-3}{x+3}+\frac{x+3}{x-3}} \amp \quad  \text{Distribute the subtraction to numerator }   </mrow>
+      <mrow> </mrow> 
+      <mrow> \frac{\frac{x-3}{x+3}+\frac{-x-3}{x-3}}{\frac{x-3}{x+3}+\frac{x+3}{x-3}} \amp\quad  \text{Identify LCD }  </mrow>
+      <mrow> </mrow> 
+      <mrow>  \text{LCD}=(x+3)(x-3) \amp\quad  \text{Multiply each term by LCD  }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{\frac{(x-3)(x+3)(x-3)}{x+3}+\frac{(-x-3)(x+3)(x-3)}{x-3}}{\frac{(x-3)(x+3)(x-3)}{x+3}+\frac{(x+3)(x+3)(x-3)}{x-3}} \amp\quad  \text{Reduce fractions  }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{(x-3)(x-3)+(-x-3)(x+3)}{(x-3)(x-3)+(x+3)(x+3)} \amp\quad  \text{FOIL}  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{x^2-6x+9-x^2-6x-9}{x^2-6x+9+x^2+6x-9} \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{-12x}{2x^2+18} \amp\quad  \text{Factor out $2$ in denominator  }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{-12x}{2(x^2+9)} \amp\quad  \text{Divide our common factor } 2  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{-6x}{x^2-9} \amp\quad  \text{ Our solution  }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+If there are negative exponents in an expression we will have to first convert these negative exponents into fractions. Remember, the exponent is only on the factor it is attached to, not the whole term.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{m^{-2}+2m^{-1}}{m+4m^{-2}} \amp \quad  \text{Make each negative exponent into a fraction }   </mrow>
+        <mrow> </mrow>
+      <mrow> \frac{\frac{1}{m^2}+\frac{2}{m}}{m+\frac{4}{m^2}} \amp\quad  \text{Multiply each term by LCD, } m^2  </mrow> 
+      <mrow> </mrow>
+      <mrow>  \frac{\frac{1(m^2)}{m^2}+\frac{2(m^2)}{m}}{m(m^2)+\frac{4(m^2)}{m^2}} \amp\quad  \text{Reduce the fractions }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{1+2m}{m^3+4} \amp\quad  \text{Our solution  }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+Once we convert each negative exponent into a fraction, the problem solves exactly like the other complex fraction problems.
+</p>
+
+
+  <exercises xml:id="exercises-rational-expressions">
+    <title>Exercises – Complex Fractions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>      Solve.     </p>      </introduction>
+      <exercise><statement> <p> <m>\displaystyle \frac{1+\frac{1}{x}}{1-\frac{1}{x^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{1}{y^2}-1}{1+\frac{1}{y}}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{a-2}{\frac{4}{a}-a} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{25}{a}-a}{5+a}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{1}{a^2}-\frac{1}{a}}{\frac{1}{a^2}+\frac{1}{a}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{1}{b}+\frac{1}{2}}{\frac{4}{b^2-1}}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{2-\frac{4}{x+2}}{5-\frac{10}{x+2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{4+\frac{12}{2x-3}}{5+\frac{15}{2x-3}}  </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{3}{2a-3}+2}{\frac{-6}{2a-3}-4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{-5}{b-5}-3}{\frac{10}{b-5}+6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{x}{x+1}-\frac{1}{x}}{\frac{x}{x+1}+\frac{1}{x}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{2a}{a-1}-\frac{3}{a}}{\frac{-6}{a-1}-4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{3}{x}}{\frac{9}{x^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{x}{3x-2}}{\frac{x}{9x^2-4}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{a^2-b^2}{4a^2b}}{\frac{a+b}{16ab^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{1-\frac{1}{x}-\frac{6}{x^2}}{1-\frac{4}{x}+\frac{3}{x^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{1-\frac{3}{x}-\frac{10}{x^2}}{1+\frac{11}{x}+\frac{18}{x^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{15}{x^2}-\frac{2}{x}-1}{\frac{4}{x^2}-\frac{5}{x}+4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{1-\frac{2x}{3x-4}}{x-\frac{32}{3x-4}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{1-\frac{12}{3x+10}}{x-\frac{8}{3x+10}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x-1+\frac{2}{x-4}}{x+3+\frac{6}{x-4}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x-5-\frac{18}{x+2}}{x+7+\frac{6}{x+2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x-4+\frac{9}{2x+3}}{x+3-\frac{5}{2x+3}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{1}{a}-\frac{3}{a-2}}{\frac{2}{a}+\frac{5}{a-2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{2}{b}-\frac{5}{b+3}}{\frac{3}{b}+\frac{3}{b+3}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{1}{y^2}-\frac{1}{xy}-\frac{2}{x^2}}{\frac{1}{y^2}-\frac{3}{xy}+\frac{2}{x^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{2}{b^2}-\frac{5}{ab}-\frac{3}{a^2}}{\frac{2}{b^2}+\frac{7}{ab}+\frac{3}{a^2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{x-1}{x+1}-\frac{x+1}{x-1}}{\frac{x-1}{x+1}+\frac{x+1}{x-1}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{y}{y+2}-\frac{y}{y-2}}{\frac{y}{y+2}+\frac{y}{y-2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{\frac{x+1}{x-1}-\frac{1-x}{1+x}}{\frac{1}{(x+1)^2}+\frac{1}{(x-1)^2}} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+       <exercisegroup cols="2">
+      <introduction>    <p>    Simplify each of the following fractional expressions.    </p>      </introduction>
+      <exercise><statement> <p> <m>\displaystyle \frac{x^{-2}-y^2}{x^{-1}+y^{-1}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x^{-2}y+xy^{-2}}{x^{-2}-y^{-2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x^{-3}y-xy^{-3}}{x^{-2}-y^{-2}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{4-4x^{-1}+x^{-2}}{4-x^{-2}}   </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x^{-2}-6x^{-1}+9}{x^2-9} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\displaystyle \frac{x^{-3}+y^{-3}}{x^{-2}-x^{-1}y^{-1}+y^{-2}} </m> </p> </statement> </exercise>
+
+    </exercisegroup>
+
+
+      </exercises>
+ 
+ 
+</section>
+

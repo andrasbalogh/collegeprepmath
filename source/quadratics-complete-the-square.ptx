@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-complete-the-square" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Complete the Square   </title> 
+
+  <introduction> <alert> Objective: Solve quadratic equations by completing the square.  </alert> </introduction> 
+
+  <p>
+    When solving quadratic equations in the past we have used factoring to solve for our variable. This is exactly what is done in the next example.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>x^2+5x+6=0  \amp \quad  \text{  Factor    }   </mrow> 
+      <mrow> (x+3)(x+2)=0 \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow> x+3=0 \text{ or } x+2=0 \amp\quad  \text{  Solve each equation   }  </mrow> 
+      <mrow> -3\ -3 \qquad -2\ -2 \amp\quad  \text{     }  </mrow> 
+      <mrow> x=-3 \text{ or } x=-2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    </example>
+
+    <p>
+      However, the problem with factoring is all equations cannot be factored. Consider the following equation: <m>x^2 - 2x - 7 = 0</m>. The equation cannot be factored, however there are two solutions to this equation, <m>1 + 2\sqrt{2}</m> and <m>1 - 2\sqrt{2}</m>. To find these two solutions we will use a method known as completing the square. When completing the square we will change the quadratic into a perfect square which can easily be solved with the square root property. The next example reviews the square root property.
+    </p>
+
+      <example>
+    <md> 
+      <mrow> (x + 5)^2 = 18 \amp \quad  \text{  Square root of both sides    }   </mrow> 
+      <mrow>  \sqrt{(x + 5)^2} = \pm\sqrt{18} \amp\quad  \text{  Simplify each radical   }  </mrow> 
+      <mrow> x + 5 = \pm 3\sqrt{2} \amp\quad  \text{  Subtract $5$ from both sides   }  </mrow> 
+      <mrow> -5\ -5\qquad \amp\quad  \text{     }  </mrow> 
+      <mrow>  x = -5 \pm 3\sqrt{2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    To complete the square, or make our problem into the form of the previous
+example, we will be searching for the third term in a trinomial. If a quadratic is
+of the form <m>x^2 + bx + c</m>, and a perfect square, the third term, <m>c</m>, can be easily found by the formula <m>\left(\frac{1}{2}\cdot b\right)^2</m>. This is shown in the following examples, where we find the number that completes the square and then factor the perfect square.
+  </p>
+  
+  <example>
+    <md> 
+      <mrow> x^2 +8x+c \amp \quad  c=\left(\frac{1}{2}\cdot b\right)^2 \text{ and our    } b=8    </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot 8\right)^2=4^2=16 \amp\quad  \text{  The third term to complete the square is   } 16  </mrow> 
+      <mrow> x^2 +8x+16 \amp\quad  \text{   Our equation as a perfect square, factor  }  </mrow> 
+      <mrow>(x+4)^2  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow> x^2 -7x+c \amp \quad  c=\left(\frac{1}{2}\cdot b\right)^2 \text{ and our    } b=7    </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot 7\right)^2=\left(\frac{7}{2}\right)^2=\frac{49}{4} \amp\quad  \text{  The third term to complete the square is   } \frac{49}{4}  </mrow> 
+      <mrow> x^2-11x+\frac{49}{4} \amp\quad  \text{   Our equation as a perfect square, factor  }  </mrow> 
+      <mrow>(x-\frac{7}{2})^2  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> x^2 +\frac{5}{3}x+c \amp \quad  c=\left(\frac{1}{2}\cdot b\right)^2 \text{ and our    } b= \frac{5}{3}   </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot \frac{5}{3}\right)^2=\left(\frac{5}{6}\right)^2=\frac{25}{36} \amp\quad  \text{  The third term to complete the square is   } \frac{25}{36}  </mrow> 
+      <mrow> x^2 +\frac{5}{3}x+\frac{25}{36} \amp\quad  \text{   Our equation as a perfect square, factor  }  </mrow> 
+      <mrow>\left(x+\frac{5}{6}\right)^2  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p>
+    The process in the previous examples, combined with the even root property, is used to solve quadratic equations by completing the square. The following five steps describe the process used to complete the square, along with an example to demonstrate each step.
+   </p>
+   
+<p>
+      <tabular halign="left" top="minor"  left="minor" bottom="minor" right="minor">
+	<row>  <cell>Problem</cell>  <cell> <m>3x^2 + 18x - 6 = 0</m></cell>	</row>
+	<row>  <cell><m>1.</m> Separate constant term from variables	</cell>  <cell> <m>\$
+ \begin{matrix}  \amp +6 \amp +6 \\ 3x^2 + 18x \amp \amp = 6  \end{matrix} </m>  </cell>	</row>
+	<row>  <cell><m>2.</m> Divide each term by a	</cell><cell><m>\$
+ \begin{matrix}  \frac{3}{3}x^2 +\frac{18}{3}x\amp  \amp =\frac{6}{3} \\ x^2 + 6x \amp \amp = 2  \end{matrix} </m> </cell></row>
+	<row>  <cell><m>3.</m> Find value to complete the square: <m>\left(\frac{1}{2}\cdot b\right)^2</m></cell>  <cell><m>\left(\frac{1}{2}\cdot 6\right)^2=3^2=9</m> </cell></row>
+	<row>  <cell><m>4.</m> Add to both sides of equation	</cell> <cell><m>\$
+ \begin{matrix}  x^2+6x \amp  \amp =2 \\  \amp +9 \amp +9 \\ x^2 + 6x \amp +9 \amp = 11  \end{matrix} </m> </cell></row>
+	<row>  <cell><m>5.</m> Factor</cell><cell> <m>(x+3)^2=11</m> </cell></row>
+	<row>  <cell>Solve by even root property	</cell>  <cell> <m> \begin{matrix}  \sqrt{(x+3)^2} =\pm\sqrt{11} \\ x+3=\pm\sqrt{11} \\ -3\ -3 \qquad \\ x=-3\pm\sqrt{11} \end{matrix} </m></cell></row>
+      </tabular>
+    </p>
+
+      <p> <alert> World View Note:</alert> The Chinese in <m>200</m> BC were the first known culture group to use a method similar to completing the square, but their method was only used to calculate positive roots. </p> 
+
+      <p>
+	The advantage of this method is it can be used to solve any quadratic equation. The following examples show how completing the square can give us rational solu- tions, irrational solutions, and even complex solutions.
+  </p>
+  
+  <example>
+    <md> 
+      <mrow> 2x^2 + 20x + 48 = 0 \amp \quad  \text{ Separate constant term from varaibles     }   </mrow> 
+      <mrow> -48\ -48  \amp\quad  \text{  Subtract } 24  </mrow> 
+      <mrow> 2x^2 + 20x \quad = - 48 \amp\quad  \text{  Divide by $a$ or } 2  </mrow> 
+      <mrow>  \frac{2x^2}{2} + \frac{20x}{2} \quad = - \frac{48}{2} \amp\quad  \text{     }  </mrow> 
+      <mrow> x^2 +10x \quad =-24 \amp \quad  \text{  Find number to complete the square:    } \left(\frac{1}{2}\cdot b\right)^2  </mrow>
+            <mrow> \left(\frac{1}{2}\cdot 10\right)^2=5^2=25 \amp\quad  \text{ Add $25$ to both sides of the equation    }  </mrow> 
+      <mrow> x^2 + 10x \quad = - 24 \amp\quad  \text{     }  </mrow> 
+      <mrow> +25\quad +25 \amp\quad  \text{     }  </mrow>
+      <mrow> x^2 +10x+25=1 \amp \quad  \text{  Factor    }   </mrow> 
+      <mrow> (x+5)^2 =1 \amp\quad  \text{ Solve with even root property    }  </mrow> 
+      <mrow>  \sqrt{(x+5)^2} =\pm \sqrt{1} \amp\quad  \text{  Simplify roots   }  </mrow>
+      <mrow> x+5=\pm 1  \amp\quad  \text{  Subtract $5$ from both sides   }  </mrow>
+      <mrow>  -5\ -5\ \amp \quad  \text{      }   </mrow> 
+      <mrow> x=-5\pm1 \amp\quad  \text{  Evaluate   }  </mrow> 
+      <mrow>x=-4 \text{ or } -6  \amp\quad  \text{  Our Solution   }  </mrow>       
+    </md>
+  </example> 
+
+
+  <example>
+    <md> 
+      <mrow> x^2-3x-2=0 \amp \quad  \text{  Separate constant from variables    }   </mrow> 
+      <mrow>+2\ +2  \amp\quad  \text{ Add $2$ to both sides    }  </mrow> 
+      <mrow>  x^2 -3x\quad  =2 \amp\quad  \text{  $a=1$, find number to complete the square    }  \left(\frac{1}{2}\cdot b\right)^2  </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot 3\right)^2 = \left(\frac{3}{2}\right)^2 =\frac{9}{4} \amp\quad  \text{   Add $\frac{9}{4}$ to both sides,  }  </mrow> 
+      <mrow> \frac{2}{1}\left(\frac{4}{4}\right)+  \frac{9}{4}=\frac{8}{4}+ \frac{9}{4}=\frac{17}{4} \amp\quad  \text{  Need common denominator $(4)$ on right  } </mrow>
+      <mrow> x^2 - 3x +\frac{9}{4} =\frac{8}{4}+\frac{9}{4}=\frac{17}{4}  \amp\quad  \text{  Factor  } </mrow> 
+      <mrow> \left(x-\frac{3}{2}\right)^2 =\frac{17}{4}\amp\quad  \text{ Solve using the even root property } </mrow>       <mrow> \sqrt{\left(x-\frac{3}{2}\right)^2} =\pm\sqrt{\frac{17}{4}} \amp\quad  \text{ Simplify roots   } </mrow> 
+      <mrow> x-\frac{3}{2} =\frac{\pm\sqrt{17}}{2}\amp\quad  \text{ Add $\frac{3}{2}$ to both sides,  } </mrow> 
+      <mrow> +\frac{3}{2} \ +\frac{3}{2}\amp \quad  \text{  we already have a common denominator    }   </mrow> 
+      <mrow> x=\frac{3\pm\sqrt{17}}{2} \amp\quad  \text{  Our Solution   } </mrow> 
+    </md>
+  </example> 
+
+
+  <example>
+    <md> 
+      <mrow> 3x^2=2x-7 \amp \quad  \text{  Separate constant from variables    }   </mrow> 
+      <mrow>-2x\ -2x  \amp\quad  \text{ Subtract $2x$ from both sides    }  </mrow> 
+      <mrow> 3x^2-2x=-7 \amp\quad  \text{  Divide each term by   } a=3  </mrow> 
+      <mrow>  \frac{3x^2}{3}-\frac{2x}{3}=-\frac{7}{3} \amp \quad  \text{      }   </mrow> 
+      <mrow>  x^2 -\frac{2}{3}x\quad  =-\frac{7}{3} \amp\quad  \text{  Find number to complete the square    }  \left(\frac{1}{2}\cdot b\right)^2  </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot \frac{2}{3}\right)^2 = \left(\frac{1}{3}\right)^2 =\frac{1}{9} \amp\quad  \text{   Add } \frac{1}{9} \text{ to both sides,  }  </mrow> 
+      <mrow> -\frac{7}{3}\left(\frac{3}{3}\right)+\frac{1}{9}=\frac{-21}{9}+\frac{1}{9}=\frac{-20}{9} \amp\quad  \text{  Need common denominator $(9)$ on right  } </mrow> 
+      <mrow> x^2 - \frac{2}{3}x +\frac{1}{3}=-\frac{20}{9}  \amp\quad  \text{  Factor  } </mrow> 
+      <mrow> \left(x-\frac{1}{3}\right)^2 =-\frac{20}{9}\amp\quad  \text{ Solve using the even root property } </mrow> 
+      <mrow> \sqrt{\left(x-\frac{1}{3}\right)^2} =\pm\sqrt{\frac{-20}{9}} \amp\quad  \text{ Simplify roots   } </mrow> 
+      <mrow> x-\frac{1}{3} =\frac{\pm2i\sqrt{5}}{3}\amp\quad  \text{ Add } \frac{1}{3} \text{ to both sides,  } </mrow> 
+      <mrow> +\frac{1}{3} \ +\frac{1}{3}\amp \quad  \text{  we already have a common denominator    }   </mrow> 
+      <mrow> x=\frac{1+2i\pm\sqrt{5}}{3} \amp\quad  \text{  Our Solution   } </mrow> 
+    </md>
+  </example> 
+
+   <p> 
+As several of the examples have shown, when solving by completing the square we will often need to use fractions and be comfortable finding common denominators and adding fractions together. Once we get comfortable solving by completing the square and using the five steps, any quadratic equation can be easily solved.
+   </p> 
+
+
+  <exercises xml:id="exercises-complete-the-square">
+    <title>Exercises - Complete the Square</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Find the value that completes the square and then rewrite as a perfect square.	</p>      </introduction>
+      <exercise><statement> <p> <m>x^2 -30x+ \ \rule{1cm}{.5pt} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  a^2 -24a+\ \rule{1cm}{.5pt}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> m^2 -36m+\ \rule{1cm}{.5pt}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2 -34x+\ \rule{1cm}{.5pt} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2-15x+\ \rule{1cm}{.5pt} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>r^2-\frac{1}{9} r+\ \rule{1cm}{.5pt} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>y^2-y+\ \rule{1cm}{.5pt}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>p^2-17p+\ \rule{1cm}{.5pt} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+   <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each equation by completing the square.	</p>      </introduction>
+      <exercise><statement> <p> <m>x^2 -16x+55=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2-8n-12=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>v^2-8v+45=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> b^2 +2b+43=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  6x^2 +12x+63=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x^2 -6x+47=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5k^2-10k+48=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>8a^2+16a-1=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2+10x-57=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> p^2-16p-52=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2 -16n+67=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>m^2-8m-3=6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^2 +4x+38=-6</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6r^2+12r-24=-6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>8b^2 +16b-37=5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6n^2-12n-14=4</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2=-10x-29 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> v^2=14v+36</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2 =-21+10n </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  a^2 -56=-10a</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3k^2 + 9 = 6k</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  5x^2 =-26+10x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>2x^2 +63=8x </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^2 =-10n+15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>p^2-8p=-55 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2 +8x+15=8</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7n^2 -n+7=7n+6n^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> n^2+4n=12 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>13b^2 +15b+44=-5+7b^2 +3b </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-3r^2+12r+49=-6r^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5x^2 +5x=-31-5x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 8n^2 +16n=64</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> v^2+5v+28=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>b^2 +7b-33=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7x^2 -6x+40=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4x^2 +4x+25=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> k^2-7k+50=3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> a^2 -5a+25=3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5x^2+8x-40=8</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2p^2-p+56=-8</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>m^2 =-15+9m </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2-n=-41 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>8r^2+10r=-55 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3x^2-11x=-18</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5n^2 -8n+60=-3n+6+4n^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4b^2 -15b+56=3b^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -2x^2+3x-5=-4x^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 10v^2-15v=27+4v^2-6v</m> </p> </statement> </exercise> 
+   </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+   

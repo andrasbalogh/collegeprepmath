@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="radicals-adding-radicals" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+  
+  <title> Adding Radicals </title>
+<introduction> <alert> Objective: Add like radicals by first simplifying each radical. </alert> </introduction>
+   <p>  
+Adding and subtracting radicals is very similar to adding and subtracting with variables. Consider the following example.
+ </p>  
+  <example> 
+    <md>  
+      <mrow> 5x + 3x – 2x \amp \quad \text{Combine like terms}   </mrow>  
+      <mrow>  6x \amp \quad \text{Our Solution}  </mrow>  
+      <mrow> </mrow>
+	<mrow>  5\sqrt{11} +  3\sqrt{11} – 2\sqrt{11}  \amp \quad \text{Combine like terms}  </mrow>
+      <mrow>  6\sqrt{11} \amp \quad \text{Our Solution}  </mrow>  
+    </md>
+  </example>  
+<p>
+Notice that when we combined the terms with <m> \sqrt{11} </m> it was just like combining terms with <m>x</m>. When adding and subtracting with radicals we can combine like radicals just as like terms. We add and subtract the coefficients in front of the radical, and the radical stays the same. This is shown in the following example.
+</p>
+  <example> 
+    <md>  
+      <mrow> 7\sqrt[5]{6} + 4\sqrt[5]{3} - 9\sqrt[5]{3} + \sqrt[5]{6} \amp \quad \text{Combine like radicals $7\sqrt[5]{6}$ + $\sqrt[5]{6}$ and } 4\sqrt[5]{3} - 8\sqrt[5]{3}    </mrow>  
+      <mrow>  8\sqrt[5]{6} - 5\sqrt[5]{3} \amp \quad \text{Our Solution}  </mrow>  
+    </md> 
+  </example>  
+<p>
+We cannot simplify this expression any more as the radicals do not match. Often problems we solve have no like radicals, however, if we simplify the radicals first we may find we do in fact have like radicals.
+</p>
+  <example> 
+    <md>  
+      <mrow> 5\sqrt{45} + 6\sqrt{18} - 2\sqrt{98} + \sqrt{20} \amp \quad \text {Simplify radicals, find perfect square factors }   </mrow>  
+      <mrow>  5\sqrt{9 \cdot 5} + 6\sqrt{9 \cdot 2} - 2\sqrt{49 \cdot 2} + \sqrt{4 \cdot 5} \amp \quad \text{Take roots where possible}  </mrow>  
+      <mrow> 5 \cdot 3\sqrt{5} + 6 \cdot 3\sqrt{2} – 2 \cdot 7\sqrt{2} + 2\sqrt{5} \amp \quad \text {Multiply coefficients }   </mrow>  
+      <mrow>  15\sqrt{5} + 18\sqrt{2} –  14\sqrt{2} + 2\sqrt{5} \amp \quad \text{Combine like terms}  </mrow>  
+      <mrow> 17\sqrt{5} + 4\sqrt{2} \amp \quad \text {Our Solution }   </mrow>  
+    </md> 
+  </example> 
+   <p> <alert> World View Note: </alert> The Arab writers of the 16th century used the symbol similar
+to the greater than symbol with a dot underneath for radicals.
+This exact process can be used to add and subtract radicals with higher indices 
+</p> 
+  <example> 
+    <md>  
+      <mrow> 4\sqrt[3]{54} - 9\sqrt[3]{16} + 5\sqrt[3]{9} \amp \quad \text {Simplify each radical, find perfect cube factors }   </mrow>  
+      <mrow>  4\sqrt[3]{27 \cdot 2} - 9\sqrt[3]{8 \cdot 2} + 5\sqrt[3]{9} \amp \quad \text{Take roots where possible}  </mrow>  
+      <mrow> 4 \cdot 3\sqrt[3]{2} - 9 \cdot 2\sqrt[3]{2} + 5 \sqrt[3]{9} \amp \quad \text {Multiply coefficients }   </mrow>  
+      <mrow>  12\sqrt[3]{2} - 18\sqrt[3]{2} + 5 \sqrt[3]{9}  \amp \quad \text{Combine like terms } 12\sqrt[3]{2} - 18\sqrt[3]{2}  </mrow>  
+      <mrow> -6\sqrt[3]{2} + 5\sqrt[3]{9} \amp \quad \text {Our Solution }   </mrow>  
+    </md> 
+  </example> 
+<exercises xml:id="exercises-radicals-adding-radicals"> 
+  <title>Exercises -  Adding Radicals</title>  
+ <exercisegroup cols="2"> 
+    <introduction> 
+      <p>  Simplify. </p>  
+    </introduction> 
+       
+    <exercise><statement>  <p> <m> 2\sqrt{5} + 2\sqrt{5} + 2\sqrt{5} </m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> -3\sqrt{6} - 3\sqrt{3} - 2\sqrt{3} </m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> -3\sqrt{2} + 3\sqrt{5} + 3\sqrt{5} </m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> -2\sqrt{6} - \sqrt{3} - 3\sqrt{6} </m></p></statement></exercise> 
+      <exercise><statement><p><m> -2\sqrt{6} - 2\sqrt{6} - \sqrt{6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt{3} + 2\sqrt{3} - 2\sqrt{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt{6} + 3\sqrt{5} + 2\sqrt{5} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -\sqrt{5} + 2\sqrt{3} - 2\sqrt{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 2\sqrt{2} - 3\sqrt{18} - \sqrt{2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -\sqrt{54} - 3\sqrt{6} + 3\sqrt{27} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt{6} - \sqrt{12} + 3\sqrt{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -\sqrt{5} - \sqrt{5} - 2\sqrt{54} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  3\sqrt{2} + 2\sqrt{8} - 3\sqrt{18}</m> </p></statement></exercise> 
+      <exercise><statement><p><m>  2\sqrt{20} + 2\sqrt{20} - \sqrt{3}</m> </p></statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt{18} - \sqrt{2} - 3\sqrt{2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -3\sqrt{27} + 2\sqrt{3} – \sqrt{12} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt{6} - 3\sqrt{6} - \sqrt{3} + 3\sqrt{6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -2\sqrt{2} - \sqrt{2} + 3\sqrt{8} + 3\sqrt{6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -2\sqrt{18} - 3\sqrt{8} - \sqrt{20} + 2\sqrt{20} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt{18} - \sqrt{8} + 2\sqrt{8} + 2\sqrt{8} </m> </p></statement></exercise> 
+      <exercise><statement>  <p> <m> -2\sqrt{24} - 2\sqrt{6} + 2\sqrt{6} + 2\sqrt{20} </m>   </p>  </statement></exercise>
+      <exercise><statement>  <p> <m> -3\sqrt{8} - \sqrt{5} -3\sqrt{6} + 2\sqrt{18} </m>   </p>  </statement></exercise>
+            <exercise><statement>  <p> <m> 3\sqrt{24} - 3\sqrt{27} +2\sqrt{6} + 2\sqrt{8} </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m> 2\sqrt{6} - \sqrt{54} - 3\sqrt{27} - \sqrt{3} </m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> -2\sqrt[3]{16} + 2\sqrt[3]{16} + 2\sqrt[3]{2}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt[3]{135} - \sqrt[3]{81} - \sqrt[3]{135}</m></p></statement></exercise> 
+      <exercise><statement><p><m> 2\sqrt[4]{243} - 2\sqrt[4]{243} - \sqrt[4]{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt[4]{4} + 3\sqrt[4]{324} + 2\sqrt[4]{64} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt[4]{2} – 2\sqrt[4]{2} - \sqrt[4]{243} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 2\sqrt[4]{6} + 2\sqrt[4]{4} + 3\sqrt[4]{6} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -\sqrt[4]{324} + 3\sqrt[4]{324} – 3\sqrt[4]{4}  </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -2\sqrt[4]{243} - \sqrt[4]{96} + 2\sqrt[4]{96} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 2\sqrt[4]{2} + 2\sqrt[4]{3} + 3\sqrt[4]{64} - \sqrt[4]{3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  2\sqrt[4]{48} – 3\sqrt[4]{405} – 3\sqrt[4]{48} - \sqrt[4]{162} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -3\sqrt[5]{6} - \sqrt[5]{64} + 2\sqrt[5]{192} – 2\sqrt[5]{64} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -3\sqrt[7]{3} – 3\sqrt[7]{768} + 2\sqrt[7]{384} + 3\sqrt[7]{5} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 2\sqrt[5]{160} – 2\sqrt[5]{192} – \sqrt[5]{160} – \sqrt[5]{-160} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -2\sqrt[7]{256} – 2\sqrt[7]{256} – 3\sqrt[7]{2} - \sqrt[7]{640} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -\sqrt[6]{256} – 2\sqrt[6]{4} – 3\sqrt[6]{320} -2\sqrt[6]{128} </m> </p></statement></exercise> 
+    </exercisegroup> 
+ 
+ 
+
+  </exercises>
+
+</section>

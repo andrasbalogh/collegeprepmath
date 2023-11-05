@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="polynomials-introduction" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Introduction to Polynomials   </title> 
+
+  <introduction> <alert> Objective:   Evaluate, add, and subtract polynomials.</alert> </introduction> 
+
+   <p> 
+     Many applications in mathematics have to do with what are called polynomials.
+     Polynomials are made up of terms. <alert>Terms</alert> are a product of numbers and/or variables. For example, <m>5x</m>, <m>2y^2</m>, <m>- 5</m>, <m>ab^3c</m>, and <m>x</m> are all terms. Terms are connected
+to each other by addition or subtraction. Expressions are often named based on
+the number of terms in them. A <alert>monomial</alert> has one term, such as <m>3x^2</m>. A <alert>binomial</alert> has two terms, such as <m>a^2 - b^2</m>. A <alert>Trinomial</alert> has three terms, such as <m>ax^2 + bx + c</m>. The term <alert>polynomial</alert> means many terms. Monomials, binomials, trinomials, and expressions with more terms all fall under the umbrella of “polynomials”.
+   </p> 
+
+   <p>
+     If we know what the variable in a polynomial represents we can replace the variable with the number and evaluate the polynomial as shown in the following example.
+   </p>
+
+     <example>
+    <md> 
+      <mrow> 2x^2-4x+6 \text{ when } x=-4 \amp \quad  \text{ Replace variable $x$ with} -4  </mrow> 
+      <mrow> 2(-4)^2 -4(-4)+6 \amp\quad  \text{   Exponents first  }  </mrow> 
+    <mrow> 2(16)-4(-4)+6 \amp\quad  \text{  Multiplication (we can do all terms at once)   }  </mrow> 
+    <mrow>  32+16+6 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow>  54 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+It is important to be careful with negative variables and exponents. Remember the exponent only effects the number it is physically attached to. This means <m>- 3^2 = - 9</m> because the exponent is only attached to the <m>3</m>. Also, <m>( - 3)^2 = 9</m> because the exponent is attached to the parenthesis and effects everything inside. When we replace a variable with parenthesis like in the previous example, the substituted value is in parenthesis. So the <m>( - 4)^2 = 16</m> in the example. However, consider the next example.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  -x^2+2x+6 \text{ when } x=3\amp \quad  \text{  Replace variable $x$ with  } 3   </mrow> 
+      <mrow> -(3)^2 +2(3)+6 \amp\quad  \text{  Exponent only on the $3$, not negative   }  </mrow> 
+  <mrow> -9+2(3)+6 \amp\quad  \text{ Multiply    }  </mrow> 
+  <mrow>  -9+6+6 \amp\quad  \text{   Add  }  </mrow> 
+      <mrow>  3 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    </example>
+
+  <p> <alert> World View Note:</alert> Ada Lovelace in <m>1842</m> described a Difference Engine that would be used to caluclate values of polynomials. Her work became the foundation for what would become the modern computer (the programming language Ada was named in her honor), more than <m>100</m> years after her death from cancer.
+ </p> 
+
+ <p>
+Generally when working with polynomials we do not know the value of the variable, so we will try and simplify instead. The simplest operation with polynomials is addition. When adding polynomials we are mearly combining like terms. Consider the following example.
+ </p>
+
+  <example>
+    <md> 
+      <mrow> (4x^3-2x+8)+(3x^3-9x^2-11) \amp \quad  \text{  Combine like terms $4x^3+3x^3$ and }8-11   </mrow> 
+      <mrow> 7x^3-9x^2-2x-3 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+Generally final answers for polynomials are written so the exponent on the variable counts down. The previous example demonstrates this with the exponent counting down <m>3</m>, <m>2</m>, <m>1</m>, <m>0</m> (recall <m>x^0 = 1</m>). Subtracting polynomials is almost as fast. One extra step comes from the minus in front of the parenthesis. When we have a negative in front of parenthesis we distribute it through, changing the signs of everything inside. The same is done for the subtraction sign.
+  </p>
+
+ <example>
+    <md> 
+      <mrow> (5x^2 - 2x + 7) - (3x^2 + 6x - 4) \amp \quad  \text{   Distribute negative through second part   }   </mrow> 
+      <mrow>5x^2-2x+7-3x^2-6x+4  \amp\quad  \text{ Combine like terms $5x^2-3x^2$, $-2x-6x$, and $7+4$    }  </mrow> 
+      <mrow>2x^2 - 8x + 11  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Addition and subtraction can also be combined into the same problem as shown
+    in this final example.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  (2x^2-4x+3)+(5x^2-6x+1)-(x^2-9x+8) \amp \quad  \text{ Distribute negative through     }   </mrow> 
+      <mrow> 2x^2-4x+3+5x^2-6x+1-x^2+9x-8 \amp\quad  \text{ Combine like terms    }  </mrow> 
+      <mrow> 6x^2 - x - 4 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <exercises xml:id="exercises-introduction-polynomials">
+    <title>Exercises - Introduction to Polynomials</title>
+    
+    <exercisegroup >
+      <introduction>	<p>	  Simplify each expression. 	</p>      </introduction>
+      <exercise><statement> <p> <m> -a^3-a^2+6a-21</m> when <m>a=-4 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^2+3n-11 </m> when <m> n=-6</m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> n^3 -7n^2 +15n-20</m> when <m>n=2 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>n^3 -9n^2 +23n-21</m> when <m>n=5 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -5n^4-11n^3-9n^2-n-5 </m> when <m> n=-1</m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^4 -5x^3 -x+13</m> when <m>x=5 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2 +9x+23</m> when <m>x=-3 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -6x^3+41x^2-32x+11 </m> when <m>x=6 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^4-6x^3+x^2-24 </m> when <m>x=6 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>m^4 +8m^3 +14m^2 +13m+5 </m> when <m>m=-6 </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\left(5p-5p^4\right)-\left(8p-8p^4\right) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\left(7m^2 + 5m^3\right) - \left(6m^3 - 5m^2\right) </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3n^2 + n^3) - (2n^3 - 7n^2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (x^2 + 5x^3) + (7x^2 + 3x^3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8n+n^4)-(3n-4n^4)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3v^4 +1)+(5-v^4)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(1+5p^3)-(1-8p^3) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (6x^3 + 5x) - (8x + 6x^3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (5n^4 +6n^3)+(8-3n^3 -5n^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(8x^2 +1)-(6-x^2 -x^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3+b^4)+(7+2b+b^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1+6r^2)+(6r^2 -2-3r^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(8x^3 +1)-(5x^4 -6x^3 +2) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(4n^4+6)-(4n-1-n^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (2a+2a^4)-(3a^2 -5a^4 +4a)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (6v+8v^3)+(3+4v^3-3v) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4p^2 -3-2p)-(3p^2 -6p+3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7+4m+8m^4)-(5m^4 +1+6m)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4b^3 +7b^2 -3)+(8+5b^2 +b^3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7n+1-8n^4)-(3n+7n^4 +7)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3+2n^2 +4n^4)+(n^3 -7n^2 -4n^4)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7x^2 +2x^4 +7^x3)+(6x^3 -8x^4 -7x^2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(n-5n^4+7)+(n^2-7n^4-n) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(8x^2 +2x^4 +7x^3)+(7x^4 -7x^3 +2x^2)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (8r^4 -5r^3 +5r^2)+(2r^2 +2r^3 -7r^4 +1)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (4x^3+x-7x^2)+(x^2-8+2x+6x^3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(2n^2 +7n^4 -2)+(2 +2n^3 +4n^2 +2n^4) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (7b^3 -4b+4b^4)-(8b^3 -4b^2 +2b^4 -8b)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8-b+7b^3)-(3b^4+7b-8+7b^2)+(3-3b+6b^3)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1-3n^4 -8n^3)+(7n^4 +2-6n^2 +3n^3)+(4n^3 +8n^4 +7) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8x^4 +2x^3 +2x)+(2x+2-2x^3 -x^4)-(x^3 +5x^4 +8x)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(6x-5x^4-4x^2)-(2x-7x^2-4x^4-8)-(8-6x^2-4x^4) </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+  
+</section>

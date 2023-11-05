@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="linear-equations-two-step-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Two-Step Equations   </title>
+
+  <introduction> <alert> Objective:  Solve two-step equations by balancing and using inverse operations.  </alert> </introduction>
+
+
+  <p>
+    After mastering the technique for solving equations that are simple one-step equations, we are ready to consider two-step equations. As we solve two-step equations, the important thing to remember is that everything works backwards! When working with one-step equations, we learned that in order to clear a “plus five” in the equation, we would subtract five from both sides. We learned that to clear “divided by seven” we multiply by seven on both sides. The same pattern applies to the order of operations. When solving for our variable x, we use order of operations backwards as well. This means we will add or subtract first, then multiply or divide second (then exponents, and finally any parentheses or grouping symbols, but that’s another lesson). So, to solve the equation in the first example,
+
+  </p>
+
+ <example>
+
+    <me>4x -20 = - 8 </me>
+
+  </example>
+
+ <p>
+   We have two numbers on the same side as the x. We need to move the <m>4</m> and the <m>20</m> to the other side. We know to move the four we need to divide, and to move the twenty we will add twenty to both sides. If order of operations is done backwards, we will add or subtract first. Therefore, we will add <m>2</m>0 to both sides first. Once we are done with that, we will divide both sides by <m>4</m>. The steps are shown below 
+
+</p>
+
+<example>
+  <md>
+    <mrow>        4x - 20 = - 8       \amp \quad  \text{ Start by focusing on the subtract  }  20 </mrow>
+    <mrow> +20 \quad + 20    \amp\quad  \text{  Add $20$ to both sides  }  </mrow>
+    <mrow>  4x = 12     \amp\quad  \text{  Now we focus on the $4$ multiplied by   }   x</mrow>
+    <mrow>  \div 4 \quad \div 4     \amp \quad  \text{  Divide both sides by    }  4 </mrow>
+
+      <mrow>          x =3      \amp\quad  \text{  Our Solution!   }  </mrow>
+
+</md>
+
+  </example>
+
+<p>
+
+Notice in our next example when we replace the <m>x</m> with <m>3</m> we get a true statement.
+
+  </p>
+
+  <example>
+    <md>
+      <mrow>        4(3) -20 = - 8       \amp \quad  \text{  Multiply }4(3)  </mrow>
+      <mrow>        12 - 20 = -8        \amp\quad  \text{ Subtract     } 12 -20 </mrow>
+      <mrow>          -8= - 8    \amp\quad  \text{   True  }  </mrow>
+    </md>
+  </example>
+
+
+  <p>
+    The same process is used to solve any two-step equations. Add or subtract first, then multiply or divide. Consider our next example and notice how the same process is applied.
+  </p>
+
+  <example>
+    <md>
+      <mrow>       5x +7 = 7        \amp \quad  \text{  Start by focusing on the plus    } 7  </mrow>
+      <mrow>          - 7 - 7      \amp\quad  \text{   Subtract $7$ from both sides  }  </mrow>
+      <mrow>         5x = 0     \amp\quad  \text{   Now focus on the multiplication by   } 5 </mrow>
+      <mrow>     \div 5 \quad \div 5                \amp\quad  \text{    Divide both sides by }5  </mrow>
+      <mrow>          x = 0  \amp\quad  \text{  Our Solution!   }  </mrow>
+
+    </md>
+
+  </example>
+
+  <p>
+    Notice the seven subtracted out completely! Many students get stuck on this point, do not forget that we have a number for “nothing left” and that number is zero. With this in mind the process is almost identical to our first example.
+  </p>
+  <p>
+    A common error student make with two-step equations is with negative signs. Remember the sign always stays with the number. Consider the following example
+  </p>
+
+<example>
+    <md>
+      <mrow> 4 -2x = 10 \amp \quad  \text{ Start by focusing on the positive  } 4  </mrow>
+      <mrow>  - 4 \quad - 4       \amp\quad  \text{   Subtract $4$ from both sides  }  </mrow>
+      <mrow> -2x =6    \amp\quad  \text{ Negative (subtraction) stays on the  } 2x </mrow>
+      <mrow>           \div -2\quad \div -2  \amp \quad  \text{  Divide by    } -2  </mrow>
+      <mrow>           x = -3   \amp\quad  \text{ Our Solution!    }  </mrow>
+    </md>
+  </example>
+
+  <p>
+    The same is true even if there is no coefficient in front of the variable. Consider the next example
+  </p>
+
+  <example>
+    <md>
+      <mrow>        8 - x = 2 \amp \quad  \text{    Start by focusing on the positive    } 8  </mrow>
+      <mrow>          - 8 -8      \amp\quad  \text{ Subtract $8$ from both sides }  </mrow>
+      <mrow>       - x = - 6       \amp\quad  \text{  Negative (subtraction) stays on the  } x </mrow>
+      <mrow>         - 1x = - 6      \amp \quad  \text{ Remember, no number in front of variable means }   1</mrow>
+      <mrow>        \div -1 \div - 1        \amp\quad  \text{  Divide both sides by } -1 </mrow>
+      <mrow>           x = 6    \amp\quad  \text{    Our Solution!   }  </mrow>
+  </md>
+  </example>
+
+  <p>
+    Solving two-step equations is a very important skill to master, as we study algebra. 
+    The first step is to add or subtract, the second is to multiply or divide. 
+    This pattern is seen in each of the following examples. 
+  </p>
+
+
+  <example>
+    <title>Two-Step Equation Examples</title>
+    <p>
+      <me>
+	\begin{array}{r}
+        -3x+7=-8 \\  -7 \qquad -7 \\ \hline -3x=-15 \\ \div -3 \div -3 \\  x=5
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        -2+9x=7  \\  +2 \qquad +2  \\ \hline 9x=9 \\ \div 9 \div 9 \\ x=1
+        \end{array}
+	\qquad \qquad
+
+	\begin{array}{r}
+        8=2x+10  \\ -10 \qquad -10 \\ \hline -2=2x \\ \div 2 \div 2\\ -1=x
+        \end{array}
+      </me>
+
+      <me>
+	\begin{array}{r}
+        7-5x=17 \\ -7 \qquad -7 \\ \hline -5x=10 \\ \div -5 \div -5 \\ x=-2
+        \end{array}
+
+	\qquad \qquad
+
+	\begin{array}{r}
+        -5-3x=-5  \\ +5 \qquad +5  \\ \hline -3x=0 \\ \div -3 \div -3 \\ x=0
+        \end{array}
+	\qquad \qquad
+
+	\begin{array}{r}
+        -3=\frac{x}{5}-4 \\ +4 \qquad +4 \\ \hline 1=\frac{x}{5} \\ \times 5 \times 5 \\ 5=x
+        \end{array}
+      </me>
+  </p>
+  </example>
+
+  <p>
+    As problems in algebra become more complex the process covered here will remain the same. 
+    In fact, as we solve problems like those in the next example, each one of them will 
+    have several steps to solve, but the last two steps are a twostep equation like we are 
+    solving here. This is why it is very important to master two-step equations now!
+  </p>
+
+  <example>
+    <me>
+      3x^2 + 4 - x = 6, \quad
+      \frac{1}{x-8}+\frac{1}{3}=\frac{1}{3}, \quad
+      \sqrt{5x-5}+1=x, \quad
+      \log_5(2x-4)=1
+    </me>
+  </example>
+
+
+  <p> <alert> World View Note:</alert> Persian mathematician Omar Khayyam would solve algebraic problems geometrically by intersecting graphs rather than solving them algebraically. </p>
+  
+  <exercises xml:id="exercises-two-step-equations">
+    <title>Exercises - Two-Step Equations  </title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each equation. 	</p>      </introduction>
+    <exercise><statement>  <p> <m>    5+ \frac{n}{4}=   4 </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     -2=-2m+12     </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>    102=-7r+4   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>        27=21-3x </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>  -8n+3=-77    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       -4-b=8   </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>    0=-6v     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>        - 2+ \frac{x}{2}=4   </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>      -8+\frac{x}{5}-6 </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         -5+\frac{x}{2}=4</m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>    0=-7+  \frac{k}{2} </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   -6=15+3p  </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>   -12+3x=0   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   -5m+2=27  </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m> 24=2n-8     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> -37=8+3x   </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>    2=-12+2r   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  -8+\frac{n}{12}=  -7</m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m> \frac{b}{3} +7=10</m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  \frac{x}{1}-8=-8   </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  152=8n+64  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  -11=-8+ \frac{v}{2}  </m> </p>   </statement></exercise>    
+<exercise><statement>  <p> <m>   -16=8a+64  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    -2x-3=-29    </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>  56+8k=64    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   -4-3n=-16      </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m> -2x+4=22    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   67+5m-8 </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>   -20=4p+4    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   9=8 +  \frac{x}{6}    </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>  -5=3+ \frac{n}{2}    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{m}{4} -1=-2     </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m> \frac{r}{8}  -6=-5    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   -180=4x-32   </m> </p>   </statement></exercise>    
+<exercise><statement>  <p> <m>    -40=4n-32</m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   33=3b+3 </m> </p>   </statement></exercise>
+  <exercise><statement>  <p> <m>  87=3-7v</m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>        3x-3=-3   </m> </p>   </statement></exercise>
+ <exercise><statement>  <p> <m>x+1=-11 </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      4+   \frac{a}{3}  =1   </m> </p>   </statement></exercise>
+    </exercisegroup>
+  </exercises>
+  
+  
+</section>

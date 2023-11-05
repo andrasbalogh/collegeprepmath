@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-logarithmic" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title> Logarithmic Functions </title> 
+ 
+  <introduction> <alert> Objective:  Convert between logarithms and exponents and use that relationship to solve basic logarithmic equations. </alert> </introduction> 
+ 
+   <p> 
+The inverse of an exponential function is a new function known as a logarithm. Logarithms are 
+studied in detail in advanced algebra, here we will take an introductory look at how logarithms 
+work. When working with radicals we found that there were two ways to write radicals. 
+The expression <m> \displaystyle \sqrt[\leftroot{-3}\uproot{3}m]{a^n} </m> could be written as <m>\displaystyle a^{\frac{n}{m}}</m>. 
+Each form has its advantages; thus, we need to be comfortable using both the radical form and 
+the rational exponent form. Similarly, an exponent can be written in two forms, 
+each with its own advantages. The first form we are very familiar with, <m>b^x = a</m>, 
+where <m>b</m> is the base, <m>a</m> can be thought of as our answer, and <m>x</m> is the 
+exponent. The second way to write this is with a logarithm, <m> \log_b a = x </m>. 
+The word “log” tells us that we are in this new form. The variables all still mean the same 
+thing. <m>b</m> is still the base, <m>a</m> can still be thought of as our answer.
+   </p> 
+
+<p>
+Using this idea the problem <m>5^2 = 25</m> could also be written as <m> \log_5 25 = 2 </m>. 
+Both mean the same thing, both are still the same exponent problem, but just as roots can be 
+written in radical form or rational exponent form, both our forms have their own advantages. 
+The most important thing to be comfortable doing with logarithms and exponents is to be able 
+to switch back and forth between the two forms. This is what is shown in the next few examples.
+</p>
+ 
+  <example>
+<p> Write each exponential equation in logarithmic form. </p>
+    <md> 
+      <mrow> m^3=5 \amp \quad  \text{ Identify base $m$, answer $5$, and exponent } 3   </mrow> 
+      <mrow> \log_m 5=3 \amp\quad  \text{ Our solution }  </mrow> 
+      <mrow> </mrow>
+      <mrow> 7^2=b \amp\quad  \text{ Identify base $7$, answer $b$, and exponent } 2  </mrow> 
+      <mrow> \log_7 b=2 \amp\quad  \text{ Our solution }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \left(\frac{2}{3}\right)^4=\frac{16}{81} \amp\quad  \text{ Identify base $\frac{2}{3}$, answer $\frac{16}{81}$, and exponent } 4  </mrow> 
+      <mrow> \log_{\frac{2}{3}} \frac{16}{81} = 4 \amp\quad  \text{ Our Solution  }  </mrow> 
+    </md>
+  </example> 
+ 
+  
+  <example>
+<p> Write each logarithmic equation in exponential form </p>
+    <md> 
+      <mrow>  \log_4 16=2  \amp \quad  \text{ Identify base $4$, answer $16$, and exponent } 2  </mrow> 
+      <mrow>  4^2=16   \amp\quad  \text{ Our solution  }  </mrow> 
+      <mrow> </mrow>
+      <mrow>  \log_3 x =7  \amp\quad  \text{ Identify base $3$, answer $x$, and exponent } 7  </mrow> 
+      <mrow>  3^7=x  \amp\quad  \text{ Our solution }  </mrow> 
+      <mrow> </mrow>
+      <mrow>  \log_9 3=\frac{1}{2}  \amp\quad  \text{ Identify base $9$, answer $3$, and exponent } \frac{1}{2}  </mrow> 
+      <mrow>  9^{\frac{1}{2}}=3   \amp\quad  \text{ Our Solution  }  </mrow> 
+    </md>
+  </example> 
+ 
+  <p> 
+ Once we are comfortable switching between logarithmic and exponential form, we are able to evaluate and solve logarithmic expressions and equations. We will first evaluate logarithmic expressions. An easy way to evaluate a logarithm is to set the logarithm equal to <m>x</m> and change it into an exponential equation.
+  </p> 
+ 
+   
+  <example>
+    <md> 
+      <mrow>  \text{Evaluate} \log_2 64  \amp \quad  \text{ Set logarithm equal to } x  </mrow> 
+      <mrow>  \log_2 64=x   \amp\quad  \text{ Change to exponent form }  </mrow> 
+      <mrow>  2^x=64  \amp\quad  \text{ Write as common base, } 64=2^6  </mrow> 
+      <mrow>  2^x=2^6  \amp\quad  \text{ Same base, set exponents equal }  </mrow> 
+      <mrow>  x=6  \amp\quad  \text{ Our Solution  }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow>  \text{Evaluate} \log_{125} 5  \amp \quad  \text{ Set logarithm equal to } x  </mrow> 
+      <mrow>  \log_{125} 5=x   \amp\quad  \text{ Change to exponent form }  </mrow> 
+      <mrow>  125^x=5  \amp\quad  \text{ Write as common base, } 125=5^3  </mrow> 
+      <mrow>  (5^3)^x=5  \amp\quad  \text{ Multiply exponents }  </mrow> 
+      <mrow>  5^{3x}=5  \amp\quad  \text{ Same base, set exponents equal } (5=5^1)  </mrow> 
+      <mrow>  3x=1  \amp\quad  \text{ Solve }  </mrow> 
+      <mrow>  \overline{\ 3\ } \quad \overline{\ 3\ }  \amp\quad  \text{ Divide both sides by } 3  </mrow> 
+      <mrow>  x=\frac{1}{3}  \amp\quad  \text{ Our Solution  }  </mrow> 
+    </md>
+  </example> 
+
+
+  <example>
+    <md> 
+      <mrow>  \text{Evaluate} \log_3 \frac{1}{27}  \amp \quad  \text{ Set logarithm equal to } x  </mrow> 
+      <mrow>  \log_3 \frac{1}{27}=x   \amp\quad  \text{ Change to exponent form }  </mrow> 
+      <mrow>  3^x=\frac{1}{27}  \amp\quad  \text{ Write as common base, } \frac{1}{27}=3^{-3}  </mrow> 
+      <mrow>  3^x=3^{-3}  \amp\quad  \text{ Same base, set exponents equal }  </mrow> 
+      <mrow>  x=-3  \amp\quad  \text{ Our Solution  }  </mrow> 
+    </md>
+  </example> 	
+
+<p> <alert> World View Note:</alert> Dutch mathematician Adriaan Vlacq published a text in <m>1628</m> 
+which listed logarithms calculated out from <m>1</m> to <m>100,000</m>! </p>
+
+<p>
+Solving equations with logarithms is done in a very similar way, 
+we simply will change the equation into exponential form and try to solve the resulting equation.
+</p>
+
+
+  <example>
+    <md> 
+      <mrow>  \log_5 x=2  \amp \quad  \text{ Change to exponential form }  </mrow> 
+      <mrow>  5^2=x   \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow>  25=x \amp\quad  \text{ Our solution }  </mrow> 
+    </md>
+  </example>
+
+  <example>
+    <md> 
+      <mrow>  \log_2 (3x+5)=4  \amp \quad  \text{ Change to exponential form }   </mrow> 
+      <mrow>  2^4=3x+5   \amp\quad  \text{ Evaluate exponent }  </mrow> 
+      <mrow>  16=3x+5  \amp\quad  \text{ Solve }  </mrow> 
+      <mrow>  \underline{-5 \quad\quad -5}  \amp\quad  \text{ Subtract $5$ from both sides }  </mrow> 
+      <mrow>  11=3x  \amp\quad  \text{ Divide both sides by } 3  </mrow> 
+      <mrow>  \overline{\ 3\ } \quad \overline{\ 3\ } \amp\quad  \text{ }  </mrow> 
+      <mrow>  \frac{11}{3}=x  \amp\quad  \text{ Our Solution  }  </mrow> 
+
+    </md>
+  </example>
+
+<example>
+    <md> 
+      <mrow>  \log_x 8=3  \amp \quad  \text{ Change to exponential form }  </mrow> 
+      <mrow>  x^3=8   \amp\quad  \text{ Cube root of both sides }  </mrow> 
+      <mrow>  x=2 \amp\quad  \text{ Our solution }  </mrow> 
+    </md>
+  </example>
+
+<p>
+There is one base on a logarithm that gets used more often than any other base, base <m>10</m>. Similar to square roots not writing the common index of <m>2</m> in the radical, we don’t write the common base of <m>10</m> in the logarithm. So if we are working on a problem with no base written we will always assume that base is base <m>10</m>.
+</p>
+
+<example>
+    <md> 
+      <mrow>  \log x=-2  \amp \quad  \text{ Rewrite as exponent, $10$ is base }  </mrow> 
+      <mrow>  10^{-2} =x   \amp\quad  \text{ Evaluate, remember negative exponent is fraction }  </mrow> 
+      <mrow>  \frac{1}{100}=x \amp\quad  \text{ Our solution }  </mrow> 
+    </md>
+  </example>
+
+<p>
+This lesson has introduced the idea of logarithms, changing between logs and exponents, evaluating logarithms, and solving basic logarithmic equations. In an advanced algebra course, logarithms will be studied in much greater detail.
+</p>
+
+
+
+
+  <exercises xml:id="exercises-functions-logarithmic">
+    <title>Exercises – Logarithmic Functions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>      Rewrite each equation in exponential form.     </p>      </introduction>
+      <exercise><statement> <p> <m> \log_9 81=2 </m> </p> </statement> </exercise> 
+       <exercise><statement> <p> <m> \log_b a=-16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_7 \frac{1}{49}=-2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{16} 256=2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{13} 169 = 2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{11} 1 = 0 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+    <exercisegroup cols="2">
+  <introduction>    <p>      Rewrite each equation in logarithmic form.     </p>      </introduction>
+      <exercise><statement> <p> <m> 8^0=1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 17^{-2}=\frac{1}{289} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 15^2=225 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 144^{\frac{1}{2}} = 12 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 64^{\frac{1}{6}}=2 </m> </p> </statement> </exercise> 
+       <exercise><statement> <p> <m> 19^2=361 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+    <exercisegroup cols="2">
+  <introduction>    <p>     Evaluate each expression.     </p>      </introduction>
+      <exercise><statement> <p> <m> \log_{125} 5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_5 125 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{343} \frac{1}{7} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_7 1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_4 16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_4 \frac{1}{64} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_6 36 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{36} 6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_2 64 </m> </p> </statement> </exercise> 
+       <exercise><statement> <p> <m> \log_3 243 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+    <exercisegroup cols="2">
+  <introduction>    <p>      Solve each equation.     </p>      </introduction>
+      <exercise><statement> <p> <m> \log_5 x=1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_8 k=3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_2 x = -2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log n = 3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{11} k=2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_4 p=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_9 (n+9)=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{11} (x-4) = -1  </m></p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_5 (-3m)=3 </m> </p> </statement> </exercise> 
+       <exercise><statement> <p> <m> \log_2 (-8r)=1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{11} (x+5) = -1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_7 -3n = 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_4 (6b+4)=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_{11} (10v+1) = -1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_5 (-10x+4)=4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_9 (7-6x)=-2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_2 (10-5a)=3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \log_8 (3k-1)=1 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>
+

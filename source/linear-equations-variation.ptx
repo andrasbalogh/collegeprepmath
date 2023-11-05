@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="linear-equations-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Variation </title>
+<introduction> <alert> Objective: Solve variation problems by creating variation equations and finding the variation constant. </alert> </introduction>
+
+<p>
+One application of solving linear equations is variation. 
+Often different events are related by what is called the constant of variation. 
+For example, the time it takes to travel a certain distance is related to how fast you are 
+traveling. The faster you travel, the less time it takes to get there. 
+This is one type of variation problem. We will look at three types of variation here. 
+Variation problems have two or three variables and a constant in them. 
+The constant, usually noted with a <m>k</m>, describes the relationship and does not change 
+as the other variables in the problem change. 
+There are two ways to set up a variation problem, 
+the first solves for one of the variables, a second method is to solve for the constant. 
+Here we will use the second method.
+</p>
+
+<p>
+The Greek letter pi (<m>\pi</m>) is used to represent the ratio of the circumference of a circle 
+to its diameter.
+</p>
+
+<p>
+<alert> World View Note:</alert> In the <m>5</m>th century, Chinese mathematician 
+Zu Chongzhi calculated the value of <m>\pi</m> to seven decimal places (<m>3.1415926</m>). 
+This was the most accurate value of <m>\pi</m> for the next <m>1000</m> years!
+</p>
+
+<p>
+If you take any circle and divide the circumference of the circle by the diameter you will 
+always get the same value, about <m>3.14159</m>. 
+If you have a bigger circumference you will also have a bigger diameter. 
+This relationship is called <alert>direct variation</alert> or 
+<alert>directly proportional</alert>. If we see this phrase in the problem, 
+we know to divide to find the constant of variation.
+</p>
+
+<example>
+    <md>
+    <mrow> m \text{ varies directly as } n \amp \quad \text{“Directly” tells us to divide} </mrow>
+    <mrow> \frac{m}{n}=k \amp\quad \text{Our formula for the relationship} </mrow>
+    </md>
+</example>
+
+<p>
+In kickboxing, one will find that the longer the board, the easier it is to break. 
+If you multiply the force required to break a board by the length of the board, 
+you will also get a constant. Here, we are multiplying the variables, 
+which means as one variable increases, the other variable decreases. 
+This relationship is called <alert>indirect variation</alert> or 
+<alert>inversely proportional</alert>. If we see this phrase in the problem, 
+we know to multiply to find the constant of variation.
+</p>
+
+<example>
+    <md>
+    <mrow> y \text{ is inversely proportional to } z \amp \quad \text{“Inversely” tells us to multiply} </mrow>
+    <mrow> yz=k \amp\quad \text{Our formula for the relationship} </mrow>
+    </md>
+</example>
+
+<p>
+The formula for the area of a triangle has three variables in it. 
+If we divide the area by the base times the height, 
+we will also get a constant, <m>\frac{1}{2}</m>. 
+This relationship is called <alert>joint variation</alert> or
+ <alert>jointly proportional</alert>. 
+ If we see this phrase in the problem, we know to divide the first variable 
+ by the product of the other two to find the constant of variation.
+</p>
+
+<example>
+    <md>
+    <mrow> A \text{ varies jointly as $x$ and $y$} \amp \quad \text{“Jointly” tells us to divide by the product} </mrow>
+    <mrow> \frac{A}{xy} =k \amp \quad \text{Our formula for the relationship} </mrow>
+    </md>
+</example>
+
+<p>
+Once we have our formula for the relationship in a variation problem, 
+we use given or known information to calculate the constant of variation. 
+This is shown for each type of variation in the next three examples.
+</p>
+
+<example>
+    <me> w \text{ is directly proportional to $y$ and $w = 50$ when $y=5$} </me>
+    <md>
+    <mrow> \frac{w}{y}=k \amp \quad \text{“Directly” tells us to divide} </mrow>
+    <mrow> \frac{(50)}{(5)}=k \amp \quad \text{Substitute known values} </mrow>
+    <mrow> 10=k \amp \quad \text{Evaluate to find our constant} </mrow>
+    </md>
+</example>
+
+<example>
+    <me> c \text{  varies indirectly as $d$ and $c = 4.5$ when $d=6$} </me>
+    <md>
+    <mrow> cd=k \amp \quad \text{“Indirectly” tells us to multiply} </mrow>
+    <mrow> (4.5)(6)=k \amp \quad \text{Substitute known values} </mrow>
+    <mrow> 27=k \amp \quad \text{Evaluate to find our constant} </mrow>
+    </md>
+</example>
+
+<example>
+    <me> x \text{ is jointly proportional to $y$ and $z$ and $x = 48$ when $y=2$ and $z=4$} </me>
+    <md>
+    <mrow> \frac{x}{yz}=k \amp \quad \text{“Jointly” tells us to divide the product} </mrow>
+    <mrow> \frac{(48)}{(2)(4)}=k \amp \quad \text{Substitute known values} </mrow>
+    <mrow> 6=k \amp \quad \text{Evaluate to find our constant} </mrow>
+    </md>
+</example>
+
+<p>
+Once we have found the constant of variation, we can use it to find other combinations 
+in the same relationship. Each of these problems we solve will have three important steps, 
+none of which should be skipped.
+</p>
+
+<ol>
+<li><p> Find the formula for the relationship using the type of variation </p></li>
+<li><p> Find the constant of variation using known values </p></li>
+<li><p> Answer the question using the constant of variation </p></li>
+</ol>
+
+<p>
+The next three examples show how this process is worked out for each type of variation.
+</p>
+
+<example>
+    <p> The price of an item varies directly with the sales tax. If a $<m>25</m> 
+    item has a sales tax of $<m>2</m>, what will the tax be on a $<m>40</m> item? </p>
+    <md>
+    <mrow> \frac{p}{t}=k \amp \quad \text{“Directly” tells us to divide price ($p$) and tax ($t$)} </mrow>
+    <mrow> \frac{(25)}{(2)}=k \amp \quad \text{Substitute known values for price and tax} </mrow>
+    <mrow> 12.5=k \amp \quad \text{Evaluate to find our constant} </mrow>
+    <mrow> \frac{40}{t}=12.5 \amp \quad \text{Using our constant, substitute $40$ for price to find the tax} </mrow>
+    <mrow> \frac{(t)40}{t}=12.5 (t) \amp \quad \text{Multiply by LCD$=t$ to clear fraction} </mrow>
+    <mrow> 40=12.5t \amp \quad \text{Reduce the $t$ with the denominator} </mrow>
+    <mrow> \frac{40}{12.5}=\frac{12.5t}{12.5} \amp \quad \text{Divide by 12.5} </mrow>
+    <mrow> 3.2 = t \amp \quad \text{Our solution: Tax is \$$3.20$} </mrow>
+    </md>
+</example>
+
+<example>
+    <p> The speed (or rate) Josiah travels to work is inversely proportional to time it takes 
+    to get there. If he travels <m>35</m> miles per hour it will take him <m>2.5</m> hours 
+    to get to work. How long will it take him if he travels <m>55</m> miles per hour? </p>
+    <md>
+    <mrow> rt=k \amp \quad \text{“Inversely” tells us to multiply the rate and time} </mrow>
+    <mrow> (35)(2.5)=k \amp \quad \text{Substitute known values for rate and time} </mrow>
+    <mrow> 87.5=k \amp \quad \text{Evaluate to find our constant} </mrow>
+    <mrow> 55t=87.5 \amp \quad \text{Using our constant, substitute $55$ for rate to find the time} </mrow>
+    <mrow> \frac{55t}{55}=\frac{87.5}{55} \amp \quad \text{Divide both sides by $55$} </mrow>
+    <mrow> t \approx 1.59 \amp \quad \text{Our solution: It takes him $1.59$ hours to get to work} </mrow>
+    </md>
+</example>
+
+<example>
+    <p> The amount of simple interest earned on an investment varies jointly as the principle 
+    (amount invested) and the time it is invested. In an account, $<m>150</m> invested 
+    for <m>2</m> years earned $<m>12</m> in interest. 
+    How much interest would be earned on a $<m>220</m> investment for <m>3</m> years? </p>
+    <md>
+    <mrow> \frac{I}{Pt}=k \amp \quad \text{“Jointly” divide Interest ($I$) by product of Principle ($P$) and time ($t$)} </mrow>
+    <mrow> \frac{(12)}{(150)(2)}=k \amp \quad \text{Substitute known values for Interest, Principle and time} </mrow>
+    <mrow> 0.04 =k \amp \quad \text{Evaluate to find our constant} </mrow>
+    <mrow> \frac{I}{(220)(3)} =0.04 \amp \quad \text{Using constant, substitute $220$ for principle and $3$ for time} </mrow>
+    <mrow> \frac{I}{660}=0.04 \amp \quad \text{Evaluate denominator} </mrow>
+    <mrow> \frac{(660)I}{660}=0.04 (660) \amp \quad \text{Multiply by $660$ to isolate the variable} </mrow>
+    <mrow> I=26.4 \amp \quad \text{Our Solution: The investment earned \$$26.40$ in interest} </mrow>
+    </md>
+</example>
+
+<p>
+Sometimes a variation problem will ask us to do something to a variable as we set up 
+the formula for the relationship. For example, <m>\pi</m> can be thought of as the ratio 
+of the area and the radius squared. This is still direct variation; we say the area varies 
+directly as the radius square and thus our variable is squared in our formula. 
+This is shown in the next example.
+</p>
+
+<example>
+    <p> The area of a circle is directly proportional to the square of the radius. 
+    A circle with a radius of <m>10</m> has an area of <m>314</m>. 
+    What will the area be on a circle of radius <m>4</m>? </p>
+    <md>
+    <mrow> \frac{A}{r^2}=k \amp \quad \text{"Direct" tells us to divide, be sure we use $r^2$ for the denominator} </mrow>
+    <mrow> \frac{(314)}{(10)^2}=k \amp \quad \text{Substitute known values into our formula} </mrow>
+    <mrow> \frac{(314)}{100}=k \amp \quad \text{Exponents first} </mrow>
+    <mrow> 3.14 =k \amp \quad \text{Divide to find our constant} </mrow>
+    <mrow> \frac{A}{(4)^2}=3.14 \amp \quad \text{Using the constant, use $4$ for $r$, don't forget the squared!} </mrow>
+    <mrow> \frac{A}{16}=3.14 \amp \quad \text{Evaluate the exponent} </mrow>
+    <mrow> \frac{(16)A}{16}=3.14 (16) \amp \quad \text{Multiply both sides by $16$} </mrow>
+    <mrow> A=50.4 \amp \quad \text{Our Solution: Area is $50.24$} </mrow>
+    </md>
+</example>
+
+<p>
+  When solving variation problems, it is important to take the time to clearly state
+  the variation formula, find the constant, and solve the final equation.
+</p>
+
+<exercises xml:id="exercises-linear-variation">
+  <title>Exercises - Variation</title>
+
+  <exercisegroup >
+    <introduction>	<p>	  Write the formula that expresses the relationship described. </p>      </introduction>
+<exercise><statement> <p> <m>c</m> varies directly as <m>a</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>x</m> is jointly proportional to <m>y</m> and <m>z</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>w</m> varies inversely as <m>x</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>r</m> varies directly as the square of <m>s</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>f</m> varies jointly as <m>x</m> and <m>y</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>j</m> is inversely proportional to the cube of <m>m</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>h</m> is directly proportional to <m>b</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>x</m> is jointly proportional with the square of <m>a</m> and the square root of <m>b</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>a</m> is inversely proportional to <m>b</m> </p> </statement></exercise>
+  </exercisegroup>
+
+  <exercisegroup >
+    <introduction>	<p>	  Find the constant of variation and write the formula to express the relationship using that constant. 	</p>      </introduction>
+<exercise><statement> <p> <m>a</m> varies directly as <m>b</m> and <m>a = 15</m> when <m>b = 5</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>p</m> is jointly proportional to <m>q</m> and <m>r</m> and <m>p = 12</m> when <m>q = 8</m> and <m>r = 3</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>c</m> varies inversely as <m>d</m> and <m>c = 7</m> when <m>d = 4</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>t</m> varies directly as the square of <m>u</m> and <m>t = 6</m> when <m>u = 3</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>e</m> varies jointly as <m>f</m> and <m>g</m> and <m>e = 24</m> when <m>f = 3</m> and <m>g = 2</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>w</m> is inversely proportional to the cube of <m>x</m> and <m>w</m> is <m>54</m> when <m>x = 3</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>h</m> is directly proportional to <m>j</m> and <m>h = 12</m> when <m>j = 8</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>a</m> is jointly proportional with the square of <m>x</m> and the square root of <m>y</m> and <m>a = 25</m> when <m>x = 5</m> and <m>y = 9</m> </p> </statement></exercise>
+<exercise><statement> <p> <m>m</m> is inversely proportional to <m>n</m> and <m>m = 1.8</m> when <m>n = 2.1</m> </p> </statement></exercise>
+  </exercisegroup>
+
+  <exercisegroup >
+    <introduction>	<p>	  Solve each of the following variation problems by setting up a formula to express the relationship, finding the constant, and then answering the question.</p>      </introduction>
+
+<exercise><statement> <p> The electrical current, in amperes, in a circuit varies directly as the voltage. When <m>15</m> volts are applied, the current is <m>5</m> amperes. What is the current when <m>18</m> volts are applied? </p> </statement></exercise>
+<exercise><statement> <p> The current in an electrical conductor varies inversely as the resistance of the conductor. If the current is <m>12</m> ampere when the resistance is <m>240</m> ohms, what is the current when the resistance is <m>540</m> ohms? </p> </statement></exercise>
+<exercise><statement> <p> Hooke’s law states that the distance that a spring is stretched by hanging object varies directly as the mass of the object. If the distance is <m>20</m> cm when the mass is <m>3</m> kg, what is the distance when the mass is <m>5</m> kg? </p> </statement></exercise>
+<exercise><statement> <p> The volume of a gas varies inversely as the pressure upon it. The volume of a gas is <m>200</m> cm<m>^3</m> under a pressure of <m>32</m> kg/cm<m>^2</m>. What will be its volume under a pressure of <m>40</m> kg/cm<m>^2</m>? </p> </statement></exercise>
+<exercise><statement> <p> The number of aluminum cans used each year varies directly as the number of people using the cans. If <m>250</m> people use <m>60,000</m> cans in one year, how many cans are used each year in Dallas, which has a population of <m>1,008,000</m>? </p> </statement></exercise>
+<exercise><statement> <p> The time required to do a job varies inversely as the number of people working. It takes <m>5</m> hr for <m>7</m> bricklayers to build a park well. How long will it take <m>10</m> bricklayers to complete the job? </p> </statement></exercise>
+<exercise><statement> <p> According to Fidelity Investment Vision Magazine, the average weekly
+allowance of children varies directly as their grade level. In a recent year, the average allowance of a <m>9</m>th-grade student was <m>9.66</m> dollars per week. What was the average weekly allowance of a <m>4</m>th-grade student? </p> </statement></exercise>
+<exercise><statement> <p> The wavelength of a radio wave varies inversely as its frequency. A wave with a frequency of <m>1200</m> kilohertz has a length of <m>300</m> meters. What is the length of a wave with a frequency of <m>800</m> kilohertz? </p> </statement></exercise>
+<exercise><statement> <p> The number of kilograms of water in a human body varies directly as the mass of the body. A <m>96</m>-kg person contains <m>64</m> kg of water. How many kilograms of water are in a <m>60</m>-kg person? </p> </statement></exercise>
+<exercise><statement> <p> The time required to drive a fixed distance varies inversely as the speed. It takes <m>5</m> hr at a speed of <m>80</m> km/h to drive a fixed distance. How long will it take to drive the same distance at a speed of <m>70</m> km/h? </p> </statement></exercise>
+<exercise><statement> <p> The weight of an object on Mars varies directly as its weight on Earth. A person weighs <m>95</m> lb on Earth weighs <m>38</m> lb on Mars. How much would a <m>100</m>-lb person weigh on Mars? </p> </statement></exercise>
+<exercise><statement> <p> At a constant temperature, the volume of a gas varies inversely as the pressure. If the pressure of a certain gas is <m>40</m> newtons per square meter when the volume is <m>600</m> cubic meters what will the pressure be when the volume is reduced by <m>240</m> cubic meters? </p> </statement></exercise>
+<exercise><statement> <p> The time required to empty a tank varies inversely as the rate of pumping. If a pump can empty a tank in <m>45</m> min at the rate of <m>600</m> kL/min, how long will it take the pump to empty the same tank at the rate of <m>1000</m> kL/min? </p> </statement></exercise>
+<exercise><statement> <p> The weight of an object varies inversely as the square of the distance from the center of the earth. At sea level (<m>6400</m> km from the center of the earth), an astronaut weighs <m>100</m> lb. How far above the earth must the astronaut be in order to weigh <m>64</m> lb? </p> </statement></exercise>
+<exercise><statement> <p> The stopping distance of a car after the brakes have been applied varies directly as the square of the speed r. If a car, traveling <m>60</m> mph can stop in <m>200</m> ft, how fast can a car go and still stop in <m>72</m> ft? </p> </statement></exercise>
+<exercise><statement> <p> The drag force on a boat varies jointly as the wetted surface area and the square of the velocity of a boat. If a boat going <m>6.5</m> mph experiences a drag force of <m>86</m> N when the wetted surface area is <m>41.2</m> ft<m>^2</m>, how fast must a boat with <m>28.5</m> ft<m>^2</m> of wetted surface area go in order to experience a drag force of <m>94</m>N? </p> </statement></exercise>
+<exercise><statement> <p> The intensity of a light from a light bulb varies inversely as the square of the distance from the bulb. Suppose intensity is <m>90</m> W/m<m>^2</m> (watts per square meter) when the distance is <m>5</m> m. How much further would it be to a point where the intensity is <m>40</m> W/m<m>^2</m>? </p> </statement></exercise>
+<exercise><statement> <p> The volume of a cone varies jointly as its height, and the square of its radius. If a cone with a height of <m>8</m> centimeters and a radius of <m>2</m> centimeters has a volume of <m>33.5</m> cm<m>^3</m>, what is the volume of a cone with a height of <m>6</m> centimeters and a radius of <m>4</m> centimeters? </p> </statement></exercise>
+<exercise><statement> <p> The intensity of a television signal varies inversely as the square of the distance from the transmitter. If the intensity is <m>25</m> W/m<m>^2</m> at a distance of <m>2</m> km, how far from the transmitter are you when the intensity is <m>2.56</m> W/m<m>^2</m>? </p> </statement></exercise>
+<exercise><statement> <p> The intensity of illumination falling on a surface from a given source of light is inversely proportional to the square of the distance from the source of light. The unit for measuring the intensity of illumination is usually the foot-candle. If a given source of light gives an illumination of <m>1</m> foot-candle at a distance of <m>10</m> feet, what would the illumination be from the same source at a distance of <m>20</m> feet? </p> </statement></exercise>
+</exercisegroup>
+
+</exercises>
+
+
+</section>
+

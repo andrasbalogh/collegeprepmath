@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="polynomials-exponent-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>   Exponent Properties  </title>
+  <introduction> <alert> Objective: Simplify expressions using the properties of exponents.   </alert> </introduction>
+
+  <p>
+   Problems with exponents can often be simplified using a few basic exponent properties. Exponents represent repeated multiplication. We will use this fact to discover the important properties.
+  </p>
+
+  <p> <alert> World View Note: </alert> The word exponent comes from the Latin “expo” meaning out of and “ponere” meaning place. While there is some debate, it seems that the Babylonians living in Iraq were the first to do work with exponents (dating back to the 23rd century BC or earlier!)  </p>
+
+  <example>
+    <md>
+      <mrow>   a^3a^ 2             \amp \quad  \text{ Expand exponents to multiplication problem   }   </mrow>
+      <mrow> (aaa)(aa)               \amp\quad  \text{ Now we have 5a ' s being multiplied together    }  </mrow>
+      <mrow>       a^5       \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+  <p>
+A quicker method to arrive at our answer would have been to just add the exponents: <m>  a ^3a ^2 = a^{3+2 }= a^ 5 </m> This is known as the product rule of exponents
+  </p>
+
+  <p>
+    <alert> Product Rule of Exponents: a^ma^ n = a^{m+n}   </alert>
+  </p>
+
+  <p>
+    The product rule of exponents can be used to simplify many problems. We will add the exponent on like variables. This is shown in the following examples.
+  </p>
+
+  <example>
+    <md>
+      <mrow>      3 ^2 \cdot 3 ^6 \cdot 3          \amp \quad  \text{ Same base, add the exponents    }  2+ 6+1  </mrow>
+      <mrow>      3^ 9           \amp\quad  \text{  Our Solution  }  </mrow>
+    </md>
+  </example>
+
+<example>
+    <md>
+      <mrow>      2x^ 3 y ^5 z \cdot 5xy^2 z ^3    \amp \quad  \text{ Multiply $2 \cdot 5$, add exponents on $x$,$ y$ and    }   z </mrow>
+      <mrow>      10x ^4 y ^7 z ^4          \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example>
+
+  <p>
+Rather than multiplying, we will now try to divide with exponents
+  </p>
+
+<example>
+    <md>
+      <mrow>    \frac{a^ 5}{ a^ 2}        \amp \quad  \text{  Expand exponents   }   </mrow>
+      <mrow>      \frac{aaaaa} {aa}      \amp\quad  \text{Divide out two of the $a$'s  }  </mrow>
+      <mrow>       aaa        \amp\quad  \text{ Convert to exponents   }  </mrow> 
+<mrow>      a^3         \amp \quad  \text{  Our Solution    }   </mrow>
+    </md>
+  </example>
+
+  <p>
+A quicker method to arrive at the solution would have been to just subtract the exponents, <m> a^ 5 a ^2 = a ^{5-2} = a^ 3 </m>. This is known as the quotient rule of exponents.
+  </p>
+  
+  <p>
+<alert> Quotient Rule of Exponents: <m>\frac{a^m}{a^n} = a^{m-n}</m>.      </alert>
+</p>
+
+  <p>
+  The quotient rule of exponents can similarly be used to simplify exponent problems by subtracting exponents on like variables. This is shown in the following examples.
+  </p>
+  
+  <example>
+    <p>
+      <md>
+	<mrow>  \frac{7^{13}}{7^5}  \amp \quad  \text{  Same base, subtract the exponents}   </mrow>
+	<mrow>      7^8          \amp\quad  \text{ Our Solution   }  </mrow>
+      </md>
+    </p>
+    </example>
+    
+<example>
+  <p>
+    <md>
+      <mrow>     \frac{5a^3 b^5 c^2}{ 2ab^3c}  \amp \quad  \text{
+      Subtract exponents on $a$, $b$ and } c  </mrow>
+      <mrow> \frac{ 5}{ 2} a ^2 b^ 2 c     \amp\quad  \text{   Our Solution  }  </mrow>
+    </md>
+  </p>
+</example>
+
+  <p>
+  A third property we will look at will have an exponent problem raised to a second exponent. This is investigated in the following example. 
+  </p>
+
+  <example>
+    <p>
+      <md>
+	<mrow>  ( a^ 2)^ 3    \amp \quad  \text{ This means we have a $2$ three times   }   </mrow>
+	<mrow>     a ^2 \cdot a ^2 \cdot a ^2          \amp\quad  \text{ Add exponent   }  </mrow>
+	<mrow>       a^6       \amp\quad  \text{  Our solution   }  </mrow>
+      </md>
+    </p>
+  </example>
+
+  <p>
+    A quicker method to arrive at the solution would have been to just
+    multiply the exponents, <m>  (a^2)^3 = a ^{2\cdot 3} = a^ 6</m>. This is known as the power of a power rule of exponents.
+  </p>
+
+  <p>
+    <alert> Power of a Power Rule of Exponents: <m> (a^m)^ n= a^{mn}</m></alert>
+  </p>
+
+  <p>
+    This property is often combined with two other properties which we will investigate now.
+  </p>
+<example>
+  <p>
+  <md>
+    <mrow>   (ab)^ 3    \amp \quad  \text{ This means we have $(ab)$ three time    }   </mrow>
+    <mrow> (ab)(ab)(ab)  \amp\quad  \text{ Three $a$'s and three $b$'s can be written with exponents  }  </mrow>
+    <mrow>    a^ 3 b ^3       \amp\quad  \text{ Our Solution   }  </mrow>
+  </md>
+  </p>
+</example>
+
+  <p>
+  A quicker method to arrive at the solution would have been to take the exponent of three and put it on each factor in parenthesis, <m>  (ab)^ 3 = a^ 3 b ^3 </m>. This is known as the power of a product rule or exponents
+  </p>
+
+  <p>
+    <alert> Power of a Product Rule of Exponents: <m>(ab)^m = a^mb^m</m> </alert>
+  </p>
+  
+  <p>
+    It is important to be careful to only use the power of a product rule with multiplication inside parenthesis. This property does NOT work if there is addition or subtraction.
+  </p>
+
+<warning>
+    <md>
+      <mrow>      (a + b) ^m \neq a^ m + b^ m    \amp \quad  \text{  These are NOT equal, beware of this error!   }   </mrow>
+      </md>
+  </warning>
+  <p>
+  Another property that is very similar to the power of a product rule is considered next.
+  </p>
+<example>
+    <md>
+      <mrow>     \left( \frac{a}{ b} \right)^3   \amp \quad  \text{ This means we have the fraction three timse   }   </mrow>
+      <mrow>    \left(\frac{ a}{ b} \right) \left(\frac{ a}{ b}\right) \left(\frac{ a}{ b}\right) \amp\quad  \text{  Multiply fractions across the top and bottom, using exponents   }  </mrow>
+      <mrow>     \frac{a ^3 }{b ^3}    \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+  <p>
+    A quicker method to arrive at the solution would have been to put the exponent on every factor in both the numerator and denominator, <m>\left(\frac{a}{ b}\right)^ 3 = \frac{a^ 3} {b^ 3}</m>. This is known as the power of a quotient rule of exponents.
+  </p>
+  
+  <p>
+    <alert> Power of a Quotient Rule of Exponents:
+    <m>\left(\frac{a}{b}\right)^m = \frac{a^m}{b^m} </m>  </alert>
+  </p>
+
+  <p>
+  The power of a power, product and quotient rules are often used together to simplify expressions. This is shown in the following examples.
+  </p>
+  
+  <example>
+    <p>
+    <md>
+      <mrow>       (x ^3 yz^2 )^ 4   \amp \quad  \text{ Put the exponent of $4$ on each factor, multiplying power    }   </mrow>
+      <mrow>      x^{12}y ^4 z^8           \amp\quad  \text{Our solution    }  </mrow>
+    </md>
+    </p>
+  </example>
+
+  <example>
+    <md>
+      <mrow> \left(\frac { a ^3 b }{c^ 8d ^5}\right)^2      \amp \quad  \text{ Put the exponent of $2$ on each factor, multiplying powers   }   </mrow>
+      <mrow>   \frac {a^ 6 b ^2} {c ^8d^{10} }            \amp\quad  \text{   Our Solution  }  </mrow>
+    </md>
+  </example>
+
+  <p>
+  As we multiply exponents it’s important to remember these properties apply to exponents, not bases. An expression such as <m> 5^ 3</m>  does not mean we multiply<m>  5</m>  by <m> 3</m>, rather we multiply<m>  5</m>  three times, <m> 5 × 5 × 5 = 125</m>. This is shown in the next example.
+  </p>
+
+<example>
+    <md>
+      <mrow>  (4x ^2 y^ 5 )^ 3  \amp \quad  \text{ Put the exponent of $3$ on each factor, multiplying powers   }   </mrow>
+      <mrow>  4 ^3x ^6 y^{15}   \amp\quad  \text{ Evaluate  }  4^3  </mrow>
+      <mrow>     64x ^6 y^{15}         \amp\quad  \text{ Our Solution   }  </mrow>
+    </md>
+  </example>
+
+  <p>
+  In the previous example we did not put the <m> 3</m> on the <m> 4
+  </m> and multiply to get <m> 12</m>, this would have been
+  incorrect. Never multiply a base by the exponent. These properties
+  pertain to exponents only, not bases.
+  </p>
+
+  <p>In this lesson we have discussed <m> 5 </m> different exponent properties. These rules are summarized in the following table.
+  </p>
+
+  <table>
+    <title>  Rules of Exponents </title>
+    <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+      <row >
+	<cell>Product Rule of Exponents</cell>
+	<cell><m>	a^m a^ n = a^{m+n} </m></cell>
+      </row>
+      <row>
+	<cell>Quotient Rule of Exponents</cell>
+	<cell><m>	\frac{a^m}{a^n} = a^{m-n}</m></cell>
+      </row>
+      <row>
+	<cell> Power of a Power Rule of Exponents	</cell>
+	<cell> <m>\left(a^m\right) ^n = a^{mn}</m></cell>
+      </row>
+      <row>
+	<cell> Power of a Product Rule of Exponents</cell>
+	<cell> <m>	(ab)^m = a^m b^m</m></cell>
+      </row>
+      <row>
+	<cell>Power of a Quotient Rule of Exponents	</cell>
+	<cell><m>\left(\frac{a}{b} \right)^m = \frac{a^m}{ b^m}</m></cell>
+      </row>
+    </tabular>
+  </table>
+
+
+
+<p>
+These five properties are often mixed up in the same problem. Often there is a bit of flexibility as to which property is used first. However, order of operations still applies to a problem. For this reason, it is the suggestion of the author to simplify inside any parenthesis first, then simplify any exponents (using power rules), and finally simplify any multiplication or division (using product and quotient rules). This is illustrated in the next few examples.
+  </p>
+<example>
+    <md>
+      <mrow>   (4x ^3 y \cdot 5x^ 4 y ^2 ) ^3 \amp \quad  \text{ In parenthesis simplify using product rule, adding exponents }   </mrow>
+      <mrow>  (20x ^7 y ^3 )^3\amp\quad  \text{ With power rules, put three on each factor, multiplying exponents  }  </mrow>
+      <mrow>     20^3x ^{21}y ^9          \amp\quad  \text{ Evaluate } 20^3 </mrow>     
+ <mrow>     8000x ^{21}y^ 9          \amp\quad  \text{ Our Solution   }  </mrow>
+   </md>
+  </example>
+<example>
+    <md>
+      <mrow>  7a^ 3 (2a ^4 ) ^3              \amp \quad  \text{  Parenthesis are already simplified, next use power rules  }   </mrow>
+      <mrow>   7a ^3 (8a ^{12})    \amp\quad  \text{ Using product rule, add exponents and multiply numbers  }  </mrow>
+      <mrow>     56a^{15}         \amp\quad  \text{  Our Solution  }  </mrow>
+ </md>
+  </example>
+ <example>
+    <md>
+      <mrow>   \frac{ 3a^ 3 b \cdot 10a ^4 b^ 3} {2a ^4b ^2 }  \amp \quad  \text{  Simplify numerator with product rule, adding exponents    }   </mrow>
+      <mrow>     \frac {30a ^7 b ^4 }{2a ^4b^ 2 }   \amp\quad  \text{ Now use the quotient rule to subtract exponents   }  </mrow>
+      <mrow>   15a ^3 b ^2   \amp\quad  \text{ Our Solution  }  </mrow>
+    </md>
+  </example>
+
+<example>
+    <md>
+      <mrow>    \frac {3m^8n ^{12}}{ (m^2n^3 )^ 3}           \amp \quad  \text{ Use power rule in denominator  }   </mrow>
+      <mrow>    \frac{ 3m^8n ^{12}}{ m^6n^9}        \amp\quad  \text{ Use quotient rule  }  </mrow>
+      <mrow>   3m^2n ^3   \amp\quad  \text{  Our solution   }  </mrow>
+    </md>
+  </example>
+<example>
+    <md>
+      <mrow>      \left (\frac{3ab^2 (2a ^4 b ^2 ) ^3 }{6a ^5b ^7} \right)^2   \amp \quad  \text{ Simplify inside parenthesis first, using power rule in numerator     }   </mrow>
+      <mrow>    \left(\frac{ 3ab^2 (8a ^{12}b^ 6 )}{ 6a ^5b ^7} \right)^2 \amp\quad  \text{Simplify numerator using product rule  }  </mrow>
+      <mrow>      \left(\frac{24a ^{13}b ^8}{ 6a ^5b ^7} \right)^2     \amp\quad  \text{Simplify using the quotient rule   }  </mrow> 
+<mrow>        ( 4a^ 8 b)^ 2       \amp \quad  \text{ Now that the parenthesis are simplified, use the power rules  }   </mrow>
+      <mrow>      16a^ {16}b ^2   \amp\quad  \text{   Our Solution }  </mrow>
+   </md>
+  </example>
+
+  <p>
+    Clearly these problems can quickly become quite involved. Remember to follow order of operations as a guide, simplify inside parenthesis first, then power rules, then product and quotient rules.
+  </p>
+
+  <exercises xml:id="exercises-polynomials-exponent-properties">
+    <title> Exercises - Exponent Properties </title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Simplify. </p>      </introduction>
+    <exercise><statement>  <p> <m>    4 \cdot 4 ^4 \cdot 4^ 4     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   4 \cdot 4^ 4 \cdot 4^ 2         </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>    4 \cdot 2^ 2     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   3 \cdot 3^3 \cdot 3^ 2         </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m> 3m\cdot 4mn        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   3x \cdot 4x ^2         </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>  2m^4n ^2 \cdot 4nm^2        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      x ^2 y ^4 \cdot xy^2      </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>    (3^3 )^ 4     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     (4^3 ) ^4       </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>     (4^4 )^ 2    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         (3^2 )^ 3    </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>      (2u ^3 v ^2 )^ 2   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     (xy) ^3       </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>       (2a ^4 ) ^4  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       (2xy)^ 4     </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>   \frac{4^ 5}{ 4^ 3}      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    \frac{3 ^7 }{3^ 3}      </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m> \frac{ 3 ^2}{ 3}      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  \frac{3^ 4}{ 3}     </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>   \frac{3nm^2 }{3n}     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  \frac{ x ^2y^ 4}{ 4xy}         </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>  \frac{4x ^3y^ 4}{ 3xy^3 }     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     \frac{ xy^3}{ 4xy}     </m> </p>   </statement></exercise>  
+  <exercise><statement>  <p> <m>    (x ^3 y ^4 \cdot 2x ^2 y ^3 ) ^2     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     (u ^2 v ^2 \cdot 2u ^4 )^ 3        </m> </p>   </statement></exercise>   
+ <exercise><statement>  <p> <m>     2x(x^ 4 y ^4 )^ 4    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     \frac{ 3vu^5 \cdot 2v ^3 }{uv^2 \cdot 2u^3v }     </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  \frac{2x ^7 y^ 5}{ 3x^3 y \cdot 4x^2 y ^3}     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    \frac{2ba^7 \cdot 2b^ 4}{ ba^2 \cdot 3a^ 3 b^ 4}       </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  \left( \frac{(2x) ^3}{ x^3 }\right)^2      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{2a^ 2 b^ 2 a ^7}{ (ba^4) ^2}        </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>   \left( \frac{2y^{17}}{ (2x^2 y ^4)^ 4 }\right)^3      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       \frac{ yx^2 \cdot (y^ 4 )^ 2}{ 2y^ 4}     </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   \left(\frac{2m n^4 \cdot 2m^4 n ^4 }{mn^4} \right)^3      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   \frac{ n ^3 (n^ 4 ) ^2}{ 2mn}        </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>   \frac{2xy^5 \cdot 2x^ 2 y ^3}{ 2xy^4 \cdot y ^3 }    </m>   </p>  </statement></exercise>
+<exercise><statement>  <p> <m>\frac{(2y ^3 x^ 2 )^ 2}{ 2x^2y^ 4 \cdot x^2 }   </m>   </p>  </statement></exercise>
+ <exercise><statement><p> <m>   \frac {q ^3 r^ 2 \cdot (2p^ 2 q^ 2 r^ 3 )^ 2}{ 2p^ 3}         </m> </p>   </statement></exercise>
+  <exercise><statement>  <p> <m>   \frac{2x ^4 y^ 5 \cdot 2z ^10 x^ 2y^ 7}{ (xy^2 z^ 2) ^4}       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    \left(\frac{zy^3 \cdot z ^3 x^ 4 y ^4}{ x^3 y ^3  z ^3 }\right)^4       </m> </p>   </statement></exercise>
+   <exercise><statement>  <p> <m>     \left( \frac{2q ^3 p^ 3 r ^4 \cdot 2p ^3}{ (qrp^3) ^2 }\right)^4     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      \frac{2x ^2 y^ 2 z^ 6 \cdot 2zx^2  y^ 2}{ (x^2 z ^3) ^2}       </m> </p>   </statement></exercise>
+    </exercisegroup>
+
+      </exercises>
+
+</section>

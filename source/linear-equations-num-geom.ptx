@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="linear-equations-num-geom" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title> Application: Number/Geometry </title>
+<introduction> <alert> Objective: Solve number and geometry problems by creating and
+solving a linear equation. </alert> </introduction>
+
+<p>
+Word problems can be tricky. Often it takes a bit of practice to convert the English sentence 
+into a mathematical sentence. This is what we will focus on here with some basic number 
+problems, geometry problems, and parts problems.
+</p>
+
+<p>
+A few important phrases are described below that can give us clues for how to set up a problem.
+</p>
+
+<ul>
+<li> <p> <alert>A number</alert> (or unknown, a value, etc) often becomes our variable </p> </li>
+<li> <p> <alert>Is</alert> (or other forms of is: was, will be, are, etc) often represents 
+equals (<m>=</m>): "<m> x </m> is <m> 5 </m>" becomes <m> x=5 </m> </p> </li>
+<li> <p> <alert>More than</alert> often represents addition and is usually built backwards,
+writing the second part plus the first:
+"Three more than a number" becomes <m> x+3 </m> </p> </li>
+<li> <p> <alert>Less than</alert> often represents subtraction and is usually built 
+backwards as well, writing the second part minus the first:
+"Four less than a number" becomes <m> x-4 </m> </p> </li>
+</ul>
+
+<p>
+Using these key phrases, we can take a number problem and set up an equation to solve.
+</p>
+
+<example>
+    <p> If <m>28</m> less than five times a certain number is <m>232</m>. 
+    What is the number? </p>
+    <md>
+    <mrow> 5x-28  \amp \quad \text{Subtraction is built backwards, multiply the unknown by $5$} </mrow>
+    <mrow> 5x-28=232 \amp \quad \text{Is translates to equals} </mrow>
+    <mrow> +28 +28 \amp \quad \text{Add $28$ to both sides} </mrow>
+    <mrow> 5x=260\amp \quad \text{The variable is multiplied by $5$} </mrow>
+    <mrow> \frac{5x}{5} = \frac{260}{5} \amp \quad \text{Divide both sides by $5$} </mrow>
+    <mrow> x = 52\amp \quad \text{The number is $52$} </mrow>
+    </md>
+</example>
+
+<p>
+This same idea can be extended to a more involved problem as shown in the next example.
+</p>
+
+<example>
+    <p> Fifteen more than three times a number is the same as ten less than six times the number. What is the number? </p>
+    <md>
+    <mrow> 3x+15 \amp \quad \text{First, addition is built backwards} </mrow>
+    <mrow> 6x-10 \amp \quad \text{Then, subtraction is also built backwards} </mrow>
+    <mrow> 3x+15=6x-10 \amp \quad \text{Is between the parts tells us they must be equal} </mrow>
+    <mrow> -3x \qquad -3x \qquad \amp \quad \text{Subtract $3x$ so variable is all on one side} </mrow>
+    <mrow> 15=3x-10 \amp \quad \text{Now we have a two-step equation} </mrow>
+    <mrow> +10\qquad+10 \amp \quad \text{Add $10$ to both sides} </mrow>
+    <mrow> 25=3x \amp \quad \text{The variable is multiplied by $3$} </mrow>
+    <mrow> \frac{25}{3}=\frac{3x}{3} \amp \quad \text{Divide both sides by $3$} </mrow>
+    <mrow> \frac{25}{3}=x \amp \quad \text{Our number is $\frac{25}{3}$} </mrow>
+    </md>
+</example>
+
+<p>
+Another type of number problem involves consecutive numbers. <alert>Consecutive numbers</alert> are numbers that come one after the other, such as <m>3</m>, <m>4</m>, <m>5</m>. If we are looking for several consecutive numbers, it is important to first identify what they look like with variables before we set up the equation. This is shown in the following example.
+</p>
+
+<example>
+    <p> The sum of three consecutive integers is <m>93</m>. What are the integers? </p>
+    <md>
+    <mrow> \text{First } x \amp \quad \text{Make the first number $x$} </mrow>
+    <mrow> \text{Second } x+1 \amp \quad \text{To get the next number, we go up one or $+1$} </mrow>
+    <mrow> \text{Third } x+2 \amp \quad \text{Add another $1$ ($2$ total) to get the third} </mrow>
+    <mrow> F+S+T=93 \amp \quad \text{First ($F$) plus Second ($S$) plus Third ($T$) equals $93$} </mrow>
+    <mrow> (x)+(x+1)+(x+2)=93 \amp \quad \text{Replace $F$ with $x$, $S$ with $x+1$, and $T$ with $x+2$} </mrow>
+    <mrow> x+x+1+x+2=93 \amp \quad \text{Here the parenthesis aren't needed} </mrow>
+    <mrow> 3x+3=93 \amp \quad \text{Combine like terms $x+x+x$ and $2+1$} </mrow>
+    <mrow> -3\qquad -3 \amp \quad \text{Subtract $3$ from both sides} </mrow>
+    <mrow> 3x=90 \amp \quad \text{The variable is multiplied by $3$} </mrow>
+    <mrow> \frac{3x}{3}=\frac{90}{3} \amp \quad \text{Divide both sides by $3$} </mrow>
+    <mrow> x=30 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{First } 30 \amp \quad \text{Replace $x$ in our original list with $30$} </mrow>
+    <mrow> \text{Second } (30)+1=31 \amp \quad \text{The numbers are $30$, $31$, and $32$} </mrow>
+    <mrow> \text{Third } (30)+2=32 \amp \quad \text{ } </mrow>
+    </md>
+</example>
+
+<p>
+Sometimes we will work consecutive even or odd integers, rather than just consecutive integers. When we had consecutive integers, we only had to add <m>1</m> to get to the next number, so we had <m>x</m>, <m>x + 1</m>, and <m>x + 2</m> for our first, second, and third number respectively. With even or odd numbers, they are spaced apart by two. So if we want three consecutive even numbers, if the first is <m>x</m>, the next number would be <m>x + 2</m>, then finally add two more to get the third, <m>x + 4</m>. The same is true for consecutive odd numbers, if the first is <m>x</m>, the next will be <m>x + 2</m>, and the third would be <m>x+ 4</m>. It is important to note that we are still adding <m>2</m> and <m>4</m> even when the numbers are odd. This is because the phrase “odd” is referring to our <m>x</m>, not to what is added to the numbers. Consider the next two examples.
+</p>
+
+<example>
+    <p> The sum of three consecutive even integers is <m>246</m>. What are the integers? </p>
+    <md>
+    <mrow> \text{First } x \amp \quad \text{Make the first $x$} </mrow>
+    <mrow> \text{Second } x+2 \amp \quad \text{Even numbers, so we add $2$ to get the next} </mrow>
+    <mrow> \text{Third } x+4 \amp \quad \text{Add $2$ more ($4$ total) to get the third} </mrow>
+    <mrow> F+S+T=246 \amp \quad \text{Sum means add First ($F$) plus Second ($S$) plus Third ($T$)} </mrow>
+    <mrow> (x)+(x+2)+(x+4)=246 \amp \quad \text{Replace each $F$, $S$, and $T$ with what we labeled them} </mrow>
+    <mrow> x+x+2+x+4=246 \amp \quad \text{Here the parenthesis are not needed} </mrow>
+    <mrow> 3x+6=246 \amp \quad \text{Combine like terms $x+x+x$ and $2+4$} </mrow>
+    <mrow> -6\quad -6 \amp \quad \text{Subtract $6$ from both sides} </mrow>
+    <mrow> 3x=240 \amp \quad \text{The variable is multiplied by $3$} </mrow>
+    <mrow> \frac{3x}{3}=\frac{240}{3} \amp \quad \text{Divide both sides by $3$} </mrow>
+    <mrow> x=80 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{First } 80 \amp \quad \text{Replace $x$ in our original list with $80$} </mrow>
+    <mrow> \text{Second } (80)+2=82 \amp \quad \text{The numbers are $80$, $82$, and $84$} </mrow>
+    <mrow> \text{Third } (80)+4=84 \amp \quad \text{ } </mrow>
+    </md>
+</example>
+
+
+<example>
+    <p> Find three consecutive odd integers so that the sum of twice the first, the second and three times the third is <m>152</m>. </p>
+    <md>
+    <mrow> \text{First } x \amp \quad \text{Make the first $x$} </mrow>
+    <mrow> \text{Second } x+2 \amp \quad \text{Odd numbers, so we add $2$ (same as even!)} </mrow>
+    <mrow> \text{Third } x+4 \amp \quad \text{Add $2$ more ($4$ total) to get the third} </mrow>
+    <mrow> 2F+S+3T=152 \amp \quad \text{Twice the first gives $2F$ and three times the third gives $3T$} </mrow>
+    <mrow> 2(x)+(x+2)+3(x+4)=152 \amp \quad \text{Replace $F$, $S$, and $T$ with what we labeled them} </mrow>
+    <mrow> 2x+x+2+3x+12=152 \amp \quad \text{Distribute through parenthesis} </mrow>
+    <mrow> 6x+14=152 \amp \quad \text{Combine like terms $2x+x+3x$ and $2+12$} </mrow>
+    <mrow> -14\quad -14 \amp \quad \text{Subtract $14$ to both sides} </mrow>
+    <mrow> 6x=138 \amp \quad \text{Variable is multiplied by $6$} </mrow>
+    <mrow> \frac{6x}{6}=\frac{138}{6} \amp \quad \text{Divide both sides by $6$} </mrow>
+    <mrow> x=23 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{First } 23 \amp \quad \text{Replace $x$ in our original list with $23$} </mrow>
+    <mrow> \text{Second } (23)+2=25 \amp \quad \text{The numbers are $23$, $25$, and $27$} </mrow>
+    <mrow> \text{Third } (23)+4=27 \amp \quad \text{ } </mrow>
+    </md>
+</example>
+
+<p>
+When we started with our first, second, and third numbers for both even and odd we had <m>x</m>, <m>x + 2</m>, and <m>x + 4</m>. The numbers added do not change with odd or even, it is our answer for <m>x</m> that will be odd or even.
+</p>
+
+<p>
+Another example of translating English sentences to mathematical sentences comes from geometry. A well-known property of triangles is that all three angles will always add to <m>180</m>. For example, the first angle may be <m>50</m> degrees, the second <m>30</m> degrees, and the third <m>100</m> degrees. If you add these together, <m>50 + 30 + 100 = 180</m>. We can use this property to find angles of triangles.
+</p>
+
+<p>
+<alert>World View Note:</alert> German mathematician Bernhart Thibaut in <m>1809</m> tried to prove that the angles of a triangle add to <m>180</m> without using Euclid’s parallel postulate (a point of much debate in math history). He created a proof, but it was later shown to have an error in the proof.
+</p>
+
+<example>
+    <p> The second angle of a triangle is double the first. The third angle is <m>40</m> less than the first. Find the three angles. </p>
+    <md>
+    <mrow> \text{First } x \amp \quad \text{With nothing given about the first, we make that $x$} </mrow>
+    <mrow> \text{Second } 2x \amp \quad \text{The second is double the first} </mrow>
+    <mrow> \text{Third } x-40 \amp \quad \text{The third is $40$ less than the first} </mrow>
+    <mrow> F+S+T=180 \amp \quad \text{All three angles add up to $180$} </mrow>
+    <mrow> (x)+(2x)+(x-40)=180 \amp \quad \text{Replace $F$, $S$, and $T$ with the labeled values} </mrow>
+    <mrow> x+2x+x-40=180 \amp \quad \text{Here the parenthesis are not needed} </mrow>
+    <mrow> 4x-40=180 \amp \quad \text{Combine like terms $x+2x+x$} </mrow>
+    <mrow> +40\quad +40 \amp \quad \text{Add $40$ to both sides} </mrow>
+    <mrow> 4x=220 \amp \quad \text{The variable is multiplied by $4$} </mrow>
+    <mrow> \frac{4x}{4}=\frac{220}{4} \amp \quad \text{Divide both sides by $4$} </mrow>
+    <mrow> x=55 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{First } 55 \amp \quad \text{Replace $x$ with $55$ in the original list of angles} </mrow>
+    <mrow> \text{Second } 2(55)=110 \amp \quad \text{Our angles are $55$, $110$, and $15$} </mrow>
+    <mrow> \text{Third } (55)-40=15 \amp \quad \text{ } </mrow>
+    </md>
+</example>
+
+<p>
+Another geometry problem involves perimeter or the distance around an object. For example, consider a rectangle has a length of <m>8</m> and a width of <m>3</m>. There are two lengths and two widths in a rectangle (opposite sides) so we add <m>8 + 8 + 3 + 3 = 22</m>. As there are two lengths and two widths in a rectangle an alternative to find the perimeter of a rectangle is to use the formula <m>P = 2L + 2W</m>. So for the rectangle of length <m>8</m> and width <m>3</m> the formula would give, <m>P = 2(8) + 2(3) = 16 + 6=22</m>. With problems that we will consider here the formula <m>P =2L+2W</m> will be used.
+</p>
+
+<example>
+    <p> The perimeter of a rectangle is <m>44</m>. The length is <m>5</m> less than double the width. Find the dimensions. </p>
+    <md>
+    <mrow> \text{Length } x \amp \quad \text{We will make the length $x$} </mrow>
+    <mrow> \text{Width } 2x-5 \amp \quad \text{Width is five less than two times the length} </mrow>
+    <mrow> P=2L+2W \amp \quad \text{The formula for perimeter of a rectangle} </mrow>
+    <mrow> (44)=2(x)+2(2x-5) \amp \quad \text{Replace $P$, $L$, and $W$ with labeled values} </mrow>
+    <mrow> 44=2x+4x-10 \amp \quad \text{Distribute through parenthesis} </mrow>
+    <mrow> 44=6x-10 \amp \quad \text{Combine like terms $2x+4x$} </mrow>
+    <mrow> +10\quad+10 \amp \quad \text{Add $10$ to both sides} </mrow>
+    <mrow> 54=6x \amp \quad \text{The variable is multiplied by $6$} </mrow>
+    <mrow> \frac{54}{6}=\frac{6x}{6} \amp \quad \text{Divide both sides by $6$} </mrow>
+    <mrow> 9=x \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{Length } 9 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{Width } 2(9)-5=13 \amp \quad \text{The dimensions of the rectangle are $9$ by $13$} </mrow>
+    </md>
+</example>
+
+<p>
+We have seen that it is important to start by clearly labeling the variables in a short list before we begin to solve the problem. This is important in all word problems involving variables, not just consecutive numbers or geometry problems. This is shown in the following example.
+</p>
+
+<example>
+    <p> A sofa and a love seat together costs $<m>444</m>. The sofa costs double the love seat. How much do they each cost?</p>
+    <md>
+    <mrow> \text{Love Seat } x \amp \quad \text{With no information about the love seat, this is our $x$} </mrow>
+    <mrow> \text{Sofa } 2x \amp \quad \text{Sofa is double the love seat, so we multiply by $2$} </mrow>
+    <mrow> S+L=444\amp \quad \text{Together they cost $444$, so we add} </mrow>
+    <mrow> (x)+(2x)=444 \amp \quad \text{Replace $S$ and $L$ with labeled values} </mrow>
+    <mrow> 3x=444 \amp \quad \text{Parenthesis are not needed, combine like terms $x+2x$} </mrow>
+    <mrow> \frac{3x}{3}=\frac{444}{3} \amp \quad \text{Divide both sides by $3$} </mrow>
+    <mrow> x=148 \amp \quad \text{Our solution for $x$} </mrow>
+    <mrow> \text{Love Seat } 148 \amp \quad \text{Replace $x$ with $148$ in the original list} </mrow>
+    <mrow> \text{Sofa } 2(148)=296 \amp \quad \text{The love seat costs \$ $148$ and the sofa costs \$ $296$} </mrow>
+    </md>
+</example>
+
+<p>
+  Be careful on problems such as these. Many students see the phrase “double” and believe that means we only have to divide the <m>444</m> by <m>2</m> and get $<m>222</m> for one or both of the prices. As you can see this will not work. By clearly labeling the variables in the original list we know exactly how to set up and solve these problems.
+</p>
+
+<exercises xml:id="exercises-linear-number-and-geometry">
+  <title>Exercises – Number/Geometry</title>
+
+    <exercisegroup >
+      <introduction>	<p>	  Evaluate each expression. 	</p>      </introduction>
+<exercise><statement> <p> When five is added to three more than a certain number, the result is <m>19</m>. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> If five is subtracted from three times a certain number, the result is <m>10</m>. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> When <m>18</m> is subtracted from six times a certain number, the result is <m>-42</m>. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> A certain number added twice to itself equals <m>96</m>. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> A number plus itself, plus twice itself, plus <m>4</m> times itself, is equal to <m>-104</m>. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> Sixty more than nine times a number is the same as two less than ten times the number. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> Eleven less than seven times a number is five more than six times the number. Find the number. </p> </statement></exercise>
+<exercise><statement> <p> Fourteen less than eight times a number is three more than four times the number. What is the number? </p> </statement></exercise>
+<exercise><statement> <p> The sum of three consecutive integers is <m>108</m>. What are the integers? </p> </statement></exercise>
+<exercise><statement> <p> The sum of three consecutive integers is <m>-126</m>. What are the integers? </p> </statement></exercise>
+<exercise><statement> <p> Find three consecutive integers such that the sum of the first, twice the second, and three times the third is <m>-76</m>. </p> </statement></exercise>
+<exercise><statement> <p> The sum of two consecutive even integers is <m>106</m>. What are the integers? </p> </statement></exercise>
+<exercise><statement> <p> The sum of three consecutive odd integers is <m>189</m>. What are the integers? </p> </statement></exercise>
+<exercise><statement> <p> The sum of three consecutive odd integers is <m>255</m>. What are the integers? </p> </statement></exercise>
+<exercise><statement> <p> Find three consecutive odd integers such that the sum of the first, two times the second, and three times the third is <m>70</m>. </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is the same size as the first angle. The third angle is <m>12</m> degrees larger than the first angle. How large are the angles? </p> </statement></exercise>
+<exercise><statement> <p> Two angles of a triangle are the same size. The third angle is <m>12</m> degrees smaller than the first angle. Find the measure the angles. </p> </statement></exercise>
+<exercise><statement> <p> Two angles of a triangle are the same size. The third angle is <m>3</m> times as large as the first. How large are the angles? </p> </statement></exercise>
+<exercise><statement> <p> The third angle of a triangle is the same size as the first. The second angle is <m>4</m> times the third. Find the measure of the angles. </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is <m>3</m> times as large as the first angle. The third angle is <m>30</m> degrees more than the first angle. Find the measure of the angles. </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is twice as large as the first. The measure of the third angle is <m>20</m> degrees greater than the first. How large are the angles? </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is three times as large as the first. The measure of the third angle is <m>40</m> degrees greater than that of the first angle. How large are the three angles? </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is five times as large as the first. The measure of the third angle is <m>12</m> degrees greater than that of the first angle. How large are the angles? </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is three times the first, and the third is <m>12</m> degrees less than twice the first. Find the measures of the angles. </p> </statement></exercise>
+<exercise><statement> <p> The second angle of a triangle is three times the first, and the third is <m>12</m> degrees less than twice the first. Find the measures of the angles. </p> </statement></exercise>
+<exercise><statement> <p> The perimeter of a rectangle is <m>150</m> cm. The length is <m>15</m> cm greater than the width. Find the dimensions. </p> </statement></exercise>
+<exercise><statement> <p> The perimeter of a rectangle is <m>304</m> cm. The length is <m>40</m> cm longer than the width. Find the length and width. </p> </statement></exercise>
+<exercise><statement> <p> The perimeter of a rectangle is <m>152</m> meters. The width is <m>22</m> meters less than the length. Find the length and width. </p> </statement></exercise>
+<exercise><statement> <p> The perimeter of a rectangle is <m>280</m> meters. The width is <m>26</m> meters less than the length. Find the length and width. </p> </statement></exercise>
+<exercise><statement> <p> The perimeter of a college basketball court is <m>96</m> meters and the length is <m>14</m> meters more than the width. What are the dimensions? </p> </statement></exercise>
+
+<exercise><statement> <p> A mountain cabin on <m>1</m> acre of land costs $<m>30,000</m>. If the land cost <m>4</m> times as much as the cabin, what was the cost of each? </p> </statement></exercise>
+<exercise><statement> <p> A horse and a saddle cost $<m>5000</m>. If the horse cost <m>4</m> times as much as the saddle, what was the cost of each? </p> </statement></exercise>
+<exercise><statement> <p> A bicycle and a bicycle helmet cost $<m>240</m>. How much did each cost, if the bicycle cost <m>5</m> times as much as the helmet? </p> </statement></exercise>
+<exercise><statement> <p> Of <m>240</m> stamps that Harry and his sister collected, Harry collected <m>3</m> times as many as his sisters. How many did each collect? </p> </statement></exercise>
+<exercise><statement> <p> If Mr. Brown and his son together had $<m>220</m>, and Mr. Brown had <m>10</m> times as much as his son, how much money had each? </p> </statement></exercise>
+<exercise><statement> <p> In a room containing <m>45</m> students there were twice as many girls as boys. How many of each were there? </p> </statement></exercise>
+<exercise><statement> <p> Aaron had <m>7</m> times as many sheep as Beth, and both together had <m>608</m>. How many sheep had each? </p> </statement></exercise>
+<exercise><statement> <p> A man bought a cow and a calf for $<m>990</m>, paying <m>8</m> times as much for the cow as for the calf. What was the cost of each? </p> </statement></exercise>
+<exercise><statement> <p> Jamal and Moshe began a business with a capital of $<m>7500</m>. If Jamal furnished half as much capital as Moshe, how much did each furnish? </p> </statement></exercise>
+<exercise><statement> <p> A lab technician cuts a <m>12</m> inch piece of tubing into two pieces in such a way that one piece is <m>2</m> times longer than the other. </p> </statement></exercise>
+
+<exercise><statement> <p> A <m>6</m> ft board is cut into two pieces, one twice as long as the other. How long are the pieces? </p> </statement></exercise>
+<exercise><statement> <p> An eight ft board is cut into two pieces. One piece is <m>2</m> ft longer than the other. How long are the pieces? </p> </statement></exercise>
+<exercise><statement> <p> An electrician cuts a <m>30</m> ft piece of wire into two pieces. One piece is <m>2</m> ft longer than the other. How long are the pieces? </p> </statement></exercise>
+<exercise><statement> <p> The total cost for tuition plus room and board at State University is $<m>2,584</m>. Tuition costs $<m>704</m> more than room and board. What is the tuition fee? </p> </statement></exercise>
+<exercise><statement> <p> The cost of a private pilot course is $<m>1,275</m>. The flight portion costs $<m>625</m> more than the ground school portion. What is the cost of each? </p> </statement></exercise>
+
+    </exercisegroup>
+
+  </exercises>
+  
+
+
+</section>

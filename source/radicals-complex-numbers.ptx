@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="radicals-complex-numbers" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Complex Numbers   </title> 
+
+  <introduction> <alert> Objective:   Add, subtract, multiply, rationalize, and simplify expres- sions using complex numbers.</alert> </introduction> 
+
+    <p> <alert> World View Note:</alert> When mathematics was first used, the primary purpose was for counting. Thus they did not originally use negatives, zero, fractions or irrational numbers. However, the ancient Egyptians quickly developed the need for "a part" and so they made up a new type of number, the ratio or fraction. The Ancient Greeks did not believe in irrational numbers (people were killed for believing otherwise). The Mayans of Central America later made up the number zero when they found use for it as a placeholder. Ancient Chinese Mathematicians made up negative numbers when they found use for them. </p> 
+
+   <p> 
+In mathematics, when the current number system does not provide the tools to solve the problems the culture is working with, we tend to make up new ways for dealing with the problem that can solve the problem. Throughout history this has been the case with the need for a number that is nothing (<m>0</m>), smaller than zero (negatives), between integers (fractions), and between fractions (irrational numbers). This is also the case for the square roots of negative numbers. To work with the square root of negative numbers mathematicians have defined what are called imaginary and complex numbers
+   </p> 
+
+   <me> \textbf{ Definition of Imaginary Numbers: } \mathbf{i^2=-1} \textbf{ (thus } \mathbf{i=\sqrt{-1}}\textbf{)}</me>
+
+   <p>
+     Examples of imaginary numbers include <m>3i</m>, <m>- 6i</m>, <m>\frac{3}{5}i</m> and <m>3i\sqrt{5}</m>. A <alert>complex number</alert> is one that contains both a real and imaginary part, such as <m>2 + 5i</m>.
+   </p>
+
+   <p>
+     With this definition, the square root of a negative number is no longer undefined. We now are allowed to do basic operations with the square root of negatives. First we will consider exponents on imaginary numbers. We will do this by manipulating our definition of <m>i^2 = - 1</m>. If we multiply both sides of the definition by <m>i</m>, the equation becomes <m>i^3 = - i</m>. Then if we multiply both sides of the equation again by <m>i</m>, the equation becomes <m>i^4 =-i^2 =-(-1)=1</m>, or simply <m>i^4 =1</m>. Multiplying again by <m>i</m> gives <m>i^5 = i</m>. One more time gives <m>i^6 = i^2 = - 1</m>. And if this pattern continues we see a cycle forming, the exponents on i change we cycle through simplified answers of <m>i</m>, <m>- 1</m>, <m>- i</m>, <m>1</m>. As there are <m>4</m> different possible answers in this cycle, if we divide the exponent by <m>4</m> and consider the remainder, we can simplify any exponent on <m>i</m> by learning just the following four values:
+   </p>
+
+       <table>
+      <title>  Cyclic Property of Powers of <m>i</m> </title>
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row> <cell><m> i^0=1</m></cell></row>
+	<row> <cell><m> i^1=i=i</m></cell></row>
+	<row> <cell><m> i^2=-1</m></cell></row>
+	<row> <cell><m>i^3=-i </m></cell></row>
+      </tabular>
+       </table>
+
+        <example>
+    <md> 
+      <mrow>  i^{35}  \amp \quad  \text{  Divide exponent by } 4   </mrow> 
+      <mrow> 8R3 \amp\quad  \text{  Use remainder as exponent on } i  </mrow> 
+      <mrow>  i^3 \amp\quad  \text{ Simplify    }  </mrow> 
+      <mrow>  -i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+	</example>
+
+	        <example>
+    <md> 
+      <mrow>  i^{124}  \amp \quad  \text{  Divide exponent by } 4   </mrow> 
+      <mrow> 31R0 \amp\quad  \text{  Use remainder as exponent on } i  </mrow> 
+      <mrow>  i^0 \amp\quad  \text{ Simplify    }  </mrow> 
+      <mrow>  1 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+		</example>
+
+<p>
+  When performing operations (add, subtract, multilpy, divide) we can handle i just like we handle any other variable. This means when adding and subtracting complex numbers we simply add or combine like terms.
+</p>
+
+<example>
+    <md> 
+      <mrow>(2+5i)+(4-7i)  \amp \quad  \text{  Combine like terms $2+4$ and $5i-7i$    }   </mrow> 
+      <mrow> 6 - 2i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+</example>
+
+<p>
+It is important to notice what operation we are doing. Students often see the parenthesis and think that means FOIL. We only use FOIL to multiply. This problem is an addition problem so we simply add the terms, or combine like terms.
+</p>
+
+<p>
+For subtraction problems the idea is the same, we need to remember to first distribute the negative onto all the terms in the parentheses.
+</p>
+
+  <example>
+    <md> 
+      <mrow>  (4 - 8i) - (3 - 5i)\amp \quad  \text{  Distribute the negative    }   </mrow> 
+      <mrow>  4-8i-3+5i\amp\quad  \text{  Combine like terms $4-3$ and $-8i+5i$   }  </mrow> 
+      <mrow>  1 - 3i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Addition and subtraction can be combined into one problem.
+  </p>
+
+    <example>
+    <md> 
+      <mrow>  (5i) - (3 + 8i) + ( - 4 + 7i)\amp \quad  \text{  Distribute the negative    }   </mrow> 
+      <mrow>  5i-3-8i-4+7i\amp\quad  \text{  Combine like terms $5i-8i+7i$ and $-3-4$   }  </mrow> 
+      <mrow>  - 7 + 4i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    </example>
+
+    <p>
+      Multiplying with complex numbers is the same as multiplying with variables with one exception, we will want to simplify our final answer so there are no exponents on <m>i</m>.
+    </p>
+
+      <example>
+    <md> 
+      <mrow> (3i)(7i) \amp \quad  \text{   Multilpy coefficients and $i$'s   }   </mrow> 
+      <mrow> 21i^2 \amp\quad  \text{  Simplify  } i^2 = - 1  </mrow> 
+      <mrow> 21( - 1) \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow> - 21 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+      </example>
+
+           <example>
+    <md> 
+      <mrow> 5i(3i - 7) \amp \quad  \text{   Distribute   }   </mrow> 
+      <mrow> 15i^2 - 35i \amp\quad  \text{  Simplify  } i^2 = - 1  </mrow> 
+      <mrow> 15(-1)-35i \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow> -15-35i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+     <example>
+    <md> 
+      <mrow> (2-4i)(3+5i) \amp \quad  \text{   FOIL   }   </mrow> 
+      <mrow> 6+10i-12i-20i^2\amp\quad  \text{  Simplify  } i^2 = - 1  </mrow> 
+      <mrow> 6+10i-12i-20(-1) \amp\quad  \text{  Multiply   }  </mrow>
+      <mrow> 6+10i-12i+20\amp\quad \text{ Combine like terms $6+20$ and $10i-12i$} </mrow>
+      <mrow> 26-2i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  
+     <example>
+    <md> 
+      <mrow> (2-4i)(3+5i)(3i)(6i)(2 - 3i) \amp \quad  \text{   Multiply first two monomials   }   </mrow> 
+      <mrow> 18i^2(2 - 3i)\amp\quad  \text{  Distribute  } </mrow> 
+      <mrow> 36i^2 - 54i^3 \amp\quad  \text{  Simplify $i^2=-1$ and $i^3=-i$   }  </mrow>
+      <mrow> 36(-1)-54(-i) \amp\quad \text{ Multiply} </mrow>
+      <mrow> -36+54i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+
+Remember when squaring a binomial we either have to FOIL or use our shortcut to square the first, twice the product and square the last. The next example uses the shortcut.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> (4 - 5i)^2 \amp \quad  \text{ Use perfect square shortcut     }   </mrow> 
+      <mrow> 4^2=16 \amp\quad  \text{ Square the first    }  </mrow> 
+      <mrow> 2(4)(-5i)=-40i \amp\quad  \text{  Twice the product   }  </mrow> 
+      <mrow> (5i)^2 =25i^2 =25(-1)=-25 \amp\quad  \text{     Square the last, simplify  } i^2 = - 1  </mrow>
+      <mrow> 16-40i-25 \amp\quad \text{ Combine like terms} </mrow>
+      <mrow> -9-40i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Dividing with complex numbers also has one thing we need to be careful of. If <m>i</m> is <m>\sqrt{-1}</m>, and it is in the denominator of a fraction, then we have a radical in the denominator! This means we will want to rationalize our denominator so there are no <m>i</m>’s. This is done the same way we rationalized denominators with square roots.
+  </p>
+
+
+  <example>
+    <md> 
+      <mrow>  \frac{7+3i}{-5i} \amp \quad  \text{  Just a monomial in denominator, multiply by    } i  </mrow> 
+      <mrow>  \frac{7+3i}{-5i} \left(\frac{i}{i}\right) \amp\quad  \text{  Distribute $i$ in numerator   }  </mrow> 
+      <mrow>  \frac{7i+3i^2}{-5i^2} \amp\quad  \text{  Simplify   }  i^2=-1 </mrow> 
+      <mrow>   \frac{7i+3(-1)}{-5(-1)}\amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow> \frac{7i-3}{5} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+The solution for these problems can be written several different ways, for example <m>\frac{-3+7i}{5}</m> or <m>\frac{-3}{5} + \frac{7}{5}i</m>. The author has elected to use the solution as written, but it is
+important to express your answer in the form your instructor prefers.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> \frac{2-6i}{4+8i} \amp \quad  \text{  Binomial in denominator, multiply by conjugate,    } 4 - 8i  </mrow> 
+      <mrow>  \frac{2-6i}{4+8i}\left(\frac{4-8i}{4-8i}\right) \amp\quad  \text{  FOIL in numerator, denominator is a difference of squares   }  </mrow> 
+      <mrow> \frac{8-16i-24i+48i^2}{16 - 64i^2} \amp\quad  \text{ Simplify    }  i^2=-1</mrow> 
+      <mrow>  \frac{8-16i-24i+48(-1)}{16-64(-1)} \amp\quad  \text{   Multiply  }  </mrow> 
+      <mrow>  \frac{8-16i-24i-48}{16+64} \amp\quad  \text{ Combine like terms $8-48$ and $-16i-24i$ and  }16+64   </mrow> 
+      <mrow> \frac{-40-40i}{80} \amp\quad  \text{ Reduce, divide each term by    }  40 </mrow> 
+      <mrow> \frac{-1-i}{2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+Using <m>i</m> we can simplify radicals with negatives under the root. We will use the product rule and simplify the negative as a factor of negative one. This is shown in the following examples.
+  </p>
+  
+  <example>
+    <md> 
+      <mrow> \sqrt{-16} \amp \quad  \text{   Consider the negative as a factor of   }  -1 </mrow> 
+      <mrow> \sqrt{-1\cdot 16} \amp\quad  \text{ Take each root, square root of $-1$ is  } i  </mrow> 
+      <mrow> 4i \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow> \sqrt{-24} \amp \quad  \text{   Find perfect square factors, including }  -1 </mrow> 
+      <mrow> \sqrt{-1\cdot 4\cdot 6} \amp\quad  \text{ Square root of $-1$ is $i$, square root of $4$ is $2$  } </mrow> 
+      <mrow> 2i\sqrt{6} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+When simplifying complex radicals it is important that we take the <m>- 1</m> out of the
+radical (as an <m>i</m>) before we combine radicals.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> \sqrt{-6}\sqrt{-3} \amp \quad  \text{  Simplify the negatives, bringing $i$ out of radicals    }   </mrow> 
+      <mrow> \left(i\sqrt{6}\right)\left(i\sqrt{3}\right)   \amp\quad  \text{   Multiply $i$ by $i$ is $i^2 = - 1$, also multiply radicals  }  </mrow> 
+      <mrow> -\sqrt{18} \amp\quad  \text{  Simplify the radical   }  </mrow> 
+      <mrow>  -\sqrt{9\cdot 2} \amp\quad  \text{   Take square root of  } 9  </mrow> 
+      <mrow>  -3\sqrt{ 2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+If there are fractions, we need to make sure to reduce each term by the same number. This is shown in the following example.
+  </p>
+  
+
+  <example>
+    <md> 
+      <mrow> \frac{-15-\sqrt{-200}}{20} \amp \quad  \text{  Simplify the radical first    }   </mrow> 
+      <mrow>\sqrt{-200}  \amp\quad  \text{ Find perfect square factors, including    }  -1 </mrow> 
+      <mrow>\sqrt{-1\cdot 100\cdot 2}  \amp\quad  \text{  Take square root of $-1$ and $100$   }  </mrow> 
+      <mrow>10i\sqrt{2}  \amp\quad  \text{   Put this back into the expression  }  </mrow>
+      <mrow> \frac{-15-10i\sqrt{2}}{20}  \amp\quad \text{All the factors are divisible by  } 5 </mrow>
+      <mrow> \frac{-3-2i\sqrt{2}}{4} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+By using <m>i = \sqrt{- 1}</m> we will be able to simplify and solve problems that we could not simplify and solve before. This will be explored in more detail in a later section.
+  </p>
+
+    <exercises xml:id="exercises-complex-numbers">
+    <title>Exercises - Complex Numbers</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Simplify. 	</p>      </introduction>
+      <exercise><statement> <p> <m>3-(-8+4i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3i) - (7i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (7i)-(3-2i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5+(-6-6i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-6i)-(3+7i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-8i)-(7i)-(5-3i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  (3-3i)+(-7-8i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-4-i)+(1-5i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(i)-(2+3i)-6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (5-4i)+(8-4i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(6i)( - 8i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (3i)( - 8i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> ( - 5i)(8i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8i)( - 4i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-7i)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  ( - i)(7i)(4 - 3i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (6 + 5i)^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (8i)(-2i)(-2-8i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(-7-4i)(-8+6i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(3i)( - 3i)(4 - 4i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-4+5i)(2-7i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-8(4-8i)-2(-2-6i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(-8-6i)(-4+2i) </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> ( - 6i)(3 - 2i) - (7i)(4i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (1+5i)(2+i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (-2+i)(3-5i)</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{-9+5i}{i}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{-3+2i}{-3i}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{-10-9i}{6i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{-4+2i}{3i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{-3-6i}{4i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{-5+9i}{9i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{10-i}{-i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{10}{5i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{4i}{-10+i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{9i}{1-5i}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{8}{7-6i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{4}{4+6i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{7}{10-7i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{9}{-8-6i}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{5i}{-6-i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{8i}{6-7i} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\sqrt{-81} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\sqrt{-45} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{-10}\sqrt{-2}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\sqrt{-12}\sqrt{-2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{3+\sqrt{-27}}{6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{-4+\sqrt{-8}}{-4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{8-\sqrt{-16}}{4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>\frac{6+\sqrt{-32}}{4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{73}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{251}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>i^{48} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{68}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{62}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{181}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>i^{154} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> i^{51}</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+
+

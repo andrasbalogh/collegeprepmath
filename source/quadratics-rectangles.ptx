@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-rectangles" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>Quadratics - Rectangles</title> 
+ 
+  <introduction> <alert> Objective:Solve applications of quadratic equations using rectangles.</alert> </introduction> 
+
+  <p>  An application of solving quadratic equations comes from the formula for the area of a rectangle. The area of a rectangle can be calculated by multiplying the width by the length. To solve problems with rectangles we will first draw a picture to represent the problem and use the picture to set up our equation. </p>
+  
+  <example>
+    <md> 
+      <mrow> \fbox{ $\quad 40\quad $ }\ x \amp \quad  \text{We do not know the width, } x.   </mrow> 
+      <mrow> x+3 \quad \amp\quad  \text{Length is $4$ more, or $x+4$, and area is } 40. </mrow> 
+      <mrow> x(x+3)=40  \amp\quad  \text{Multiply length by width to get area }  </mrow> 
+      <mrow> x^2+3x=40 \amp\quad  \text{Distribute}  </mrow> 
+      <mrow> \underline{-40-40}  \amp\quad  \text{Make equation equal to zero}  </mrow> 
+      <mrow> x^2+3x-40=0 \amp\quad  \text{Factor}  </mrow> 
+      <mrow> (x-5)(x+8)=0 \amp\quad  \text{Set each factor equal to zero}  </mrow> 
+      <mrow> x-5=0 \text{ or } x+8=0 \amp\quad  \text{Solve each equation}  </mrow> 
+      <mrow> \underline{+5+5} \quad\quad \underline{-8-8}  \amp\quad  \text{     }  </mrow> 
+      <mrow> x=5 \text{ or } x=-8  \amp\quad  \text{Our $x$ is a width, cannot be negative. }  </mrow> 
+      <mrow> (5)+3=8 \amp\quad  \text{Length is $x+3$, substitute $5$ for $x$ to find length}  </mrow> 
+      <mrow> 5\text{in by } 8\text{in}  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The above rectangle problem is very simple as there is only one rectangle involved. When we compare two rectangles, we may have to get a bit more creative.
+</p>
+
+  <example>
+<p>
+If each side of a square is increased by <m>6</m>, the area is multiplied by <m>16</m>. Find the side of the original square.
+</p>
+    <md> 
+      <mrow> \fbox{ $ x^2 $ }\  \ x\amp \quad  \text{Square has all sides the same length} </mrow> 
+      <mrow> x \qquad \amp\quad  \text{Area is found by multiplying length by width} </mrow>  
+      <mrow>   \boxed{  \begin{matrix}  \\  \quad 16x^2 \quad \\ \ \end{matrix}  } \ x+6 \amp\quad  \text{Each side is increased by } 6  </mrow> 
+      <mrow> x+6 \qquad \qquad \amp\quad  \text{Area is $16$ times the original area}  </mrow> 
+      <mrow> (x+6)(x+6)=16x^2 \amp\quad  \text{Multiply length by width to get area}  </mrow> 
+      <mrow> x^2+12x+36=16x^2 \amp\quad  \text{FOIL}  </mrow> 
+      <mrow>\underline{-16x^2 \quad\quad\quad\quad -16x^2}  \amp\quad  \text{Make equation equal to zero}  </mrow> 
+      <mrow> -15x^2+12x+36=0  \amp\quad  \text{Divide each term by $-1$, changes the signs}  </mrow> 
+      <mrow>  15x^2-12x-36=0 \amp\quad  \text{Solve using the quadratic formula} </mrow> 
+      <mrow> x=\frac{12 \pm \sqrt{(-12)^2-4(15)(-36)}}{2(15)} \amp\quad  \text{Evaluate} </mrow> 
+      <mrow> x=\frac{16 \pm \sqrt{2304}}{30} \amp\quad  \text{} </mrow> 
+      <mrow> x=\frac{16 \pm 48}{30}  \amp\quad  \text{Can’t have a negative solution, we will only add}</mrow> 
+      <mrow> x=\frac{60}{30}=2 \amp\quad  \text{Our $x$ is the original square} </mrow> 
+      <mrow> 2  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<example>
+<p>
+The length of a rectangle is <m>4</m>  ft greater than the width. If each dimension is increased by <m>3</m>, the new area will be <m>33</m>  square feet larger. Find the dimensions of the original rectangle.
+</p>
+    <md> 
+      <mrow> \boxed{ x(x+4) } \  x \amp \quad  \text{We don’t know width, $x$ , length is $4$ more, } x+4 </mrow> 
+      <mrow> x+4 \qquad \amp\quad  \text{Area is found by multiplying length by width} </mrow>  
+      <mrow> \boxed{  \begin{matrix}  \\  x(x+4)+33 \\ \ \end{matrix} } \ x+3 \amp\quad   \begin{array}{l} \text{Increase each side by } 3. \\ \text{Width becomes $x+3$, length } x+4+3=x+7 \end{array} </mrow> 
+      <mrow> x+7 \qquad \qquad \amp\quad  \text{Area is $33$ more than original, } x(x+4)+33  </mrow> 
+      <mrow> (x+3)(x+7)=x(x+4)+33 \amp\quad  \text{Set up equation, length times width is area}  </mrow> 
+      <mrow> x^2+10x+21=x^2+4x+33 \amp\quad  \text{Subtract $x^2$ from both sides}  </mrow> 
+      <mrow> \underline{-x^2 \quad\qquad\quad\quad -x^2} \ \qquad \qquad  \amp\quad  \text{}  </mrow> 
+      <mrow> 10x+21=4x+33 \amp\quad  \text{Move variables to one side} </mrow> 
+      <mrow> \underline{-4x \quad\quad -4x} \qquad \amp\quad  \text{Subtract $4x$ from each side} </mrow> 
+      <mrow> 6x+21=33 \amp\quad  \text{Subtract $21$ from both sides} </mrow> 
+      <mrow> \underline{-21 -21} \amp\quad  \text{}</mrow> 
+      <mrow> 6x=12 \amp\quad  \text{Divide both sides by } 6 </mrow> 
+      <mrow> \overline{6} \qquad \overline{6}\amp\quad  \text{}</mrow> 
+      <mrow> x=2 \amp\quad  \text{$x$ is the width of the original}</mrow> 
+      <mrow> (2)+4=6  \amp\quad  \text{$x+4$ is the length. Substitute $2$ to find}</mrow> 
+
+      <mrow> 2 \text{ft by } 6 \text{ft}  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<p>
+From one rectangle we can find two equations. Perimeter is found by adding all the sides of a polygon together. A rectangle has two widths and two lengths, both the same size. So we can use the equation <m>P = 2l + 2w</m> (twice the length plus twice the width).
+</p>
+
+<example>
+<p>
+The area of a rectangle is <m>168 \ {\rm cm}^2</m>. The perimeter of the same rectangle is <m>52 \ {\rm cm}</m>. What are the dimensions of the rectangle?
+</p>
+    <md> 
+      <mrow> \boxed{ \qquad } \ x  \amp \quad  \text{We don’t know anything about length or width} </mrow> 
+      <mrow> y \qquad \amp\quad  \text{Use two variables, $x$ and } y</mrow>  
+      <mrow> xy=168  \amp\quad  \text{Length times width gives the area. } </mrow>
+      <mrow> 2x+2y=52 \amp\quad  \text{Also use perimeter formula.}  </mrow> 
+      <mrow> \underline{-2x \quad\quad -2x} \amp\quad  \text{Solve by substitution, isolate } y  </mrow> 
+      <mrow> 2y=-2x+52 \amp\quad  \text{Divide each term by } 2  </mrow> 
+      <mrow> \overline{2} \quad\quad \overline{2} \qquad \overline{2} \amp\quad   </mrow> 
+      <mrow> y=-x+26 \amp\quad  \text{Substitute into area equation} </mrow> 
+      <mrow> x(-x+26)=168 \amp\quad  \text{Distribute} </mrow> 
+      <mrow> -x^2+26x=168 \amp\quad  \text{Divide each term by $-1$, changing all the signs} </mrow> 
+      <mrow> x^2-26x=-168  \amp\quad  \text{Solve by completing the square.}</mrow> 
+      <mrow> (\frac{1}{2}\cdot 26)^2=13^2=169 \amp\quad  \text{Find number to complete the square: } (\frac{1}{2}\cdot b)^2  </mrow> 
+      <mrow> x^2-26x+324=1 \amp\quad  \text{Add 169 to both sides}</mrow> 
+      <mrow> (x-13)^2=1 \amp\quad  \text{Factor}</mrow> 
+      <mrow> x-13=\pm 1  \amp\quad  \text{Square root both sides}</mrow> 
+      <mrow> \underline{+13 \ +13}  \amp\quad  </mrow> 
+      <mrow> x=13\pm 1  \amp\quad  \text{Evaluate}</mrow> 
+      <mrow> x=14 \text{ or } 12  \amp\quad  \text{Two options for first side.}</mrow> 
+      <mrow> y=-(14)+26=12  \amp\quad  \text{Substitute $14$ into } y=-x+26 </mrow> 
+      <mrow> y=-(12)+26=14  \amp\quad  \text{Substitute $12$ into } y=-x+26 </mrow> 
+      <mrow>  \amp\quad  \text{Both are the same rectangle, variables switched!}</mrow> 
+      <mrow> 12 \text{cm by } 14 \text{cm}  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+  <p> <alert> World View Note:</alert> Indian mathematical records from the 9th century demonstrate that their civilization had worked extensively in geometry creating religious alters of various shapes including rectangles.
+</p>
+
+<p>
+Another type of rectangle problem is what we will call a “frame problem”. The idea behind a frame problem is that a rectangle, such as a photograph, is centered inside another rectangle, such as a frame. In these cases, it will be important to remember that the frame extends on all sides of the rectangle. This is shown in the following example.
+</p>
+
+<example>
+<p>
+An <m>8</m> in by <m>12</m> in picture has a frame of uniform width around it. The area of the frame is equal to the area of the picture. What is the width of the frame?
+</p>
+    <md> 
+      <mrow> \boxed{ \begin{matrix} 8 \ \ \\ \quad \boxed{ \ \ } \ 12 \\ \ \end{matrix} } \ 12+2x   \amp \quad  \begin{array}{l} \text{Draw picture, picture if $8$ by $10$.} \\ \text{If frame has width $x$, on both sides, we add } 2x \end{array} </mrow> 
+      <mrow> 8+2x \qquad \qquad \amp\quad  \text{} </mrow>  
+      <mrow> 8\cdot12=96\amp\quad  \text{Area of the picture, length times width } </mrow>
+      <mrow> 2 \cdot 96=192 \amp\quad  \text{Frame is the same as the picture. Total area is double this.}  </mrow> 
+      <mrow> (12+2x)(8+2x)=192 \amp\quad  \text{Area of the picture, length times width }   </mrow> 
+      <mrow> 96+24x+16x+4x^2=192 \amp\quad  \text{FOIL}  </mrow> 
+      <mrow> 4x^2+40x+96=192 \amp\quad  \text{Combine like terms}  </mrow> 
+      <mrow> \underline{-192 -192} \amp\quad  \text{Make equation equal to zero by subtracting } 192 </mrow> 
+      <mrow> 4x^2+40x-96=0 \amp\quad  \text{Factor out GCF of } 4 </mrow> 
+      <mrow> 4(x^2+10x-24)=0  \amp\quad  \text{Factor trinomial} </mrow> 
+      <mrow> 4(x-2)(x+12)=0 \amp\quad  \text{Set each factor equal to zero}</mrow> 
+      <mrow> x-2=0 \text{ or } x+12=0 \amp\quad  \text{Solve each equation}  </mrow> 
+      <mrow> \underline{+2+2} \quad\quad \underline{-12-12} \amp\quad  </mrow> 
+      <mrow> x=2 \text{ or } -12 \amp\quad  \text{Can’t have negative frame width}</mrow> 
+      <mrow> 2 \text{ inches} \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<example>
+<p>
+A farmer has a field that is <m>400</m> rods by <m>200</m> rods. He is mowing the field in a spiral pattern, starting from the outside and working in towards the center. After an hour of work, <m>72\%</m> of the field is left uncut. What is the size of the ring cut around the outside?
+</p>
+<md>
+        <mrow> \boxed{ \qquad \begin{matrix} 400-2x \qquad \\ \quad \boxed{ \qquad \quad } \ 200-2x \\ \ \end{matrix} } \ 200   \amp \quad  \begin{array}{l} \text{Draw picture, outside is $200$ by $400$.} \\ \text{If frame has width $x$, on both sides, } \\  \text{ subtract $2x$ from each side to get center} \end{array} </mrow> 
+      <mrow> 400 \qquad \qquad \qquad \amp\quad  \text{} </mrow>  
+      <mrow> 400 \cdot 200=80000  \amp\quad  \text{Area of entire field, length times width} </mrow>  
+      <mrow>  80000 \cdot (0.72)=57600  \amp\quad  \text{Area of center, multiply by $72\%$ as decimal} </mrow>
+      <mrow> (400-2x)(200-2x)=57600  \amp\quad  \text{Area of center, length times width}  </mrow> 
+      <mrow> 80000-800x-400x+4x^2=57600 \amp\quad  \text{FOIL }   </mrow> 
+      <mrow> 4x^2-1200x+80000=57600 \amp\quad  \text{Combine like terms}  </mrow> 
+       <mrow> \underline{-57600-57600} \amp\quad  \text{Make equation equal to zero} </mrow> 
+      <mrow> 4x^2-1200x+22400=0 \amp\quad  \text{Factor out GCF of } 4 </mrow> 
+      <mrow> 4(x^2-300x+5600)=0  \amp\quad  \text{Factor trinomial} </mrow> 
+      <mrow> 4(x-280)(x-20)=0 \amp\quad  \text{Set each factor equal to zero}</mrow> 
+      <mrow> x-280=0 \text{ or } x-20=0 \amp\quad  \text{Solve each equation}  </mrow> 
+      <mrow> \underline{+280 +280} \quad \underline{+20 +20} \amp\quad  \text{}</mrow> 
+      <mrow> x=280 \text{ or } 20 \amp\quad  \text{The field is only $200$ rods wide,}</mrow> 
+      <mrow>  \amp\quad  \text{Can’t cut $280$ off two sides!}</mrow> 
+      <mrow> 20 \text{ rods} \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<p>
+For each of the frame problems above we could have also completed the square or use the quadratic formula to solve the trinomials. Remember that completing the square or the quadratic formula always will work when solving, however, factoring only works if we can factor the trinomial.
+</p>
+
+  <exercises xml:id="exercises-quadratics-rectangles">
+    <title>Exercises - Rectangles </title>
+
+      <exercise><statement> <p> In a landscape plan, a rectangular flowerbed is designed to be <m>4</m> meters longer than it is wide. If <m>60</m> square meters are needed for the plants in the bed, what should the dimensions of the rectangular bed be?  </p> </statement> </exercise> 
+      <exercise><statement> <p>If the side of a square is increased by <m>5</m> the area is multiplied by <m>4</m>. Find the side of the original square. </p> </statement> </exercise>
+      <exercise><statement> <p>A rectangular lot is <m>20</m> yards longer than it is wide and its area is <m>2400</m> square yards. Find the dimensions of the lot. </p> </statement> </exercise>
+      <exercise><statement> <p>The length of a room is <m>8</m> ft greater than it is width. If each dimension is increased by <m>2</m> ft, the area will be increased by <m>60</m> sq. ft. Find the dimensions of the rooms. </p> </statement> </exercise>
+      <exercise><statement> <p> The length of a rectangular lot is <m>4</m> rods greater than its width, and its area is <m>60</m> square rods. Find the dimensions of the lot. </p> </statement> </exercise>
+      <exercise><statement> <p>The length of a rectangle is <m>15</m> ft greater than its width. If each dimension is decreased by <m>2</m> ft, the area will be decreased by <m>106 ft^2</m>. Find the dimensions. </p> </statement> </exercise>
+      <exercise><statement> <p> A rectangular piece of paper is twice as long as a square piece and <m>3</m> inches wider. The area of the rectangular piece is <m>108 in^2</m>. Find the dimensions of the square piece. </p> </statement> </exercise>
+      <exercise><statement> <p>A room is one yard longer than it is wide. At <m>75</m> cents per sq. yd. a covering for the floor costs <m>\$31.50</m>. Find the dimensions of the floor. </p> </statement> </exercise>
+      <exercise><statement> <p>The area of a rectangle is <m>48 ft^2</m> and its perimeter is <m>32</m> ft. Find its length and width. </p> </statement> </exercise>
+      <exercise><statement> <p> The dimensions of a picture inside a frame of uniform width are <m>12</m> by <m>16</m> inches. If the whole area (picture and frame) is <m>288 in^2</m>, what is the width of the frame? </p> </statement> </exercise>
+      <exercise><statement> <p>A mirror <m>14</m> inches by <m>15</m> inches has a frame of uniform width. If the area of the frame equals that of the mirror, what is the width of the frame.  </p> </statement> </exercise>
+      <exercise><statement> <p>A lawn is <m>60</m> ft by <m>80</m> ft. How wide a strip must be cut around it when mowing the grass to have cut half of it.  </p> </statement> </exercise>
+      <exercise><statement> <p>A grass plot <m>9</m> yards long and <m>6</m> yards wide has a path of uniform width around it. If the area of the path is equal to the area of the plot, determine the width of the path. </p> </statement> </exercise>
+      <exercise><statement> <p>A landscape architect is designing a rectangular flowerbed to be border with <m>28</m> plants that are placed <m>1</m> meter apart. He needs an inner rectangular space in the center for plants that must be <m>1</m> meter from the border of the bed and that require <m>24</m> square meters for planting. What should the overall dimensions of the flowerbed be?  </p> </statement> </exercise>
+      <exercise><statement> <p> A page is to have a margin of <m>1</m> inch, and is to contain <m>35 in^2</m> of painting. How large must the page be if the length is to exceed the width by <m>2</m> inches? </p> </statement> </exercise>
+      <exercise><statement> <p> A picture <m>10</m> inches long by <m>8</m> inches wide has a frame whose area is one half the area of the picture. What are the outside dimensions of the frame? </p> </statement> </exercise>
+      <exercise><statement> <p>A rectangular wheat field is <m>80</m> rods long by <m>60</m> rods wide.  A strip of uniform width is cut around the field, so that half the grain is left standing in the form of a rectangular plot.  How wide is the strip that is cut? </p> </statement> </exercise>
+      <exercise><statement> <p>A picture <m>8</m> inches by <m>12</m> inches is placed in a frame of uniform width. If the area of the frame equals the area of the picture find the width of the frame. </p> </statement> </exercise>
+      <exercise><statement> <p>A rectangular field <m>225</m> ft by <m>120</m> ft has a ring of uniform width cut around the outside edge. The ring leaves <m>65\%</m> of the field uncut in the center. What is the width of the ring? </p> </statement> </exercise>
+      <exercise><statement> <p> One Saturday morning George goes out to cut his lot that is <m>100</m> ft by <m>120</m> ft. He starts cutting around the outside boundary spiraling around towards the center. By noon he has cut <m>60\%</m> of the lawn. What is the width of the ring that he has cut?</p> </statement> </exercise>
+      <exercise><statement> <p>A frame is <m>15</m> in by <m>25</m> in and is of uniform width. The inside of the frame leaves <m>75\%</m> of the total area available for the picture. What is the width of the frame? </p> </statement> </exercise>
+      <exercise><statement> <p>A farmer has a field <m>180</m> ft by <m>240</m> ft. He wants to increase the area of the field by <m>50\%</m> by cultivating a band of uniform width around the outside. How wide a band should he cultivate? </p> </statement> </exercise>
+      <exercise><statement> <p>The farmer in the previous problem has a neighbor who has a field <m>325</m> ft by <m>420</m> ft. His neighbor wants to increase the size of his field by <m>20\%</m> by cultivating a band of uniform width around the outside of his lot. How wide a band should his neighbor cultivate? </p> </statement> </exercise>
+      <exercise><statement> <p>A third farmer has a field that is <m>500</m> ft by <m>550</m> ft. He wants to increase his field by <m>20\%</m>. How wide a ring should he cultivate around the outside of his field? </p> </statement> </exercise>
+      <exercise><statement> <p> Donna has a garden that is <m>30</m> ft by <m>36</m> ft. She wants to increase the size of the garden by <m>40\%</m>. How wide a ring around the outside should she cultivate? </p> </statement> </exercise>
+      <exercise><statement> <p>A picture is <m>12</m> in by <m>25</m> in and is surrounded by a frame of uniform width. The area of the frame is <m>30\%</m> of the area of the picture. How wide is the frame? </p> </statement> </exercise>
+
+      </exercises>
+ 
+ 
+</section>

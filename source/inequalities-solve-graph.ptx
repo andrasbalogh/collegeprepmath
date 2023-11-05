@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<section xml:id="inequalities-solve-graph" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Solve and Graph Inequalities     </title> 
+
+  <introduction> <alert> Objective:   </alert> Solve, graph, and give interval notation for the solution to linear inequalities. </introduction> 
+  <p> 
+    When we have an equation such as <m>x = 4</m> we have a specific value for our variable. With inequalities we will give a range of values for our variable. To do this we will not use equals, but one of the following symbols:
+ </p> 
+
+ <md> 
+   <mrow>   \gt \amp \quad  \text{Greater than} </mrow> 
+   <mrow>  \geq \amp\quad  \text{Greater then or equal to}  </mrow> 
+   <mrow>  \lt \amp\quad  \text{Less than}  </mrow> 
+   <mrow>  \leq \amp\quad  \text{Less than or equal to}  </mrow> 
+    </md> 
+
+
+  <p> <alert> World View Note:</alert> English mathematician Thomas Harriot first used the above symbols in <m>1631</m>. However, they were not immediately accepted as symbols such as <m>\sqsubset</m> and <m>\sqsupset</m> were already coined by another English mathematician, William Oughtred. </p> 
+
+  <p> 
+    If we have an expression such as <m>x \lt 4</m>, this means our variable can be any number smaller than <m>4</m> such as <m> -2, 0, 3, 3.9 </m> or even <m>3.999999999</m> as long as it is smaller
+ than <m>4</m>. If we have an expression such as <m>x\geq -2</m>, this means our variable can be any number greater than or equal to <m>-2</m>, such as <m>5, 0, -1, -1.9999</m>, or even <m>-2</m>.
+  </p> 
+
+  <p>
+    Because we don’t have one set value for our variable, it is often useful to draw a picture of the solutions to the inequality on a number line. We will start from the value in the problem and bold the lower part of the number line if the variable is smaller than the number, and bold the upper part of the number line if the variable is larger. The value itself we will mark with brackets, either <m>) </m> or <m> (</m> for less than or greater than respectively, and <m>]</m> or <m>[</m> for less than or equal to or greater than or equal to respectively.
+  </p>
+
+  <p>
+    Once the graph is drawn we can quickly convert the graph into what is called interval notation. Interval notation gives two numbers, the first is the smallest value, the second is the largest value. If there is no largest value, we can use <m>\infty </m> (infinity). If there is no smallest value, we can use <m>-\infty </m> negative infinity. If we use either positive or negative infinity we will always use a curved bracket for that value.
+  </p>
+
+  <example> 
+    Graph the inequality and give the interval notation.
+    <md> 
+      <mrow>      x\lt 2         \amp \quad  \text{ Start at $2$ and shade below }   </mrow> 
+      <mrow>               \amp\quad  \text{ Use $)$ for less than }  </mrow> 
+    </md>
+    <sidebyside widths="55% 35%" margins="auto">
+      <image source="images/3-1-ex-1.jpg" />
+      <p> Our Graph</p>
+    </sidebyside>
+    <md> 
+      <mrow>       (-\infty,2)        \amp\quad  \text{ Interval Notation }  </mrow> 
+    </md>
+  </example> 
+
+   <example> 
+    Graph the inequality and give the interval notation.
+    <md> 
+      <mrow>      x\geq -1         \amp \quad  \text{ Start at $-1$ and shade above }   </mrow> 
+      <mrow>               \amp\quad  \text{ Use $[$ for greater than or equal to}  </mrow> 
+    </md>
+    <sidebyside widths="55% 35%" margins="auto">
+      <image source="images/3-1-ex-2.jpg" />
+      <p> Our Graph</p>
+    </sidebyside>
+    <md> 
+      <mrow>       [-1,\infty)        \amp\quad  \text{ Interval Notation }  </mrow> 
+    </md>
+  </example> 
+
+  <p>We can also take a graph and find the inequality for it.</p>
+
+  <example>
+    <sidebyside widths="35% 55%" margins="auto">
+      <p> Give the inequality for the graph:</p>
+  <image source="images/3-1-ex-3.jpg" />
+        </sidebyside>
+	Graph starts at <m>3</m> and goes up or greater. Curved bracket means just greater than
+	<md>
+	  <mrow> x\gt 3 \amp\quad \text{Our Solution} </mrow>
+	</md>
+  </example>
+
+<example>
+    <sidebyside widths="35% 55%" margins="auto">
+      <p> Give the inequality for the graph:</p>
+  <image source="images/3-1-ex-4.jpg" />
+        </sidebyside>
+	Graph starts at <m>-4</m> and goes down or less. Square bracket means less than or equal to
+	<md>
+	  <mrow> x\leq -4 \amp\quad \text{Our Solution} </mrow>
+	</md>
+  </example>
+
+  <p>
+    Generally when we are graphing and giving interval notation for an inequality we will have to first solve the inequality for our variable. Solving inequalities is very similar to solving equations with one exception. Consider the following inequality and what happens when various operations are done to it. Notice what happens to the inequality sign as we add, subtract, multiply and divide by both positive and negative numbers to keep the statment a true statement.
+  </p>
+  <md>
+    <mrow> 3\gt 1 \amp\quad \text{Add $3$ to both sides}</mrow>
+    <mrow>6\gt 4 \amp\quad \text{Subtract $2$ from both sides}</mrow>
+    <mrow> 4\gt 2 \amp\quad \text{Multiply both sides by } 3
+    </mrow>
+    <mrow> 12\gt 6 \amp\quad \text{Divide both sides by } 2 </mrow>
+    <mrow> 6\gt 3 \amp\quad \text{Add $-1$ to both sides} </mrow>
+    <mrow>5\gt 2 \amp\quad \text{Subtract $-4$ from both sides}</mrow>
+    <mrow>9\gt 6 \amp\quad \text{Multiply both sides by } -2</mrow>
+    <mrow> -18\lt -12 \amp\quad \text{Divide both sides by } -6</mrow>
+<mrow> 3\gt 2 \amp\quad \text{Symbol flipped when we multiply or divide by a negative! }</mrow>
+  </md>
+
+  <p>
+As the above problem illustrates, we can add, subtract, multiply, or divide on both sides of the inequality. But if we multiply or divide by a negative number, the symbol will need to flip directions. We will keep that in mind as we solve inequalities.
+  </p>
+
+  <example>
+    Solve and give interval notation.
+     <md> 
+      <mrow> 5-2x\geq 11 \amp \quad  \text{Subtract $5$ from both sides}   </mrow> 
+      <mrow>   -5\qquad -5             \amp\quad  \text{     }  </mrow> 
+      <mrow>  -2x\geq 6 \amp\quad  \text{Divide both sides by } -2  </mrow> 
+      <mrow>    \frac{-2x}{-2}\leq \frac{6}{-2}           \amp\quad  \text{Divide by a negative - flip symbol! }  </mrow> 
+      <mrow>   x\leq -3           \amp\quad  \text{Graph, starting at $-3$, going down with $]$ for less than or equal to}  </mrow> 
+    </md> 
+  <image source="images/3-1-ex-5.jpg" />
+     <md> 
+      <mrow>  (-\infty,-3]            \amp\quad  \text{ Interval Notation }  </mrow> 
+    </md> 
+  </example>
+
+  <p>
+    The inequality we solve can get as complex as the linear equations we solved. We will use all the same patterns to solve these inequalities as we did for solving equations. Just remember that any time we multiply or divide by a negative the symbol switches directions (multiplying or dividing by a positive does not change the symbol!)
+  </p>
+
+  <example>
+    Solve and give interval notation
+    <md> 
+      <mrow> 3(2x-4)+4x\lt 4(3x-7)+8 \amp \quad  \text{Distribute }   </mrow> 
+      <mrow>  6x-12+4x\lt 12x-28+8             \amp\quad  \text{ Combine like terms    }  </mrow> 
+      <mrow>  10x-12\lt 12x-20 \amp\quad  \text{Move variable to one side}  </mrow> 
+     <mrow>   -10x\qquad -10x\qquad \amp\quad  \text{ Subtract $10x$ from both sides    }  </mrow> 
+     <mrow>  -12\lt 2x-20            \amp\quad  \text{ Add $20$ to both sides    }  </mrow> 
+     <mrow>  +20\qquad +20            \amp\quad  \text{     }  </mrow> 
+     <mrow> 8\lt 2x             \amp\quad  \text{  } </mrow> 
+     <mrow>    \frac{8}{2}\lt \frac{2x}{2}           \amp\quad  \text{ Divide both sides by } 2  </mrow> 
+     <mrow>     4\lt x         \amp\quad  \text{Be careful with graph, $x$ is larger!     }  </mrow> 
+    </md>
+      <image source="images/3-1-ex-6.jpg" />
+    <md>
+           <mrow>   (4,\infty)           \amp\quad  \text{ Interval Notation    }  </mrow> 
+    </md> 
+  </example>
+
+  <p>
+    It is important to be careful when the inequality is written backwards as in the previous 
+    example (<m>4 \lt x</m> rather than <m>x \gt 4</m>). 
+    Often students draw their graphs the wrong way when this is the case. 
+    The inequality symbol opens to the variable, this means the variable is greater than 
+    <m>4</m>. So we must shade above the <m>4</m>.
+  </p>
+  
+  <exercises xml:id="exercises-inequalities-solve-graph"> 
+    <title> Exercises - Solve and Graph Inequalities </title> 
+
+    <exercisegroup cols="2">
+      <introduction>	<p>Draw a graph for each inequality and give interval notation.</p>   
+         </introduction>
+    <exercise><statement>  <p> <m>  n\gt -5       </m>   </p>  </statement></exercise> 
+    <exercise><statement><p> <m>   n\gt 4         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>   -2\geq k         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>     1\geq k       </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    5\geq x        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>      -5\lt x      </m> </p>   </statement></exercise> 
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Write an inequality for each graph.</p>      </introduction>
+    <exercise><statement>  <p>   <image source="images/3-1-ex-7.jpg" />   </p>  </statement></exercise> 
+    <exercise><statement>  <p>   <image source="images/3-1-ex-8.jpg" />   </p>  </statement></exercise> 
+    <exercise><statement>  <p>   <image source="images/3-1-ex-9.jpg" />   </p>  </statement></exercise> 
+    <exercise><statement>  <p>   <image source="images/3-1-ex-10.jpg" />   </p>  </statement></exercise> 
+    <exercise><statement>  <p>   <image source="images/3-1-ex-11.jpg" />   </p>  </statement></exercise> 
+    <exercise><statement>  <p>   <image source="images/3-1-ex-12.jpg" />   </p>  </statement></exercise> 
+    </exercisegroup>
+
+      <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each inequality, graph each solution, and give interval notation.</p>      </introduction>
+    <exercise><statement>  <p> <m> \frac{x}{11}\geq 10        </m>   </p>  </statement></exercise> 
+    <exercise><statement><p> <m>    -2\leq \frac{n}{13}        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>      2+r\lt 3      </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    \frac{m}{5}\leq -\frac{6}{5}       </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>     8+\frac{n+3}\geq 6       </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>      1 1 \gt 8 + \frac{x}{2}       </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>       2\gt \frac{a-2}{5}     </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>      \frac{v-9}{-4}\leq 2      </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>     -47\geq 8-5x     </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>      \frac{6+x}{12}\leq -1      </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>   -2(3+k)\lt -44         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>     -7n-10\geq 60       </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  18\lt -2(-8+p)          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    5\geq\frac{x}{5} + 1        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  24\geq -6(m-6)          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  -8(n-5)\geq 0          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    -r-5(r-6)\lt -18        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>   -60\geq -4(-6x-3)         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    24+4b\lt 4(1+6b)        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  -8(2-2n)\geq -16+n          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  -5v-5\lt -5(4v+1)          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>  -36+6x\gt -8(x+2)+4x          </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>   4+2(a+5)\lt -2(-a-4)         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>    3(n+3)+7(8-8n)\lt 5n+5+2        </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m>   -(k-2)\gt -k-20         </m> </p>   </statement></exercise> 
+    <exercise><statement><p> <m> -(4-5p)+3\geq -2(8-5p)           </m> </p>   </statement></exercise> 
+    </exercisegroup>
+
+  </exercises>
+   
+
+</section> 

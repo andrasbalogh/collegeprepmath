@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="radicals-mixed-index" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Radicals of Mixed Index   </title> 
+
+  <introduction> <alert> Objective:   </alert> Reduce the index 
+  on a radical and multiply or divide radicals of different index. </introduction> 
+
+   <p> 
+  Knowing that a radical has the same properties as exponents (written as a ratio) 
+  allows us to manipulate radicals in new ways. One thing we are allowed to do is reduce, 
+  not just the radicand, but the index as well. This is shown in the following example.
+   </p> 
+
+  <example>
+    <md> 
+      <mrow>  \sqrt[8]{x^6y^2} \amp \quad  \text{  Rewrite as rational exponent    }   </mrow> 
+      <mrow>  \left(x^6y^2\right)^{1/8} \amp\quad  \text{ Multiply exponents    }  </mrow> 
+      <mrow>  x^{6/8}y^{2/8} \amp\quad  \text{  Reduce each fraction   }  </mrow> 
+      <mrow>  x^{3/4}y^{1/4} \amp\quad  \text{ All exponents have denominator of $4$, this is our new index }  </mrow> 
+      <mrow>  \sqrt[4]{x^3y} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+What we have done is reduced our index by dividing the index and all the exponents by the same number 
+(<m>2</m> in the previous example). If we notice a common factor in the index and all the exponnets on every factor 
+we can reduce by dividing by that common factor. 
+This is shown in the next example.
+</p>
+  
+  <example>
+    <md> 
+      <mrow>  \sqrt[24]{a^6b^9c^{15}}  \amp \quad  \text{  Index and all exponents are divisible by } 3    </mrow> 
+      <mrow>  \sqrt[8]{a^2b^3c^{5}} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p> 
+  We can use the same process when there are coefficients in the problem. 
+  We will first write the coefficient as an exponential expression so we can divide the exponet by the common factor as well.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow>  \sqrt[9]{8m^6n^3} \amp \quad  \text{ Write $8$ as $2^3$ }   </mrow> 
+      <mrow>  \sqrt[9]{2^3m^6n^3} \amp\quad  \text{ Index and all exponents are divisible by } 3   </mrow> 
+      <mrow>  x^{6/8}y^{2/8} \amp\quad  \text{  Reduce each fraction   }  </mrow> 
+      <mrow>  \sqrt[3]{2m^2n} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p> 
+    We can use a very similar idea to also multiply radicals where the index does not match. 
+    First we will consider an example using rational exponents, then identify the pattern we can use.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow>  \sqrt[3]{ab^3} \sqrt[4]{a^2b} \amp \quad  \text{ Rewrite as rational exponents }   </mrow> 
+      <mrow>  \left(ab^2\right)^{1/3}\left(a^2b\right)^{1/4} \amp\quad  \text{ Multiply exponents }   </mrow> 
+      <mrow>  a^{1/3}b^{2/3}a^{2/4}b^{1/4} \amp\quad  \text{  To have one radical need a common denominator, } 12  </mrow> 
+      <mrow>  a^{\frac{4}{12}}b^{\frac{8}{12}}a^{\frac{6}{12}}b^{\frac{3}{12}} \amp\quad  \text{  Write under a single radical with common index, } 12  </mrow> 
+      <mrow>  \sqrt[12]{a^4b^8a^6b^3} \amp\quad  \text{  Add exponents   }  </mrow> 
+      <mrow>  \sqrt[12]{a^10b^11} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+
+  <p> 
+    To combine the radicals we need a common index (just like the common denominator). 
+    We will get a common index by multiplying each index and exponent by an integer that will allow us to build up 
+    to that desired index. This process is shown in the next example.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow>  \sqrt[4]{a^2b^3} \sqrt[6]{a^2b} \amp \quad  \text{ Common index is } 12   </mrow> 
+      <mrow>   \amp\quad  \text{ Multiply first index and exponents by $3$, second by } 2   </mrow> 
+      <mrow>  \sqrt[12]{a^6b^9a^4b^2} \amp\quad  \text{  Add exponents   }  </mrow> 
+      <mrow>  \sqrt[12]{a^{10}b^{11}} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+
+  <p> Often after combining radicals of mixed index we will need to simplify the
+resulting radical. </p>
+
+   <example>
+    <md> 
+      <mrow>  \sqrt[5]{x^3y^4} \sqrt[3]{x^2y} \amp \quad  \text{ Common index is } 15   </mrow> 
+      <mrow>   \amp\quad  \text{ Multiply first index and exponents by $3$, second by } 5   </mrow> 
+      <mrow>  \sqrt[15]{x^9y^{12}x^{10}y^5} \amp\quad  \text{  Add exponents   }  </mrow> 
+      <mrow>  \sqrt[15]{x^{19}y^{17}} \amp\quad  \text{  Simplify by dividing exponents by index, remainder is left inside   }  </mrow> 
+      <mrow>  xy\sqrt[15]{x^4y^2} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+  
+  <p> Just as with reducing the index, we will rewrite coefficients as exponential expressions. 
+  This will aslo allow us to use exponent properties to simplify.</p>
+
+   <example>
+    <md> 
+      <mrow>  \sqrt[3]{4x^2y} \sqrt[4]{8xy^3} \amp \quad  \text{ Rewrite $4$ as $2^2$ and $8$ as } 2^3   </mrow> 
+      <mrow>  \sqrt[3]{2^2x^2y} \sqrt[4]{2^3xy^3} \amp \quad  \text{ Common index is } 12   </mrow> 
+      <mrow>   \amp\quad  \text{ Multiply first index and exponents by $4$, second by } 3   </mrow> 
+      <mrow>  \sqrt[12]{2^8x^8y^4 2^9x^3y^9} \amp\quad  \text{  Add exponents (even on the $2$)  }  </mrow> 
+      <mrow>  \sqrt[12]{2^{17}x^{11}y^{13}} \amp\quad  \text{  Simplify by dividing exponents by index, remainder is left inside }  </mrow> 
+       <mrow>  2y\sqrt[12]{2^5x^{11}y} \amp\quad  \text{  Simplify } 2^5  </mrow> 
+     <mrow>   2y\sqrt[12]{32x^{11}y} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+
+  <p> If there is a binomial in the radical then we need to keep that binomial together through the entire problem. </p>
+
+   <example>
+    <md> 
+      <mrow>  \sqrt{3x(y+z)} \sqrt[3]{9x(y+z)^2} \amp \quad  \text{ Rewrite $9$ as $3^2$ }  </mrow> 
+      <mrow>  \sqrt{3x(y+z)} \sqrt[3]{3^2x(y+z)^2} \amp \quad  \text{ Common index is } 6  </mrow> 
+      <mrow>   \amp\quad  \text{ Multiply first index and exponents by $3$, second by } 2   </mrow> 
+      <mrow>  \sqrt[6]{3^3x^3(y+z)^3 3^4x^2(y+z)^4} \amp\quad  \text{  Add exponents, keep $(y+z)$ as binomial }  </mrow> 
+      <mrow>  \sqrt[6]{3^7x^5 (y+z)^7} \amp\quad  \text{  Simplify by dividing exponents by index, remainder is left inside }  </mrow> 
+     <mrow>   3(y+z)\sqrt[6]{3x^5(y+z)} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+
+  <p> <alert> World View Note:</alert> Originally the radical was just a check mark with the rest of the radical expression 
+  in parenthesis. In <m>1637</m> Rene Descartes was the first to put a line over the entire radical expression </p> 
+
+  <p> The same process is used for dividing mixed index as with multiplying mixed index. 
+  The only difference is our final answer cannot have a radical over the denominator.</p>
+
+   <example>
+    <md> 
+      <mrow>  \frac{\sqrt[6]{x^4y^3z^2}}{\sqrt[8]{x^7y^2z}}  \amp \quad   \text{ Common index is $24$ Multiply first group by $4$, second by } 3   </mrow> 
+      <mrow>  \sqrt[24]{\frac{x^{16}y^{12}z^8}{x^{21}y^6z^3}} \amp\quad  \text{  Subtract exponents }  </mrow> 
+      <mrow>  \sqrt[24]{x^{-5}y^6z^5} \amp\quad  \text{  Negative exponent moves to denominator. }  </mrow> 
+      <mrow>  \sqrt[24]{\frac{y^6z^5}{x^5}} \amp\quad  \text{  Do not want denominator in radical, need $24$x's, ($19$ more).}  </mrow> 
+      <mrow>  \sqrt[24]{\frac{y^6z^5}{x^5}\frac{x^{19}}{x^{19}}} \amp\quad  \text{  Multiply numerator and denominator by } x^{19} </mrow> 
+      <mrow>  \sqrt[24]{\frac{x^{19}y^6z^5}{x^24}} \amp\quad  \text{  Simplify denominator }  </mrow> 
+      <mrow>   \frac{\sqrt[24]{x^{19}y^6z^5}}{x} \amp\quad  \text{  Our Solution   }  </mrow> 
+   </md>
+  </example> 
+
+
+  <exercises xml:id="exercises-radicals-mixed-index">
+    <title>Exercises - Radicals of Mixed Index</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Reduce the following radicals. 	</p>      </introduction>
+      <exercise><statement> <p> <m> \sqrt[8]{16x^4y^6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{9x^2y^6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[12]{64x^4y^6z^8} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{\frac{25x^3}{16x^5}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[6]{\frac{16x^2}{9y^4}} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[15]{x^9y^{12}z^6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[12]{x^6y^9} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[10]{64x^8y^4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[8]{x^6y^4z^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{25y^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[9]{8x^3y^6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[16]{81x^8y^{12}} </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Combine the following radicals. 	</p>      </introduction>
+      <exercise><statement> <p> <m> \sqrt[3]{5}\sqrt{6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[3]{7}\sqrt[4]{5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{x}\sqrt[3]{7y} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[3]{y}\sqrt[5]{3z} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{x}\sqrt[3]{x-2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{3x}\sqrt{y+4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[5]{x^2y}\sqrt{xy} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{ab}\sqrt[5]{2a^2b^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{xy^2}\sqrt[3]{x^2y} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[5]{a^2b^3}\sqrt[4]{a^2b} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{a^2bc^2}\sqrt[5]{a^2b^3c} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[6]{x^2yz^3}\sqrt[5]{x^2yz^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{a}\sqrt[4]{a^3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[3]{x^2}\sqrt[6]{x^5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[5]{b^2}\sqrt{b^3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[4]{a^3}\sqrt[3]{a^2} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \sqrt{xy^3}\sqrt[3]{x^2y} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt[5]{a^3b}\sqrt{ab} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \sqrt[4]{9ab^3}\sqrt{3a^4b} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{2x^3y^3}\sqrt[3]{4xy^2} </m> </p> </statement> </exercise>
+      <exercise><statement> <p> <m> \sqrt[3]{3xy^2z}\sqrt[4]{9x^3yz^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \sqrt{a^4b^3c^4}\sqrt[3]{ab^2c} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \sqrt{27a^5(b+1)}\sqrt[3]{81a(b+1)^4} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \sqrt{8x(y+z)^5}\sqrt[3]{4x^2(y+z)^2} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[3]{a^2}}{\sqrt[4]{a}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[3]{x^2}}{\sqrt[5]{x}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[4]{x^2y^3}}{\sqrt[3]{xy}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[5]{a^4b^2}}{\sqrt[3]{ab^2}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt{ab^3c}}{\sqrt[5]{a^2b^3c^{-1}}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[5]{x^3y^4z^9}}{\sqrt[3]{xy^{-2}z}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[4]{(3x-1)^3}}{\sqrt[5]{(3x-1)^3}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[3]{(2+5x)^2}}{\sqrt[4]{(2+5x)}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[3]{(2x+1)^2}}{\sqrt[5]{(2x+1)^2}} </m> </p> </statement> </exercise>      
+      <exercise><statement> <p> <m> \frac{\sqrt[4]{(5-3x)^3}}{\sqrt[3]{(5-3x)^2}} </m> </p> </statement> </exercise>      
+      </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="inequalities-absolute-value" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Absolute Value Inequalities    </title> 
+
+  <introduction> <alert> Objective:  Solve, graph and give interval notation for the solution to inequalities with absolute values. </alert> </introduction> 
+
+   <p> 
+     When an inequality has an absolute value we will have to remove the absolute value in order to graph the solution or give interval notation. The way we remove the absolute value depends on the direction of the inequality symbol.
+   </p> 
+
+   <p>     Consider <m>|x| \lt 2</m>.   </p>
+
+   <p> Absolute value is defined as distance from zero. Another way to read this inequality would be the distance from zero is less than <m>2</m>. So on a number line we will shade all points that are less than <m>2</m> units away from zero.
+<image source="images/inequalities-absolute-1.jpg" />
+This graph looks just like the graphs of the three part compound inequalities! When the absolute value is less than a number we will remove the absolute value by changing the problem to a three part inequality, with the negative value on the left and the positive value on the right. So <m>|x|\lt 2</m> becomes <m>-2\lt x\lt 2</m>, as the graph above illustrates.</p>
+
+   <p>     Consider <m>|x| \gt 2</m>.   </p>
+
+   <p>  Absolute value is defined as distance from zero. Another way to read this inequality would be the distance from zero is greater than <m>2</m>. So on the number line we shade all points that are more than <m>2</m> units away from zero.
+   <image source="images/inequalities-absolute-2.jpg" />
+   
+This graph looks just like the graphs of the <alert>OR</alert> compound inequalities! When the absolute value is <alert>greater than</alert> a number we will remove the absolute value by changing the problem to an OR inequality, the first inequality looking just like the problem with no absolute value, the second flipping the inequality symbol and changing the value to a negative. So <m>|x|\gt 2</m> becomes <m>x\gt 2</m> or <m>x\lt -2</m>, as the graph above illustrates.
+</p>
+   
+  <p> <alert> World View Note:</alert> The phrase “absolute value” comes from German mathematician Karl Weierstrass in <m>1876</m>, though he used the absolute value symbol for complex numbers. The first known use of the symbol for integers comes from a <m>1939</m> edition of a college algebra text!
+   </p> 
+
+   <p>  For all absolute value inequalities we can also express our answers in interval notation which is done the same way it is done for standard compound inequalities. </p>
+   
+  <p> 
+    We can solve absolute value inequalities much like we solved absolute value equa- tions. Our first step will be to isolate the absolute value. Next we will remove the absolute value by making a three part inequality if the absolute value is less than a number, or making an OR inequality if the absolute value is greater than a number. Then we will solve these inequalites. Remember, if we multiply or divide by a negative the inequality symbol will switch directions!
+  </p> 
+
+  <example> Solve, graph, and give interval notation for the solution.
+    <md> 
+      <mrow>     |4x-5|\geq 6 \amp \quad  \text{  Absolute value is greater, use OR    }   </mrow> 
+      <mrow>   4x-5\geq 6 \text{ OR } 4x-5\leq -6 \amp\quad  \text{ Solve    }  </mrow> 
+      <mrow>  +5\quad +5 \qquad +5\quad +5 \amp\quad  \text{ Add $5$ to both sides    }  </mrow> 
+      <mrow> 4x\geq 11 \text{ OR } 4x\leq -1  \amp\quad  \text{ Divide both sides by } 4  </mrow> 
+      <mrow> \frac{4x}{4}\geq \frac{11}{4} \text{ OR } \frac{4x}{4}\leq \frac{-1}{4}  \amp\quad  \text{ }   </mrow> 
+      <mrow> x\geq \frac{11}{4}\text{ OR } x\leq -\frac{1}{4}  \amp\quad  \text{ Graph    }  </mrow> 
+    </md>
+   <image source="images/inequalities-absolute-3.jpg" />
+    <md>
+      <mrow> \left(-\infty,-\frac{1}{4}\right]\cup\left[\frac{11}{4},\infty\right)  \amp\quad  \text{ Interval notation     }  </mrow> 
+    </md>
+  </example> 
+
+    <example> Solve, graph, and give interval notation for the solution.
+    <md> 
+      <mrow>  -4-3|x|\leq -16  \amp \quad  \text{ Add $4$ to both sides     }   </mrow> 
+      <mrow> +4\qquad \qquad +4  \amp\quad  \text{     }  </mrow> 
+      <mrow> -3|x|\leq -12   \amp\quad  \text{   Divide both sides by  } -3  </mrow> 
+      <mrow>  \frac{-3|x|}{-3}\geq \frac{-12}{-3}  \amp\quad  \text{   Dividing by a negative switches the symbol  }  </mrow> 
+      <mrow>  |x|\geq 4 \amp\quad  \text{   Absolute value is greater, use OR  }  </mrow> 
+      <mrow> x\geq 4 \text{ OR } x\leq -4 \amp\quad  \text{  Graph   }  </mrow> 
+    </md>
+    <image source="images/inequalities-absolute-4.jpg" />
+    <md>
+          <mrow> \left(-\infty,-4\right]\cup\left[ 4,\infty\right) \amp\quad  \text{  Interval Notation  }  </mrow> 
+    </md>
+    </example> 
+
+  
+  <p> 
+    In the previous example, we cannot combine <m>-4</m> and <m>-3</m> because they are not like terms, the <m>-3</m> has an absolute value attached. So we must first clear the <m>-4</m> by adding <m>4</m>, then divide by <m>-3</m>. The next example is similar.
+  </p> 
+
+    <example> Solve, graph, and give interval notation for the solution.
+    <md> 
+      <mrow> 9-2|4x+1|\gt 3 \amp \quad  \text{  Subtract $9$ from both sides    }   </mrow> 
+      <mrow> -9 \qquad \qquad \quad -9 \amp\quad  \text{     }  </mrow> 
+      <mrow> -2|4x+1|\gt -6 \amp\quad  \text{ Divide both sides by  } -2  </mrow> 
+      <mrow> \frac{-2|4x+1|}{-2}\lt \frac{-6}{-2} \amp\quad  \text{ Dividing by negative switches the symbol    }  </mrow> 
+      <mrow>|4x+1|\lt 3  \amp\quad  \text{ Absolute value is less, use three part    }  </mrow> 
+      <mrow> -3\lt 4x+1 \lt 3 \amp\quad  \text{   Solve  }  </mrow> 
+      <mrow> -1\qquad -1\ -1 \amp\quad  \text{   Subtract $1$ from all three parts  }  </mrow> 
+      <mrow> -4\lt 4x \lt 2 \amp\quad  \text{  Divide all three parts by } 4 </mrow> 
+      <mrow>  \frac{-4}{4}\lt \frac{4x}{4} \lt \frac{2}{4}  \amp\quad  \text{     }  </mrow> 
+      <mrow> -1\lt x\lt \frac{1}{2} \amp\quad  \text{  Graph   }  </mrow> 
+    </md>
+    <image source="images/inequalities-absolute-5.jpg" />
+    <md>
+      <mrow>  \left(-1,\frac{1}{2}\right) \amp\quad  \text{   Interval notation  }  </mrow> 
+    </md>
+    </example> 
+
+    <p>
+      In the previous example, we cannot distribute the <m>-2</m> into the absolute value. We can never distribute or combine things outside the absolute value with what is inside the absolute value. Our only way to solve is to first isolate the absolute value by clearing the values around it, then either make a compound inequality (and OR or a three part) to solve.
+    </p>
+
+    <p>
+      It is important to remember as we are solving these equations, the absolute value is always positive. If we end up with an absolute value is less than a negative number, then we will have no solution because absolute value will always be positive, greater than a negative. Similarly, if absolute value is greater than a negative, this will always happen. Here the answer will be all real numbers.
+    </p>
+    
+  <example> Solve, graph, and give interval notation for the solution.
+    <md> 
+      <mrow> 12 + 4|6x - 1| \lt 4 \amp \quad  \text{  Subtract $12$ from both sides    }   </mrow> 
+      <mrow> -12\qquad\qquad -12 \amp\quad  \text{     }  </mrow> 
+      <mrow> 4|6x-1|\lt -8  \amp\quad  \text{     }  </mrow> 
+      <mrow> \frac{4|6x-1|}{4}\lt \frac{-8}{4}  \amp\quad  \text{  Divide both sides by } 4  </mrow> 
+      <mrow>|6x - 1| \lt - 2  \amp\quad  \text{ Absolute value can't be less than a negative  }  </mrow> 
+    </md>
+    <image source="images/inequalities-absolute-6.jpg" />
+    <md>
+      <mrow>  \text{  No solution or } \emptyset  </mrow> 
+    </md>
+  </example> 
+
+
+  <example> Solve, graph, and give interval notation for the solution.
+    <md> 
+      <mrow> 5 - 6|x + 7| \leq 17 \amp \quad  \text{  Subtract $5$ from both sides    }   </mrow> 
+    <mrow> -5\qquad\qquad -5 \amp\quad  \text{     }  </mrow> 
+     <mrow>  - 6|x + 7| \leq 12   \amp\quad  \text{    Divide both sides by } -6    </mrow> 
+      <mrow> \frac{- 6|x + 7|}{-6}\geq \frac{12}{-6}  \amp\quad  \text{Dividing by a negative flips the symbol }  </mrow> 
+      <mrow> |x + 7| \geq - 2  \amp\quad  \text{ Absolute valuealways greater than  negative  }  </mrow>  <!-- -->
+    </md>
+    <image source="images/inequalities-absolute-7.jpg" />
+    <md>
+      <mrow> \left(-\infty,\infty\right) \text{  All real numbers of } {\mathbb R}  </mrow> 
+    </md>
+  </example> 
+
+
+
+  <exercises xml:id="exercises-inequalities-absolute">
+    <title>Exercises - Absolute Value Inequalities</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each inequality, graph its solution, and give interval notation. </p>      </introduction>
+      <exercise><statement> <p> <m>|x|\lt 3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> |x|\leq 8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|2x|\lt 6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x+3|\lt 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x-2|\lt 6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> |x-8|\lt 12</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> |x-7|\lt3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x+3|\leq 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> |3x-2|\lt 9</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|2x+5|\lt 9 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 1+2|x-1|\leq 9</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>10-3|x-2|\geq 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6-|2x-5|\geq 3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x|\gt 5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|3x|\gt 5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x-4|\gt 5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|x+3|\geq 3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  |2x-4|\gt 6</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|3x-5|\geq 3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3-|2-x|\lt 1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4+3|x-1|\geq 10</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3-2|3x-1|\geq-7 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>3-2|x-5|\leq -15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 4-6|-6-3x|\leq -5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-2-3|4-2x|\geq -8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-3-2|4x-5|\geq 1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4-5|-2x-7|\lt -1 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-2+3|5-x|\leq 4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3-2|4x-5|\geq 1</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-2-3|-3x-5\geq -5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -5-2|3x-6|\lt -8</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6-3|1-4x|\lt -3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4-4|-2x+6|\gt -4 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>-3-4|-2x-5|\geq -7 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>|-10+x|\geq 8 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+</section> 
+
+      <!--  -->

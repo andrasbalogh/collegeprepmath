@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="linear-equations-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>  Solving with Fractions   </title>
+  <introduction> <alert> Objective: Solve linear equations with rational coefficients by multiplying by the least common denominator to clear the fractions.  </alert> </introduction>
+
+  <p>
+   Often when solving linear equations, we will need to work with an equation with fraction coefficients. We can solve these problems as we have in the past. This is demonstrated in our next example.
+ </p>
+<example>
+    <md>
+      <mrow>      \frac{3}{4}x  -\frac{7}{2} =   \frac{5}{6}  \amp \quad  \text{    Focus on subtraction  }   </mrow>
+      <mrow>         +\frac{7}{2}+\frac{7}{2}       \amp\quad  \text{   Add $\frac{7}{2} $ to both sides  }  </mrow>
+    </md>
+<p>
+Notice we will need to get a common denominator to add <m> \frac{5}{ 6} +\frac {7}{2 }</m> . Notice we have a common denominator of <m>6</m>. So we build up the denominator, <m> \frac{7}{2} (\frac{3}{ 3} )= \frac{21}{ 6} </m>, and we can now add the fractions:
+  </p> 
+    <md>
+      <mrow>   \frac{3}{ 4} x -\frac{21}{ 6} = \frac{5}{ 6} \amp \quad  \text{   Same problem, with common denominator   }  6 </mrow>
+      <mrow>  + \frac{21}{ 6} + \frac{21}{ 6} \amp\quad  \text{ Add $\frac{21}{ 6 }$to both sides  }  </mrow>
+      <mrow>   \frac{3 }{4 }x =\frac{26}{ 6} \amp\quad  \text{  Reduce $\frac{26}{6}$ to  }  \frac{13}{3}</mrow>    
+  <mrow>  \frac{3}{ 4} x = \frac{13}{ 3} \amp \quad  \text{   Focus on multiplication by   }  \frac{3}{4} </mrow>
+ </md>
+  <p>
+We can get rid of <m> \frac {3 }{4 }</m> by dividing both sides by <m> \frac{3}{ 4 }</m>. Dividing by a fraction is the same as multiplying by the reciprocal, so we will multiply both sides by<m> \frac{4}{3}</m>.
+  </p>
+
+    <md>
+      <mrow>   \left(\frac{ 4}{ 3} \right)\frac{3}{ 4 }x = \frac{13}{ 3} \left(\frac{ 4 }{3 }\right) \amp \quad  \text{  Multiply by reciprocal    }   </mrow>
+      <mrow>           x = \frac {52}{ 9  }    \amp\quad  \text{  Our solution!    }  </mrow>
+    </md>
+    
+  </example>
+<p>
+While this process does help us arrive at the correct solution, the fractions can make the process quite difficult. This is why we have an alternate method for dealing with fractions - clearing fractions. Clearing fractions is nice as it gets rid of the fractions for the majority of the problem. We can easily clear the fractions by finding the LCD and multiplying each term by the LCD. This is shown in the next example, the same problem as our first example, but this time we will solve by clearing fractions.
+  </p>
+<example>
+    <md>
+      <mrow>  \frac{3 }{4 }x -\frac{ 7 }{2 }= \frac{5 }{6 } \amp \quad  LCD = 12, \text{ multiply each term by   } 12  </mrow>
+      <mrow>  \frac{(12)3} {4} x -\frac{ (12)7}{ 2} = \frac{(12)5}{ 6 } \amp\quad  \text{Reduce each $12 $ with denominators              }  </mrow>
+      <mrow>  (3)3x - (6)7 = (2) \amp\quad  \text{ Multiply out each term  }  </mrow>
+<mrow>            9x - 42 = 10    \amp \quad  \text{  Focus on subtraction by    }  42 </mrow>
+      <mrow>     + 42 + 42            \amp\quad  \text{ Add $ 42$ to both sides   }  </mrow>
+      <mrow>        9x = 52       \amp\quad  \text{ Focus on multiplication by  }  9</mrow>
+<mrow> \frac{9x}{9}=\frac{52}{9}       \amp\quad  \text{  Divide both sides by    }  9</mrow>
+      <mrow>     x =\frac{ 52}{ 9}      \amp\quad  \text{ Our Solution  }  </mrow>
+</md>
+  </example>
+<p>
+The next example illustrates this as well. Notice the <m>2</m> fraction in the original equation, but to solve it we put the <m>  2 </m> over <m>  1</m>  to make it a fraction.
+  </p>
+<example>
+    <md>
+      <mrow>  \frac{2}{ 3} x -2= \frac{3 }{2} x +\frac{1}{ 6 } \amp \quad  \text{ LCD = $6$, multiply each term by       }  6 </mrow>
+      <mrow>  \frac{ (6)2}{ 3} x -\frac{ (6)2}{ 1} =\frac{ (6)3}{ 2} x +\frac{ (6)1}{ 6 } \amp\quad  \text{ Reduce $ 6 $ with each denominator    }  </mrow>
+      <mrow>          (2)2x - (6)2 = (3)3x + (1)1     \amp\quad  \text{  Multiply out each term  }  </mrow>   
+   <mrow>             4x - 12 = 9x +1   \amp \quad  \text{  Notice variable on both sides   }   </mrow>
+      <mrow>        - 4x \qquad -4x   \qquad \amp\quad  \text{ Subtract $ 4x $ from both sides   }  </mrow>
+      <mrow>     - 12 = 5x +1     \amp\quad  \text{ Focus on addition of 1 }  </mrow>   
+   <mrow>      -1\qquad -1      \amp \quad  \text{ Subtract $1$ from both sides    }   </mrow>
+      <mrow>          -13 =5x     \amp\quad  \text{ Focus on multiplication of   } 5 </mrow>
+<mrow> \frac{-13}{5}=\frac{5x}{5}       \amp\quad  \text{  Divide both sides by    }  5</mrow>
+<mrow> \frac{ - 13}{ 5 }= x   \amp\quad  \text{  Our Solution  }  </mrow>
+</md>
+  </example>
+  <p>
+We can use this same process if there are parenthesis in the problem. We will first distribute the coefficient in front of the parenthesis, then clear the fractions. This is seen in the following example.
+  </p>
+<example>
+    <md>
+      <mrow> \frac{3}{ 2}\left(\frac{5}{ 9} x + \frac{4 }{27}\right) = 3  \amp \quad  \text{Distribute $\frac{3}{2}$ through parenthesis, reducing if possible   }   </mrow>
+      <mrow>  \frac{ 5}{ 6 }x +\frac{ 2 }{9} = 3\amp\quad  \text{ LCD = $18$, multiply each term by  }  18</mrow>
+      <mrow>  \frac{ (18)5}{ 6 }x +\frac{ (18)2}{ 9} = \frac{(18)3}{ 9 }   \amp\quad  \text{ Reduce $18$ with each denominator  }  </mrow>    
+  <mrow>            (3)5x + (2)2= (18)   \amp \quad  \text{ Multiply out each term  }   </mrow>
+      <mrow>          15x +4= 54       \amp\quad  \text{ Focus on addition of    }  4</mrow>
+      <mrow>         - 4 -4   \amp\quad  \text{ Subtract $ 4 $ from both sides   }  </mrow>   
+   <mrow>            15x = 50    \amp \quad  \text{  Focus on multiplication by  }  15 </mrow>
+<mrow> \frac{15x}{15}=\frac{50}{15}       \amp\quad  \text{  Divide both sides by    }  15</mrow>
+ <mrow>         x = \frac{10}{ 3  }     \amp\quad  \text{Our Solution  }  </mrow>
+</md>
+  </example>
+
+  <p>
+While the problem can take many different forms, the pattern to clear the fraction is the same, after distributing through any parentheses we multiply each term by the LCD and reduce. This will give us a problem with no fractions that is much easier to solve. The following example again illustrates this process.
+  </p>
+
+<example>
+    <md>
+      <mrow>\frac{3}{ 4} x - \frac{1 }{2} =\frac{ 1 }{3}\left ( \frac{3}{ 4 }x + 6\right) -\frac{7}{ 2} \amp \quad \text{ Distribute $\frac{1}{ 3}$ , reduce if possible   }   </mrow>
+      <mrow>   \frac{3}{4 }x -\frac{1}{ 2 }=\frac{1}{ 4 }x + 2 -\frac{ 7}{ 2} \amp\quad  \text{ LCD =$ 4$, multiply each term by } 4 </mrow>
+      <mrow> \frac{(4)3}{4} x -\frac{ (4)1}{ 2} =\frac{ (4)1 }{4} x + \frac{(4)2}{ 1}-\frac{ (4)7}{ 2}      \amp\quad  \text{  Reduce $4$ with each denominator   }  </mrow>
+<mrow>          (1)3x - (2)1 = (1)1x + (4)2 - (2)7      \amp \quad  \text{  Multiply out each term   }   </mrow>
+      <mrow>         3x- 2= x + 8 -14       \amp\quad  \text{ Combine like terms   } 8-14 </mrow>
+      <mrow>    3x -2= x -6          \amp\quad  \text{Notice variable on both sides  }  </mrow>
+<mrow>     -x\qquad - x \qquad   \amp \quad  \text{ Subtract $x$ from both sides   }   </mrow>
+      <mrow>           2x - 2= -6     \amp\quad  \text{ Focus on subtraction by     }  2</mrow>
+      <mrow>          + 2 \quad + 2     \amp\quad  \text{  Add $2$ to both sides   }  </mrow>
+<mrow> \frac{2x}{2}=\frac{-4}{2}       \amp\quad  \text{  Divide both sides by    } 2</mrow> 
+<mrow>      x = - 2  \amp\quad  \text{Our Solution  }  </mrow>
+ </md>
+  </example>
+
+     <p> <alert> World View Note: </alert>  The Egyptians were among the first to study fractions and linear equations. The most famous mathematical document from Ancient Egypt is the Rhind Papyrus where the unknown variable was called “heap".  </p>
+
+
+     <exercises xml:id="exercises-linear-fractions">
+       <title> Exercises - Fractions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Solve each equation. 	</p>      </introduction>
+    <exercise><statement>  <p> <m>  \frac{3}{ 5} (1 + p)= \frac{21 }{20}     </m>   </p>  </statement></exercise>
+     <exercise><statement><p> <m>    -\frac{1}{ 2} = \frac{3 }{2} k + \frac{3}{ 2} </m> </p> </statement></exercise>
+     <exercise><statement>  <p> <m>   0= -\frac{5}{ 4} \left(x -\frac{6}{ 5}\right)      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{ 3 }{2} n -\frac{8}{ 3} = -\frac{ 29}{12}        </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m> \frac{ 3}{ 4} -\frac{5}{4}m = \frac{113}{24}       </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m> \frac{11}{4} + \frac{3}{4} r =\frac{163}{32}       </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>   \frac{635}{72} = -\frac{5}{2} \left(-\frac{11}{ 4} + x\right)    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{- 16}{9} = -\frac{4}{3}\left (\frac{5} {3} + n\right)     </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m> 2b + \frac{9}{5} = -\frac{11}{5}   </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m>   \frac{3}{2}-\frac{7}{4} v = -\frac{9}{8}     </m> </p>   </statement></exercise>
+      <exercise><statement>  <p> <m>    \frac {3}{ 2} \left( \frac{7}{ 3} n + 1\right)= \frac{3}{2}   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  \frac{41}{ 9} =\frac{5}{2} \left(x +\frac{2}{ 3} \right) - \frac{1}{ 3} x       </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m>     -a -\frac{5}{4} \left(-\frac{8}{3} a + 1\right) =-\frac{19}{4}     </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m>     \frac{1}{3} \left( -\frac{7}{ 4} k +1\right) -\frac{10}{ 3} k = -\frac{13}{ 8}     </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  \frac{55}{ 6} = -\frac{ 5}{ 2} \left( \frac{3}{ 2} p-\frac{5}{3} \right)    </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  -\frac{1}{ 2} \left( \frac{2}{ 3} x -\frac{3}{ 4} \right) -\frac{7}{2} x = -\frac{83}{ 24}   </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m>  \frac{16}{ 9} = -\frac{4}{ 3} \left( -\frac{4}{3} n -\frac{4}{ 3} \right)       </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m>  \frac{2}{3} \left(m +\frac{9}{ 4} \right) -\frac{10}{3} = -\frac{53}{18}      </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  -\frac{5}{ 8} = \frac{5}{ 4} \left(r -\frac{3}{ 2} \right)      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> \frac{1}{12 }= \frac{4}{ 3} x + \frac{5}{ 3} \left(x -\frac{7}{ 4}\right)    </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m> -\frac{11}{ 3} +\frac{3 }{2} b =\frac{ 5}{ 2} \left(b -\frac{5}{ 3} \right)   </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m>      \frac{7}{ 6} -\frac{4}{3} n = -\frac{3}{2} n + 2\left(n + \frac{3}{ 2} \right)   </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m> - \left(-\frac{5}{ 2} x -\frac{3}{ 2} \right)= -\frac{3}{ 2} + x        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> -\frac{149}{16} -\frac{11}{ 3} r= -\frac{7 }{4} r -\frac{5}{ 4} \left( -\frac{ 4}{ 3} r + 1\right)       </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m>  \frac{45}{16} + \frac{3}{2} n =\frac{7}{ 4} n -\frac{19}{16}     </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m> -\frac{7}{ 2} \left( \frac{5 }{3} a + \frac{1}{ 3} \right)=\frac{11}{ 4} a +\frac{25}{ 8}     </m> </p>   </statement></exercise>
+      <exercise><statement>  <p> <m> \frac{3}{2} \left(v + \frac{3}{ 2} \right) = -\frac{7}{ 4} v -\frac{19}{ 6}      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  -\frac{ 8}{ 3}-\frac{1}{ 2} x = -\frac{4}{ 3} x -\frac{ 2}{ 3} \left(-\frac{13}{ 4} x + 1\right)    </m> </p>   </statement></exercise>
+     <exercise><statement>  <p> <m> \frac{ 47 }{9} + \frac{3}{ 2} x =\frac{ 5}{ 3} \left(\frac{ 5}{ 2} x +1\right)      </m>   </p>  </statement></exercise>
+      <exercise><statement><p> <m> \frac{1 }{3} n +\frac{29}{ 6} = 2\left( \frac{4}{ 3} n +\frac{ 2}{ 3} \right)    </m> </p>   </statement></exercise>
+
+    </exercisegroup>
+
+  </exercises>
+
+   </section>
+   

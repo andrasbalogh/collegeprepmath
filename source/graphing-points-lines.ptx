@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="graphing-points-lines" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title> Points and Lines </title>
+<introduction> <alert> Objective: Graph points and lines using <m>x y</m> coordinates. </alert> </introduction>
+
+<p>
+Often, to get an idea of the behavior of an equation, we will make a picture that represents the solutions to the equations. A <alert>graph</alert> is simply a picture of the solutions to an equation. Before we spend much time on making a visual representation of an equation, we first have to understand the basis of graphing. Following is an example of what is called the coordinate plane.
+</p>
+
+ <sidebyside widths="45% 45%" margins="auto" valign="middle">
+    <image source="images/graphing-points-lines-1.jpg" />
+<p>
+The plane is divided into four sections by a horizontal number line (<m>x</m>-axis) 
+and a vertical number line (<m>y</m>-axis). Where the two lines meet in the center 
+is called the origin. This center origin is where <m>x = 0</m> and <m>y = 0</m>. As we move to the right the numbers count up from zero, representing <m>x=1, 2, 3</m>.... 
+</p>
+ </sidebyside>
+
+ 
+<p>
+To the left the numbers count down from zero, representing <m>x = -1, -2, -3</m>.... Similarly, as we move up, the numbers count up from zero, <m>y = 1, 2, 3</m>...., and as we move down, count down from zero, <m>y = -1, -2, -3</m>. We can put dots on the graph which we will call points. Each point has an “address” that defines its location. The first number will be the value on the <m>x</m>-axis or horizontal number line. This is the distance the point moves left/right from the origin. The second number will represent the value on the <m>y</m>-axis or vertical number line. This is the distance the point moves up/down from the origin. The points are given as an ordered pair <m>(x, y)</m>.
+</p>
+
+<p>
+<alert>World View Note:</alert> Locations on the globe are given in the same manner, each number is a distance from a central point, the origin which is where the prime meridian and the equator. This “origin” is just off the western coast of Africa. 
+</p>
+
+<p>
+  The following example finds the address or coordinate pair for each of several points on the coordinate plane.
+</p>
+<example>
+    <p> Give the coordinates of each point. </p>
+ <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-points-lines-2.jpg" /> 
+    <p> Tracing from the origin, point <m>A</m> is right <m>1</m>, up <m>4</m>. This becomes <m>A(1, 4)</m>. Point <m>B</m> is left <m>5</m>, up <m>3</m>. Left is backwards or negative, so we have <m>B(-5, 3)</m>. <m>C</m> is straight down <m>2</m> units. There is no left or right. This means we go right zero, so the point is <m>C(0,-2)</m>. 
+    <me> A(1, 4),B(-5, 3),C(0,-2) \text{ Our Solution} </me>
+    </p>
+     </sidebyside>
+</example>
+
+<p>
+Just as we can give the coordinates for a set of points, we can take a set of points and plot them on the plane.
+</p>
+
+<example>
+    <p> Graph the points <m>A(3, 2)</m>, <m>B(-2, 1)</m>, <m>C(3, -4)</m>, <m>D(-2, -3)</m>, <m>E(-3, 0)</m>, <m>F(0, 2)</m>, <m>G(0, 0) </m>. </p>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <image source="images/graphing-points-lines-3.jpg" />
+      <p>
+    <ul>
+      <li> <p> The first point, <m>A</m>, is at <m> (3, 2) </m> this means <m>x=3</m> (right <m>3</m>) and <m>y =2</m> (up <m>2</m>). Following these instructions, starting from the origin, we get our point. </p></li>
+      <li> <p>       The second point, <m>B(-2, 1) </m>, is left <m>2</m> (negative moves backwards), up <m>1</m>. This is also illustrated on the graph.  </p></li>
+    </ul>
+  </p>
+    </sidebyside>
+   
+       <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-points-lines-4.jpg" /> 
+  <p>
+    <ul>
+      <li> <p>  The third point, <m>C (3, -4)</m> is right <m>3</m>, down <m>4</m> (negative moves backwards). </p></li>
+      <li> <p>    The fourth point, <m>D (-2, -3) </m> is left <m>2</m>, down <m>3</m> (both negative, both move backwards).  </p></li>
+    </ul>
+  </p>
+
+    </sidebyside>
+    <p> The last three points have zeros in them. We still treat these points just like the other points. If there is a zero, there is just no movement. </p>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-points-lines-5.jpg" /> 
+  <p>
+    <ul>
+      <li> <p> Next is <m>E(-3, 0)</m>. This is left <m>3</m> (negative is backwards), and up zero, right on the <m>x</m>-axis. </p></li>
+      <li> <p>     Then is <m>F (0, 2)</m>. This is right zero, and up two, right on the <m>y</m>-axis.</p></li>
+      <li> <p>     Finally is <m>G(0, 0)</m>. This point has no movement. Thus, the point is right on the origin. </p></li>
+    </ul>
+  </p>
+    </sidebyside>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-points-lines-6.jpg" /> 
+    <p> Our Solution </p>
+    </sidebyside>
+</example>
+
+<p>
+The main purpose of graphs is not to plot random points, but rather to give a picture of the solutions to an equation. We may have an equation such as <m>y = 2x - 3</m>. We may be interested in what type of solution are possible in this equation. We can visualize the solution by making a graph of possible <m>x</m> and <m>y</m> combinations that make this equation a true statement. We will have to start by finding possible <m>x</m> and <m>y</m> combinations. We will do this using a table of values.
+</p>
+
+<example>
+  <sidebyside widths="30% 65%" margins="auto" valign="middle">
+    <p> Graph  <m>y=2x-3</m> </p>
+    <p> We make a table of values </p>
+  </sidebyside>
+  
+  <sidebyside widths="30% 65%" margins="auto" valign="middle">
+    <p>     
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row> <cell> <m>x</m>	</cell>	  <cell>    <m>y</m>  </cell></row>
+	<row> <cell> <m>-1</m>	</cell>	  <cell>   </cell></row>
+	<row> <cell> <m>0</m>	</cell>	  <cell>   </cell></row>
+	<row> <cell> <m>1</m>	</cell>	  <cell>   </cell></row>
+      </tabular>
+    </p>
+    <p> We will test three values for <m>x</m>. Any three can be used. </p>
+    </sidebyside>
+
+     <sidebyside widths="30% 65%" margins="auto" valign="middle">
+    <p>     
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row> <cell> <m>x</m>	</cell>	  <cell>    <m>y</m>  </cell></row>
+	<row> <cell> <m>-1</m>	</cell>	  <cell>  <m>-5</m> </cell></row>
+	<row> <cell> <m>0</m>	</cell>	  <cell>  <m>-3</m> </cell></row>
+	<row> <cell> <m>1</m>	</cell>	  <cell>  <m>-1</m> </cell></row>
+      </tabular>
+    </p>
+    <p> Evaluate each by replacing <m>x</m> with the given value:
+    <ul>
+      <li> <p>     <m>x=-1</m>; <m>y =2(-1)-3=-2-3=-5</m> </p></li>
+      <li> <p>     <m>x=0</m>; <m>y =2(0)-3=0-3=-3</m></p></li>
+      <li> <p>     <m>x=1</m>; <m>y =2(1)-3=2-3=-1</m> </p></li>
+    </ul>
+    </p>
+    </sidebyside>
+
+    <sidebyside widths="30% 65%" margins="auto" valign="middle">
+      <p><m>(-1, -5), (0, -3), (1, -1) </m> </p>
+   <p> These then become the points to graph on our equation.   </p>
+    </sidebyside>
+
+        <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/graphing-points-lines-7.jpg" /> 
+   <p>
+         <ul>
+      <li> <p>  Plot each point.</p></li>
+      <li> <p> Once the points are on the graph, connect the dots to make a line. </p></li>
+      <li> <p> The graph is our solution. </p></li>
+    </ul>
+   </p>
+    </sidebyside>
+
+</example>
+
+<p>
+What this line tells us is that any point on the line will work in the equation <m>y = 2x-3</m>. For example, notice the graph also goes through the point <m>(2, 1)</m>. If we use <m>x=2</m>, we should get <m>y =1</m>. Sure enough, <m>y =2(2)-3=4-3=1</m>, just as the graph suggests. Thus, we have the line is a picture of all the solutions for <m>y = 2x-3</m>. We can use this table of values method to draw a graph of any linear equation.
+</p>
+
+<example>
+  <p>
+    <md>
+      <mrow> \text{Graph } 2x-3y=6 \amp \quad \text{We make a table of values} </mrow>
+    </md>
+
+    <sidebyside widths="30% 65%" margins="auto" valign="middle">
+    <p>     
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row> <cell> <m>x</m>	</cell>	  <cell>    <m>y</m>  </cell></row>
+	<row> <cell> <m>-3</m>	</cell>	  <cell>   </cell></row>
+	<row> <cell> <m>0</m>	</cell>	  <cell>   </cell></row>
+	<row> <cell> <m>3</m>	</cell>	  <cell>   </cell></row>
+      </tabular>
+    </p>
+    <p> We will test three values for <m>x</m>. Any three can be used.     </p>
+    </sidebyside>
+
+    <md>
+      <mrow> 2(-3)-3y=6 \amp \quad \text{Substitute each value in for $x$ and solve for $y$} </mrow>
+      <mrow> -6-3y=6 \amp \quad \text{Start with $x=-3$, multiply first} </mrow>
+      <mrow> +6 \qquad +6 \amp \quad \text{Add $6$ to both sides} </mrow>
+      <mrow> \frac{-3y}{-3}=\frac{12}{-3} \amp \quad \text{Divide both sides by $-3$} </mrow>
+      <mrow> y=-4 \amp \quad \text{Solution for $y$ when $x=-3$, add this to table} </mrow>
+      <mrow> \amp \quad </mrow>
+    <mrow> 2(0)-3y=6 \amp \quad \text{Next $x=0$} </mrow>
+    <mrow> -3y=6 \amp \quad \text{Multiplying clears the constant term} </mrow>
+    <mrow> \frac{-3y}{-3}=\frac{6}{-3} \amp \quad \text{Divide each side by $-3$} </mrow>
+    <mrow> y=-2 \amp \quad \text{Solution for $y$ when $x=0$, add this to table} </mrow>
+    <mrow> \amp \quad </mrow>
+    <mrow> 2(3)-3y=6 \amp \quad \text{Next $x=3$} </mrow>
+    <mrow> 6-3y=6 \amp \quad \text{Multiply} </mrow>
+    <mrow> -6 \qquad -6 \amp \quad \text{Subtract $9$ from both sides} </mrow>
+    <mrow> \frac{-3y}{-3}=\frac{0}{-3} \amp \quad \text{Divide each side by $-3$} </mrow>
+    <mrow> y=0 \amp \quad \text{Solution for $y$ when $x=3$, add this to table} </mrow>
+    </md>
+
+    <sidebyside widths="30% 65%" margins="auto" valign="middle">
+    <p>     
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row> <cell> <m>x</m>	</cell>	  <cell>    <m>y</m>  </cell></row>
+	<row> <cell> <m>-3</m>	</cell>	  <cell> <m>-4</m>   </cell></row>
+	<row> <cell> <m>0</m>	</cell>	  <cell>    <m>-2</m></cell></row>
+	<row> <cell> <m>3</m>	</cell>	  <cell>    <m>0</m></cell></row>
+      </tabular>
+    </p>
+    <p> Our completed table.   </p>
+    </sidebyside>
+
+    <md>
+      <mrow> (-3,-4),\ (0,2),\ (3,0) \amp \quad \text{Table becomes points to graph.} </mrow>
+    </md>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+      <image source="images/graphing-points-lines-8.jpg" /> 
+      <p>
+         <ul>
+      <li>     <p> Graph points and connect dots </p></li>
+      <li>    <p> Our Solution </p></li>
+    </ul>
+   </p>
+    </sidebyside>
+  </p>
+</example>
+
+<exercises xml:id="exercises-graphing-points-lines">
+  <title>Exercises - Points and Lines </title>
+
+  <exercise>
+    <statement> <p> State the coordinates of each point. </p> 
+    <p>    <image width="60%" source="images/graphing-points-lines-9.jpg" /> 
+    </p> 
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement> <p> Plot each point. </p> 
+    <p> <m> L(-5, 5)</m>, <m> K(1, 0)</m>, <m> J(-3, 4)</m>, <m> I(-3, 0)</m>,  <m>  H(-4, 2)</m>  <m> G(4,-2) </m>, <m>  F(-2,-2)</m>, <m>  E (3,-2)</m>,  <m> D(0, 3)</m>, <m> C(0, 4)</m>, 
+    </p> 
+    </statement>
+  </exercise>
+
+      <exercisegroup cols="2">
+      <introduction>	<p>	 Sketch the graph of each line. </p>      </introduction>
+<exercise><statement> <p> <m> y=-\frac{1}{4}x-3 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=x-1 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=-\frac{5}{4}x-4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=-\frac{3}{5}x+1 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=-4x+2 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=\frac{5}{3}x+4 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=\frac{3}{2}x-5 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=-x-2 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=-\frac{4}{5}x-3 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> y=\frac{1}{2}x </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> x+5y=-15 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 8x-y=5 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 4x+y=5 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 3x+4y=16 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 2x-y=2 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 7x+3y=-12 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> x+y=-1 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 3x+4y=8 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> x-y=-3 </m> </p> </statement></exercise>
+<exercise><statement> <p> <m> 9x-y=-4 </m> </p> </statement></exercise>
+
+    </exercisegroup>
+
+</exercises>
+
+</section>
+

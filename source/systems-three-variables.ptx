@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="systems-three-variables" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Three Variables   </title> 
+
+  <introduction> <alert> Objective:   Solve systems of equations with three variables using addi- tion/elimination. </alert> </introduction> 
+
+   <p> 
+     Solving systems of equations with <m>3</m> variables is very similar to how we solve systems with two variables. When we had two variables we reduced the system down to one with only one variable (by substitution or addition). With three variables we will reduce the system down to one with two variables (usually by addition), which we can then solve by either addition or substitution.
+   </p> 
+<p>
+To reduce from three variables down to two it is very important to keep the work organized. We will use addition with two equations to eliminate one variable. This new equation we will call (A). Then we will use a different pair of equations and use addition to eliminate the <alert>same</alert> variable. This second new equation we will call (B). Once we have done this we will have two equations (A) and (B) with the same two variables that we can solve using either method. This is shown in the following examples.
+</p>
+     <example>
+    <md> 
+      <mrow>  \begin{matrix}  3x + 2y - z = - 1 \\  - 2x - 2y + 3z = 5 \\ 5x + 2y - z = 3 \end{matrix}  \amp \quad  \text{  We will eliminate $y$ using two different pairs of equations  }   </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>  3x+2y-z=-1 \amp\quad  \text{ Using the first two equations, }  </mrow> 
+      <mrow> \underline{-2x-2y+3z=5} \amp\quad \text{ Add the first two equations }  </mrow> 
+      <mrow> \text{(A)} \quad x\qquad +2z=4 \amp\quad  \text{  This is equation (A), our first equation }  </mrow> 
+      <mrow>   \amp\quad    </mrow> 
+      <mrow>  -2x-2y+3z=5 \amp\quad  \text{ Using the second two equations }  </mrow> 
+      <mrow> \underline{5x+2y-z=3}  \amp\quad  \text{ Add the second two equations   }  </mrow> 
+      <mrow> \text{(B)} \quad 3x\qquad +2z=8 \amp\quad  \text{  This is equation (B), our second equation   } </mrow> 
+      <mrow>   \amp\quad  \text{     }  </mrow> 
+      <mrow>  (A)\quad x+2z=4 \amp\quad  \text{ Using (A) and (B) we will solve this system. }  </mrow> 
+      <mrow> (B)\quad 3x+2z=8 \amp\quad  \text{ We will solve by addition   }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  -1(x+2z)=(4)(-1) \amp\quad  \text{ Multiply (A) by } -1 </mrow> 
+    <mrow>   -x-2z=-4 \amp\quad  \text{     }  </mrow> 
+        <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  -x-2z=-4 \amp\quad  \text{  Add to the second equation, unchanged   }  </mrow> 
+    <mrow>  \underline{3x+2z=8} \amp\quad  \text{     }  </mrow> 
+    <mrow>   2x=4\amp\quad  \text{ Solve, divide by } 2  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>   x=2 \amp\quad  \text{ We now have $x$! Plug this into either (A) or (B) }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow> (2)+2z=4  \amp\quad  \text{ We plug it into (A), solve this equation, subtract } 2 </mrow> 
+    <mrow> \underline{-2\qquad -2}  \amp\quad  \text{     }  </mrow> 
+    <mrow>  2z=2 \amp\quad  \text{  Divide by } 2 </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  z=1 \amp\quad  \text{ We now have $z$! Plug this and x into any original equation }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  3(2)+2y-(1)=-1 \amp\quad  \text{We use the first, multiply $3(2)=6$ and combine with } -1 </mrow> 
+    <mrow> 2y+5=-1  \amp\quad  \text{ Solve,subtract } 5 </mrow> 
+    <mrow> \underline{-5\quad -5}  \amp\quad  \text{     }  </mrow> 
+    <mrow>  2y=-6 \amp\quad  \text{ Divide by } 2 </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  y=-3 \amp\quad  \text{  We now have $y$!   }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  (2,-3,1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+     </example>
+     
+     <p>
+       As we are solving for <m>x</m>, <m>y</m>, and <m>z</m> we will have an ordered triplet <m>(x, y, z)</m> instead of just the ordered pair <m>(x, y)</m>. In this above problem, <m>y</m> was easily eliminated using the addition method. However, sometimes we may have to do a bit of work to get a variable to eliminate. Just as with addition of two equations, we may have to multiply equations by something on both sides to get the opposites we want so a variable eliminates. As we do this remmeber it is improtant to eliminate the <alert>same</alert> variable both times using two <alert>different</alert> pairs of equations.
+     </p>
+
+
+ <example>
+    <md> 
+    <mrow>  4x-3y+2z=-29 \amp\quad  \text{ No variable will easily eliminate. }  </mrow> 
+    <mrow>  6x+2y-z=-16 \amp\quad  \text{We could choose any variable, so we chose } x   </mrow> 
+    <mrow> -8x-y+3z=23 \amp\quad  \text{ We will eliminate $x$ twice.}  </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow> 
+    <mrow>  4x-3y+2z=-29 \amp\quad  \text{ Start with first two equations. LCM of $4$ and $6$ is $12$. }  </mrow> 
+    <mrow>  6x+2y-z=-16 \amp\quad  \text{Make the first equation have $12x$, the second } -12x   </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow> 
+    <mrow> 3(4x-3y+2z)=(-29)3 \amp\quad  \text{ Multiply the first equation by } 3 </mrow> 
+    <mrow>  \amp\quad   </mrow> 
+    <mrow>  -2(6x+2y-z)=(-16)(-2) \amp\quad  \text{ Multiply the second equation by} -2</mrow> 
+    <mrow> -12x-4y+2z=32 \amp\quad    </mrow> 
+     <mrow>  \amp\quad   </mrow> 
+   <mrow> 12x-9y+6z=-87 \amp\quad  \text{  Add these two equations together   }  </mrow> 
+    <mrow>  \underline{-12x-4y+2z=32} \amp\quad   </mrow> 
+    <mrow>  \text{(A)}\quad -13y+8z=-55\amp\quad  \text{ This is our (A) equation }  </mrow> 
+    <mrow>  \amp\quad    </mrow> 
+    <mrow>  6x+2y-z=-16 \amp\quad  \text{ Now use the second two equations (a different pair)    }  </mrow> 
+    <mrow>  -8x-y+3z=23 \amp\quad  \text{ The LCM of $6$ and $-8$ is $24$.}  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow> 4(6x+2y -z)=(-16)4 \amp\quad  \text{ Multiply the first equation by } 4  </mrow> 
+    <mrow>  24x+8y-4=-64 \amp\quad  \text{     }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  3(-8x-y+3z)=(23)3 \amp\quad  \text{ Multiply the second equation by } 3 </mrow> 
+    <mrow>  -24x-3y+9z=69 \amp\quad  \text{     }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  24x+8y-4=-64 \amp\quad  \text{  Add these two equations together}  </mrow> 
+    <mrow>  \underline{-24x-3y+9z=69} \amp\quad  \text{     }  </mrow> 
+    <mrow>   \text{(B)} \qquad 5y+5z=5\amp\quad  \text{ This is our (B) equation    }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  \text{(A)}\quad -13y+8z=-55 \amp\quad  \text{ Using (A) and (B) we will solve this system }  </mrow> 
+    <mrow> \text{(B)}\qquad \qquad 5y+5z=5  \amp\quad  \text{ The second equation is solved for $z$ to use substitution}  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  5y+5z=5 \amp\quad  \text{  Solving for $z$, subtract } 5y </mrow> 
+    <mrow>  \underline{-5y\qquad -5y} \amp\quad  \text{     }  </mrow> 
+    <mrow>  5z=5-5y \amp\quad  \text{ Divide each term by } 5 </mrow> 
+    <mrow>  z=1-y \amp\quad  \text{ Plug into untouched equation    }  </mrow> 
+    <mrow>   -13y+8(1-y)=-55 \amp\quad  \text{Distribute}  </mrow> 
+    <mrow>   -13y+8-8y=-55\amp\quad  \text{ Combine like terms } - 13y - 8y </mrow> 
+    <mrow>   -21y+8=-55 \amp\quad  \text{ Subtract } 8 </mrow> 
+    <mrow>   \underline{-8 \quad -8} \amp\quad  \text{     }  </mrow> 
+    <mrow>   -21y=-63 \amp\quad  \text{ Divideby } -21 </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>   y=3 \amp\quad  \text{We have our $y$! Plug this into $z =$ equations}  </mrow> 
+    <mrow>  z=1-(3) \amp\quad  \text{ Evaluate    }  </mrow> 
+    <mrow>  z=-2 \amp\quad  \text{  We have $z$, now find $x$ from original equation. }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  4x-3(3)+2(-2)=-29 \amp\quad  \text{ Multiply and combine like terms}  </mrow> 
+    <mrow>   4x-13=-29 \amp\quad  \text{ Add } 13 </mrow> 
+    <mrow>  +13 \quad +13 \amp\quad  \text{     }  </mrow> 
+    <mrow>  4x=-16 \amp\quad  \text{  Divideby } 4 </mrow> 
+    <mrow>  x=-4 \amp\quad  \text{ We have our $x$!    }  </mrow> 
+    <mrow>   \amp\quad  \text{     }  </mrow> 
+    <mrow>  (-4,3,-2) \amp\quad  \text{Our solution     }  </mrow> 
+    </md>
+  </example> 
+
+  <p> <alert> World View Note:</alert> Around <m>250</m>, <em>The Nine Chapters on the Mathematical Art</em> were published in China. This book had <m>246</m> problems, and chapter <m>8</m> was about solving systems of equations. One problem had four equations with five variables! </p> 
+
+  <p>
+    Just as with two variables and two equations, we can have special cases come up with three variables and three equations. The way we interpret the result is identical.
+  </p>
+
+ <example>
+    <md> 
+      <mrow> \begin{matrix}5x-4y+3z=-4\\ - 10x + 8y - 6z = 8 \\ 15x-12y+9z=-12
+      \end{matrix} \amp\quad  \text{ We will eliminate $x$, start with first two equations }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>  5x-4y+3z=-4 \amp\quad  \text{ LCM of $5$ and $-10$ is $10$.}  </mrow> 
+      <mrow>  -10x+8y-6z=8 \amp\quad  \text{     }  </mrow> 
+      <mrow>   \amp\quad    </mrow> 
+      <mrow>  2(5x-4y+3z)=-4(2) \amp\quad  \text{ Multiply the first equation by } 2  </mrow> 
+      <mrow> 10x-8y+6z=-8 \amp\quad  \text{     }  </mrow> 
+      <mrow>  \amp\quad   </mrow> 
+      <mrow> 10x-8y+6z=-8 \amp\quad  \text{ Add this to the second equation, unchanged} </mrow> 
+      <mrow>  \underline{-10x+8y -6=8} \amp\quad   </mrow> 
+      <mrow>  0=0 \amp\quad  \text{ A true statment}  </mrow> 
+      <mrow>  Infinite Solutions \amp\quad  \text{ Our solution    }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>  \begin{matrix}  3x-4y+z=2 \\  -9x+12y-3z=-5 \\  4x - 2y - z = 3 \end{matrix}  \amp \quad  \text{ We will eliminate $z$,starting with the first two equations}   </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> 3x-4y+z=2\amp\quad  \text{ The LCM of $1$ and $-3$ is $3$} </mrow> 
+      <mrow>  - 9x + 12y - 3z = - 5\amp\quad  \text{     }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> 3(3x-4y+z)=(2)3 \amp\quad  \text{ Multiply the first equation by } 3 </mrow> 
+      <mrow> 9x-12y+3z=6\amp\quad  \text{     }  </mrow> 
+       <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> 9x-12y+3z=6 \amp\quad  \text{ Add this to the second equation, unchanged}  </mrow> 
+      <mrow> \underline{- 9x + 12y - 3z = - 5} \amp\quad  \text{     }  </mrow> 
+      <mrow> 0=1 \amp\quad  \text{ A false statement}  </mrow> 
+      <mrow> \text{No Solution } \emptyset \amp\quad  \text{ Our Solution}  </mrow> 
+    </md>
+    </example>
+
+<p>
+Equations with three (or more) variables are not any more difficult than two variables if we are careful to keep our information organized and eliminate the same variable twice using two different pairs of equations. It is possible to solve each system several different ways. We can use different pairs of equations or eliminate variables in different orders, but as long as our information is organized and our algebra is correct, we will arrive at the same final solution.
+</p>
+
+      <exercises xml:id="exercises-systems-three-variables">
+    <title>Exercises - Three Variables</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each of the following systems of equation.	</p>      </introduction>
+      <exercise><statement> <p> <m> \begin{matrix} a-2b+c=5\\ 2a+b-c=-1 \\ 3a+3b-2c=-4 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 2x + 3y = z - 1\\3x=8z -1\\ 5y+7z=-1 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x+y-z=11\\ x+3y=z+13\\ x + y - 3z = 11 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x+y+z=2\\ 6x-4y+5z=31 \\ 5x+2y+2z=13 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x+6y+3z=4\\ 2x + y + 2z = 3 \\  3x-2y+z=0 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x-y+2z=-3\\ x+2y+3z=4 \\ 2x+y+z=-3 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x+y+z=6 \\ 2x - y - z = - 3 \\  x-2y+3z=6 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x+y-z=0 \\ x+2y-4z=0 \\ 2x+y+z=0\end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x+y-z=0 \\ x-y-z=0 \\ x+y+2z=0  \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x + 2y - z = 4 \\ 4x-3y+z=8 \\ 5x-y=12 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} - 2x + y - 3z = 1 \\ x-4y+z=6 \\ 4x+16y+4z=24 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 4x+12y+16z=4 \\ 3x+4y+5z=3 \\ x+8y+11z=1\end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 2x + y - 3z = 0 \\ x-4y+z=0 \\  4x+16y+4z=0 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 4x+12y+16z=0 \\ 3x+4y+5z=0 \\ x+8y+11z=0 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x+2y+2z=3 \\ x+2y-z=5 \\ 2x-4y+z=0 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} p+q+r=1 \\ p+2q+3r=4 \\ 4p+5q+6r=7 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x - 2y + 3z = 4 \\ 2x-y+z=-1 \\  4x+y+z=1 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x + 2y - 3z = 9 \\ 2x-y+2z=-8 \\ 3x-y-4z=3 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} x - y + 2z = 0 \\ x-2y+3z=-1 \\ 2x-2y+z=-3 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 4x - 7y + 3z = 1 \\ 3x+y-2z=4 \\ 4x-7y+3z=6 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 4x - 3y + 2z = 40 \\ 5x+9y-7z=47 \\ 9x+8y-3z=97 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x + y - z = 10 \\ 8x-y-6z=-3 \\ 5x-2y-5z=1 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x + 3y - 2z = 13 \\ 6x+2y-5z=13 \\ 5x - 2y - 5z = - 1  \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix}  2x-3y+5z=1 \\ 3x + 2y - z = 4 \\ 4x + 7y - 7z = 7 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x - 4y + 2z = 1 \\ 2x + 3y - 3z = - 1 \\ x+10y-8z=7 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 2x+y=z \\ 4x + z = 4y \\ y=x+1 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} m+6n+3p=8 \\ 3m+4n=-3 \\ 5m+7n=1 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} 3x+2y=z+2 \\ y=1-2x \\ 3z=-2y \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} - 2w + 2x + 2y - 2z = - 10 \\ w+x+y+z=-5 \\ 3w + 2x + 2y + 4z = - 11 \\ w+3x-2y+2z=-6 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} -w+2x-3y+z=-8 \\ -w+x+y-z=-4 \\ w + x + y + z = 22 \\ -w+x-y-z=-14 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} w+x+y+z=2 \\ w+2x+2y+4z=1 \\ - w + x - y - z = - 6 \\ - w + 3x + y - z = - 2 \end{matrix}</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \begin{matrix} w+x-y+z=0 \\ -w+2x+2y+z=5 \\ - w + 3x + y - z = - 4 \\ - 2w + x + y - 3z = - 7 \end{matrix}</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+      
+   </section>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-teamwork" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>Quadratics - Teamwork</title> 
+ 
+  <introduction> <alert> Objective: Solve teamwork problems by creating a rational equation to model the problem.   </alert> </introduction> 
+
+<p>
+If it takes one person <m>4</m> hours to paint a room and another person <m>12</m> hours to paint the same room, working together they could paint the room even quicker, it turns out they would paint the room in <m>3</m> hours together. This can be reasoned by the following logic, if the first person paints the room in <m>4</m> hours, she paints <m>\frac{1}{4}</m> of the room each hour. If the second person takes <m>12</m> hours to paint the room, he paints <m>\frac{1}{12}</m> of the room each hour. So together, each hour they paint <m>\frac{1}{4}+\frac{1}{12}</m> of the room. Using a common denominator of <m>12</m> gives: <m>\frac{3}{12}+\frac{1}{12}=\frac{4}{12}=\frac{1}{3}</m> . This means each hour, working together they complete <m>\frac{1}{3}</m> of the room. If <m>\frac{1}{3}</m> is completed each hour, it follows that it will take <m>3</m> hours to complete the entire room.
+</p>
+
+<p>
+This pattern is used to solve teamwork problems. If the first person does a job in <m>A</m>, a second person does a job in <m>B</m>, and together they can do a job in <m>T</m> (total). We can use the teamwork equation.
+</p>
+
+<me>\text{Teamwork Equation: } \mathbf{\frac{1}{A}+\frac{1}{B}=\frac{1}{T}}</me>
+
+<p>
+Often these problems will involve fractions. Rather than thinking of the first fraction as <m>\frac{1}{A}</m>, it may be better to think of it as the reciprocal of <m>A</m>’s time.
+</p>
+
+
+  <p> <alert> World View Note:</alert> When the Egyptians, who were the first to work with fractions, wrote fractions, they were all unit fractions (numerator of one). They only used these type of fractions for about <m>2000</m> years! Some believe that this cumbersome style of using fractions was used for so long out of tradition, others believe the Egyptians had a way of thinking about and working with fractions that has been completely lost in history. </p>
+
+  <example>
+<p>
+Adam can clean a room in <m>3</m> hours. If his sister Maria helps, they can clean it in <m>2\frac{2}{5}</m> hours. How long will it take Maria to do the job alone?
+</p>
+    <md> 
+      <mrow> 2\frac{2}{5}=\frac{12}{5} \amp \quad  \text{Together time, $2\frac{2}{5}$, needs to be converted to fraction}    </mrow> 
+      <mrow> \text{Adan: $3$, Maria: $x$, Total: } \frac{5}{12}  \amp\quad  \text{Clearly state times for each and total, using $x$ for Maria} </mrow> 
+      <mrow> \frac{1}{3}+\frac{1}{x}=\frac{5}{12} \amp\quad  \text{Using reciprocals, add the individual times gives total}  </mrow> 
+      <mrow> \frac{1(12x)}{3}+\frac{1(12x)}{x}=\frac{5(12x)}{12} \amp\quad  \text{Multiply each term by LCD of} 12x  </mrow> 
+      <mrow> 4x+12=5x  \amp\quad  \text{Reduce each fraction}  </mrow> 
+      <mrow> \underline{-4x \quad\quad -4x} \amp\quad  \text{Move variables to one side, subtracting } 4x  </mrow> 
+      <mrow> 12=x \amp\quad  \text{Our solution for} x  </mrow>
+      <mrow> \text{It takes Maria $12$ hours}  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<p>
+Sometimes we only know how two people’s times are related to each other as in the next example.
+</p>
+
+  <example>
+<p>
+Mike takes twice as long as Rachel to complete a project. Together they can complete the project in <m>10</m> hours. How long will it take each of them to complete the project alone?
+</p>
+    <md> 
+      <mrow> \text{Mike: $2x$, Rachel: $x$, Total: $10$} \amp \quad  \text{Clearly define variables. If Rachel is $x$, Mike is } 2x </mrow> 
+      <mrow> \frac{1}{2x}+\frac{1}{x}=\frac{1}{10} \amp\quad  \text{Using reciprocals, add individual times equaling total} </mrow>  
+      <mrow> \frac{1(10x)}{2x}+\frac{1(10x)}{x}=\frac{1(10x)}{10} \amp\quad  \text{Multiply each term by LCD, } 10x   </mrow> 
+      <mrow> 5+10=x \amp\quad  \text{Combine like terms} </mrow> 
+      <mrow> 15=x \amp\quad  \text{We have our $x$, we said $x$ was Rachel’s time}</mrow> 
+      <mrow> 2(15)=30 \amp\quad  \text{Mike is double Rachel; this gives Mike’s time. } </mrow> 
+      <mrow> \text{Mike: $30$ hr, Rachel: $15$ hr} \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+<p>
+With problems such as these we will often end up with a quadratic to solve.
+</p>
+
+  <example>
+<p>
+Brittney can build a large shed in <m>10</m> days less than Cosmo can. If they built it together it would take them <m>12</m> days. How long would it take each of them working alone?
+</p>
+    <md> 
+      <mrow> \text{Britney: $x-10$, Cosmo: $x$, Total: $12$} \amp \quad  \text{If Cosmo is $x$, Britney is } x-10 </mrow> 
+      <mrow> \frac{1}{x-10}+\frac{1}{x}=\frac{1}{12} \amp\quad  \text{Using reciprocals, make equation} </mrow>  
+      <mrow> \frac{1(12x(x-10))}{x-10}+\frac{1(12x(x-10))}{x}= \frac{1(12x(x-10))}{12} \amp\quad  \text{Multiply by LCD: } 12x(x-10)   </mrow> 
+      <mrow> 12x+12(x-10)=x(x-10) \amp\quad  \text{Reduce fraction } </mrow> 
+      <mrow> 12x+12x-120=x^2-10x \amp\quad  \text{Distribute} </mrow> 
+      <mrow> 24x-120=x^2-10x \amp\quad  \text{Combine like terms} </mrow> 
+      <mrow> \underline{-24x+120 \ -24x+120} \amp\quad  \text{Move all terms to one side} </mrow> 
+      <mrow> 0=x^2-34x+120 \amp\quad  \text{Factor} </mrow> 
+      <mrow> 0=(x-30)(x-4) \amp\quad  \text{Set each factor equal to zero } </mrow> 
+      <mrow> x-30=0 \text{ or } x-4=0 \amp\quad  \text{Solve each equation}</mrow> 
+      <mrow> \underline{+30+30} \quad\quad \underline{+4+4} \amp\quad  \text{} </mrow>
+      <mrow> x=30 \text{ or } x=4 \amp\quad  \text{This, $x$, was defined as Cosmo.} </mrow>  
+      <mrow> 30-10=20 \text{ or } 4-10=-6 \amp\quad  \text{Find Britney, can’t have negative time} </mrow> 
+      <mrow> \text{Britney: $20$ days, Cosmo: $30$ days} \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example>
+
+<p>
+In the previous example, when solving, one of the possible times ended up negative. We can’t have a negative amount of time to build a shed, so this possibility is ignored for this problem. Also, as we were solving, we had to factor <m>x^2 - 34x + 120</m>. This may have been difficult to factor. We could have also chosen to complete the square or use the quadratic formula to find our solutions.
+</p>
+
+<p>
+It is important that units match as we solve problems. This means we may have to convert minutes into hours to match the other units given in the problem.
+</p>
+
+<example>
+<p>
+An electrician can complete a job in one hour less than his apprentice. Together they do the job in <m>1</m> hour and <m>12</m> minutes. How long would it take each of them working alone?
+</p>
+    <md> 
+      <mrow> 1 \text{hr } 12 \text{min}=1\frac{12}{60}\text{hr}  \amp \quad  \text{Change $1$ hour $12$ minutes to mixed number } </mrow> 
+      <mrow> 1\frac{12}{60}=1\frac{1}{5}=\frac{6}{5}  \amp\quad  \text{Reduce and convert to fraction} </mrow>  
+      <mrow> \text{Electrician: $x-1$, Apprentice: $x$, Total: $\frac{6}{5}$} \amp\quad  \text{Clearly define variables} </mrow>
+      <mrow> \frac{1}{x-1}+\frac{1}{x}=\frac{5}{6} \amp\quad  \text{Using reciprocals, make equation}  </mrow> 
+      <mrow> \frac{1(6x(x-1))}{x-1}+\frac{1(6x(x-1))}{x}=\frac{5(6x(x-1))}{6} \amp\quad  \text{Multiply each term by LCD } 6x(x-1)   </mrow> 
+      <mrow> 6x+6(x-1)=5x(x-1) \amp\quad  \text{Reduce each fraction}  </mrow> 
+      <mrow> 6x+6x-6=5x^2-5x \amp\quad  \text{Distribute}  </mrow> 
+      <mrow> 12x-6=5x^2-5x \amp\quad  \text{Combine like terms} </mrow> 
+      <mrow> \underline{-12x+6 \ -12x+6} \amp\quad  \text{Move all terms to one side of equation} </mrow> 
+      <mrow> 0=5x^2-17x+6 \amp\quad  \text{Factor} </mrow> 
+      <mrow> 0=(5x-2)(x-3)  \amp\quad  \text{Set each factor equal to zero}</mrow> 
+      <mrow> 5x-2=0 \text{ or } x-3=0 \amp\quad  \text{Solve each equation} </mrow> 
+      <mrow> \underline{+2+2} \quad\quad \underline{+3+3} \amp\quad  \text{}</mrow> 
+      <mrow> 5x=2 \text{ or } x=3 \amp\quad  \text{}</mrow> 
+      <mrow> \overline{5} \quad \overline{5} \qquad \qquad \amp\quad  \text{}</mrow> 
+      <mrow> x=\frac{2}{5} \text{ or } x=3 \amp\quad  \text{Subtract $1$ from each to find electrician}</mrow> 
+      <mrow> \frac{2}{5}-1=\frac{-3}{5} \text{ or } 3-1=2  \amp\quad  \text{Ignore negative.} </mrow> 
+      <mrow> \text{Electrician: $2$ hr, Apprentice: $3$ hours}  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+Very similar to a teamwork problem is when the two involved parts are working against each other. A common example of this is a sink that is filled by a pipe and emptied by a drain. If they are working against each other we need to make one of the values negative to show they oppose each other. This is shown in the next example.
+</p>
+
+
+  <example>
+<p>
+A sink can be filled by a pipe in <m>5</m> minutes but it takes <m>7</m> minutes to drain a full sink. If both the pipe and the drain are open, how long will it take to fill the sink?
+</p>
+    <md> 
+      <mrow> \text{Sink: $5$, Drain: $7$, Total: } x \amp \quad  \text{Define variables, drain is negative} </mrow> 
+      <mrow> \frac{1}{5}-\frac{1}{7}=\frac{1}{x} \amp\quad  \begin{array}{l} \text{Using reciprocals to make equation,}\\ \text{subtract because they are opposite.} \end{array}</mrow>  
+      <mrow> \frac{1(35x)}{5}-\frac{1(35x)}{7}=\frac{1(35x)}{x} \amp\quad  \text{Multiply each term by LCD: } 35x   </mrow> 
+      <mrow> 7x-5x=35 \amp\quad  \text{Reduce fractions} </mrow> 
+      <mrow> 2x=35 \amp\quad  \text{Combine like terms}</mrow> 
+      <mrow> \overline{2} \qquad \overline{2} \amp\quad  \text{Divide each term by } 2 </mrow> 
+      <mrow> x=17.5 \amp\quad  \text{Our answer for } x </mrow> 
+      <mrow> 17.5 \text{ min or } 17 \text{ min } 30 \text{ sec} \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+
+
+
+
+
+
+
+
+
+ 
+
+  <exercises xml:id="exercises-teamwork">
+    <title>Exercises - Teamwork </title>
+    
+      <exercise><statement> <p> Bills father can paint a room in two hours less than Bill can paint it. Working together they can complete the job in two hours and <m>24</m> minutes. How much time would each require working alone?</p> </statement> </exercise>
+      <exercise><statement> <p>Of two inlet pipes, the smaller pipe takes four hours longer than the larger pipe to fill a pool. When both pipes are open, the pool is filled in three hours and forty-five minutes. If only the larger pipe is open, how many hours are required to fill the pool? </p> </statement> </exercise> 
+      <exercise><statement> <p>Jack can wash and wax the family car in one hour less than Bob can. The two working together can complete the job in <m>1\frac{1}{5}</m> hours. How much time would each require if they worked alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>If A can do a piece of work alone in <m>6</m> days and B can do it alone in <m>4</m> days, how long will it take the two working together to complete the job? </p> </statement> </exercise> 
+      <exercise><statement> <p>Working alone it takes John <m>8</m> hours longer than Carlos to do a job. Working together they can do the job in <m>3</m> hours. How long will it take each to do the job working alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>A can do a piece of work in <m>3</m> days, B in <m>4</m> days, and C in <m>5</m> days each working alone. How long will it take them to do it working together? </p> </statement> </exercise> 
+      <exercise><statement> <p>A can do a piece of work in <m>4</m> days and B can do it in half the time. How long will it take them to do the work together? </p> </statement> </exercise> 
+      <exercise><statement> <p>A cistern can be filled by one pipe in <m>20</m> minutes and by another in <m>30</m> minutes. How long will it take both pipes together to fill the tank? </p> </statement> </exercise> 
+      <exercise><statement> <p>If A can do a piece of work in <m>24</m> days and A and B together can do it in <m>6</m> days, how long would it take B to do the work alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>A carpenter and his assistant can do a piece of work in <m>3\frac{3}{4}</m> days. If the carpenter himself could do the work alone in <m>5</m> days, how long would the assistant take to do the work alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>If Sam can do a certain job in <m>3</m> days, while it takes Fred <m>6</m> days to do the same job, how long will it take them, working together, to complete the job? </p> </statement> </exercise> 
+      <exercise><statement> <p>Tim can finish a certain job in <m>10</m> hours. It take his wife JoAnn only <m>8</m> hours to do the same job. If they work together, how long will it take them to complete the job? </p> </statement> </exercise> 
+      <exercise><statement> <p>Two people working together can complete a job in <m>6</m> hours. If one of them works twice as fast as the other, how long would it take the faster person, working alone, to do the job? </p> </statement> </exercise> 
+      <exercise><statement> <p>If two people working together can do a job in <m>3</m> hours, how long will it take the slower person to do the same job if one of them is <m>3</m> times as fast as the other? </p> </statement> </exercise> 
+      <exercise><statement> <p>A water tank can be filled by an inlet pipe in <m>8</m> hours. It takes twice that long for the outlet pipe to empty the tank. How long will it take to fill the tank if both pipes are open? </p> </statement> </exercise> 
+      <exercise><statement> <p>A sink can be filled from the faucet in <m>5</m> minutes. It takes only <m>3</m> minutes to empty the sink when the drain is open. If the sink is full and both the faucet and the drain are open, how long will it take to empty the sink? </p> </statement> </exercise> 
+      <exercise><statement> <p>It takes <m>10</m> hours to fill a pool with the inlet pipe. It can be emptied in <m>15</m> hrs with the outlet pipe. If the pool is half full to begin with, how long will it take to fill it from there if both pipes are open? </p> </statement> </exercise> 
+      <exercise><statement> <p>A sink is <m>\frac{1}{4}</m> full when both the faucet and the drain are opened. The faucet alone can fill the sink in <m>6</m> minutes, while it takes <m>8</m> minutes to empty it with the drain. How long will it take to fill the remaining <m>\frac{3}{4}</m> of the sink? </p> </statement> </exercise> 
+      <exercise><statement> <p>A sink has two faucets, one for hot water and one for cold water. The sink can be filled by a cold-water faucet in <m>3.5</m> minutes. If both faucets are open, the sink is filled in <m>2.1</m> minutes. How long does it take to fill the sink with just the hot-water faucet open? </p> </statement> </exercise> 
+      <exercise><statement> <p>A water tank is being filled by two inlet pipes. Pipe A can fill the tank in <m>4\frac{1}{2}</m> hrs, while both pipes together can fill the tank in <m>2</m> hours. How long does it take to fill the tank using only pipe B? </p> </statement> </exercise> 
+      <exercise><statement> <p>A tank can be emptied by any one of three caps. The first can empty the tank in <m>20</m> minutes while the second takes <m>32</m> minutes. If all three working together could empty the tank in <m>8\frac{8}{59}</m> minutes, how long would the third take to empty the tank? </p> </statement> </exercise> 
+      <exercise><statement> <p>One pipe can fill a cistern in <m>1\frac{1}{2}</m> hours while a second pipe can fill it in <m>2\frac{1}{3}</m> hrs. Three pipes working together fill the cistern in <m>42</m> minutes. How long would it take the third pipe alone to fill the tank? </p> </statement> </exercise> 
+      <exercise><statement> <p>Sam takes <m>6</m> hours longer than Susan to wax a floor. Working together they can wax the floor in <m>4</m> hours. How long will it take each of them working alone to wax the floor? </p> </statement> </exercise> 
+      <exercise><statement> <p>It takes Robert <m>9</m> hours longer than Paul to repair a transmission. If it takes them <m>2\frac{2}{5}</m> hours to do the job if they work together, how long will it take each of them working alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>It takes Sally <m>10\frac{1}{2}</m> minutes longer than Patricia to clean up their dorm room. If they work together they can clean it in <m>5</m> minutes. How long will it take each of them if they work alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>A takes <m>7\frac{1}{2}</m> minutes longer than B to do a job. Working together they can do the job in <m>9</m> minutes. How long does it take each working alone? </p> </statement> </exercise> 
+      <exercise><statement> <p>Secretary A takes <m>6</m> minutes longer than Secretary B to type <m>10</m> pages of manuscript. If they divide the job and work together it will take them <m>8\frac{3}{4}</m> minutes to type <m>10</m> pages. How long will it take each working alone to type the <m>10</m> pages? </p> </statement> </exercise> 
+      <exercise><statement> <p> It takes John <m>24</m> minutes longer than Sally to mow the lawn. If they work together they can mow the lawn in <m>9</m> minutes. How long will it take each to mow the lawn if they work alone?</p> </statement> </exercise> 
+ 
+     </exercises>
+ 
+</section>
+

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="polynomials-divide" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Divide Polynomials   </title> 
+
+  <introduction> <alert> Objective:  Divide polynomials using long division. </alert> </introduction> 
+
+   <p> 
+Dividing polynomials is a process very similar to long division of whole numbers. But before we look at that, we will first want to be able to master dividing a polynomial by a monomial. The way we do this is very similar to distributing, but the operation we distribute is the division, dividing each term by the monomial and reducing the resulting expression. This is shown in the following examples
+   </p> 
+
+  <example>
+    <md> 
+      <mrow> \frac{9x^5 + 6x^4 - 18x^3 - 24x^2}{3x^2} \amp \quad  \text{  Divide each term in the numerator by } 3x^2    </mrow> 
+      <mrow> \frac{9x^5}{3x^2}  + \frac{6x^4}{3x^2}  - \frac{18x^3}{3x^2}  - \frac{24x^2}{3x^2}  \amp\quad  \text{ Reduce each fraction, subtracting exponents    }  </mrow> 
+      <mrow> 3x^3+2x^2-6x-8 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> \frac{8x^3 +4x^2 -2x+6}{4x^2} \amp \quad  \text{  Divide each term in the numerator by } 4x^2    </mrow> 
+      <mrow> \frac{8x^3}{4x^2}  + \frac{4x^2}{4x^2}  - \frac{2x}{4x^2}  + \frac{6}{4x^2}  \amp\quad  \text{ Reduce each fraction, subtracting exponents    }  </mrow> 
+      <mrow> 2x+1-\frac{1}{2x}+\frac{3}{2x^2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    The previous example illustrates that sometimes we will have fractions in our
+solution, as long as they are reduced this will be correct for our solution. Also
+interesting in this problem is the second term <m>\frac{4x^2}{4x^2}</m> divided out completely. Remember that this means the reduced answer is <m>1</m> not <m>0</m>.
+  </p>
+
+  <p>
+    Long division is required when we divide by more than just a monomial. Long division with polynomials works very similar to long division with whole numbers.
+  </p>
+
+  <p>
+An example is given to review the (general) steps that are used with whole numbers that we will also use with polynomials.
+  </p>
+
+  <example>
+    <md>
+      <mrow> \Mydiv{4}{631} \amp \quad  \text{  Divide front numbers: } \frac{6}{4} = 1\ldots   </mrow> 
+      <mrow> 1 \quad \amp\quad  \text{     }  </mrow> 
+      <mrow> \Mydiv{4}{631}  \amp\quad  \text{ Multiply this number by divisor: } 1 \times 4 = 4   </mrow> 
+      <mrow> \underline{-4 \quad} \amp\quad  \text{  Change the sign of this number (make it subtract) and combine }  </mrow> 
+      <mrow> 23 \ \  \amp\quad  \text{ Bring down next number
+  }  </mrow> 
+      <mrow>  \amp\quad  \text{   }  </mrow> 
+      <mrow> 15 \quad \amp\quad  \text{  Repeat, divide front numbers: } \frac{23}{4} = 5\ldots  </mrow> 
+      <mrow> \Mydiv{4}{631}  \amp\quad  \text{   }  </mrow> 
+      <mrow> \underline{-4 \quad} \amp\quad  \text{   }  </mrow> 
+      <mrow>  23 \ \ \amp\quad  \text{ Multiply this number by divisor: } 5 \times 4 = 20  </mrow> 
+      <mrow>\underline{ -20\ \ }  \amp\quad  \text{  Change the sign of this number (make it subtract) and combine }  </mrow> 
+      <mrow>  31 \ \ \amp\quad  \text{  Bring down next number }  </mrow> 
+      <mrow>  \amp\quad  \text{   }  </mrow> 
+      <mrow>  157 \amp\quad  \text{  Repeat, divide front numbers: }  \frac{31}{4}=7... </mrow> 
+      <mrow> \Mydiv{4}{631} \amp\quad  \text{   }  </mrow> 
+      <mrow> \underline{-4 \quad} \amp\quad    </mrow> 
+      <mrow>  23 \ \ \amp\quad   </mrow> 
+      <mrow>\underline{ -20 \ \ }  \amp\quad    </mrow> 
+      <mrow>  31 \ \ \amp\quad  \text{ Multiply this number by divisor: } 7 \times 4 = 28 </mrow> 
+      <mrow>  \underline{-28 \ \ } \amp\quad  \text{  Change the sign of this number (make it subtract) and combine }  </mrow> 
+      <mrow>  3\quad \amp\quad  \text{ We will write our remainder as a fraction, over the divisor, added to the end  }  </mrow> 
+      <mrow>  \amp\quad  \text{   }  </mrow> 
+      <mrow> 157\frac{3}{4} \amp\quad  \text{  Our Slution }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+This same process will be used to multiply polynomials. The only difference is we
+will replace the word “number” with the word “term”.
+  </p>
+
+  <p>  <alert>Dividing Polynomials</alert>
+  <ol>
+    <li> Divide front terms</li>
+    <li> Multiply this term by the divisor</li>
+    <li> Change the sign of the terms and combine</li>
+    <li> Bring down the next term</li>
+    <li> Repeat</li>
+  </ol>
+  </p>
+
+  <p>
+    Step number 3 tends to be the one that students skip, not changing the signs of the terms would be equivalent to adding instead of subtracting on long division with whole numbers. Be sure not to miss this step! This process is illustrated in the following two examples.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> \frac{3x^3 -5x^2 -32x+7}{x-4} \amp \quad  \text{   Rewrite problem as long division   }   </mrow>
+      <mrow> </mrow>
+      <mrow>  \Mydiv{x-4}{3x^3 -5x^2 -32x+7} \amp\quad  \text{  Divide front terms:   } \frac{3x^3}{x}=3x^2  </mrow> 
+      <mrow> </mrow>
+      <mrow>  3x^2 \qquad \qquad \qquad \quad \amp\quad  \text{     }  </mrow> 
+      <mrow>  \Mydiv{x-4}{3x^3 -5x^2 -32x+7} \amp\quad  \text{  Multiply this term by divisor: } 3x^2(x-4)=3x^3-12x^2 </mrow> 
+      <mrow> \underline{- 3x^3 + 12x^2\qquad \qquad } \amp\quad  \text{   Change the signs and combine  }  </mrow> 
+      <mrow> 7x^2 - 32x \qquad \amp\quad  \text{ Bring down the next term   }  </mrow> 
+      <mrow>  \amp\quad  \text{    }  </mrow> 
+      <mrow> 3x^2 +7x\qquad \qquad \quad \amp\quad  \text{   Repeat, divide front terms:  } \frac{7x^2}{x}=7x </mrow> 
+      <mrow>  \Mydiv{x-4}{3x^3 -5x^2 -32x+7} \amp\quad  </mrow> 
+      <mrow> \underline{- 3x^3 + 12x^2\qquad \qquad} \amp\quad    </mrow> 
+      <mrow> 7x^2 - 32x \qquad  \amp\quad  \text{ Multiply this term by divisor: }7x(x - 4) = 7x^2 - 28x  </mrow> 
+      <mrow>  \underline{-7x^2 + 28x \qquad } \amp\quad  \text{  Change the signs and combine  }  </mrow> 
+      <mrow> -4x+7 \  \ \amp\quad  \text{   Bring down the next term  }  </mrow> 
+      <mrow>  \amp\quad  \text{    }  </mrow> 
+      <mrow> 3x^2 +7x-4\qquad \quad \amp\quad  \text{   Repeat, divide front terms:  } \frac{-4x}{x}=-4 </mrow> 
+      <mrow>  \Mydiv{x-4}{3x^3 -5x^2 -32x+7} \amp\quad  </mrow> 
+      <mrow> \underline{- 3x^3 + 12x^2\qquad \qquad} \amp\quad    </mrow> 
+      <mrow> 7x^2 - 32x \qquad \amp\quad   </mrow> 
+      <mrow>  \underline{-7x^2 + 28x \qquad } \amp\quad   </mrow> 
+      <mrow> -4x+7\ \  \amp\quad  \text{   Multiply this term by divisor: } -4(x-4)=-4x+16  </mrow> 
+      <mrow>\underline{+4x-16}  \amp\quad  \text{ Change the signs and combine   }  </mrow> 
+      <mrow> -9  \amp\quad  \text{  Remainder put over divisor and subtracted (due to negative)  }  </mrow> 
+      <mrow>3x^2+7x-4-\frac{9}{x-4}  \amp\quad  \text{  Our solution  }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> \frac{6x^3 -8x^2 +10x+103 }{2x+4 } \amp \quad  \text{ Rewrite problem as long division     }   </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>\Mydiv{2x+4 }{ 6x^3 -8x^2 +10x+103}  \amp\quad  \text{Divide front terms:     } \frac{6x^3}{2x}=3x^2  </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow> 
+
+    <mrow> 3x^2\qquad \qquad \qquad \qquad\amp\quad  \text{     }  </mrow> 
+      <mrow>\Mydiv{2x+4 }{ 6x^3 -8x^2 +10x+103}  \amp\quad  \text{Multiply term by divisor:      } 3x^2(2x + 4) = 6x^3 + 12x^2  </mrow> 
+    <mrow> \underline{- 6x^3 - 12x^2 \qquad \qquad \quad}  \amp\quad  \text{  Change the signs and combine   }  </mrow> 
+    <mrow>  - 20x^2 + 10x \qquad \ \amp\quad  \text{  Bring down the next term   }  </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow>
+
+    <mrow> 3x^2-10x \qquad \qquad \quad \amp\quad  \text{     }  </mrow> 
+      <mrow>\Mydiv{2x+4 }{ 6x^3 -8x^2 +10x+103}  \amp\quad  \text{Repeat, divide front terms:  } \frac{-20x^2}{2x}=-10x  </mrow> 
+    <mrow> \underline{- 6x^3 - 12x^2 \qquad \qquad \quad }  \amp\quad  \text{ Multiply this term by divisor:  }  </mrow> 
+    <mrow>  - 20x^2 + 10x\qquad \amp\quad  -10x(2x+4)=-20x^2 -40x  </mrow> 
+    <mrow>  \underline{+20x^2+40x \qquad \ }  \amp\quad  \text{  Change the signs and combine   }  </mrow> 
+    <mrow>  50x + 103 \amp\quad  \text{ Bring down the next term    }  </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow>
+
+       <mrow> 3x^2-10x+25 \qquad \quad \amp\quad  \text{     }  </mrow> 
+      <mrow>\Mydiv{2x+4 }{ 6x^3 -8x^2 +10x+103}  \amp\quad  \text{Repeat, divide front terms:  } \frac{50x}{2x}=25  </mrow> 
+    <mrow> \underline{- 6x^3 - 12x^2 \qquad \qquad\quad }  \amp\quad   </mrow> 
+    <mrow>  - 20x^2 + 10x\qquad \ \amp\quad    </mrow> 
+    <mrow>  \underline{+20x^2+40x \qquad}  \amp\quad    </mrow> 
+    <mrow>  50x + 103 \amp\quad  \text{ Multiply this term by divisor: } 25(2x + 4) = 50x + 100  </mrow> 
+    <mrow>\underline{-50x-100}  \amp\quad  \text{  Change the signs and combine   }  </mrow>
+    <mrow> 3  \amp\quad  \text{  Remainder is put over divsor and added (due to positive)   }  </mrow> 
+    <mrow>  \amp\quad  \text{     }  </mrow> 
+    <mrow> 3x^2-10x+25+\frac{3}{2x+4}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    In both of the previous example the dividends had the exponents on our variable counting down, no exponent skipped, third power, second power, first power, zero power (remember <m>x^0 = 1</m> so there is no variable on zero power). This is very important in long division, the variables must count down and no exponent can be skipped. If they don’t count down we must put them in order. If an exponent is skipped we will have to add a term to the problem, with zero for its coefficient. This is demonstrated in the following example.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> \frac{ 2x^3 +42-4x}{x+3 } \amp \quad  \text{ Reorder dividend, need $x^2$ term, add $0x^2$ for this     }   </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> \Mydiv{x+3 }{2x^3 +0x^2 -4x+42 } \amp\quad  \text{  Divide front terms: } \frac{2x^3}{ x}=2x^2  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+
+      <mrow> 2x^2\qquad \qquad \qquad \quad \amp\quad  \text{     }  </mrow> 
+      <mrow> \Mydiv{x+3 }{2x^3 +0x^2 -4x+42 } \amp\quad  \text{  Multiply this term by divisor: }  2x^2(x + 3) = 2x^3 + 6x^2 </mrow> 
+      <mrow> \underline{-2x^3-6x^2\qquad\qquad \  } \amp\quad  \text{  Change the signs and combine   }  </mrow> 
+      <mrow> -6x^2 -4x \qquad \amp\quad  \text{ Bring down the next term    }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow>
+
+      <mrow> 2x^2-6x \qquad \qquad \quad \amp\quad  \text{     }  </mrow> 
+      <mrow> \Mydiv{x+3 }{2x^3 +0x^2 -4x+42 } \amp\quad  \text{ Repeat, divide front terms: }  \frac{-6x^2}{x}=-6x </mrow> 
+      <mrow> \underline{-2x^3-6x^2\qquad\qquad \ } \amp\quad   </mrow> 
+      <mrow> -6x^2 -4x\qquad  \amp\quad  \text{ Multiply this term by divisor:   }  - 6x(x + 3) = - 6x^2 - 18x </mrow> 
+      <mrow> \underline{+6x^2+18x\qquad }  \amp\quad  \text{ Change the signs and combine    }  </mrow>
+      <mrow> 14x+42 \amp\quad  \text{ Bring down the next term    }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+
+      
+      <mrow> 2x^2-6x+14 \qquad \amp\quad  \text{     }  </mrow> 
+      <mrow> \Mydiv{x+3 }{2x^3 +0x^2 -4x+42 } \amp\quad  \text{ Repeat, divide front terms: }  \frac{14x}{x}=14 </mrow> 
+      <mrow> \underline{-2x^3-6x^2\qquad\qquad\ } \amp\quad   </mrow> 
+      <mrow> -6x^2 -4x \qquad \amp\quad  </mrow> 
+      <mrow> \underline{+6x^2+18x\qquad }  \amp\quad   </mrow>
+      <mrow> 14x+42 \amp\quad  \text{ Multiply this term by divisor: } 14(x + 3) = 14x + 42  </mrow> 
+      <mrow>  \underline{-14x-42} \amp\quad  \text{  Change the signs and combine   }  </mrow> 
+      <mrow> 0 \amp\quad  \text{  No remainder   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>  2x^2 -6x+14 \amp\quad  \text{   Our Solution  }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    It is important to take a moment to check each problem to verify that the exponents count down and no exponent is skipped. If so we will have to adjust the problem. Also, this final example illustrates, just as in regular long division, sometimes we have no remainder in a problem.
+  </p>
+
+    <p> <alert> World View Note:</alert>  Paolo Ruffini was an Italian Mathematician of the early <m>19</m>th century. In <m>1809</m> he was the first to describe a process called synthetic division which could also be used to divide polynomials.</p> 
+
+
+  <exercises xml:id="exercises-polynomials-divide">
+    <title>Exercises - Divide Polynomials</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	 Divide. 	</p>      </introduction>
+ <exercise><statement><p><m>\frac{20x^4+x^3+2x^2 }{4x^3 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 5x^4+45x^3+4x^2}{9x} </m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{20n^4+n^3+40n^2 }{10n} </m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{3k^3+4k^2+2k }{ 8k}</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{12x^4+24x^3+3x^2 }{6x }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{5p^4+16p^3+16p^2 }{4p }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{10n^4+50n^3+2n^2 }{10n^2 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{3m^4 + 18m^3 + 27m^2 }{9m^2 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^2-2x-71 }{ x+8}</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{r^2-3r-53 }{r-9 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{n^2+13n+32 }{n+5 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{b^2-10b+16 }{b-7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{v^2-2v-89 }{v-10 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^2+4x-26 }{ x+7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{a^2-4a-38 }{a-8 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^2-10x+22 }{ x-4 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 45p^2+56p+19 }{9p+4 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{48k^2-70k+16 }{6k-2 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{10x^2 -32x+9 }{10x-2 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{n^2+7n+15 }{ n+4}</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{4r^2-r-1 }{4r+3 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{3m^2+9m-9 }{3m-3} </m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ n^2-4}{n-2 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{2x^2-5x-8 }{2x+3 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 27b^2+87b+35}{3b+8 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{3v^2-32 }{3v - 9 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{4x^2-33x+28 }{4x-5 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{4n^2-23n-38 }{4n+5 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{a^3+15a^2+49a-55 }{a+7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{8k^3-66k^2+12k+37 }{k-8 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^3-26x-41 }{ x+4}</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^3-16x^2+71x-56 }{x-8 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{3n^3+9n^2-64n-68 }{n+6 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{k^3-4k^2-6k+4}{k-1 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{x^3-46x+22 }{x+7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{2n^3+21n^2+25n}{2n+3 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{9p^3+45p^2+27p-5 }{9p+9 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 8m^3-57m^2+42 }{8m+7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{r^3-r^2-16r+8 }{r-4 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 2x^3+12x^2+4x-37}{ 2x+6 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{12n^3+12n^2-15n-4 }{2n+3 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{24b^3-38b^2+29b-60 }{4b-7 }</m></p></statement> </exercise> 
+ <exercise><statement><p><m>\frac{ 4v^3-21v^2+6v+19}{4v+3 }</m></p></statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+    
+  
+</section>

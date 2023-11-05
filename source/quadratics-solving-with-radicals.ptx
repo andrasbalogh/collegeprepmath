@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-solving-with-radicals" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Solving with Radicals    </title> 
+
+  <introduction> <alert> Objective:   Solve equations with radicals and check for extraneous solutions.</alert> </introduction> 
+
+   <p> 
+Here we look at equations that have roots in the problem. As you might expect, to clear a root we can raise both sides to an exponent. So to clear a square root we can rise both sides to the second power. To clear a cubed root we can raise both sides to a third power. There is one catch to solving a problem with roots in it, sometimes we end up with solutions that do not actually work in the equation. This will only happen if the index on the root is even, and it will not happen all the time. So for these problems it will be required that we check our answer in the original problem. If a value does not work it is called an extraneous solution and not included in the final solution.
+   </p> 
+
+   <me>\textbf{ When solving a radical problem with an even index: check answers! }   </me>
+
+  <example>
+    <md> 
+      <mrow>\sqrt{7x+2}=4  \amp \quad  \text{  Even index! We will have to check answers.    }   </mrow> 
+      <mrow> \left(\sqrt{7x+2}\right)^2=4^2 \amp\quad  \text{   Square both sides, simplify exponents  }  </mrow> 
+      <mrow> 7x+2=16 \amp\quad  \text{  Solve   }  </mrow> 
+      <mrow> -2\ -2 \amp\quad  \text{  Subtract $2$ from both sides   }  </mrow> 
+      <mrow>  \frac{7x}{7}=\frac{14}{7} \amp\quad  \text{  Divide both sides by   } 7  </mrow> 
+      <mrow>  x=2 \amp\quad  \text{  Need to check answer in original problem   }  </mrow> 
+      <mrow> \sqrt{7(2)+2}=4  \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow> \sqrt{14+2}=4  \amp\quad  \text{   Add  }  </mrow> 
+      <mrow> \sqrt{16}=4  \amp\quad  \text{  Square root   }  </mrow> 
+      <mrow> 4=4  \amp\quad  \text{ True! It works!    }  </mrow> 
+      <mrow> x=2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  
+  <example>
+    <md> 
+      <mrow> \sqrt[3]{x-1}=-4  \amp \quad  \text{ Odd index, we don't need to check answer.   }   </mrow> 
+      <mrow> \left(\sqrt[3]{x-1}\right)^3=\left(-4\right)^3 \amp\quad  \text{ Cube both sides, simplify exponents    }  </mrow> 
+      <mrow> x-1=-64 \amp\quad  \text{  Solve   }  </mrow> 
+      <mrow> +1\quad +1 \amp\quad  \text{   Add $1$ to both sides  }  </mrow> 
+      <mrow> x=-63 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+    <example>
+    <md> 
+      <mrow>\sqrt[4]{3x+6}=-3  \amp \quad  \text{  Even index! We will have to check answers    }   </mrow> 
+      <mrow> \left(\sqrt[4]{3x+6}\right)^4=\left(-3\right)^4 \amp\quad  \text{  Rise both sides to fourth power   }  </mrow> 
+      <mrow>  3x+6=81\amp\quad  \text{  Solve   }  </mrow> 
+      <mrow>  -6\ -6 \amp\quad  \text{ Subtract $6$ from both sides    }  </mrow> 
+      <mrow> \frac{3x}{3}=\frac{75}{3} \amp\quad  \text{  Divide both sides by    } 3  </mrow> 
+      <mrow>  x=25 \amp\quad  \text{ Need to check answer in original problem    }  </mrow> 
+      <mrow> \sqrt[4]{3(25)+6}=-3 \amp\quad  \text{  Multiply  }  </mrow> 
+      <mrow>  \sqrt[4]{75+6}=-3 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow> \sqrt[4]{81}=-3 \amp\quad  \text{   Take root  }  </mrow> 
+      <mrow>  3=-3 \amp\quad  \text{  False, extraneous solution   }  </mrow> 
+      <mrow>  \text{No Solution} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    In this example one can also notice at the very beginning that in <m>\sqrt[4]{3x+6}=-3</m> the left hand side is always nonnegative, no mater what the value of <m>x</m> is, hence it will never be equal to the righ hand side <m>-3</m>.
+  </example> 
+
+  <p> 
+    If the radical is not alone on one side of the equation we will have to solve for the radical before we raise it to an exponent
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> x+\sqrt{4x+1}=5 \amp \quad  \text{ Even index! We will have to check solutions     }   </mrow> 
+      <mrow> -x\qquad \qquad -x \amp\quad  \text{  Isolate radical by subtracting $x$ from both sides   }  </mrow> 
+      <mrow> \sqrt{4x+1}=5-x \amp\quad  \text{  Squarebothsides   }  </mrow> 
+      <mrow> \left(\sqrt{4x+1}\right)^2=\left(5-x\right)^2 \amp\quad  \text{  Evaluate exponents, recall }  (a - b)^2 = a^2 - 2a b + b^2    </mrow> 
+      <mrow> 4x+1=25-10x+x^2 \amp\quad  \text{  Reorder terms   }  </mrow> 
+      <mrow>4x + 1 = x^2 - 10x + 25  \amp\quad  \text{  Make equation equal zero   }  </mrow> 
+      <mrow>-4x-1\qquad -4x-1  \amp\quad  \text{   Subtract $4x$ and $1$ from both sides  }  </mrow> 
+      <mrow> 0 = x^2 - 14x + 24 \amp\quad  \text{  Factor   }  </mrow> 
+      <mrow> 0=(x-12)(x-2) \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow> x-12=0 \text{ or } x-2=0 \amp\quad  \text{  Solve each equation   }  </mrow> 
+      <mrow> +12\ +12 \quad +2\ +2 \amp\quad  \text{     }  </mrow> 
+      <mrow> x=12 \text{ or } x=2 \amp\quad  \text{  Need to check answers in original problem   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>(12)+\sqrt{4(12)+1} =5  \amp\quad  \text{  Check $x=5$ first   }  </mrow> 
+      <mrow> 12+\sqrt{48+1} =5 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow> 12+\sqrt{49} =5 \amp\quad  \text{  Take root   }  </mrow> 
+      <mrow> 12+7=5 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow> 19=5   \amp\quad  \text{  False, extraneous root   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> (2)+\sqrt{4(2)+1}=5 \amp\quad  \text{  Check } x=2   </mrow> 
+      <mrow> 2+\sqrt{8+1}=5 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow> 2+\sqrt{9}=5 \amp\quad  \text{  Take root   }  </mrow> 
+      <mrow>  2+3=5\amp\quad  \text{  Add   }  </mrow> 
+      <mrow>  5=5 \amp\quad  \text{  True! It works   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> x=2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    
+The above example illustrates that as we solve we could end up with an <m>x^2</m> term or a quadratic. In this case we remember to set the equation to zero and solve by factoring. We will have to check both solutions if the index in the problem was even. Sometimes both values work, sometimes only one, and sometimes neither works
+  </p>
+
+     <p> <alert> World View Note:</alert> The babylonians were the first known culture to solve quadratics in radicals - as early as <m>2000</m> BC! </p> 
+
+     <p>
+       If there is more than one square root in a problem we will clear the roots one at a time. This means we must first isolate one of them before we square both sides.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow>\sqrt{3x-8}-\sqrt{x}=0  \amp \quad  \text{  Even index! We will have to check answers    }   </mrow> 
+      <mrow> +\sqrt{x}\ +\sqrt{x} \amp\quad  \text{ Isolate first root by adding $\sqrt{x}$ to both sides    }  </mrow> 
+      <mrow> \sqrt{3x-8}=\sqrt{x} \amp\quad  \text{   Square both sides  }  </mrow> 
+      <mrow> \left( \sqrt{3x-8}\right)^2=\left(\sqrt{x}\right)^2  \amp\quad  \text{  Evaluate exponents   }  </mrow> 
+      <mrow> 3x-8=x \amp\quad  \text{  Solve   }  </mrow> 
+      <mrow> -3x\quad -3x \amp\quad  \text{  Subtract $3x$ from both sides   }  </mrow> 
+      <mrow> -8=-2x \amp\quad  \text{ Divide both sides by } -2   </mrow>
+            <mrow>  \frac{-8}{-2}=\frac{-2x}{-2}  \amp\quad  \text{     }  </mrow> 
+      <mrow>4=x  \amp\quad  \text{ Need to check answer in original    }  </mrow> 
+      <mrow>\sqrt{3(4)-8}-\sqrt{4}=0   \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow>\sqrt{12-8}-\sqrt{4}=0  \amp\quad  \text{ Subtract    }  </mrow> 
+      <mrow>  \sqrt{4}-\sqrt{4}=0\amp\quad  \text{   Take roots  }  </mrow> 
+      <mrow> 2-2=0 \amp\quad  \text{ Subtract    }  </mrow> 
+      <mrow>  0 = 0\amp\quad  \text{ True! It works    }  </mrow> 
+      <mrow> x = 4 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    When there is more than one square root in the problem, after isolating one root and squaring both sides we may still have a root remaining in the problem. In this case we will again isolate the term with the second root and square both sides. When isolating, we will isolate the <alert>term</alert> with the square root. This means the square root can be multiplied by a number after isolating.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> \sqrt{2x+1}-\sqrt{x}=1 \amp \quad  \text{  Even index! We will have to check answers    }   </mrow> 
+      <mrow>  +\sqrt{x}\ +\sqrt{x} \amp\quad  \text{  Isolate first root by adding $\sqrt{x}$ to both sides   }  </mrow> 
+      <mrow> \sqrt{2x+1}=\sqrt{x} +1 \amp\quad  \text{  Square both sides   }  </mrow> 
+      <mrow> \left(\sqrt{2x+1}\right)^2=\left(\sqrt{x} +1\right)^2  \amp \quad  \text{ Evaluate exponents, recall } (a + b)^2 = a^2 + 2a b + b^2     </mrow> 
+      <mrow> 2x+1=x+2\sqrt{x}+1 \amp\quad  \text{  Isolate the term with the root   }  </mrow> 
+      <mrow> -x-1\quad \qquad -x-1 \amp\quad  \text{   Subtract $x$ and $1$ from both sides  }  </mrow> 
+      <mrow> x=2\sqrt{x} \amp \quad  \text{  Square both sides    }   </mrow> 
+      <mrow>  \left(x \right)^2=\left(2\sqrt{x}\right)^2  \amp\quad  \text{ Evaluate exponents    }  </mrow> 
+      <mrow> x^2=4x \amp\quad  \text{  Make equation equal zero   }  </mrow> 
+      <mrow> -4x\ -4x \amp \quad  \text{  Subtract $x$ from both sides    }   </mrow> 
+      <mrow>x^2-4x=0  \amp\quad  \text{ Factor    }  </mrow> 
+      <mrow> x(x-4)=0 \amp\quad  \text{ Set each factor equal to zero    }  </mrow> 
+      <mrow> x=0 \text{ or } x-4=0 \amp \quad  \text{  Solve    }   </mrow> 
+      <mrow> +4\ +4 \amp\quad  \text{  Add $4$ to both sides of second equation   }  </mrow> 
+      <mrow>  x=0 \text{ or } x=4 \amp\quad  \text{ Need to check answers in original    }  </mrow> 
+      <mrow>  \amp \quad  \text{      }   </mrow> 
+      <mrow>  \sqrt{2(0)+1}-\sqrt{(0)}=1 \amp\quad  \text{  Check $x=0$ first   }  </mrow> 
+      <mrow>  \sqrt{1}-\sqrt{0}=1\amp\quad  \text{  Take roots   }   </mrow> 
+      <mrow> 1-0=1 \amp \quad  \text{ Subtract     }   </mrow> 
+      <mrow> 1=1 \amp\quad  \text{ True! It works    }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow>  \sqrt{2(4)+1}-\sqrt{(4)}=1 \amp \quad  \text{  Check } x=4    </mrow> 
+      <mrow>  \sqrt{8+1}-\sqrt{4}=1 \amp\quad  \text{  Add   }  </mrow> 
+      <mrow> \sqrt{9}-\sqrt{4}=1 \amp\quad  \text{Take roots}  </mrow>
+ <mrow> 3-2=1 \amp\quad  \text{ Subtract}  </mrow>
+<mrow> 1=1 \amp\quad  \text{True! It works }  </mrow>
+ <mrow> x=0 \text{ or } 4 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> \sqrt{3x+9}-\sqrt{x+4}=-1 \amp \quad  \text{   Even index! We will have to check answers   }   </mrow> 
+      <mrow>  +\sqrt{x+4}\ +\sqrt{x+4} \amp\quad  \text{ Isolate the first root by adding } \sqrt{x+4 } </mrow> 
+      <mrow>  \sqrt{3x+9}=\sqrt{x+4}-1 \amp\quad  \text{  Square both sides   }  </mrow> 
+       <mrow> \left(\sqrt{3x+9}\right)^2=\left(\sqrt{x+4}-1\right)^2 \amp \quad  \text{  Evaluate exponents    }   </mrow> 
+      <mrow> 3x+9=x+4-2\sqrt{x+4}+1 \amp\quad  \text{ Combine like terms    }  </mrow> 
+      <mrow> 3x+9=x+5-2\sqrt{x+4} \amp\quad  \text{  Isolate the term with radical   }  </mrow>
+      <mrow> -x-5\ -x-5 \qquad \qquad \amp \quad  \text{  Subtract $x$ and $5$ from both sides    }   </mrow> 
+      <mrow>2x+4=-2 \sqrt{x+4}  \amp\quad  \text{  Square both sides   }  </mrow> 
+      <mrow> \left( 2x+4 \right)^2=\left(-2 \sqrt{x+4} \right)^2 \amp\quad  \text{  Evaluate exponents   }  </mrow>
+      <mrow>4x^2 +16x+16=4(x+4)  \amp \quad  \text{    Distribute  }   </mrow> 
+      <mrow>4x^2 +16x+16=4x+16  \amp\quad  \text{  Make equation equal zero   }  </mrow> 
+      <mrow> -4x-16\ -4x-16 \amp\quad  \text{ Subtract $4x$ and $16$ from both sides    }  </mrow>
+      <mrow>  4x^2 +12x=0\amp \quad  \text{  Factor    }   </mrow> 
+      <mrow> 4x(x+3)=0 \amp\quad  \text{ Set each factor equal to zero    }  </mrow> 
+      <mrow> 4x=0 \text{ or } x+3=0 \amp\quad  \text{   Solve  }  </mrow>
+      <mrow> \div 4\ \div 4\qquad -3\ -3 \amp \quad  \text{      }   </mrow> 
+      <mrow> x=0 \text{ or } x=-3 \amp\quad  \text{  Check solutions in original   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow>
+      <mrow> \sqrt{3(0)+9}-\sqrt{(0)+4}=-1 \amp \quad  \text{  Check $x=0$ first    }   </mrow> 
+      <mrow>  \sqrt{9}-\sqrt{4}=-1 \amp\quad  \text{  Take roots   }  </mrow> 
+      <mrow> 3-2=-1 \amp\quad  \text{   Subtract  }  </mrow>
+      <mrow> 1=-1 \amp \quad  \text{  False, extraneous solution    }   </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> \sqrt{3(-3)+9}-\sqrt{(-3)+4}=-1 \amp\quad  \text{   Check } x=-3    </mrow>
+      <mrow> \sqrt{-9+9}-\sqrt{-3+4}=-1 \amp \quad  \text{  Add    }   </mrow> 
+      <mrow> \sqrt{0}-\sqrt{1}=-1 \amp\quad  \text{  Take roots   }  </mrow> 
+      <mrow> 0-1=-1 \amp\quad  \text{  Subtract   }  </mrow>
+      <mrow> -1=-1 \amp \quad  \text{ True! It works     }   </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow>
+      <mrow> x=-3 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <exercises xml:id="exercises-quadratics-solving-with-radiacals">
+    <title>Exercises - Solving with Radicals</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve. 	</p>      </introduction>
+     <exercise><statement> <p> <m> \sqrt{2x+3}-3=0 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{5x+1}-4=0 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{6x-5}-x=0 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{x+2}-\sqrt{x}=2 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> 3+x=\sqrt{6x+13} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> x-1= \sqrt{7-x} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{3-3x}-1=2x </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{2x+2}=3+\sqrt{2x-1} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{4x+5}-\sqrt{x+4}=2 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{3x+4}- \sqrt{x+2}=2 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{2x+4}-\sqrt{x+3}=1 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{7x+2}-\sqrt{3x+6}=6 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{2x+6}-\sqrt{x+4}=1 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{4x-3}-\sqrt{3x+1}=1 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{6-2x}-\sqrt{2x+3}=3 </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \sqrt{2-3x}-\sqrt{3x+7}=3 </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+
+</section> 

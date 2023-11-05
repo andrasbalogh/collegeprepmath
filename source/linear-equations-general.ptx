@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="linear-equations-general" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>General Linear Equations </title>
+  <introduction> <alert> Objective: Solve general linear equations with variables on both sides.  </alert> </introduction>
+
+  <p>
+    Often as we are solving linear equations, we will need to do some work to set them up into a form we are familiar with solving. This section will focus on manipulating an equation we are asked to solve in such a way that we can use our pattern for solving two-step equations to ultimately arrive at the solution.
+  </p>
+  <p>
+    One such issue that needs to be addressed is parenthesis. Often the parenthesis can get in the way of solving an otherwise easy problem. As you might expect we can get rid of the unwanted parenthesis by using the distributive property. This is shown in the following example. Notice the first step is distributing, then it is solved like any other two-step equation.
+  </p>
+  
+<example>
+    <md>
+      <mrow>        4(2x - 6)= 16        \amp \quad  \text{ Distribute $4$ through parenthesis    }   </mrow>
+      <mrow>          8x - 24 = 16       \amp\quad  \text{  Focus on the subtraction first  }  </mrow>
+      <mrow>            + 24 + 24   \amp\quad  \text{ Add $24$ to both sides  }  </mrow>   
+   <mrow>          8x = 40    \amp \quad  \text{ Now focus on the multiply by   } 8  </mrow>
+      <mrow>     \frac{8x}{8} =\frac{40}{8}  \amp\quad  \text{    Divide both sides by  } 8 </mrow>
+<mrow>       x =5         \amp \quad  \text{   Our Solution!   }   </mrow>
+ </md>
+  </example>
+  <p>
+Often after we distribute there will be some like terms on one side of the equation. The next example shows distributing to clear the parenthesis and then combining like terms next. Notice we only combine like terms on the same side of the equation. Once we have done this, our next example solves just like any other two-step equation.
+  </p>
+
+<example>
+    <md>
+      <mrow>   3(2x - 4) +9 = 15   \amp \quad  \text{ Distribute the $3$ through the parenthesis   }   </mrow>
+      <mrow>          6x - 12 +9 = 15 \amp\quad  \text{ Combine like terms,  } -12+9  </mrow>
+      <mrow>      6x - 3 = 15    \amp\quad  \text{ Focus on the subtraction first     }  </mrow>    
+  <mrow>          +3 +3      \amp \quad  \text{ Add $3$ to both sides   }   </mrow>
+      <mrow>           6x = 18    \amp\quad  \text{   Now focus on multiply by   } 6 </mrow>
+<mrow>     \frac{6x}{6} =\frac{18}{6}  \amp\quad  \text{    Divide both sides by  } 6 </mrow>
+      <mrow>         x =3      \amp\quad  \text{ Our Solution!  }  </mrow>
+ </md>
+  </example>
+  <p>
+A second type of problem that becomes a two-step equation after a bit of work is one where we see the variable on both sides. This is shown in the following example.
+  </p>
+<example>
+    <me> 4x- 6=2x + 10</me>
+</example>
+
+  <p>
+Notice here the <m>x</m> is on both the left and right sides of the equation. This can make it difficult to decide which side to work with. We fix this by moving one of the terms with x to the other side, much like we moved a constant term. It doesn’t matter which term gets moved, <m>4x</m> or <m>2x</m>, however, it would be the author’s suggestion to move the smaller term (to avoid negative coefficients). For this reason, we begin this problem by clearing the positive <m>2x</m> by subtracting <m>2x</m> from both sides.
+  </p>
+  
+<example>
+    <md>
+      <mrow>      4x - 6 =2x + 10 \amp \quad  \text{ Notice the variable on both sides     }   </mrow>
+      <mrow>           - 2x \qquad - 2x   \qquad   \amp\quad  \text{ Subtract $2x$ from both sides   }  </mrow>
+      <mrow>         2x - 6 = 10      \amp\quad  \text{  Focus on the subtraction first  }  </mrow>
+<mrow>           + 6 \quad + 6      \amp\quad  \text{  Add $6$ to both sides }  </mrow>
+      <mrow>           2x = 16    \amp\quad  \text{ Focus on the multiplication by   } 2</mrow>
+<mrow>     \frac{2x}{2} =\frac{16}{2}  \amp\quad  \text{    Divide both sides by  } 2</mrow>
+      <mrow>         x =8     \amp\quad  \text{ Our Solution!  }  </mrow>
+ </md>
+  </example>
+  <p>
+The previous example shows the check on this solution. Here the solution is plugged into the <m>x</m> on both the left and right sides before simplifying. 
+  </p>
+<example>
+    <md>
+      <mrow>           4(8) - 6=2(8) + 10     \amp \quad  \text{ Multiply $4(8)$ and $2(8)$ first     }   </mrow>
+      <mrow>         32 - 6 = 16 + 10        \amp\quad  \text{  Add and Subtract  }  </mrow>
+      <mrow>        26 = 26       \amp\quad  \text{  True!}  </mrow>
+    </md>
+  </example>
+<p>
+The next example illustrates the same process with negative coefficients. Notice first the smaller term with the variable is moved to the other side, this time by adding because the coefficient is negative. 
+  </p>
+
+<example>
+    <md>
+      <mrow>  -3x +9= 6x - 27  \amp \quad  \text{ Notice the variable on both sides, $- 3x$ is smaller }   </mrow>
+      <mrow>      + 3x \qquad + 3x \qquad           \amp\quad  \text{ Add $3x$ to both sides  }  </mrow>
+      <mrow>  9= 9x - 27      \amp\quad  \text{ Focus on the subtraction by  } 27 </mrow>  
+    <mrow>     + 27 \qquad + 27    \amp \quad  \text{ Add $27$ to both sides      }   </mrow>
+      <mrow>    36 = 9x    \amp\quad  \text{  Focus on the mutiplication by   }  9</mrow> 
+<mrow>     \frac{36}{9} =\frac{9x}{9}  \amp\quad  \text{    Divide both sides by  } 2</mrow>
+
+      <mrow>           4 = x    \amp\quad  \text{  Our Solution   }  </mrow>
+  </md>
+  </example>
+<p>
+Linear equations can become particularly interesting when the two processes are combined. In the following problems we have parenthesis and the variable on both sides. Notice in each of the following examples we distribute, then combine like terms, then move the variable to one side of the equation
+  </p>
+<example>
+    <md>
+      <mrow>         2(x - 5)+ 3x = x + 18       \amp \quad  \text{  Distribute the $2$ through parenthesis     }   </mrow>
+      <mrow>       2x -10 + 3x = x + 18      \amp\quad  \text{ Combine like terms } 2x +3x </mrow>
+      <mrow>       5x - 10 = x + 18        \amp\quad  \text{ Notice the variable is on both sides  }  </mrow>
+<mrow>          -x \qquad -x \qquad      \amp \quad  \text{ Subtract $x$ from both sides   }   </mrow>
+      <mrow>             4x - 10 = 18    \amp\quad  \text{ Focus on the subtraction of } 10 </mrow>
+      <mrow>      + 10 + 10         \amp\quad  \text{  Add $10$ to both side    }  </mrow>
+<mrow>     4x = 28   \amp \quad  \text{  Focus on multiplication by  }  4 </mrow>
+<mrow>     \frac{4x}{4} =\frac{28}{4}  \amp\quad  \text{    Divide both sides by  } 4</mrow>
+ <mrow>       x = 7         \amp\quad  \text{ Our Solution! }  </mrow>
+  </md>
+  </example>
+<p>
+Sometimes we may have to distribute more than once to clear several parentheses. Remember to combine like terms after you distribute!
+  </p>
+<example>
+    <md>
+      <mrow>   3(4x -5) - 4(2x +1) =5    \amp \quad  \text{3(Distribute $3$ and $- 4$ through parenthesis      }   </mrow>
+      <mrow>      12x - 15 -8x- 4 =5       \amp\quad  \text{Combine like terms $12x - 8x$ and }   -15-1</mrow>
+      <mrow>           4x - 19 =5    \amp\quad  \text{ Focus on subtraction of      }19  </mrow>   
+   <mrow>            + 19 + 19    \amp \quad  \text{ Add $19$ to both sides    }   </mrow>
+      <mrow>        4x = 24         \amp\quad  \text{  Focus on multiplication by   }4  </mrow> 
+<mrow>     \frac{4x}{4} =\frac{24}{4}  \amp\quad  \text{    Divide both sides by  } 4</mrow>
+ <mrow>     x =6          \amp\quad  \text{ Our Solution }  </mrow>
+ </md>
+  </example>
+  <p>
+    This leads to a <m>5</m>-step process to solve any linear equation. While all five steps aren’t always needed, this can serve as a guide to solving equations.
+    <ol>
+ <li> Distribute through any parentheses. </li>
+ <li> Combine like terms on each side of the equation. </li>
+<li> Get the variables on one side by adding or subtracting. </li>
+<li> Solve the remaining <m>2</m>-step equation (add or subtract then multiply or divide). </li>
+<li>  Check your answer by plugging it back in for <m>x</m> to find a true statement. </li>
+    </ol>
+    The order of these steps is very important.
+</p>
+  <p> <alert> World View Note:</alert> The Chinese developed a method for solving equations that involved finding each digit one at a time about <m>2000</m> years ago! </p>
+
+  <p>
+    We can see each of the above five steps worked through our next example.
+  </p>
+<example>
+    <md>
+      <mrow>    4(2x - 6)+9= 3(x - 7)+8x      \amp \quad  \text{  Distribute $4$ and $3$ through parenthesis   }   </mrow>
+      <mrow>     8x-24+9=3x-21+8x    \amp \quad  \text{  Combine like terms $-24+9$ and $3x+8x$  }   </mrow>
+      <mrow>     8x - 15 = 11x - 21   \amp \quad  \text{ Notice the variable is on both sides   }   </mrow>
+      <mrow>     -8x \qquad -8x \qquad   \amp \quad  \text{   Subtract $8x$ from both sides  }   </mrow>
+      <mrow>      -15 = 3x - 21  \amp \quad  \text{  Focus on subtraction of } 21   </mrow>
+      <mrow>             +21 \qquad +21   \amp\quad  \text{ Add $21$ to both sides  }  </mrow>
+      <mrow>         6 = 3x     \amp\quad  \text{ Focus on multiplication by   } 3  </mrow>    
+  <mrow>      \frac{6}{3} = \frac{3x}{3}         \amp \quad  \text{ Divide both sides by   } 3   </mrow>
+      <mrow>      2=x  \amp \quad  \text{  Our Solution  }   </mrow>
+    </md>
+
+    Check:
+    <md>
+      <mrow>    4\left[2(2) - 6\right)]+9= 3\left[(2) - 7\right]+8(2)      \amp \quad  \text{  Plug $2$ in for each $x$. Multiply inside parenthesis  }   </mrow>
+      <mrow>    4[4 - 6] + 9 = 3[ - 5] + 8(2)    \amp \quad  \text{  Finish parentesis on left, multiply on right  }   </mrow>
+      <mrow>    4[ - 2] + 9 = -15 + 8(2)   \amp \quad  \text{ Finish multiplication on both sides  }   </mrow>
+      <mrow>    -8+9=-15+16  \amp \quad  \text{  Add  }   </mrow>
+      <mrow>      1 = 1  \amp \quad  \text{  True!  }   </mrow>
+    </md>    
+  </example>
+
+  
+  <p>
+    When we check our solution of <m>x = 2</m> we found a true statement, <m>1 = 1</m>. Therefore, we know our solution <m>x = 2</m> is the correct solution for the problem.
+  </p>
+  <p>
+    There are two special cases that can come up as we are solving these linear equations. The first is illustrated in the next two examples. Notice we start by distributing and moving the variables all to the same side.
+  </p>
+<example>
+    <md>
+      <mrow>          3(2x - 5)= 6x - 15      \amp \quad  \text{  Distribute $3$ through parenthesis   }   </mrow>
+      <mrow>             6x - 15 = 6x -15   \amp\quad  \text{  Notice the variable on both sides    }  </mrow>
+      <mrow>         - 6x \qquad -6x \qquad    \amp\quad  \text{ Subtract $6x$ from both sides   }  </mrow>    
+  <mrow>      - 15 = -15         \amp \quad  \text{ Variable is gone! True!   }   </mrow>
+  </md>
+  </example>
+  <p>
+Here the variable subtracted out completely! We are left with a true statement, <m>-15 = -15 </m>. If the variables subtract out completely and we are left with a true statement, this indicates that the equation is always true, no matter what $x$ is. Thus, for our solution we say <alert>all real numbers</alert> or <m>{\mathbb R}</m>.
+  </p>
+<example>
+    <md>
+      <mrow>      2(3x - 5) - 4x =2x + 7          \amp \quad  \text{Distribute $2$ through parenthesis   }   </mrow>
+      <mrow>          6x - 10 -4x =2x + 7       \amp\quad  \text{ Combine like terms $6x -4x$  }  </mrow>
+      <mrow>         2x - 10 =2x + 7      \amp\quad  \text{ Notice the variable is on both sides   }  </mrow>
+      <mrow>           -2x\qquad -2x\qquad   \amp \quad  \text{  Subtract $2x$ from both sides    }   </mrow>
+      <mrow>           - 10\neq 7   \qquad   \amp\quad  \text{  Variable is gone! False!   }  </mrow>
+   </md>
+  </example>
+<p>
+Again, the variable subtracted out completely! However, this time we are left with a false statement, this indicates that the equation is never true, no matter what <m> x </m> is. Thus, for our solution we say <alert>no solution</alert> or <m>\emptyset</m>. 
+  </p>
+
+<exercises xml:id="exercises-general-equations">
+  <title> Practice - General Linear Equations  </title>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each equation.  	</p>      </introduction>
+    <exercise><statement>  <p> <m>    2 - ( - 3a - 8) =1     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   2( - 3n +8) = -20   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    -5( - 4+2v) = -50      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     2 - 8( - 4+3x)= 34       </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>     66 =6(6+5x)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> 32 =2 -5( - 4n +6)     </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      0= - 8(p - 5)   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         - 55 = 8+ 7(k - 5)   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>        - 2+ 2(8x - 7)= - 16 </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       - (3 - 5n)= 12     </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    - 21x + 12 = - 6 - 3x</m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   -3n - 27 = -27 - 3n        </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>       - 1 - 7m = -8m +7  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     56p- 48 = 6p + 2   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    1- 12r = 29 - 8r </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    4+3x = -12x +4   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      20 - 7b = -12b + 30   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>  - 16n + 12 = 39 - 7n  </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    - 32 -24v = 34 - 2v   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    17 - 2x = 35 - 8x    </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      -2 -5(2 - 4m)= 33 +5m  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>       -25-7x = 6(2x - 1)     </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    - 4n + 11 =2(1 - 8n)+ 3n     </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     - 7(1+ b)= - 5 - 5b   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      - 6v -29 = - 4v -5(v +1)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      - 8(8r -2) =3r + 16 </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>        2(4x - 4)= - 20 -4x </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     -8n- 19 = -2(8n- 3)+ 3n  </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      -a -5(8a - 1)= 39 - 7a  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         - 4+ 4k = 4(8k - 8)   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>       -57 = - ( - p +1) +2(6+ 8p)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>         16 = -5(1 - 6x) +3(6x + 7)   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      -2(m - 2) +7(m - 8) =-67   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    7=4(n -7) +5(7n +7)   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      50 =8 (7+ 7r) - (4r +6)   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   - 8(6+ 6x)+4( - 3+ 6x) = - 12   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>   - 8(n -7)+ 3(3n -3)= 41   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>    -76 = 5(1+ 3b) +3(3b - 3)     </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>  -61 = - 5(5r - 4) +4(3r -4)        </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>     - 6(x - 8) - 4(x-2)= - 4   </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>   - 2(8n - 4)= 8(1 -n)      </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      - 4(1+ a) =2a - 8(5+ 3a)       </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>   - 3( - 7v +3) +8v = 5v - 4(1 - 6v)  </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>      - 6(x - 3) +5= -2 - 5(x - 5)       </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>    - 7(x - 2) = - 4 - 6(x - 1)   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m> - (n +8) + n = -8n + 2(4n -4)            </m> </p>   </statement></exercise>
+<exercise><statement>  <p> <m>      - 6(8k +4) = -8(6k +3) -2   </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>        - 5(x + 7)=4( - 8x - 2)    </m> </p>   </statement></exercise>
+    <exercise><statement>  <p> <m>  - 2(1 -7p)=8(p - 7)       </m>   </p>  </statement></exercise>
+    <exercise><statement><p> <m>   8( - 8n + 4) =4( - 7n + 8)       </m> </p>   </statement></exercise>
+
+    </exercisegroup>
+  </exercises>
+
+</section>
+

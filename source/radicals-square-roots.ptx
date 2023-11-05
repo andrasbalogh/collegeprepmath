@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<section xml:id="radicals-square-roots" xmlns:xi="http://www.w3.org/2001/XInclude">  
+  
+  <title>  Square Roots </title>
+  
+<introduction> <alert> Objective: Simplify expressions with square roots. </alert> </introduction>
+
+<p>  
+Square roots are the most common type of radical used. A square root “unsquares”
+a number. For example, because <m> 5^2=25 </m> we say the square root of <m>25</m> is <m>5</m>.
+The square root of <m>25</m> is written as <m> \sqrt{25}</m>. 
+   </p>  
+   <p> <alert> World View Note: </alert> The radical sign, when first used was an R with a line
+through the tail, similar to our perscription symbol today. The R came from the
+latin, “radix”, which can be translated as “source” or “foundation”. It wasn’t until
+the 1500s that our current symbol was first used in Germany (but even then it
+was just a check mark with no bar over the numbers! </p> 
+  <p>  
+The following table gives several examples of square roots:
+  </p>  
+
+  <table>
+      <tabular halign="center" top="minor"  left="minor" bottom="minor" right="minor">
+	<row>  <cell><m> \sqrt{1} = 1</m></cell> <cell><m>\sqrt{121} = 11</m></cell>	</row>
+	<row>  <cell><m> \sqrt{4} = 2 </m></cell> <cell><m>\sqrt{625} = 25</m></cell></row> 
+	<row>  <cell><m> \sqrt{9} = 3 </m></cell> <cell><m>\sqrt{-81} =</m>  Undefined</cell></row>
+     </tabular>
+    </table>
+    
+  <p>  
+  The final example, <m>\sqrt{-81}</m> is currently undefined as negatives have no square root.
+This is because if we square a positive or a negative, the answer will be positive.
+Thus we can only take square roots of positive numbers. In another lesson we will
+define a method we can use to work with and evaluate negative square roots, but
+for now we will simply say they are undefined.
+Not all numbers have a nice even square root. For example, if we found <m>\sqrt{8}</m> on
+our calculator, the answer would be <m>2.828427124746190097603377448419\ldots </m> and
+even this number is a rounded approximation of the square root. To be as accurate
+as possible, we will never use the calculator to find decimal approximations of
+square roots. Instead we will express roots in simplest radical form. We will do
+this using a property known as the product rule of radicals
+  </p>
+  
+  <me>
+      \textbf{ Product Rule of Square Roots: } \mathbf{ \sqrt{a\cdot b}  =  \sqrt{a} \cdot  \sqrt{b} }</me>
+
+  
+<p>
+We can use the product rule to simplify an expression such as <m>\sqrt{36 \cdot 5}</m> by splitting
+it into two roots, \sqrt{36} * \sqrt{5}, and simplifying the first root, <m>6 \sqrt{5}</m>. The trick in this process is being able to translate a problem like <m>\sqrt{180}</m> into <m>\sqrt{36 \cdot 5}</m>. There are several
+ways this can be done. The most common and, with a bit of practice, the
+fastest method, is to find perfect squares that divide evenly into the radicand, or
+number under the radical. This is shown in the next example.
+</p>
+  <example> 
+    <md>  
+      <mrow> \sqrt{75} \amp \quad \text{$75$ is divisible by $25$, a perfect square}   </mrow>  
+      <mrow> \sqrt{25 \cdot 3} \amp \quad \text{Split into factors}  </mrow>  
+      <mrow>  \sqrt{25} \cdot \sqrt{3} \amp \quad \text{Product rule, take the square root of } 25  </mrow>
+<mrow>  5\sqrt{3} \amp\quad  \text{Our Solution}  </mrow>
+    </md> 
+  </example>  
+<p>
+If there is a coefficient in front of the radical to begin with, the problem merely
+becomes a big multiplication problem.
+</p>
+  <example> 
+    <md>  
+      <mrow>   5\sqrt{63} \amp \quad \text{$63$ is divisible by $9$, a perfect square}   </mrow>  
+      <mrow>   5\sqrt{9 \cdot 7} \amp \quad \text{Split into factors}  </mrow>  
+      <mrow>  5\sqrt{9} \cdot \sqrt{7} \amp \quad \text{Product rule, take the square root of } 9  </mrow>
+<mrow>   5\cdot 3\sqrt{7} \amp \quad \text{Multiply coefficients}  </mrow>
+<mrow>   15\sqrt{7} \amp \quad \text{Our Solution}  </mrow>
+    </md> 
+  </example>  
+<p>
+As we simplify radicals using this method it is important to be sure our final answer can be simplified no more.
+</p>
+  <example> 
+    <md>  
+      <mrow>  \sqrt{72} \amp \quad \text{$72$ is divisible by $9$, a perfect square}   </mrow>  
+      <mrow>  \sqrt{9 \cdot 8} \amp \quad \text{Split into factors}  </mrow>  
+      <mrow>   \sqrt{9} \cdot \sqrt{8} \amp \quad \text{Product rule, take the square root of } 9 </mrow>
+<mrow>  3\sqrt{8} \amp \quad \text{But $8$ is also divisible by a perfect square, } 4  </mrow>
+<mrow>   3\sqrt{4\cdot 2} \amp \quad \text{Split into factors}  </mrow>
+<mrow>   3\sqrt{4} \cdot \sqrt{2} \amp \quad \text{Product rule, take the square root of } 9  </mrow>
+<mrow>   3\sqrt{4} \cdot \sqrt{2} \amp \quad \text{Multiply}  </mrow>
+<mrow>   6\sqrt{2} \amp \quad \text{Our Solution.}  </mrow>
+    </md> 
+  </example>  
+<p>
+The previous example could have been done in fewer steps if we had noticed that
+<m>72=36 \cdot 2</m>, but often the time it takes to discover the larger perfect square is more
+than it would take to simplify in several steps.
+Variables often are part of the radicand as well. When taking the square roots of
+variables, we can divide the exponent by <m>2</m>. For example, <m>\sqrt{x^8} = x^4</m>, because we
+divide the exponent of <m>8</m> by <m>2</m>. This follows from the power of a power rule of
+exponents, <m>(x^4)^2 = x^8</m>. When squaring, we multiply the exponent by two, so when
+taking a square root we divide the exponent by <m>2</m>. This is shown in the following
+example.
+</p>
+  <example> 
+    <md>  
+      <mrow>   -5\sqrt{18x^4y^6z^{10}} \amp \quad \text{$18$ is divisible by $9$, a perfect square}   </mrow>  
+      <mrow>   -5\sqrt{9 \cdot 2x^4y^6z^{10}} \amp \quad \text{Split into factors}  </mrow>  
+      <mrow>   -5\sqrt{9} \cdot \sqrt{2} \cdot \sqrt{x^4} \cdot \sqrt{y^6} \cdot \sqrt{z^{10}} \amp \quad \text{Product rule, simplify roots, divide exponents by } 2 </mrow>
+<mrow>   -5 \cdot 3x^2y^3z^5\sqrt{2} \amp \quad \text{Multiply coefficients }   </mrow>
+<mrow>   -15x^2y^3z^5 \sqrt{2} \amp \quad \text{Our Solution}  </mrow>
+</md> 
+</example>  
+<p>
+We can’t always evenly divide the exponent on a variable by <m>2</m>. Sometimes we
+have a remainder. If there is a remainder, this means the remainder is left inside
+the radical, and the whole number part is how many are outside the radical. This
+is shown in the following example.
+</p>
+  <example> 
+    <md>  
+      <mrow>   \sqrt{20x^5y^9z^6} \amp \quad \text{$20$ is divisible by $4$, a perfect square}   </mrow>  
+      <mrow>  \sqrt{4 \cdot 9x^5y^9z^6} \amp \quad \text{Split into factors}  </mrow>  
+      <mrow>   \sqrt{4} \cdot \sqrt{5} \cdot \sqrt{x^5} \cdot \sqrt{y^9} \cdot \sqrt{z^6} \amp \quad \text{Simplify, divide exponents by $2$, remainder is left inside } </mrow>
+<mrow>  2x^2y^4z^3\sqrt{5xy} \amp \quad \text{Our Solution }   </mrow>
+</md> 
+  </example>
+  
+  <exercises xml:id="exercises-square-roots"> 
+  <title>Exercises – Square Roots</title> 
+  
+  <exercisegroup cols="2"> 
+    <introduction> 
+      <p>  Simplify. </p>  
+    </introduction> 
+       
+    <exercise><statement>  <p> <m> \sqrt{245}</m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> \sqrt{125}</m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> \sqrt{36}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> \sqrt{196}</m></p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{12} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{72} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 3\sqrt{12} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 5\sqrt{32} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 6\sqrt{128} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 7\sqrt{128} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -8\sqrt{392} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -7\sqrt{63} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{192n} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{343b} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{196v^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{100n^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{252x^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{200a^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -\sqrt{100k^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -4\sqrt{175p^4} </m> </p></statement></exercise> 
+    <exercise><statement>  <p> <m> -7\sqrt{64x^4}</m>   </p>  </statement></exercise> 
+      <exercise><statement><p> <m> -2\sqrt{128n}</m> </p>   </statement></exercise> 
+      <exercise><statement> <p> <m> -5\sqrt{36m}</m> </p>  </statement></exercise> 
+      <exercise><statement><p><m> 8\sqrt{112p^2}</m></p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{45x^2y^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  \sqrt{72a^3b^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{16x^3y^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{512a^4b^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{320x^4y^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> \sqrt{512m^4n^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  6\sqrt{80xy^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> 8\sqrt{98mn} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  5\sqrt{245x^2y^3} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  2\sqrt{72x^2y^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -2\sqrt{180u^3v} </m> </p></statement></exercise> 
+      <exercise><statement><p><m> -5\sqrt{72x^3y^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -8\sqrt{180x^4y^2z^4} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  6\sqrt{50a^4bc^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  2\sqrt{80hj^4k} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -\sqrt{32xy^2z^3} </m> </p></statement></exercise>
+      <exercise><statement><p><m>  -4\sqrt{54mnp^2} </m> </p></statement></exercise> 
+      <exercise><statement><p><m>  -8\sqrt{32m^2p^4q} </m> </p></statement></exercise>  
+
+    </exercisegroup> 
+  
+  
+  </exercises>
+
+</section>
+ 
+

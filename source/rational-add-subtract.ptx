@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-add-subtract" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>  Add and Subtract   </title> 
+ 
+  <introduction> <alert> Objective: Add and subtract rational expressions with and without
+common denominators.   </alert> </introduction> 
+ 
+   <p> 
+Adding and subtracting rational expressions is identical to adding and subtracting with integers. Recall that when adding with a common denominator we add the numerators and keep the denominator. This is the same process used with rational expressions. Remember to reduce, if possible, your final answer.
+   </p>
+
+  <example>
+    <md> 
+      <mrow> \frac{x-4}{x^2-2x-8} + \frac{x+8}{x^2-2x-8}  \amp \quad  \text{Same denominator, add numerators, combine like terms }   </mrow> 
+      <mrow> \frac{2x+4}{x^2-2x-8}  \amp\quad  \text{Factor numerator and denominator  }  </mrow> 
+      <mrow> \frac{2(x+2)}{(x+2)(x-4)}  \amp\quad  \text{Divide out } (x+2)  </mrow> 
+      <mrow> \frac{2}{x-4}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+Subtraction with common denominator follows the same pattern, though the subtraction can cause problems if we are not careful with it. To avoid sign errors we will first distribute the subtraction through the numerator. Then we can treat I like an addition problem. This process is the same as “add the opposite” we saw when subtracting with negatives.
+</p>
+ 
+  
+  <example>
+    <md> 
+      <mrow> \frac{6x-12}{3x-6}-\frac{15x-6}{3x-6} \amp \quad  \text{ Add the opposite of the second fraction (distribute negative) }   </mrow> 
+      <mrow> \frac{6x-12}{3x-6}+\frac{-15x+6}{3x-6}  \amp\quad  \text{ Add numerators, combine like terms  }  </mrow> 
+      <mrow>  \frac{-9x-6}{3x-6}   \amp\quad  \text{  Factor numerator and denominator   }  </mrow> 
+      <mrow> \frac{-3(3x+12)}{3(x-2)}    \amp\quad  \text{Divide out common factor of } 3  </mrow> 
+      <mrow> \frac{-(3x+2)}{(x-2)}   \amp\quad  \text{ Our solution    }  </mrow> 
+    </md>
+  </example> 
+
+<p> <alert> World View Note:</alert> The Rhind papyrus of Egypt from <m>1650</m> BC gives some of the earliest known symbols for addition and subtraction, a pair of legs walking in the direction one reads for addition, and a pair of legs walking in the opposite direction for subtraction.  </p>
+ 
+  <p> 
+ When we don’t have a common denominator, we will have to find the least common denominator 
+ (LCD) and build up each fraction so the denominators match. The following example shows 
+ this process with integers.
+  </p> 
+
+  <example>
+    <md> 
+      <mrow> \frac{5}{6}+\frac{1}{4} \amp \quad  \text{ The LCD is $12$. Build up, multiply $6$ by $2$ and $4$ by  } 3   </mrow> 
+      <mrow> \left(\frac{2}{2}\right)\frac{5}{6}+\frac{1}{4}\left(\frac{3}{3}\right) \amp\quad  \text{ Multiply }  </mrow> 
+      <mrow>  \frac{10}{12}+\frac{3}{12} \amp\quad  \text{ Add numerators  }  </mrow> 
+      <mrow> \frac{13}{12} \amp\quad  \text{ Our solution  }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The same process is used with variables.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{7a}{3a^2b}+\frac{4b}{6ab^4} \amp \quad  \text{ The LCD is $6a^2b^4$. We will then build up each fraction }   </mrow> 
+      <mrow> \left(\frac{2b^3}{2b^3}\right)\frac{7a}{3a^2b}+\frac{4b}{6ab^4}\left(\frac{a}{a}\right) \amp\quad  \text{Multiply first fraction by $2b^3$ and second by } a  </mrow> 
+      <mrow>  \frac{14ab^3}{6a^2b^4}+\frac{4ab}{6a^2b^4} \amp\quad  \text{ Add numerators, no like terms to combine  }  </mrow> 
+      <mrow> \frac{14ab^3+4ab}{6a^2b^4}    \amp\quad  \text{Factor numerator }   </mrow> 
+      <mrow> \frac{2ab(7b^3+2)}{6a^2b^4} \amp\quad  \text{ Reduce, dividing out factors $2$, $a$, and } b  </mrow> 
+      <mrow> \frac{7b^3+2}{3ab^3} \amp\quad  \text{ Our solution    }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+The same process can be used for subtraction, we will simply add the first step of adding the opposite.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{4}{5a}-\frac{7b}{4a^2} \amp \quad  \text{ Add the opposite }   </mrow> 
+      <mrow> \frac{4}{5a}+\frac{-7b}{4a^2} \amp\quad  \text{LCD is $20a^2$. Build up denominators }   </mrow> 
+      <mrow>  \left(\frac{4a}{4a}\right)\frac{4}{5a}+\frac{-7b}{4a^2}\left(\frac{5}{5}\right) \amp\quad  \text{Multiply first fraction by $4a$, second by } 5  </mrow> 
+      <mrow> \frac{16a-35b}{20a^2} \amp\quad  \text{ Our solution }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+If our denominators have more than one term in them, we will need to factor first to find the LCD. 
+Then we build up each denominator using the factors that are missing on each fraction.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{6}{8a+4}+\frac{3a}{8} \amp \quad  \text{Factor denominators to find LCD }   </mrow> 
+      <mrow> 4(2a+1) \ \  8  \amp\quad  \text{LCD is $8(2a+1)$, build up each fraction }   </mrow> 
+      <mrow>  \left(\frac{2}{2}\right)\frac{6}{4(2a+1)}+\frac{3a}{8}\left(\frac{2a+1}{2a+1}\right) \amp\quad  \text{Multiply first fraction by $2$, second by } 2a+1  </mrow> 
+      <mrow> \frac{12}{8(2a+1)}+\frac{6a^2+3a}{8(2a+1)} \amp\quad  \text{Add numerators}  </mrow> 
+      <mrow> \frac{6a^2+3a+12}{8(2a+1)} \amp\quad  \text{Our solution }  </mrow> 
+
+    </md>
+  </example> 
+
+<p>
+With subtraction remember to add the opposite.
+</p>
+
+  <example>
+    <md> 
+      <mrow> \frac{x+1}{x-4}-\frac{x+1}{x^2-7x+12} \amp \quad  \text{Add the opposite (distribute negative) }   </mrow> 
+      <mrow> \frac{x+1}{x-4}+\frac{-x-1}{x^2-7x+12}  \amp\quad  \text{Factor denominators to find LCD }   </mrow> 
+      <mrow> x-4 \ \ (x-4)(x-3)  \amp\quad  \text{LCD is $(x-4)(x-3)$, build up each fraction }  </mrow> 
+      <mrow> \left(\frac{x-3}{x-3}\right)\frac{x+1}{x-4}+\frac{-x-1}{x^2-7x+12} \amp\quad  \text{Only first fraction needs to be multiplied by } x-3  </mrow> 
+      <mrow> \frac{x^2-2x-3}{(x-3)(x-4)}+\frac{-x-1}{(x-3)(x-4)} \amp\quad  \text{Add numerators, combine like terms }  </mrow> 
+<mrow> \frac{x^2-3x-4}{(x-3)(x-4)} \amp\quad  \text{ Factor numerator }  </mrow> 
+<mrow> \frac{(x-4)(x+1)}{(x-3)(x-4)} \amp\quad  \text{ Divide our $x-4$ factor }  </mrow> 
+<mrow> \frac{x+1}{x-3} \amp\quad  \text{ Our solution }  </mrow> 
+
+    </md>
+  </example> 
+
+
+
+  <exercises xml:id="exercises-rational-expressions-add-subtract">
+    <title>Exercises – Add and Subtract </title>
+
+    <introduction>    <p>     Add or subtract the rational expressions. Simplify your answers whenever possible.      </p>      </introduction>
+    <exercisegroup cols="2">
+      <exercise><statement> <p> <m> \frac{2}{a+3} + \frac{4}{a+3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x^2}{x-2} - \frac{6x-8}{x-2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{t^2+4t}{t-1} + \frac{2t-7}{t-1} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{a^2+3a}{a^2+5a-6} - \frac{4}{a^2+5a-6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x^2+3}{x^2-6x+5} - \frac{x^2-5x+9}{x^2-6x+5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3}{x} + \frac{4}{x^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5}{6r} - \frac{5}{8r} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{7}{xy^2} + \frac{3}{x^2y} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{8}{9t^3} + \frac{5}{6t^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+5}{8} + \frac{x-3}{12} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{a+2}{2} - \frac{a-4}{4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2a-1}{3a^2} + \frac{5a+1}{9a} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x-1}{4x} - \frac{2x+3}{x} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2c-d}{c^2d} - \frac{c+d}{cd^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5x+3y}{2x^2y} - \frac{3x+4y}{xy^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{x-1} + \frac{2}{x+1} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2z}{z-1} - \frac{3z}{z+1} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{x-5} + \frac{3}{4x} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{8}{x^2-4} - \frac{3}{x+2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4x}{x^2-25} + \frac{x}{x+5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{t}{t-3} - \frac{5}{4t-12} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{x+3} + \frac{4}{(x+3)^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2}{5x^2+5x} - \frac{4}{3x+3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3a}{4a-20} + \frac{9a}{6a-30} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{t}{y-t} - \frac{y}{y+t} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x}{x-5} + \frac{x-5}{x} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x}{x^2+5x+6} - \frac{2}{x^2+3x+2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x}{x^2-1} - \frac{3}{x^2+5x+4} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x}{x^2+15x+56} - \frac{7}{x^2+13x+42} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x}{x^2-9} + \frac{5}{x^2+x-6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{5x}{x^2-x-6} - \frac{18}{x^2-9} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4x}{x^2-2x-3} - \frac{3}{x^2-5x+6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x}{x^2-1} - \frac{4}{x^2+2x-3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x-1}{x^2+3x+2} + \frac{x+5}{x^2+4x+3} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+1}{x^2-2x-35} + \frac{x+6}{x^2+7x+10} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x+2}{3x+6} + \frac{x}{4-x^2} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4-a^2}{a^2-9} - \frac{a-2}{3-a} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{4y}{y^2-1} - \frac{2}{y} - \frac{2}{y+1} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2z}{1-2z} + \frac{3z}{2z+1} - \frac{3}{4z^2-1} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2r}{r^2-s^2} + \frac{1}{r+s} -\frac{1}{r-s} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x-3}{x^2+3x+2} - \frac{3x-1}{x^2+5x+6} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+2}{x^2-4x+3} + \frac{4x+5}{x^2+4x-5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2x+7}{x^2-2x-3} - \frac{3x-2}{x^2+6x+5} </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x-8}{x^2+6x+8} + \frac{2x-3}{x^2+3x+2} </m> </p> </statement> </exercise> 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>

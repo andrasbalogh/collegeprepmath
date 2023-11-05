@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="quadratics-quadratic-formula" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>   Quadratic Formula   </title> 
+
+  <introduction> <alert> Objective:  Solve quadratic equations by using the quadratic formula. </alert> </introduction> 
+
+   <p> 
+The general from of a quadratic is <m>ax^2 + bx + c = 0</m>. We will now solve this formula for <m>x</m> by completing the square.
+   </p> 
+
+     <example>
+    <md> 
+      <mrow> ax^2 + bx + c = 0 \amp \quad  \text{ Separate constant from variables     }   </mrow> 
+      <mrow> -c\ -c \amp\quad  \text{  Subtract $c$ from both sides   }  </mrow> 
+      <mrow>  ax^2 + bx =- c  \amp\quad  \text{   Divide each term by  }  a </mrow> 
+      <mrow> \frac{ax^2}{a} + \frac{bx}{a} =\frac{- c}{a} \amp\quad  \text{     }  </mrow> 
+      <mrow> x^2+\frac{b}{a}x=\frac{-c}{a} \amp \quad  \text{  Find the number that completes the square    }   </mrow> 
+      <mrow> \left(\frac{1}{2}\cdot\frac{b}{a}\right)^2=\left(\frac{b}{2a}\right)^2=\frac{b^2}{4a^2} \amp\quad  \text{   Add to both sides  }  </mrow> 
+      <mrow> \frac{b^2}{4a^2}-\frac{c}{a}\left(\frac{4a}{4a}\right)=\frac{b^2}{4a^2}-\frac{4ac}{4a^2}=\frac{b^2-4ac}{4a^2} \amp\quad  \text{  Get common denominator on right   }  </mrow> 
+      <mrow> x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}-\frac{4ac}{4a^2}=\frac{b^2-4ac}{4a^2} \amp\quad  \text{   Factor  }  </mrow> 
+      <mrow> \left(x+\frac{b}{2a}\right)^2= \frac{b^2-4ac}{4a^2}\amp \quad  \text{ Solve using the even root property     }   </mrow> 
+      <mrow>\sqrt{\left(x+\frac{b}{2a}\right)^2}= \pm\sqrt{\frac{b^2-4ac}{4a^2}}  \amp\quad  \text{  Simplify roots   }  </mrow> 
+      <mrow> x+\frac{b}{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a} \amp\quad  \text{  Subtract $\frac{b}{2a}$ from both sides   }  </mrow> 
+      <mrow>  \amp\quad  \text{     }  </mrow> 
+      <mrow> x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    This solution is a very important one to us. As we solved a general equation by completing the square, we can use this formula to solve any quadratic equation. Once we identify what a, b, and c are in the quadratic, we can substitute those values into <m> \displaystyle  x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} </m>  and we will get our two solutions. This formula is  known as the quadratic fromula.
+  </p>
+
+  <me> \textbf{ Quadratic Formula: if } \mathbf{ax^2 +bx+c=0} \textbf{ then  } \  \mathbf{ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} }
+  </me>
+  
+  <p> <alert> World View Note:</alert> Indian mathematician Brahmagupta gave the first explicit formula for solving quadratics in <m>628</m>. However, at that time mathematics was not done with variables and symbols, so the formula he gave was, "To the absolute number multiplied by four times the square, add the square of the middle term; the square root of the same, less the middle term, being divided by twice the square is the value." This would translate to <m> \frac{\sqrt{b^2-4ac} -b}{2a}</m> as the solution to the equation <m>ax^2 +bx=c. </m> </p> 
+
+  <p>
+    We can use the quadratic formula to solve any quadratic, this is shown in the following examples.
+  </p>
+  
+    <example>
+    <md> 
+      <mrow>x^2 +3x+2=0  \amp \quad  \text{ $a=1$, $b=3$, $c=2$, use quadratic formula     }   </mrow> 
+      <mrow>x=\frac{-3\pm\sqrt{3^2-4(1)(2)}}{2(1)}  \amp\quad  \text{  Evaluate exponent and multiplication   }  </mrow> 
+      <mrow> x=\frac{-3\pm\sqrt{9-8}}{2}  \amp\quad  \text{   Evaluate subtraction under root  }  </mrow> 
+      <mrow> x=\frac{-3\pm\sqrt{1}}{2}  \amp\quad  \text{   Evaluate root  }  </mrow> 
+      <mrow>  x=\frac{-3\pm 1}{2} \amp\quad  \text{  Evaluate $\pm$ to get two answers   }  </mrow> 
+      <mrow>x=\frac{-2}{2} \text{ or } \frac{-4}{2}  \amp\quad  \text{  Simplify fractions   }  </mrow> 
+      <mrow> x=-1 \text{ or } -2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    As we are solving using the quadratic formula, it is important to remember the equation must fist be equal to zero.
+  </p>
+
+     <example>
+    <md> 
+      <mrow>25x^2 = 30x + 11  \amp \quad  \text{ First set equal to zero   }   </mrow>
+      <mrow> - 30x - 11\  - 30x - 11  \amp \quad  \text{ Subtract $30x$ and $11$ from both sides   }   </mrow> 
+      <mrow>25x^2-30x-11=0 \amp \quad  \text{ $a=25$, $b=-30$, $c=-11$, use quadratic formula     }   </mrow> 
+     <mrow>x=\frac{30\pm\sqrt{(-30)^2-4(25)(-11)}}{2(25)}  \amp\quad  \text{  Evaluate exponent and multiplication   }  </mrow> 
+      <mrow> x=\frac{30\pm\sqrt{900+1100}}{50}  \amp\quad  \text{   Evaluate subtraction under root  }  </mrow> 
+      <mrow> x=\frac{30\pm\sqrt{2000}}{50}  \amp\quad  \text{   Evaluate root  }  </mrow> 
+      <mrow>   x=\frac{30\pm 20\sqrt{5}}{50}  \amp\quad  \text{  Reduce fraction by dividing each term by } 10  </mrow> 
+      <mrow>x=\frac{3\pm 2\sqrt{5}}{5}   \amp\quad  \text{   Our Solution   }  </mrow> 
+    </md>
+     </example>
+
+
+   <example>
+    <md> 
+      <mrow>3x^2+4x+8=2x^2+6x-5 \amp \quad  \text{ First set equal to zero   }   </mrow>
+      <mrow> -2x^2 -6x+5 \ -2x^2 -6x+5  \amp \quad  \text{ Subtract $2x^2$ and $6x$ and add $5$  }   </mrow> 
+      <mrow>x^2 -2x+13=0 \amp \quad  \text{ $a=1$, $b=-2$, $c=13$, use quadratic formula     }   </mrow> 
+   <mrow>x=\frac{2\pm\sqrt{(-2)^2-4(1)(13)}}{2(1)}  \amp\quad  \text{  Evaluate exponent and multiplication   }  </mrow> 
+      <mrow> x=\frac{2\pm\sqrt{4-52}}{2}  \amp\quad  \text{   Evaluate subtraction under root  }  </mrow> 
+      <mrow> x=\frac{2\pm\sqrt{-48}}{2}  \amp\quad  \text{   Simplify root  }  </mrow> 
+      <mrow>   x=\frac{2\pm 4i\sqrt{3}}{2}  \amp\quad  \text{  Reduce fraction by dividing each term by } 2  </mrow> 
+      <mrow>x=1\pm2i\sqrt{3}   \amp\quad  \text{   Our Solution   }  </mrow> 
+    </md>
+     </example>
+
+     <p>
+       When we use the quadratic formula we don’t necessarily get two unique answers. We can end up with only one solution if the square root simplifies to zero.
+     </p>
+
+  <example>
+    <md> 
+      <mrow>4x^2 -12x+9=0 \amp \quad  \text{  $a=4$, $b=-12$, $c=9$, use quadratic formula    }   </mrow> 
+      <mrow> x=\frac{12\pm\sqrt{(-12)^2-4(4)(9)}}{2(4)} \amp\quad  \text{  Evaluate exponents and multiplication
+   }  </mrow> 
+      <mrow>  x=\frac{12\pm\sqrt{144-144}}{8} \amp\quad  \text{ Evaluate subtraction inside root    }  </mrow> 
+      <mrow>x=\frac{12\pm\sqrt{0}}{8} \amp\quad  \text{   Evaluate root  }  </mrow> 
+      <mrow> x=\frac{12\pm 0}{8}  \amp\quad  \text{ Evaluate    }  \pm </mrow> 
+      <mrow> x=\frac{12}{8} \amp\quad  \text{ Reduce fraction    }  </mrow> 
+      <mrow> x=\frac{3}{2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example>
+
+  <p>
+    If a term is missing from the quadratic, we can still solve with the quadratic formula, we simply use zero for that term. The order is important, so if the term with <m>x</m> is missing, we have <m>b = 0</m>, if the constant term is missing, we have <m>c = 0</m>.
+  </p>
+
+    <example>
+    <md> 
+      <mrow> 3x^2 +7=0 \amp \quad  \text{  $a=3$, $b=0$ (missing term), } c=7    </mrow> 
+      <mrow> x=\frac{-0\pm\sqrt{0^2-4(3)(7)}}{2(3)} \amp\quad  \text{  Evaluate exponnets and multiplication, zeros not needed   }  </mrow> 
+      <mrow>  x=\frac{\pm\sqrt{-84}}{6} \amp\quad  \text{ Simplify root    }  </mrow> 
+      <mrow>  x=\frac{\pm 2i\sqrt{21}}{6} \amp\quad  \text{  Reduce, dividing by  } 2 </mrow> 
+      <mrow>  x=\frac{\pm i\sqrt{21}}{3} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+        We have covered three different methods to use to solve a quadratic: factoring, complete the square, and the quadratic formula. It is important to be familiar with all three as each has its advantage to solving quadratics. The following table walks through a suggested process to decide which method would be best to use for solving a problem.
+  </p>
+
+  <p>
+      <tabular halign="left" top="minor"  left="minor" bottom="minor" right="minor">
+	<row>  <cell><m>1.</m> If it can easily factor, solve by factoring</cell>  <cell> <m>\$
+ \begin{matrix}  x^2 -5x+6=0 \\ (x-2)(x-3)=0 \\ x=2 \text{ or } x=3  \end{matrix} </m>  </cell>	</row>
+	<row>  <cell><m>2.</m> If <m>a = 1</m> and <m>b</m> is even, complete the square	</cell><cell><m>\$
+ \begin{matrix}  x^2 +2x=4 \\ \left(\frac{1}{2}\cdot 2\right)^2=1^2=1 \\ x^2 +2x+1=5 \\ (x+1)^2 =5 \\ x+1=\pm\sqrt{5} \\ x=-1\pm\sqrt{5} \end{matrix} </m> </cell></row>
+	<row>  <cell><m>3.</m> Otherwise, solve by the quadratic formula</cell>  <cell><m> \begin{matrix}  x^2 -3x+4=0  \\  x=\frac{3\pm\sqrt{(-3)^2-4(1)(4)}}{2(1)} \\ x=\frac{3\pm i \sqrt{7}}{2}  \end{matrix} </m> </cell></row>
+      </tabular>
+  </p>
+
+  <p>
+    The above table is mearly a suggestion for deciding how to solve a quadtratic. Remember completing the square and quadratic formula will always work to solve any quadratic. Factoring only woks if the equation can be factored.
+  </p>
+
+    <exercises xml:id="exercises-quadratic-formula">
+    <title>Exercises - Quadratic Formula</title>
+    
+    <exercisegroup cols="2">
+        <introduction>	<p>	  Solve each equation with the quadratic formula.	</p>      </introduction>
+      <exercise><statement>	<p><m>4a^2 +6=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m> 3k^2 +2=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	2x^2-8x-2=0  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	6n^2-1=0  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m> 2m^2 -3=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m> 5p^2 +2p+6=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3r^2-2r-1=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>2x^2-2x-15=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	4n^2 -36=0</m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3b^2 +6=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>v^2 -4v -5=-8	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>2x^2 +4x+12=8	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	2a^2 +3a+14=6  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m> 6n^2 -3n+3=-4	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3k^2 +3k -4=7	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>4x^2 -14=-2	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>7x^2+3x-16=-2	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	4n^2+5n=7  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	2p^2+6p-16=4  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>m^2+4m-48=-3	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	 3n^2 +3n=-3  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3b^2 -3=8b	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	2x^2 =-7x+49  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3r^2 +4=-6r	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>5x^2 =7x+7	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>6a^2 =-5a+13	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	8n^2=-3n-8 </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>6v^2=4+6v	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>2x^2 +5x=-3	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	x^2 =8  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>4a^2 -64=0	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>2k^2 +6k -16=2k	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>4p^2+5p-36=3p^2	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>12x^2+x+7=5x^2+5x	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>-5n^2-3n-52=2-7n^2	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>7m^2-6m+6=-m	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	 7r^2-12=-3r </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>3x^2-3=x^2	  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	2n^2 -9=4  </m> </p> </statement> </exercise> 
+      <exercise><statement>	<p><m>	6b^2 =b^2 +7-b  </m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+
+      
+</section>

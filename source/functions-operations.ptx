@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="functions-operations" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title>  Operations on Functions   </title> 
+ 
+  <introduction> <alert> Objective: Combine functions using sum, difference, product, 
+  quotient and composition of functions.</alert> </introduction> 
+ 
+   <p> 
+Several functions can work together in one larger function. There are <m> 5</m> common 
+operations that can be performed on functions. The four basic operations on functions are adding, 
+subtracting, multiplying, and dividing. The notation for these functions is as follows.
+
+    <md> 
+      <mrow>\text{Addition}   \amp \quad (f+g)(x)=f(x)+g(x) </mrow> 
+      <mrow>\text{Subtraction}   \amp\quad (f-g)(x)=f(x)-g(x)  </mrow> 
+      <mrow>\text{Multiplication}   \amp\quad (f \cdot g)(x)=f(x)g(x)  </mrow> 
+      <mrow>\text{Division}   \amp\quad \left(\frac{f}{g}\right)(x)= \frac{f(x)}{g(x)}  </mrow> 
+    </md>
+</p> 
+
+<p>
+When we do one of these four basic operations we can simply evaluate the two functions at the value and then do the operation with both solutions
+</p>
+  <example>
+    <md> 
+      <mrow> f(x)=x^2-x-2 \amp \quad  </mrow> 
+      <mrow> g(x)=x+1 \amp\quad  \text{Evaluate $f$ and $g$ at } -3  </mrow> 
+      <mrow> \text{find } (f+g)(-3)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> f(-3)=(-3)^2 –(-3)-2 \amp\quad  \text{Evaluate $f$ at } -3  </mrow> 
+      <mrow> f(-3)=9+3-2 \amp\quad    </mrow> 
+      <mrow> f(-3)=10 \amp\quad    </mrow> 
+      <mrow> </mrow>
+      <mrow> g(-3)=(-3)+1 \amp\quad  \text{ Evaluate $g$ at } -3  </mrow> 
+      <mrow> g(-3)=-2 \amp\quad   </mrow> 
+      <mrow> </mrow>
+      <mrow> f(-3)+g(-3) \amp\quad  \text{Add the two functions together}  </mrow> 
+      <mrow> (10)+(-2) \amp\quad  \text{Add}  </mrow> 
+      <mrow> 8 \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+<p>
+The process is the same regardless of the operation being performed.
+</p>
+  <example>
+    <md> 
+      <mrow> h(x)=2x-4 \amp \quad  </mrow> 
+      <mrow> k(x)=-3x+1 \amp\quad  \text{Evaluate $h$ and $k$ at} 5  </mrow> 
+      <mrow> \text{find } (h\cdot k)(5)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> h(5)=2(5)-4 \amp\quad  \text{Evaluate $h$ at } 5  </mrow> 
+      <mrow> h(5)=10-4 \amp\quad    </mrow> 
+      <mrow> h(5)=6 \amp\quad    </mrow> 
+      <mrow> </mrow>
+      <mrow> k(5)=-3(5)+1 \amp\quad  \text{ Evaluate $k$ at } 5  </mrow> 
+      <mrow> k(5)=-15+1 \amp\quad   </mrow> 
+      <mrow> k(5)=-14 \amp\quad   </mrow> 
+      <mrow> </mrow>
+      <mrow> h(5)k(5) \amp\quad  \text{Multiply the two results together}  </mrow> 
+      <mrow> (6)(-14) \amp\quad  \text{ Multiply }  </mrow> 
+      <mrow> -84 \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+<p>
+Often as we add, subtract, multiply, or divide functions, we do so in a way that keeps the 
+variable. If there is no number to plug into the equations we will simply use each equation, 
+in parenthesis, and simplify the expression.
+</p>
+
+  <example>
+    <md> 
+      <mrow> f(x)=2x-4 \amp \quad  </mrow> 
+      <mrow> g(x)=x^2-x+5 \amp\quad  \text{Write subtraction problem of functions} </mrow> 
+      <mrow> \text{Find } (f-g)(x)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> f(x)-g(x) \amp\quad  \text{Replace $f(x)$ with $(2x-3)$ and $g(x)$ with } (x^2-x+5) </mrow> 
+      <mrow> (2x-4)-(x^2-x+5) \amp\quad  \text{Distribute the negative}  </mrow> 
+      <mrow> 2x-4-x^2+x-5 \amp\quad  \text{Combine like terms}  </mrow> 
+      <mrow> -x^2+3x-9 \amp\quad  \text{Our Solution}  </mrow> 
+</md>
+  </example> 
+<p>
+The parentheses are very important when we are replacing <m>f(x)</m> and <m>g(x)</m> 
+with a variable. In the previous example we needed the parenthesis to know to distribute 
+the negative.
+</p>
+  <example>
+    <md> 
+      <mrow> f(x)=x^2-4x-5 \amp \quad  </mrow> 
+      <mrow> g(x)=x-5 \amp\quad  \text{Write division problem of functions} </mrow> 
+      <mrow> \text{Find } \left(\frac{f}{g}\right)(x)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{f(x)}{g(x)}  \amp\quad  \text{Replace $f(x)$ with $(x^2-4x-5)$ and $g(x)$ with } (x-5) </mrow> 
+      <mrow> \frac{(x^2-4x-5)}{(x-5)}\amp\quad  \text{To simplify the fraction we must first factor }  </mrow> 
+      <mrow> \frac{(x-5)}{(x+1)} \amp\quad  \text{Divide out common factor of  } x-5  </mrow> 
+      <mrow> x+1 \amp\quad  \text{Our Solution}  </mrow> 
+</md>
+  </example> 
+<p>
+Just as we could substitute an expression into evaluating functions, we can substitute an expression into the operations on functions.
+</p>
+  <example>
+    <md> 
+      <mrow> f(x)=2x-1 \amp \quad  </mrow> 
+      <mrow> g(x)=x+4 \amp\quad  \text{Write as a sum of functions} </mrow> 
+      <mrow> \text{Find } (f+g)(x^2)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> f(x^2)+g(x^2) \amp\quad  \text{Replace $x$ in $f(x)$ and $g(x)$ with } (x-5) </mrow> 
+      <mrow>  [2(x^2)-1]+[(x^2)+4]\amp\quad  \text{To simplify the fraction we must first factor }  </mrow> 
+      <mrow> 2x^2-1+x^2+4 \amp\quad  \text{Distribute the $+$ does not change the problem}  </mrow> 
+      <mrow> 3x^3+3 \amp\quad  \text{Our Solution}  </mrow> 
+</md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> f(x)=2x-1 \amp \quad  </mrow> 
+      <mrow> g(x)=x+4 \amp\quad  \text{Write as a product of functions} </mrow> 
+      <mrow> \text{Find } (f\cdot g)(3x)  \amp\quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> f(3x)g(3x) \amp\quad  \text{Replace $x$ in $f(x)$ and $g(x)$ with } (3x) </mrow> 
+      <mrow>  [2(3x)-1]+[(3x)+4]\amp\quad  \text{Multiply our }2(3x)  </mrow> 
+      <mrow> (6x-1)(3x+4)\amp\quad  \text{FOIL}  </mrow> 
+      <mrow> 18x^2+24x-3x-4 \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> 18x^2+21x-4 \amp\quad  \text{Our Solution}  </mrow> 
+</md>
+  </example> 
+<p>
+The fifth operation of functions is called composition of functions. A composition of functions is a function inside of a function. The notation used for composition of functions is:
+</p>
+
+<me>\mathbf{ (f\circ g)(x)=f(g(x))} </me> 
+
+<p>
+To calculate a composition of function we will evaluate the inner function and substitute the answer into the outer function. This is shown in the following example.
+</p>
+  <example>
+    <md> 
+      <mrow> a(x)=x^2-2x+1 \amp \quad  </mrow> 
+      <mrow> b(x)=x-5 \amp\quad  \text{Rewrite as a function in function}  </mrow> 
+      <mrow> \text{Find } (a\circ b)(3)  \amp \quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> a(b(3)) \amp\quad  \text{Evaluate the inner function in function}  </mrow> 
+      <mrow> b(3)=(3)-5=-2 \amp \quad  \text{This solution is put into } a, a(-2)   </mrow> 
+      <mrow> a(-2)=(-2)^2-2(-2)+1 \amp\quad  \text{Evaluate}  </mrow> 
+      <mrow> a(-2)=4+4+1 \amp\quad  \text{Add}  </mrow> 
+      <mrow> a(-2)=9 \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+<p>
+We can also evaluate a composition of functions at a variable. In these problems we will take 
+the inside function and substitute into the outside function.
+</p>
+  <example>
+    <md> 
+      <mrow> f(x)=x^2-x \amp \quad  </mrow> 
+      <mrow> g(x)=x+3 \amp\quad  \text{Rewrite as a function in function}  </mrow> 
+      <mrow> \text{Find } (f\circ g)(x)  \amp \quad  </mrow> 
+      <mrow> </mrow>
+      <mrow> f(g(x)) \amp\quad  \text{Replace $g(x)$ with } x+3  </mrow> 
+      <mrow> f(x)=(x+3) \amp \quad  \text{Replace the variable in $f$ with } (x+3) </mrow> 
+      <mrow> (x+3)^2-(x+3)  \amp\quad  \text{Evaluate exponent}  </mrow> 
+      <mrow> (x^2+6x+9)-(x-3) \amp\quad  \text{Distribute negative}  </mrow> 
+      <mrow> x^2+6x+9-x-3 \amp\quad  \text{Combine like terms }  </mrow> 
+      <mrow> x^2+5x+6 \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+<p>
+It is important to note that very rarely is <m>(f \circ g)(x)</m> the same as 
+<m>(g \circ f)(x)</m> as the following example will show, using the same equations, 
+but compositing them in the opposite direction.
+</p>
+
+  <example>
+    <md> 
+      <mrow> f(x)=x^2-x \amp \quad  </mrow> 
+      <mrow> g(x)=x+3 \amp\quad  \text{Rewrite as a function in function}  </mrow> 
+      <mrow> \text{Find } (g\circ f)(x)  \amp \quad  </mrow> 
+            <mrow> </mrow>
+      <mrow> g(f(x)) \amp\quad  \text{Replace $f(x)$ with } x^2-x  </mrow> 
+      <mrow> g(x^2-x) \amp \quad  \text{Replace the variable in $g$ with } (x^2-x) </mrow> 
+      <mrow> (x^2-x)+3  \amp\quad  \text{Here the parenthesis don’t change the expression}  </mrow> 
+      <mrow> x^2-x+3  \amp\quad  \text{Our Solution}  </mrow> 
+    </md>
+  </example> 
+  <p> <alert> World View Note:</alert> The term “function” came from Gottfried Wihelm Leibniz, a German mathematician from the late <m>17</m>th century.  </p> 
+
+  <exercises xml:id="exercises-operationonfunctions">
+    <title>Exercises – Operations on Functions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p> Perform the indicated operations.   </p>      </introduction>
+<exercise><statement>
+      <p> <m> g(a)=a^3 +5a^2</m> </p>
+      <p> <m> \quad f(a)=2a+4 </m></p>
+      <p>  <m>\quad \text{Find }  g(3)+f(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=-3x^3 +3x</m> </p>
+      <p> <m> \quad g(x)=2x+5 </m></p>
+      <p>  <m>\quad \text{Find }  f(-4) \div g(-4) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=3a +3</m> </p>
+      <p> <m> \quad f(a)=2a-2 </m></p>
+      <p>  <m>\quad \text{Find }  (g + f)(9) </m></p>
+      </statement> </exercise> 
+ <exercise><statement>
+      <p> <m> g(x)=4x+3</m> </p>
+      <p> <m> \quad h(x)=x^3 + 3x^2 </m></p>
+      <p>  <m>\quad \text{Find }  (g-h)(-1)</m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x+3</m> </p>
+      <p> <m> \quad f(x)=-x+4 </m></p>
+      <p>  <m>\quad \text{Find }  (g -f)(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=-4x+1</m> </p>
+      <p> <m> \quad h(x)=-2x-1 </m></p>
+      <p>  <m>\quad \text{Find }  g(5)+h(5) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x^2 +2</m> </p>
+      <p> <m> \quad f(x)=2x+5 </m></p>
+      <p>  <m>\quad \text{Find }  (g-f)(0) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=3x+1</m> </p>
+      <p> <m> \quad f(a)=x^3+3x^2 </m></p>
+      <p>  <m>\quad \text{Find }  g(2) \cdot f(2) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=t-3</m> </p>
+      <p> <m> \quad h(t)=-3T^3 +6t </m></p>
+      <p>  <m>\quad \text{Find }  g(1)+h(1) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(n)=n-5</m> </p>
+      <p> <m> \quad g(n)=4n+2 </m></p>
+      <p>  <m>\quad \text{Find } (f+g)(-8)</m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> h(t)=t+5</m> </p>
+      <p> <m> \quad g(t)=3t-5 </m></p>
+      <p>  <m>\quad \text{Find }  (h \cdot g)(5) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=3a -2</m> </p>
+      <p> <m> \quad h(a)=4a+2 </m></p>
+      <p>  <m>\quad \text{Find }  (g+h)(-10) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(n)=2n-1</m> </p>
+      <p> <m> g(n)=3n-5 </m></p>
+      <p>  <m>\quad \text{Find }  h(0) \div g(0) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x^2 -2</m> </p>
+      <p> <m> \quad h(x)=2x+5 </m></p>
+      <p>  <m>\quad \text{Find }  g(-6)+h(-6) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(a)=-2a - 4</m> </p>
+      <p> <m> \quad g(a)=a^2 + 3 </m></p>
+      <p>  <m>\quad \text{Find }  \left(\frac{f}{g}\right)(7) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(n) = n^-3</m> </p>
+      <p> <m> \quad h(n)=2n-3 </m></p>
+      <p>  <m>\quad \text{Find }  (g – h)(n) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=- x^3 - 2</m> </p>
+      <p> <m> \quad h(x)= 4x </m></p>
+      <p>  <m>\quad \text{Find }  (g – h)(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=2x - 3</m> </p>
+      <p> <m> \quad h(x)=x^3 - 2x^2 + 2x </m></p>
+      <p>  <m>\quad \text{Find }  (g – h)(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)= - 3x + 2</m> </p>
+      <p> <m> \quad g(x)= x^2 + 5x </m></p>
+      <p>  <m>\quad \text{Find }  (f - g)(x)  </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=t - 4</m> </p>
+      <p> <m> \quad h(a)= 2t</m></p>
+      <p>  <m>\quad \text{Find }  (g \cdot h)(t) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=4x + 5</m> </p>
+      <p> <m> \quad h(x)= x^2 + 5x  </m></p>
+      <p>  <m>\quad \text{Find }  g(x) \cdot h(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)= - 2t^2 – 5t </m> </p>
+      <p> <m> \quad h(t)=t + 5 </m></p>
+      <p>  <m>\quad \text{Find }  g(x) \cdot h(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=x^2 - 5x</m> </p>
+      <p> <m> \quad g(x)=x+5 </m></p>
+      <p>  <m>\quad \text{Find }  ( f + g)( x ) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=4x -4</m> </p>
+      <p> <m> \quad g(x)=3x^2 - 5 </m></p>
+      <p>  <m>\quad \text{Find }  ( f + g)( x ) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(n)=n^2 + 5</m> </p>
+      <p> <m> \quad f(n)= 3n + 5 </m></p>
+      <p>  <m>\quad \text{Find }  g(n) \div f(n) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=2x + 4</m> </p>
+      <p> <m> \quad g(x)= 4x - 5 </m></p>
+      <p>  <m>\quad \text{Find }  f(x) – g(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=-2a +5</m> </p>
+      <p> <m> \quad f(a)=3a + 5 </m></p>
+      <p>  <m>\quad \text{Find }  \left(\frac{g}{f}\right)(a) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=t^3 + 3t^2 </m> </p>
+      <p> <m> \quad h(t)=3t - 5 </m></p>
+      <p>  <m>\quad \text{Find }  g(3)+f(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> h(n) = n^3 + 4n</m> </p>
+      <p> <m> \quad g(n)=4n +5 </m></p>
+      <p>  <m>\quad \text{Find }  h(n) + g(n) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=4x +2</m> </p>
+      <p> <m> \quad g(x)=x^2 + 2x </m></p>
+      <p>  <m>\quad \text{Find }  f(x) \div g(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(n)=n^2 - 4n</m> </p>
+      <p> <m> \quad h(n)= n - 5 </m></p>
+      <p>  <m>\quad \text{Find }  g(n^2) \cdot h(n^2) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(n)=n + 5</m> </p>
+      <p> <m> \quad f(a)=2n - 5 </m></p>
+      <p>  <m>\quad \text{Find }  (g\cdot h)(-3n) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=2x</m> </p>
+      <p> <m> \quad g(x)= -3x -1  </m></p>
+      <p>  <m>\quad \text{Find }  (f+g)( -4 -x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=-2a</m> </p>
+      <p> <m> \quad h(a)=3a </m></p>
+      <p>  <m>\quad \text{Find }  g(4a) \ frac h(4a) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(t)=t^2 + 4t</m> </p>
+      <p> <m> \quad g(t)=4t + 2</m></p>
+      <p>  <m>\quad \text{Find }  f(t^2) + g(t^2) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> h(n)=3n - 2</m> </p>
+      <p> <m> \quad g(n)=- 3n^2 – 4n </m></p>
+      <p>  <m>\quad \text{Find }  g(3)+f(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=a^3 + 2a</m> </p>
+      <p> <m> \quad h(a)=3a+4 </m></p>
+      <p>  <m>\quad \text{Find }  (g \div h) (3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=- 4x + 2 </m> </p>
+      <p> <m> \quad h(x)=x^2 - 5 </m></p>
+      <p>  <m>\quad \text{Find }  g(x^2)+h(x^2) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(n) = -3n^2 + 1</m> </p>
+      <p> <m> \quad g(n)= 2n + 1 </m></p>
+      <p>  <m>\quad \text{Find }  (f – g)(n \ frac 3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(n)=3n + 4 </m> </p>
+      <p> <m> \quad g(n)=n^3 – 5n </m></p>
+      <p>  <m>\quad \text{Find }  f(n \div 2) - g(n \div 2) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=- 4x + 1</m> </p>
+      <p> <m> \quad g(x)= 4x + 3 </m></p>
+      <p>  <m>\quad \text{Find }  ( f \circ g) (9)</m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x - 1</m> </p>
+      <p>  <m>\quad \text{Find }  ( g \circ g) (7)</m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> h(a)=3a + 3</m> </p>
+      <p> <m> \quad g(a)=a + 1 </m></p>
+      <p>  <m>\quad \text{Find }  (h \circ g) (5) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=t + 3</m> </p>
+      <p> <m> \quad h(t)=2t -5 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ h) (3)  </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x + 4 </m> </p>
+      <p> <m> \quad h(x)=x^2 -1 </m></p>
+      <p>  <m>\quad \text{Find }  (g \circ h ) (10) </m></p>
+      </statement> </exercise>
+<exercise><statement>
+      <p> <m> f(a)=2a-4</m> </p>
+      <p> <m> \quad g(a)=a^2+2a </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(-4) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(n)=-4n+2</m> </p>
+      <p> <m> \quad g(n)=n+4 </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(9) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=3x+4</m> </p>
+      <p> <m> \quad h(x)=x^3+3x</m></p>
+      <p>  <m>\quad \text{Find } (g \circ h)(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=2x-4</m> </p>
+      <p> <m> \quad h(x)= 2x^3+4x^2</m></p>
+      <p>  <m>\quad \text{Find } (g \circ h)(3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=a^2+3</m> </p>
+     <p>  <m>\quad \text{Find } (g \circ g)(-3) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=x^2-5x</m> </p>
+      <p> <m> \quad h(x)=4x+4 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ h)(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(a)=2a+4 </m> </p>
+      <p> <m> \quad h(a)=-4a+5 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ h)(a) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(a)=-2a+2</m> </p>
+      <p> <m> \quad g(a)=4a </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(a) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=-t-4</m> </p>
+      <p>  <m>\quad \text{Find } (g \circ g)(t) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(x)=4x+4</m> </p>
+      <p> <m> \quad f(x)=	x^3-1 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ f)(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(n)=-2n^2-4n</m> </p>
+      <p> <m> \quad g(n)=n+2 </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(n) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=-x+5</m> </p>
+      <p> <m> \quad f(t)=2x-3 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ f)(x) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> g(t)=t^3-t</m> </p>
+      <p> <m> \quad f(t)=3t-4 </m></p>
+      <p>  <m>\quad \text{Find } (g \circ f)(t) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(t)=4t+3</m> </p>
+      <p> <m> \quad g(t)=-4t-2 </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(t) </m></p>
+      </statement> </exercise> 
+<exercise><statement>
+      <p> <m> f(x)=3x- 4</m> </p>
+      <p> <m> \quad g(x)=x^3+2x^2 </m></p>
+      <p>  <m>\quad \text{Find } (f \circ g)(x) </m></p>
+      </statement> </exercise> 
+
+    </exercisegroup>
+ 
+      </exercises>
+ 
+ 
+</section>

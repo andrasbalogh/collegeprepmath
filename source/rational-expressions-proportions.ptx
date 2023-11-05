@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-expressions-proportions" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+ 
+  <title> Proportions </title> 
+ 
+  <introduction> <alert>Objective: Solve proportions using the cross product and use proportions
+to solve application problems.</alert> </introduction> 
+ 
+   <p> 
+When two fractions are equal, they are called a proportion. This definition can be generalized to two equal rational expressions. Proportions have an important property called the cross-product.
+   </p>
+
+<me>\textbf{Cross Product: If }\ \mathbf{ \frac{a}{b}=\frac{c}{d}},\ \textbf{ then  }\  \mathbf{ ad=bc} </me>
+
+<p>
+The cross product tells us we can multiply diagonally to get an equation with no fractions that we can solve.
+</p>
+
+  <example>
+    <md> 
+    <mrow> \frac{20}{6}=\frac{x}{9} \amp \quad  \text{Calculate cross product}   </mrow> 
+      <mrow> (20)(9)=6x \amp \quad  \text{Multiply}   </mrow> 
+      <mrow> 180=6x  \amp\quad  \text{Divide both side by } 6  </mrow> 
+      <mrow> \overline{6} \qquad \ \overline{6} \amp\quad  \text{}  </mrow> 
+      <mrow> 30=x \amp\quad  \text{Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p> <alert> World View Note:</alert> The first clear definition of a proportion and the notation for a proportion came from the German Leibniz who wrote, “I write <m>dy: x = dt: a</m>; for <m>dy</m> is to <m>x</m> as <m>dt</m> is to <m>a</m>, is indeed the same as, <m>dy</m> divided by <m>x</m> is equal to <m>dt</m> divided by <m>a</m>. From this equation follow then all the rules of proportion.”</p>
+
+<p>
+If the proportion has more than one term in either numerator or denominator, we will have to distribute while calculating the cross product.
+</p>
+
+<example>
+    <md> 
+      <mrow> \frac{x+3}{4}=\frac{2}{5} \amp \quad  \text{Calculate cross product}   </mrow> 
+      <mrow> 5(x+3)=(4)(2) \amp\quad  \text{Multiply and distribute }  </mrow> 
+      <mrow>  5x+15=8 \amp\quad  \text{Solve}  </mrow> 
+      <mrow> \underline{-15 -15} \amp\quad \text{Subtract $15$ from both sides}</mrow>
+      <mrow> 5x=-7 \amp\quad  \text{Divide both sides by } 5  </mrow> 
+      <mrow> \overline{5} \qquad \overline{5} \amp\quad  \text{ }  </mrow> 
+      <mrow> x=-\frac{7}{5} \amp\quad  \text{Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+<p>
+This same idea can be seen when the variable appears in several parts of the proportion.
+</p>
+
+
+<example>
+    <md> 
+      <mrow> \frac{4}{x}=\frac{6}{3x+2} \amp \quad  \text{Calculate cross product}   </mrow> 
+      <mrow> 4(3x+2)=6x \amp\quad  \text{Distribute }  </mrow> 
+      <mrow>  12x+8=6x  \amp\quad  \text{Move variables to one side}  </mrow> 
+      <mrow> \underline{-12x \quad -12x} \amp\quad  \text{Subtract $12x$ from both sides }  </mrow> 
+      <mrow> 8=-6x \amp\quad  \text{ Divide both sided by } -6  </mrow> 
+      <mrow> \overline{-6} \qquad \overline{-6} \amp\quad  \text{  }  </mrow> 
+      <mrow> -\frac{4}{3}=x \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example>
+
+<example>
+    <md> 
+      <mrow> \frac{2x-3}{7x+4}=\frac{2}{5} \amp \quad  \text{Calculate cross product}   </mrow> 
+      <mrow> 5(2x-3)=2(7x+4) \amp\quad  \text{Distribute }  </mrow> 
+      <mrow> 10x-15=14x+8  \amp\quad  \text{Move variables to one side}  </mrow> 
+      <mrow> \underline{-10x \quad\quad -10x}\qquad \amp\quad  \text{Subtract $10x$ from both sides }  </mrow> 
+      <mrow> -15=4x+8 \amp\quad  \text{ subtract $8$ from both sides }   </mrow> 
+      <mrow> \underline{-8 \qquad -8} \amp\quad  \text{  }  </mrow> 
+      <mrow> -23=4x \amp\quad  \text{ Divide both sides by } 4  </mrow>
+      <mrow> \overline{4} \qquad \overline{4} \amp\quad  \text{ }  </mrow>
+      <mrow> -\frac{23}{4}=x \amp\quad  \text{  Our Solution   }  </mrow>
+    </md>
+  </example>
+
+<p>
+As we solve proportions, we may end up with a quadratic that we will have to solve. We can solve this quadratic in the same way we solved quadratics in the past, either factoring, completing the square or the quadratic formula. As with solving quadratics before, we will generally end up with two solutions.
+</p>
+
+<example>
+    <md> 
+      <mrow> \frac{k+3}{3}=\frac{8}{k-2} \amp \quad  \text{Calculate cross product}   </mrow> 
+      <mrow> (k+3)(k-2)=(8)(3) \amp\quad  \text{FOIL and multiply }  </mrow> 
+      <mrow> k^2+k-6=24  \amp\quad  \text{Make equation equal zero} </mrow> 
+      <mrow> \underline{-24-24} \amp\quad  \text{Subtract $24$ from both sides }  </mrow> 
+      <mrow> k^2+k-30=0 \amp\quad  \text{ Factor }   </mrow> 
+      <mrow> (k+6)(k-5)=0 \amp\quad  \text{ Set each factor equal to zero }  </mrow> 
+      <mrow> k+6=0 \text{ or } k-5=0 \amp\quad  \text{ Solve each equation }  </mrow>
+      <mrow> \underline{-6 -6} \quad\quad \underline{+5 +5} \amp\quad  \text{ Add or subtract }  </mrow>
+      <mrow> k=-6 \text{ or } k=5 \amp\quad  \text{  Our Solutions   }  </mrow>
+    </md>
+  </example>
+<p>
+Proportions are very useful in how they can be used in many different types of applications. We can use them to compare different quantities and make conclusions about how quantities are related. As we set up these problems it is important to remember to stay organized, if we are comparing dogs and cats, and the number of dogs is in the numerator of the first fraction, then the numerator of the second fraction should also refer to the dogs. This consistency of the numerator and denominator is essential in setting up our proportions.
+</p>
+
+<example>
+<p> A six-foot-tall man casts a shadow that is <m>3.5</m> feet long. If the shadow of a flag pole is <m>8</m> feet long, how tall is the flagpole? </p>
+    <md> 
+      <mrow> \frac{\text{shadow}}{\text{height}} \amp \quad  \text{We will put shadows in numerator, heights in denominator }   </mrow> 
+      <mrow> \frac{3.5}{6} \amp\quad  \text{The man has a shadow of $3.5$ feet and a height of $6$ feet }  </mrow> 
+      <mrow> \frac{8}{x} \amp\quad  \text{The flagpole has a shadow of $8$ feet, but we don’t know the height } </mrow> 
+      <mrow> \frac{3.5}{6}=\frac{8}{x} \amp\quad  \text{This gives us our proportion, calculate cross product }  </mrow> 
+      <mrow> 3.5x=(8)(6) \amp\quad  \text{Multiply }   </mrow> 
+      <mrow> 3.5x=48 \amp\quad  \text{ Divide both sides by } 3.5  </mrow> 
+      <mrow> \overline{3.5} \quad \overline{3.5} \amp\quad  \text{ }  </mrow>
+      <mrow> x=13.7 \text{ ft} \amp\quad  \text{Our Solutions }  </mrow>
+    </md>
+  </example>
+
+<example>
+<p> In a basketball game, the home team was down by <m>9</m> points at the end of the game. They only scored <m>6</m> points for every <m>7</m> points the visiting team scored. What was the final score of the game? </p>
+    <md> 
+      <mrow> \frac{\text{home}}{\text{visitor}} \amp \quad  \text{We will put home in numerator, visitor in denominator }   </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{x-9}{x} \amp\quad  \text{Don’t know visitor score, but home is <m>9</m> points less }  </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{6}{7} \amp\quad  \text{ Home team scored $6$ for every $7$ the visitor scored } </mrow> 
+      <mrow> </mrow>
+      <mrow> \frac{x-9}{x}=\frac{6}{7} \amp\quad  \text{ This gives us our proportion, calculate cross product }  </mrow> 
+      <mrow> </mrow>
+      <mrow> 7(x-9)=6x \amp\quad  \text{ Distribute }   </mrow> 
+      <mrow> 7x-63=6x \amp\quad  \text{ Move variables to one side }  </mrow> 
+      <mrow> \underline{-7x \quad\quad -7x} \amp\quad  \text{ Subtract $7x$ from both sides }  </mrow> 
+      <mrow> -63=-x \amp\quad  \text{ Divide both sides by } -1  </mrow> 
+      <mrow> \overline{-1} \quad \overline{-1} \amp\quad  \text{ Move variables to one side }  </mrow> 
+      <mrow> 63=x \amp\quad  \text{ We used $x$ for the visitor score. }  </mrow>
+      <mrow> 63-9=54 \amp\quad  \text{ Subtract $9$ to get the home score }  </mrow>
+      <mrow> 63 \text { to } 54 \amp\quad  \text{ Our Solution }  </mrow>
+    </md>
+  </example>
+
+
+  <exercises xml:id="exercises-rational-expressions-proportions">
+    <title>Exercises - Proportions </title>
+    
+    <exercisegroup cols="2">
+      <introduction>    <p>      Solve each proportion.     </p>      </introduction>
+      <exercise><statement> <p> <m> \frac{10}{a}=\frac{6}{8} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{7}{9}=\frac{n}{6} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{7}{6}=\frac{2}{k} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{8}{x}=\frac{4}{8} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{6}{x}=\frac{8}{2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{n-10}{8}=\frac{9}{3} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{m-1}{5}=\frac{8}{2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{8}{5}=\frac{3}{x-8} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{2}{9}=\frac{10}{p-4} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{9}{n+2}=\frac{3}{9} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{b-10}{7}=\frac{b}{4} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{9}{4}=\frac{r}{r-4} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{x}{5}=\frac{x+2}{9} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{n}{8}=\frac{n-4}{3} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{3}{10}=\frac{a}{a+2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{x+1}{9}=\frac{x+2}{2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{v-5}{v+6}=\frac{4}{9} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{n+8}{10}=\frac{n-9}{4} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{7}{x-1}=\frac{4}{x-6} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{k+5}{k-6}=\frac{8}{5} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{x+5}{5}=\frac{6}{x-2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{4}{x-3}=\frac{x+5}{5} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{m+3}{4}=\frac{11}{m-4} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{x-5}{8}=\frac{4}{x-1} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{2}{p+4}=\frac{p+5}{3} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{5}{n+1}=\frac{n-4}{10} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{n+4}{3}=\frac{-3}{n-2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{1}{n+3}=\frac{n+2}{2} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{3}{x+4}=\frac{x+2}{5} </m> </p> </statement> </exercise> 
+     <exercise><statement> <p> <m> \frac{x-5}{4}=\frac{-3}{x+3} </m> </p> </statement> </exercise>
+    </exercisegroup>
+
+<exercisegroup>
+<introduction>    <p>    Answer each question. Round your answer to the nearest tenth. Round dollar amounts to the nearest cent.       </p>      </introduction>
+<exercise><statement> <p> The currency in Western Samoa is the Tala. The exchange rate is approximately <m>\$0.70</m> to <m>1</m> Tala. At this rate, how many dollars would you get if you exchanged <m>13.3</m> Tala? </p> </statement> </exercise> 
+<exercise><statement> <p> If you can buy one plantain for <m>\$0.49</m> then how many can you buy with <m>\$7.84</m>? </p> </statement> </exercise> 
+<exercise><statement> <p> Kali reduced the size of a painting to a height of <m>1.3</m> in. What is the new width if it was originally <m>5.2</m> in. tall and <m>10</m> in. wide? </p> </statement> </exercise> 
+<exercise><statement> <p> A model train has a scale of <m>1.2</m> in : <m>2.9</m> ft. If the model train is <m>5</m> in tall then how tall is the real train? </p> </statement> </exercise> 
+<exercise><statement> <p> A bird bath that is <m>5.3</m> ft tall casts a shadow that is <m>25.4</m> ft long. Find the length of the shadow that a <m>8.2</m> ft adult elephant casts. </p> </statement> </exercise> 
+<exercise><statement> <p> Victoria and Georgetown are <m>36.2</m> mi from each other. How far apart would the cities be on a map that has a scale of <m>0.9</m> in : <m>10.5</m> mi? </p> </statement> </exercise> 
+<exercise><statement> <p> The Vikings led the Timberwolves by <m>19</m> points at the half. If the Vikings scored <m>3</m> points for every <m>2</m> points the Timberwolves scored, what was the
+half time score? </p> </statement> </exercise> 
+<exercise><statement> <p>  Sarah worked <m>10</m> more hours than Josh. If Sarah worked <m>7</m> hr for every <m>2</m> hr Josh worked, how long did they each work?</p> </statement> </exercise> 
+<exercise><statement> <p> Computer Services Inc. charges <m>\$8</m> more for a repair than Low Cost Computer Repair. If the ratio of the costs is <m>3 : 6</m>, what will it cost for the repair at Low Cost Computer Repair? </p> </statement> </exercise> 
+<exercise><statement> <p> Kelsey’s commute is <m>15</m> minutes longer than Christina’s. If Christina drives <m>12</m> minutes for every <m>17</m> minutes Kelsey drives, how long is each commute? </p> </statement> </exercise> 
+  </exercisegroup>
+</exercises>
+ 
+ 
+</section>
+

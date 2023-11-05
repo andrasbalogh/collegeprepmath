@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="systems-graphing" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>   Graphing  </title> 
+
+  <introduction> <alert> Objective:  Solve systems of equations by graphing and identifying the point of intersection. </alert> </introduction> 
+
+   <p> 
+     We have solved problems like <m>3x - 4 = 11</m> by adding <m>4</m> to both sides and then dividing by <m>3</m> (solution is <m>x = 5</m>). We also have methods to solve equations with more than one variable in them. It turns out that to solve for more than one variable we will need the same number of equations as variables. For example, to solve for two variables such as x and y we will need two equations. When we have several equations we are using to solve, we call the equations a <alert>system of equations</alert>. When solving a system of equations we are looking for a solution that works in both equations. This solution is usually given as an ordered pair <m>(x, y)</m>. The following example illustrates a solution working in both equations
+   </p> 
+
+   <example>
+    <md>
+            <mrow>    \text{   Show $(2,1)$ is the solution to the system     } \amp \quad  \begin{matrix}  3x- y =5 \\  x+y=3  \end{matrix} </mrow> 
+    </md>
+    <md>
+	    <mrow> (2,1) \amp \quad  \text{ Identify $x$ and $y$ from the orderd pair    }   </mrow>
+      <mrow>  x = 2,\  y = 1 \amp\quad  \text{  Plug these values into each equation   }  </mrow> 
+            <mrow>    </mrow> 
+      <mrow> 3(2)-(1)=5 \amp \quad  \text{ First equation    }   </mrow> 
+      <mrow>  6-1=5 \amp\quad  \text{  Evaluate   }  </mrow> 
+      <mrow> 5=5 \amp\quad  \text{  True   }  </mrow>
+            <mrow>    </mrow> 
+      <mrow> (2)+(1)=3 \amp\quad  \text{  Second equation, evaluate   }  </mrow> 
+      <mrow> 3=3 \amp\quad  \text{ True    }  </mrow> 
+    </md>
+  </example> 
+
+  <p> 
+    As we found a true statement for both equations we know <m>(2,1)</m> is the solution to the system. It is in fact the only combination of numbers that works in both equations. In this lesson we will be working to find this point given the equations. It seems to follow that if we use points to describe the solution, we can use graphs to find the solutions.
+  </p> 
+
+  <p> 
+    If the graph of a line is a picture of all the solutions, we can graph two lines on the same coordinate plane to see the solutions of both equations. We are interested in the point that is a solution for both lines, this would be where the lines intersect! If we can find the intersection of the lines we have found the solution that works in both equations.
+  </p> 
+
+    <example>
+      <md> 
+      <mrow>  \begin{matrix} y=-\frac{1}{2}x+3 \\ y = \frac{3}{4} x - 2 \end{matrix} \amp\quad \text{      To graph we identify slopes and $y$-intercepts }</mrow> 
+<mrow> </mrow>
+      <mrow> \begin{matrix} \text{First: } m=-\frac{1}{2},\ b=3 \\ \text{Second: } m=\frac{3}{4},\ b=-2 \end{matrix}  \amp\quad \text{ Now we can graph both lines on the same plane. } </mrow>
+   </md>
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/systems-graphing-1.jpg" /> 
+   <p>
+
+     <p>To graph each equation, we start at the <m>y</m>-intercept and use the slope <m>\frac{\text{rise}}{\text{run}}</m> to get the next point and connect the dots.
+     </p>
+<p>Remember a negative slope is downhill! </p>
+<p>Find the intersection point, <m> (4,1)</m> </p>
+<p> <m>(4,1)</m> Our Solution </p>
+   </p>
+    </sidebyside>
+  </example> 
+
+  <p> 
+    Often our equations won’t be in slope-intercept form and we will have to solve both equations for <m>y</m> first so we can idenfity the slope and <m>y</m>-intercept.
+  </p>
+
+  <example>
+    <md> 
+      <mrow>\begin{matrix} 6x-3y=-9 \\  2x+2y=-6  \end{matrix} \amp\quad 
+\text{Solve each equation for } y   </mrow>
+<mrow> </mrow>
+      <mrow> 6x-3y=-9 \quad 2x+2y=-6 \amp \quad  \text{    }   </mrow> 
+      <mrow> -6x \qquad -6x\quad -2x \qquad-2x \amp\quad  \text{ Subtract $x$ terms }  </mrow> 
+      <mrow>-3y=-6x-9\quad 2y=-2x-6  \amp\quad  \text{ Put $x$ terms first    }  </mrow>
+      <mrow> \frac{-3y}{-3}=\frac{-6x-9}{-3}\quad \frac{2y}{2}=\frac{-2x-6}{2}   \amp \quad  \text{    Divide by coefficient of   } y   </mrow> 
+      <mrow> y = 2x + 3 \qquad y = - x - 3 \amp\quad  \text{  Identify slope and $y$ - intercepts   }  </mrow> 
+<mrow> </mrow>
+      <mrow> \begin{matrix} \text{First: } m=\frac{2}{1},\ b=3 \\
+ \text{Second: } m=-\frac{1}{1},\ b=-3 \end{matrix} \amp\quad 
+\text{      Now we can graph both lines on the same plane. }  </mrow>
+   </md>
+        <sidebyside widths="45% 50%" margins="auto" valign="middle">
+   <image source="images/systems-graphing-2.jpg" /> 
+   <p>
+<p>      To graph each equation, we start at the <m>y</m>-intercept and use the slope <m>\frac{\text{rise}}{\text{run}}</m> to get the next point and connect the dots. </p>
+ <p>Remember a negative slope is downhill! </p>
+<p>Find the intersection point, <m> (-2,-1)</m> </p>
+<p> <m>(-2,-1)</m> Our Solution </p>
+   </p>
+    </sidebyside>
+    </example>
+
+    <p> As we are graphing our lines, it is possible to have one of two unexpected results. These are shown and discussed in the next two example.
+    </p>
+
+    <example>
+      <md> 
+	<mrow> \begin{matrix} y = \frac{3}{2} x - 4\\  y = \frac{3}{2} x + 1 \end{matrix}  \amp\quad
+\text{ Identify slope and $y$ - intercept of each equation. } </mrow>
+	<mrow> </mrow>
+ <mrow> \begin{matrix} \text{First: } m=\frac{3}{2},\ b=-4 \\  \text{Second: } m=\frac{3}{2},\ b=1 \end{matrix} \amp\quad
+\text{  Now we can graph both lines on the same plane.} </mrow> 
+      </md>
+    <sidebyside widths="45% 50%" margins="auto" valign="middle">
+      <image source="images/systems-graphing-3.jpg" /> 
+      <p>
+	<p>      To graph each equation, we start at the <m>y</m>-intercept and use the slope <m>\frac{\text{rise}}{\text{run}}</m> to get the next point and connect the dots. </p>
+	<p>The two lines do not intersect! They are parallel! If the lines do not intersect we know that there is no point that works in both equations, there is no solution </p>
+	<p><m>\emptyset</m> No solution </p>
+   </p>
+    </sidebyside>
+    </example>
+
+    <p>
+      We also could have noticed that both lines had the same slope. Remembering
+      that parallel lines have the same slope we would have known there was no solution even without having to graph the lines.
+    </p>
+
+  <example>
+    <md> 
+      <mrow>\begin{matrix} 2x-6y=12 \\  3x-9y=18\end{matrix}  \amp\quad
+	 \text{ Solve each equation for } y   </mrow> 
+<mrow> </mrow>
+      <mrow> 2x-6y=12 \quad 3x-9y=18 \amp \quad  \text{    }   </mrow> 
+      <mrow> -2x \qquad -2x\quad  -3x\qquad -3x \amp\quad  \text{ Subtract $x$ terms }  </mrow> 
+      <mrow>-6y=-2x+12 \quad -9y=-3x+18  \amp\quad  \text{ Put $x$ terms first    }  </mrow>
+      <mrow>\frac{-6y}{-6}=\frac{-2x+12}{-6} \quad \frac{-9y}{-9}=\frac{-3x+18}{-9} \amp \quad  \text{    Divide by coefficient of   } y   </mrow> 
+      <mrow> y = \frac{1}{3}x -2 \qquad y = \frac{1}{3} x - 2 \amp\quad  \text{  Identify slope and $y$ - intercepts   }  </mrow> 
+<mrow> </mrow>
+      <mrow> \begin{matrix} \text{First: } m=\frac{1}{3},\ b=-2 \\  \text{Second: } m=\frac{1}{3},\ b=-2 \end{matrix} \amp\quad
+\text{      Now we can graph both lines on the same plane. } </mrow>
+    </md>
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+   <image source="images/systems-graphing-4.jpg" /> 
+   <p>
+<p>      To graph each equation, we start at the <m>y</m>-intercept and use the slope <m>\frac{\text{rise}}{\text{run}}</m> to get the next point and connect the dots. </p>
+<p>        Both equations are the same line! As one line is directly on top of the other line, we can say that the lines “intersect” at all the points! Here we say we have infinite solutions. </p>
+   </p>
+    </sidebyside>
+    </example>
+
+    <p>
+      Once we had both equations in slope-intercept form we could have noticed that the equations were the same. At this point we could have stated that there are infinite solutions without having to go through the work of graphing the equations.
+    </p>
+
+   <p> <alert> World View Note:</alert> The Babylonians were the first to work with systems of equations with two variables. However, their work with systems was quickly passed by the Greeks who would solve systems of equations with three or four variables and around <m>300</m> AD, developed methods for solving systems with any number of unknowns! </p> 
+
+    
+  <exercises xml:id="exercises-systems-graphing">
+    <title>Exercises - Graphing</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each equation by graphing.	</p>      </introduction>
+      <exercise><statement> <p>
+	<m> \begin{matrix}    y=-x+1  \\   y=-5x-3   \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+	<m> \begin{matrix}   y=-\frac{5}{4} x-2 \\ y=-\frac{1}{4} x+2 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  y=-3 \\ y=-x-4 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}  y=-x-2 \\  y = \frac{2}{3} x + 3\end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}  y=-\frac{3}{4} x+1 \\  y=-\frac{3}{4} x+2\end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}   y=2x+2\\ y=-x-4 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}   y = \frac{1}{3} x + 2\\ y=-\frac{5}{3} x-4  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}  y=2x-4 \\  y=\frac{1}{2}x+2\end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}  y = \frac{5}{3} x + 4 \\ y=-\frac{2}{3} x-3 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p> 
+<m> \begin{matrix}  y = \frac{1}{2} x + 4 \\ y=\frac{1}{2}x+1  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+            <exercise><statement> <p>
+<m> \begin{matrix}  x+3y=-9 \\ 5x+3y=3  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   x+4y=-12 \\ 2x+y=4  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   x-y=4 \\ 2x+y=-1 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   6x+y=-3\\  x+y=2  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  2x+3y=-6 \\ 2x+y=2\  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   3x+2y=2 \\ 3x+2y=-6  \end{matrix} </m>
+      </p> </statement> </exercise>
+      
+      <exercise><statement> <p>
+<m> \begin{matrix}   2x + y = 2 \\ x-y=4  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   x+2y=6 \\ 5x-4y=16  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   2x+y=-2 \\ x+3y=9  \end{matrix} </m>
+      </p> </statement> </exercise>
+      
+      <exercise><statement> <p>
+<m> \begin{matrix}   x-y=3 \\ 5x+2y=8  \end{matrix} </m>
+      </p> </statement> </exercise>
+      
+      <exercise><statement> <p>
+<m> \begin{matrix}   0=-6x-9y+36 \\ 12=6x-3y  \end{matrix} </m>
+      </p> </statement> </exercise>
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   -2y+x=4 \\ 2 = - x + 12 y  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  2x - y = - 1 \\ 0=-2x-y-3  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   -2y=-4-x \\ -2y=-5x+4  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  3+y=-x \\ -4-6x=-y \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}   16=-x-4y \\ -2x=-4-4y \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  - y + 7x = 4 \\ - y - 3 + 7x = 0  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  -4+y=x \\ x+2=-y  \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  -12+x=4y  \\  12-5x=4y \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+      <exercise><statement> <p>
+<m> \begin{matrix}  - 5x + 1 = - y \\  -y+x=-3 \end{matrix} </m>
+      </p> </statement> </exercise> 
+
+    </exercisegroup>
+
+      </exercises>
+
+</section> 
+

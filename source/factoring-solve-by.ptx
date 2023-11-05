@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-solve-by" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Solve by Factoring    </title> 
+
+  <introduction> <alert> Objective:  Solve quadratic equation by factoring and using the zero product rule. </alert> </introduction> 
+
+   <p> 
+     When solving linear equations such as <m>2x - 5 = 21</m> we can solve for the variable directly by adding <m>5</m> and dividing by <m>2</m> to get <m>13</m>. However, when we have <m>x^2</m> (or a higher power of <m>x</m>) we cannot just isolate the variable as we did with the linear equations. One method that we can use to solve for the varaible is known as the zero product rule
+     <me>\textbf{ Zero Product Rule:  If } \mathbf{ ab=0 } \textbf{ then either } \mathbf{ a=0 } \textbf{ or } \mathbf{ b=0 }</me>
+   </p> 
+
+   <p>
+The zero product rule tells us that if two factors are multiplied together and the answer is zero, then one of the factors must be zero. We can use this to help us solve factored polynomials as in the following example.
+   </p>
+
+  <example>
+    <md> 
+      <mrow> (2x-3)(5x+1)=0 \amp \quad  \text{   One factor must be zero   }   </mrow> 
+      <mrow>2x-3=0 \text{ or } 5x+1=0  \amp\quad  \text{ Set each factor equal to zero    }  </mrow> 
+      <mrow>  +3 \ +3 \qquad -1\ -1 \amp\quad  \text{Solve each equation     }  </mrow>
+      <mrow> 2x=3 \text{ or } 5x=-1 \amp\quad  \text{     }  </mrow> 
+      <mrow>   \frac{2x}{2}=\frac{3}{2} \text{ or } \frac{5x}{5}=\frac{-1}{5} \amp\quad  \text{     }  </mrow>       
+      <mrow>  x=\frac{3}{2} \text{ or } \frac{-1}{5} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+For the zero product rule to work we must have factors to set equal to zero. This
+means if the problem is not already factored we will factor it first.
+  </p>
+
+
+  <example>
+    <md> 
+      <mrow> 4x^2+x-3=0 \amp \quad  \text{ Factor using the $ac$ method, multiply to $-12$, add to  } 1   </mrow> 
+      <mrow> 4x^2-3x+4x-3=0 \amp\quad  \text{ The numbers are $-3$ and $4$, split the middle term    }  </mrow> 
+      <mrow>x(4x-3)+1(4x-3)=0  \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> (4x-3)(x+1)=0 \amp \quad  \text{   One factor must be zero   }   </mrow> 
+      <mrow>4x-3=0 \text{ or } x+1=0  \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow>  +3\ +3 \qquad -1\ -1 \amp\quad  \text{ Solve each equation    }  </mrow> 
+      <mrow>4x=3 \text{ or } x=-1  \amp \quad  \text{      }   </mrow> 
+      <mrow>  \frac{4x}{4}=\frac{3}{4} \text{ or } x=-1  \amp\quad  \text{     }  </mrow> 
+      <mrow>  x=\frac{3}{4} \text{ or } -1 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+    Another important part of the zero product rule is that before we factor, the equation must equal zero. If it does not, we must move terms around so it does
+  equal zero. Generally we like the <m>x^2</m> term to be positive.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> x^2=8x-15 \amp \quad  \text{   Set equal to zero by moving terms to the left   }   </mrow> 
+      <mrow> -8x+15 \quad -8x+15 \amp\quad  \text{     }  </mrow> 
+      <mrow> x^2-8x+15=0 \amp\quad  \text{ Factor using the $ac$ method, multiply to $15$, add to  } -8  </mrow> 
+      <mrow> (x-5)(x-3)=0 \amp\quad  \text{ The numbers are $-5$ and  } -3  </mrow> 
+      <mrow> x-5=0 \text{ or } x-3=0 \amp\quad  \text{Set each factor equal to zero     }  </mrow> 
+      <mrow> +5\ +5 \quad +3\ +3 \amp\quad  \text{ Solve each equation    }  </mrow> 
+      <mrow> x=5 \text{ or } x=3 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> (x-7)(x+3)=-9 \amp \quad  \text{ Not equal to zero, multiply first, use FOIL     }   </mrow> 
+      <mrow> x^2-7x+3x-21=-9 \amp\quad  \text{  Combine like terms   }  </mrow> 
+      <mrow> x^2-4x-21=-9 \amp\quad  \text{ Move $-9$ to other side so equation equals zero    }  </mrow> 
+      <mrow>  +9\qquad +9 \amp\quad  \text{     }  </mrow> 
+      <mrow> x^2-4x-12=0 \amp\quad  \text{  Factor using the $ac$ method, mutiply to $-12$, add to  } -4   </mrow> 
+      <mrow> (x-6)(x+2)=0 \amp\quad  \text{ The numbers are $6$  and   } -2  </mrow> 
+      <mrow> x-6=0 \text{ or } x+2=0 \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow> +6\ +6 \qquad -2\ -2 \amp\quad  \text{  Solve each equation   }  </mrow> 
+      <mrow>  x=6 \text{ or } -2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 3x^2 + 4x - 5 = 7x^2 + 4x - 14 \amp \quad  \text{  Set equal to zero by moving terms to the right    }   </mrow> 
+      <mrow> -3x^2 -4x+5 \quad -3x^2 -4x+5 \amp\quad  \text{     }  </mrow> 
+      <mrow>  0 = 4x^2 - 9 \amp\quad  \text{ Factor using difference of squares    }  </mrow> 
+      <mrow>  0=(2x+3)(2x-3) \amp\quad  \text{   One factor must be zero  }  </mrow> 
+      <mrow>  2x+3=0 \text{ or } 2x-3=0 \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow> -3\ -3\qquad +3\ +3 \amp\quad  \text{Solve each equation}  </mrow> 
+      <mrow> 2x=-3 \text{ or } 2x=3 \amp\quad  \text{     }  </mrow> 
+      <mrow> \frac{2x}{2}=\frac{-3}{2} \text{ or } \frac{2x}{2}=\frac{3}{2}  \amp\quad  \text{     }  </mrow> 
+      <mrow> x=\frac{-3}{2} \text{ or } \frac{3}{2} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+Most problems with <m>x^2</m> will have two unique solutions. However, it is possible to
+have only one solution as the next example illustrates.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 4x^2=12x-9 \amp \quad  \text{ Set equal to zero by moving terms to left     }   </mrow> 
+      <mrow> -12x+9 \quad -12x+9 \amp\quad  \text{     }  </mrow> 
+      <mrow>4x^2 -12x+9=0  \amp\quad  \text{Factor using the $ac$ method, multiply to $36$, add to } - 12  </mrow> 
+      <mrow> (2x - 3)^2 = 0 \amp\quad  \text{  $- 6$ and $- 6$, a perfect square!   }  </mrow> 
+      <mrow> 2x-3=0 \amp\quad  \text{  Set this factor equal to zero   }  </mrow> 
+      <mrow> +3\ +3 \amp\quad  \text{  Solve the equation   }  </mrow> 
+      <mrow> 2x=3 \amp\quad  \text{     }  </mrow> 
+      <mrow>  \frac{2x}{2}=\frac{3}{2}\amp\quad  \text{     }  </mrow> 
+      <mrow>x=\frac{3}{2}  \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+As always it will be important to factor out the GCF first if we have one. This GCF is also a factor and must also be set equal to zero using the zero product rule. This may give us more than just two solution. The next few examples illustrate this.
+  </p>
+
+  <example>
+    <md> 
+      <mrow> 4x^2=8x \amp \quad  \text{ Set equal to zero by moving the terms to left     }   </mrow> 
+      <mrow>  -8x\ -8x \amp\quad  \text{ Be careful, on the right side, they are not like terms!    }  </mrow> 
+      <mrow> 4x^2 -8x=0 \amp\quad  \text{  Factor out the GCF of  } 4x  </mrow> 
+      <mrow> 4x(x-2)=0 \amp\quad  \text{  One factor must be zero   }  </mrow> 
+      <mrow>4x=0 \text{ or } x-2=0  \amp\quad  \text{ Set each factor equal to zero    }  </mrow> 
+      <mrow> \frac{4x}{4}=\frac{0}{4} \qquad +2\ +2  \amp\quad  \text{  Solve each equation   }  </mrow> 
+      <mrow>  x=0 \text{ or } 2\amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow>  2x^3-14x^2+24x=0\amp \quad  \text{  Factor out the GCF of  } 2x   </mrow> 
+      <mrow>2x(x^2 -7x+12)=0  \amp\quad  \text{ Factor with $ac$ method, multiply to $12$, add to  } - 7  </mrow> 
+      <mrow> 2x(x-3)(x-4)=0 \amp\quad  \text{ The numbers are $-3$ and   } -4   </mrow> 
+      <mrow> 2x=0 \text{ or } x-3=0 \text{ or } x-4=0 \amp\quad  \text{  Set each factor equal to zero   }  </mrow> 
+      <mrow> \div 2\ \div 2 \qquad +3\ +3  \qquad +4\ +4 \amp\quad  \text{ Solve each equation    }  </mrow> 
+      <mrow> x=0 \text{ or } 3 \text{ or } 4 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+
+  <example>
+    <md> 
+      <mrow> 6x^2+21x-27=0 \amp \quad  \text{  Factor out the GCF of  } 3    </mrow> 
+      <mrow> 3(2x^2+7x-9)=0 \amp\quad  \text{  Factor with $ac$ method, multiply to $- 18$, add to  } 7  </mrow> 
+      <mrow>3(2x^2+9x-2x-9)=0  \amp\quad  \text{  The numbers are $9$ and  } -2  </mrow> 
+      <mrow> 3\left(x(2x+9)-1(2x+9)\right)=0 \amp\quad  \text{  Factor by grouping   }  </mrow> 
+      <mrow>  3(2x+9)(x-1)=0\amp\quad  \text{  One factor must be zero   }  </mrow> 
+      <mrow> 3=0 \text{ or } 2x+9=0 \text{ or } x-1=0 \amp\quad  \text{ Set each factor equal to zero    }  </mrow> 
+      <mrow>3\neq 0 \qquad -9\ -9 \qquad +1\ +1  \amp\quad  \text{ Solve each equation    }  </mrow> 
+      <mrow>  2x=-9 \text{ or } x=1 \amp\quad  \text{     }  </mrow> 
+      <mrow>  \frac{2x}{2}=\frac{-9}{2} \text{ or } x=1 \amp\quad  \text{     }  </mrow> 
+      <mrow>  x=-\frac{9}{2} \text{ or } 1 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+In the previous example, the GCF did not have a variable in it. When we set this factor equal to zero we got a false statement. No solution come from this factor. Often a student will skip setting the GCF factor equal to zero if there is no variables in the GCF. 
+  </p>
+
+  <p>
+Just as not all polynomials cannot factor, all equations cannot be solved by factoring. If an equation does not factor we will have to solve it using another method. These other methods are saved for another section.
+  </p>
+
+  <p> <alert> World View Note:</alert>While factoring works great to solve problems with <m>x^2</m>, Tartaglia, in <m>16</m>th century Italy, developed a method to solve problems with <m>x^3</m> . He kept his method a secret until another mathematician, Cardan, talked him out of his secret and published the results. To this day the formula is known as Cardan’s Formula.  </p> 
+
+  <p>
+A question often asked is if it is possible to get rid of the square on the variable by taking the square root of both sides. While it is possible, there are a few properties of square roots that we have not covered yet and thus it is common to break a rule of roots that we are not aware of at this point. The short reason we want to avoid this for now is because taking a square root will only give us one of the two answers. When we talk about roots we will come back to problems like these and see how we can solve using square roots in a method called completing the square. For now, <alert> never take the square root of both sides</alert>!
+  </p>
+
+
+  <exercises xml:id="exercises-factoring-solve-by">
+    <title>Exercises - Solve by Factoring</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Solve each equation by factoring.	</p>      </introduction>
+      <exercise><statement> <p> <m> (k-7)(k+2)=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (a+4)(a-3)=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>(x-1)(x+4)=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> (2x+5)(x-7)=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 6x^2 - 150 = 0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> p^2+4p-32=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>2n^2+10n-28=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>m^2-m-30=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7x^2 +26x+15=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>40r^2-285r-280=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^2-9n-2=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>2b^2 -3b-2=0 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2-4x-8=-8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> v^2 -8v -3=-3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2-5x-1=-5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>a^2 -6a+6=-2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 49p^2+371p-163=5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7k^2+57k+13=5</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7x^2 +17x-20=-8 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4n^2 -13n+8=5 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7r^2+84=-49r </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>7m^2 - 224 = 28m </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2-6x=16</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 7n^2 -28n=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3v^2+7v=40</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>6b^2 = 5 + 7b </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>35x^2 +120x=-45 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>9n^2 +39n=-36 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>4k^2 +18k -23=6k -7 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>a^2+7a-9=-3+6a </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>9x^2 -46+7x=7x+8x^2 +3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^2 +10x+30=6 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>2m^2 +19m+40=-2m </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^2 +41n+40=-2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>40p^2+183p-168=p+5p^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 24x^2+11x-80=3x</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+  
+</section>

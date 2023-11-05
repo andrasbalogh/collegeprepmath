@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="factoring-strategy" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title> Factoring Strategy    </title> 
+
+  <introduction> <alert> Objective:  Idenfity and use the correct method 
+  to factor various polynomials. </alert> </introduction> 
+
+   <p> 
+     With so many different tools used to factor, it is easy to get lost as to 
+     which tool to use when. Here we will attempt to organize all the different 
+     factoring types we have seen. A large part of deciding how to solve a problem 
+     is based on how many terms are in the problem. For all problem types we will 
+     always try to factor out the GCF first.
+   </p> 
+
+   <p><me> \textbf{ Factoring Strategy (GCF First!!!!!) }  </me></p>
+
+<ul>
+<li> <alert> 2 terms:</alert> sum or difference of squares or cubes:
+<md>
+<mrow>a^2 - b^2 = \amp (a + b)(a - b) </mrow>
+<mrow> a^3 +b^3 = \amp (a+b)(a^2 - ab+b^2)</mrow>
+<mrow> a^3 - b^3 = \amp (a - b)(a^2 + ab + b^2) </mrow>
+</md> </li>
+<li> <alert> 3 terms:</alert> ac method, watch for perfect square!
+<md> 
+<mrow> a^2 +2ab+b^2 =(a+b)^2</mrow>
+<mrow> \text{Multiply to } ac \text{ and add to } b</mrow>
+</md>
+</li>
+<li>  <alert>4 terms:</alert> grouping </li>
+</ul>
+
+<p> We will use the above strategy to factor each of the following examples. Here the emphasis will be on which strategy to use rather than the steps used in that method.
+</p>
+
+  <example>
+    <md> 
+      <mrow> 4x^2 + 56xy + 196y^2 \amp \quad  \text{  GCF first, } 4   </mrow> 
+      <mrow> 4(x^2 + 14xy + 49y^2)  \amp\quad  \text{ Three terms, try $ac$ method, multiply to $49$, add to } 14  </mrow> 
+      <mrow>   \amp\quad  \text{$7$ and $7$, perfect square! }  </mrow>     
+      <mrow>  4(x + 7y)^2 \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 5x^2y + 15xy - 35x^2 - 105x \amp \quad  \text{ GCF first, }  5x  </mrow> 
+      <mrow> 5x(xy + 3y - 7x - 21) \amp\quad  \text{ Four terms, try grouping  }  </mrow> 
+      <mrow>5x[y(x+3)-7(x+3)]  \amp\quad  (x+3) \text{ match!  }  </mrow> 
+      <mrow>  5x(x + 3)(y - 7) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 100x^2 - 400 \amp \quad  \text{  GCF first, }  100  </mrow> 
+      <mrow> 100(x^2 - 4) \amp\quad  \text{ Two terms, difference of squares}  </mrow> 
+     <mrow> 100(x + 4)(x - 4) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <example>
+    <md> 
+      <mrow> 108x^3y^2 - 39x^2y^2 + 3xy^2 \amp \quad  \text{ GCF first,  } 3xy^2  </mrow> 
+      <mrow> 3xy^2(36x^2 - 13x + 1) \amp\quad  \text{  Thee terms, $ac$ method, multiply to $36$, add to } -13 </mrow> 
+      <mrow> 3xy^2(36x^2-9x-4x+1) \amp\quad  -9 \text{ and $-4$,split middle term  }  </mrow> 
+      <mrow>  3xy^2[9x(4x - 1) - 1(4x - 1)] \amp\quad  \text{ Factor by grouping    }  </mrow> 
+      <mrow> 3xy^2(4x - 1)(9x - 1) \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+ <p> <alert> World View Note:</alert>Variables originated in ancient Greece where Aristotle would use a single capital letter to represent a number.  </p> 
+
+  <example>
+    <md> 
+      <mrow> 5 + 625y^3 \amp \quad  \text{ GCF first, }  5  </mrow> 
+      <mrow> 5(1 + 125y^3) \amp\quad  \text{ Two terms, sum of cubes }  </mrow> 
+      <mrow>  5(1 + 5y)(1 - 5y + 25y^2) \amp\quad   \text{  Our Solution   }  </mrow> 
+    </md>
+  </example> 
+
+  <p>
+It is important to be comfortable and confident not just with using all the fac- toring methods, but decided on which method to use. This is why practice is very important!
+  </p>
+
+
+  <exercises xml:id="exercises-factoring-strategy">
+    <title>Exercises - Factoring Strategy</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Factor each completely.	</p>      </introduction>
+      <exercise><statement> <p> <m> 24az -18ah+60yz -45yh</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^2 -11x+15</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5u^2-9uv+4v^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 16x^2+48xy+36y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> -2x^3+128y^3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 20uv-60u^3-5xv+15xu^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5n^3+7n^2-6n </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^3+5x^2y+3y^2x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>54u^3 - 16 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>54 - 128x^3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> n^2-n </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>5x^2-22x-15 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^2-4xy+3y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 45u^2-150uv+125v^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>9x^2 - 25y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>x^3 - 27y^3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> m^2 -4n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 12ab-18a+6nb-9n</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>  36b^2c - 16xd - 24b^2d + 24xc </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3m^3 - 6m^2n - 24n^2m</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 128 + 54x^3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 64m^3 + 27n^3</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^3 + 6x^2y - 20y^2x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3ac + 15ad^2 + x^2c + 5x^2d^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> n^3 +7n^2 +10n</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>64m^3 -n^3 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>27x^3 - 64 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 16a^2 - 9b^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 5x^2 +2x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2x^2 -10x+12 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 3k^3 - 27k^2 + 60k </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 32x^2 - 18y^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>mn-12x+3m-4xn </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2k^2+k-10 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m>16x^2-8xy+y^2 </m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> v^2+v</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 27m^2 - 48n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> x^3 + 4x^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 9x^3 + 21x^2y - 60y^2x</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 9n^3 - 3n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2m^2 + 6mn - 20n^2</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> 2u^2v^2 - 11uv^3 + 15v^4</m> </p> </statement> </exercise> 
+    </exercisegroup>
+
+      </exercises>
+  
+</section>

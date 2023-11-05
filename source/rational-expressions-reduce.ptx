@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<section xml:id="rational-expressions-reduce" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+
+  <title>  Reduce Rational Expressions   </title> 
+
+  <introduction> <alert> Objective:   </alert> Reduce rational expressions by dividing out common factors. </introduction> 
+
+   <p> 
+<alert>Rational expressions</alert> are expressions written as a quotient of polynomials. Examples of rational expressions include:
+   </p> 
+
+	<md> 
+	  <mrow> \frac{x^2-x-12}{x^2-9x+20} \quad \text{ and } \quad  \frac{3}{x-2} \quad \text{ and } 
+      \quad \frac{a-b}{b-a} \quad \text{ and } \quad \frac{3}{2} </mrow> 
+	</md>
+
+<p> As rational expressions are a special type of fraction, it is important to remember with fractions we cannot have zero 
+in the denominator of a fraction. For this reason, rational expressions may have one more excluded values, 
+or values that the variable cannot be or the expression would be undefined.
+</p>
+
+
+  <example> State the excluded value(s):
+    <md> 
+      <mrow>  \frac{x^2-1}{3x^2+5x} \amp \quad  \text{  Denominator cannot be zero    }   </mrow> 
+      <mrow>  3x^2+5x\neq 0 \amp\quad  \text{  Factor   }  </mrow> 
+      <mrow>  x\left(3x+5\right)\neq 0 \amp\quad  \text{ Set each factor not equal to zero    }  </mrow> 
+      <mrow>  x\neq 0 \text{ or } 3x+5\neq 0 \amp\quad  \text{  Subtract $5$ from second equation   }  </mrow> 
+      <mrow>  -5\ -5 \amp\quad  \text{     }  </mrow> 
+      <mrow>  x\neq 0 \text{ or } 3x\neq -5 \amp\quad  \text{  Divide second equation by } 3  </mrow> 
+      <mrow>  x\neq 0 \text{ or } x\neq \frac{-5}{3} \amp\quad  \text{  Our Solution   }  </mrow> 
+    </md>
+    This means we can use any value for <m>x</m> in the equation except for <m>0</m> and <m>\frac{-5}{3}</m>. 
+    We can however, evaluate any other value in the expression.
+  </example> 
+
+   <p> <alert> World View Note:</alert> The number zero was not widely accepted in mathematical thought around the world for 
+   many years. It was the Mayans of Central America who first used zero to aid in the use of their base <m>20</m> system 
+   as a place holder! </p> 
+
+<p> Rational expressions are easily evaluated by simply substituting the value for the variable and using order of operations.</p>
+
+  <example> Determine the value of the following expression for <m>x=-6</m>:
+    <md> 
+      <mrow>  \frac{x^2-4}{x^2+6x+8}  \amp \quad  \text{  Substitute $-6$ for each occurence of variable $x$ }   </mrow> 
+      <mrow>  \frac{(-6)^2-4}{(-6)^2+6(-6)+8}  \amp\quad  \text{  Exponents first   }  </mrow> 
+      <mrow>  \frac{36-4}{36+6(-6)+8}  \amp\quad  \text{  Multiply   }  </mrow> 
+      <mrow>  \frac{36-4}{36-36+8}  \amp\quad  \text{  Add and subtract   }  </mrow> 
+      <mrow>  \frac{32}{8} \amp\quad  \text{  Reduce   }  </mrow> 
+      <mrow>  4 \amp\quad  \text{ Our Solution    }  </mrow> 
+    </md>
+  </example> 
+
+  <p> 
+  Just as we reduced the previous example, often a rational expression can be reduced, even without knowing the value of the 
+  variable. When we reduce we divide out common factors. We have already seen this with monomials when we discussed 
+  properties of exponents. 
+  If the problem only has monomials we can reduce the coefficients, and subtract exponents on the variables.
+  </p> 
+
+  <example> 
+    <md> 
+      <mrow>  \frac{15x^4y^2}{25x^2y^6}  \amp \quad  \text{ Reduce, subtract exponents. Negative exponents move to denominator  }   </mrow> 
+      <mrow>  \frac{3x^2}{5y^4} \amp\quad  \text{ Our Solution    }  </mrow> 
+    </md>
+  </example> 
+
+  <p> 
+  However, if there is more than just one term in either the numerator or denominator, 
+  we can’t divide out common factors unless we first factor the numerator and denominator.
+  </p> 
+
+  <example> 
+    <md> 
+      <mrow>  \frac{28}{8x^2-16}  \amp \quad  \text{ Denominator has a common factor of } 8  </mrow> 
+      <mrow>   \frac{28}{8(x^2-2)}  \amp\quad  \text{ Reduce by dividing $28$ and $8$ by } 4  </mrow> 
+      <mrow>   \frac{7}{2(x^2-2)}  \amp\quad  \text{ Our Solution }   </mrow> 
+    </md>
+  </example> 
+
+  <example> 
+    <md> 
+      <mrow>  \frac{9x-3}{18x-6}  \amp \quad  \text{ Numerator has a common factor of $3$, denominator of } 6  </mrow> 
+      <mrow>  \frac{3(3x-1)}{6(3x-1)}   \amp\quad  \text{ Divide out common factor $(3x - 1)$ and divide $3$ and $6$ by } 3  </mrow> 
+      <mrow>   \frac{1}{2}  \amp\quad  \text{ Our Solution }   </mrow> 
+    </md>
+  </example> 
+
+  <example> 
+    <md> 
+      <mrow>  \frac{x^2 - 25}{x^2 +8x+15}  \amp \quad  \text{ Numerator is difference of squares, denominator is factored using AC method}   </mrow> 
+      <mrow>  \frac{(x+5)(x-5)}{(x+3)(x+5)}   \amp\quad  \text{ Divide out common factor } (x + 5)  </mrow> 
+      <mrow>   \frac{x-5}{x+3}  \amp\quad  \text{ Our Solution }   </mrow> 
+    </md>
+  </example> 
+
+<p> 
+It is important to remember we cannot reduce terms, only factors. This means if
+there are any <m>+</m> or <m>-</m> between the parts we want to reduce we cannot. 
+In the previous example we had the solution <m>x-5</m>, we cannot divide out the <m>x</m>’s because <m>x+3</m>
+they are terms (separated by <m>+</m> or <m>-</m> ) not factors (separated by multiplication).
+</p>
+
+  <exercises xml:id="exercises-rational-expressions-reduce">
+    <title>Exercises - Reduce Rational Expressions</title>
+    
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Evaluate each expression. 	</p>      </introduction>
+      <exercise><statement> <p> <m> \frac{4v+2}{6} </m> when <m>v=4</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{b-3}{3b-9} </m> when <m>b=-2</m> </p> </statement> </exercise> 
+       <exercise><statement> <p> <m> \frac{x-3}{x^2-4x+3} </m> when <m>x=-4</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{a+2}{a^2+3a+2} </m> when <m>a=-1</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{b+2}{b^2+4b+4} </m> when <m>b=0</m> </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{n^2-n-6}{n-3} </m> when <m>n=4</m> </p> </statement> </exercise> 
+   </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  State the excluded values for each expression. </p>  </introduction>
+      <exercise><statement> <p> <m> \frac{3k^2+30k}{k+10} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{27p}{18p^2 - 36p} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{15n^2}{10n+25} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+10}{8x^2 +80x} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{10m^2+8m}{10m} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{10x+16}{6x+20} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{r^2+3r+2}{5r+10} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{6n^2-21n}{6n^2+3n} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{b^2+12b+32}{b^2+4b-32} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{10v^2+30v}{35v^2-5v} </m>  </p> </statement> </exercise> 
+   </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>	<p>	  Simplify each expression. </p>  </introduction>
+      <exercise><statement> <p> <m> \frac{21x^2}{18x} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{12n}{4n^2} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{24a}{40a^2} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{21k}{24k^2} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{32x^3}{8x^4} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{90x^2}{20x} </m>  </p> </statement> </exercise>  
+      <exercise><statement> <p> <m> \frac{18m-24}{60} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{10}{81n^3 + 36n^2} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{20}{4p+2} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{n-9}{9n-81} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{x+1}{x^2+8x+7} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{28m+12}{36} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{32x^2}{28x^2 + 28x} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{49r+56}{56r} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{n^2+4n-12}{n^2-7n+10} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{b^2+14b+48}{b^2+15b+56} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{9v+54}{v^2-4v-60} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{30x-90}{50x+40} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{12x^2 - 42x}{30x2 - 42x} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{k^2-12k+32}{k^2 - 64} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{6a-10}{10a+4} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{9p+18}{p^2 + 4p + 4} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{2n^2+19n-10}{9n+90} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{3x^2-29x+40}{5x^2-30x-80} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{8m+16}{20m-12} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{56x-48}{24x^2+56x+32} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{ 2x^2-10x+8}{ 3x^2-7x+4} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{50b-80 }{50b+20 } </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{7n^2-32n+16 }{ 4n-16} </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{35v+35 }{21v+7 } </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{n^2-2n+1 }{6n+6 } </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{56x-48 }{24x^2+56x+32 } </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{7a^2-26a-45 }{6a^2-34a+20 } </m>  </p> </statement> </exercise> 
+      <exercise><statement> <p> <m> \frac{ 4k^3 - 2k^2 - 2k}{9k^3-18k^2+9k } </m>  </p> </statement> </exercise> 
+    </exercisegroup>
+   
+    </exercises>
+
+
+</section> 
+

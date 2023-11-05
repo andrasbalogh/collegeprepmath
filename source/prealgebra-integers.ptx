@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="prealgebra-integers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Integers</title>
+
+  <introduction> <alert> Objective: Add, Subtract, Multiply and Divide Positive and Negative Numbers.</alert> </introduction>
+  
+  <p> The ability to work comfortably with negative numbers is essential to success in algebra. For this reason we will do a quick review of adding, subtracting, multiplying and dividing of integers. <term> Integers </term> are all the positive whole numbers, zero, and their opposites (negatives). As this is intended to be a review of integers, the descriptions and examples will not be as detailed as a normal lesson. </p>
+  
+<p> <alert> World View Note:</alert> The first set of rules for working with negative numbers was written out by the Indian mathematician Brahmagupa. </p>
+
+<p> When adding integers we have two cases to consider. The first is if the signs
+match, both positive or both negative. If the signs match we will add the numbers together and keep the sign. This is illustrated in the following examples
+  </p>
+
+  <example>
+    <md>
+      <mrow> -5 +(-3) \amp \quad  \text{Same sign, add } 5+3 \text{, keep negative sign} </mrow>
+      <mrow> -8 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+
+  <example>
+    <md>
+      <mrow> -7 +(-5) \amp \quad  \text{Same sign, add } 7+5=12 \text{, keep negative sign} </mrow>
+      <mrow> -12 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <p>
+    If the signs don’t match, one positive and one negative number, we will subtract
+    the numbers (as if they were all positive) and then use the sign from the larger
+    number. This means if the larger number is positive, the answer is positive. If the
+    larger number is negative, the answer is negative. This is shown in the following
+    examples.
+  </p>
+  
+  
+  <example>
+    <md>
+      <mrow> -7 +2 \amp \quad  \text{different signs, subtract } 7-2=5 \text{, use sign from bigger number, negative} </mrow>
+      <mrow> -5 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <example>
+    <md>
+      <mrow> -4 +6 \amp \quad  \text{different signs, subtract } 6-4=2 \text{, use sign from bigger number, positive} </mrow>
+      <mrow> 2 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  
+  <p> For subtraction of negatives we will change the problem to an addition problem
+  which we can then solve using the above methods. The way we change a subtraction to an addition is to add the opposite of the number after the subtraction
+  sign. Often this method is refered to as “add the opposite.” This is illustrated in
+  the following examples.</p>
+  
+  <example>
+    <md>
+      <mrow> 8 -3 \amp \quad  \text{Add the opposite of } 3 </mrow>
+      <mrow> 8+(-3) \amp \quad \text{Different signs, subtract } 8 - 3=5 \text{, use sign from bigger number, positive} </mrow>
+      <mrow> 5 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+  <example>
+    <md>
+      <mrow> 9 -(-4) \amp \quad  \text{Add the opposite of } -4 </mrow>
+      <mrow> 9+4 \amp \quad \text{Same signs, add } 9+4=13 \text{, keep the positive sign} </mrow>
+      <mrow> 13 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <example>
+    <md>
+      <mrow> -6 -(-2) \amp \quad  \text{Add the opposite of } -2 </mrow>
+      <mrow> -6+2 \amp \quad \text{Different signs, subtract } 6-2=4 \text{, use sign from bigger number, negative} </mrow>
+      <mrow> -4 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p>
+    Multiplication and division of integers both work in a very similar pattern. The
+short description of the process is we multiply and divide like normal, if the signs
+match (both positive or both negative) the answer is positive. If the signs don’t
+match (one positive and one negative) then the answer is negative. This is shown
+in the following examples
+  </p>
+
+  <example>
+    <md>
+      <mrow> (4)(-6) \amp \quad  \text{Signs do not match, answer has negative sign} </mrow>
+      <mrow> -24 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+  
+
+  <example>
+    <md>
+      <mrow> \frac{-36}{-9}  \amp \quad  \text{Signs match, answer has positive sign} </mrow>
+      <mrow> 4 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <example>
+    <md>
+      <mrow> (-2)(-6) \amp \quad  \text{Signs match, answer has positive sign} </mrow>
+      <mrow> 12 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <example>
+    <md>
+      <mrow> \frac{15}{-3} \amp \quad  \text{Signs do not match, answer has negative sign} </mrow>
+      <mrow> -5 \amp\quad  \text{Our Solution} </mrow>
+    </md>
+  </example>
+
+  <p> A few things to be careful of when working with integers.
+  First be sure not to confuse a problem like <m>- 3 - 8</m> with <m> -3(-8)</m>.
+  The second problem is a multiplication problem because there is nothing between the <m>3</m> and the parenthesis.
+  If there is no operation written in between the parts, then we assume that
+  means we are multiplying. The <m>-3-8</m> problem, is subtraction because
+  the subtraction separates the <m>3</m> from what comes after it.
+  Another item to watch out for is to be careful not to mix up the pattern for adding and
+  subtracting integers with the
+  pattern for multiplying and dividing integers. They can look very similar, for
+  example if the signs match on addition, the we keep the negative, <m>-3 + (-7) = -10</m>, but if the signs match on multiplication, the answer is positive, <m>(-3)(-7) = 21</m>.
+  </p>
+
+
+  <exercises xml:id="exercises-integers">
+  <title>Exercises - Integers</title>
+
+    <exercisegroup cols="2">
+      <introduction>
+	<p>
+	  Evaluate each expression. 
+	</p>
+      </introduction>
+      
+      <exercise><statement> <p> <m> 1-3</m> </p> </statement> </exercise> 
+      <exercise><statement><p> <m> (4)-(-1)</m> </p>   </statement></exercise>
+      <exercise><statement> <p> <m> (-6)+8</m> </p>  </statement></exercise>
+      <exercise><statement><p><m> (-6)-(-8)</m></p></statement></exercise>
+      <exercise><statement><p><m> (-3)-3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-8)-(-3) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  3-(-5) </m> </p></statement></exercise>
+      <exercise><statement><p><m> 7-7 </m> </p></statement></exercise>
+      <exercise><statement><p><m> (-7)-(-5) </m> </p></statement></exercise>
+      <exercise><statement><p><m> (-4)+(-1) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  3-(-1)</m> </p></statement></exercise>
+      <exercise><statement><p><m> (-1)+(-6) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  6-3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-8)+(-1) </m> </p></statement></exercise>
+      <exercise><statement><p><m> (-5)+3 </m> </p></statement></exercise>
+      <exercise><statement><p><m> (-1)-8 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  2-3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  5-7 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-8)-(-5) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-5)+7 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-2)+(-5) </m> </p></statement></exercise>
+      <exercise><statement><p><m> 1+(-1) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  5-(-6) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  8-(-1) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-6)+3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-3)+(-1) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  4-7 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  7-3 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-7)+7 </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-3) +(-5) </m> </p></statement></exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>
+	<p>
+	  Find each product
+	</p>
+      </introduction>
+      <exercise><statement><p><m>  (4)(-1)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (7)(-5)</m> </p></statement></exercise>
+      <exercise><statement><p><m> (10)(-8) </m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-7)(-2)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-4)(-2)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-6)(-1)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-7)(8)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (6)(-1)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (9)(-4)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-9)(-7)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-5)(2)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-2)(-2)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-5)(4)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (-3)(-9)</m> </p></statement></exercise>
+      <exercise><statement><p><m>  (4)(-6)</m> </p></statement></exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <introduction>
+	<p>
+	  Find each quotient. 
+	</p>
+      </introduction>
+      <exercise><statement><p><m>  \frac{30}{-10}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-49}{-7}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-12}{-4}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-2}{-1}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{30}{6}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{20}{10}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{27}{3}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-35}{-5}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{80}{-8}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-8}{-2}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{50}{5}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{-16}{2}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{48}{8}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{60}{-10}</m> </p></statement></exercise>
+      <exercise><statement><p><m>  \frac{54}{-6}</m> </p></statement></exercise>
+      
+    </exercisegroup>
+</exercises>
+
+</section>
+
