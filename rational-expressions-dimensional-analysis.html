@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dimensional Analysis</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Preparatory Mathematics">
+<meta property="book:author" content="Tyler Wallace">
+<meta property="book:author" content="(HTML version is edited by Andras Balogh)">
+<meta property="book:author" content="    PDF version of this book. ">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="College Preparatory Mathematics for Texas HB5" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="collegeprepmath.html"><span class="title">College Preparatory Mathematics</span></a></h1>
+<p class="byline">Tyler Wallace, (HTML version is edited by Andras Balogh), <a class="external" href="external/collegeprepmath.pdf" target="_blank">PDF version of this book.</a><details class="ptx-footnote" aria-live="polite" id="frontmatter-1-3-1-2"><summary class="ptx-footnote__number" title="Footnote 0.0.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="frontmatter-1-3-1-2"><code class="code-inline tex2jax_ignore">external/collegeprepmath.pdf</code></div></details></p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="rational-expressions-equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-rational-expressions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chapter-radicals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand\Mydiv[2]{
+       \strut#1\kern.25em\smash{\raise.4ex\hbox{$\big)$}}\mkern-8mu
+       \overline{\enspace\strut#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="acknowledgement.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-prealgebra.html" class="internal"><span class="codenumber">0</span> <span class="title">Pre-Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-integers.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-integers.html#exercises-integers" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-fractions.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-fractions.html#exercises-fractions" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-order-of-operations.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-order-of-operations.html#exercises-order-of-operations" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises - Order of Operations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Properties of Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html#exercises-properties-of-algebra" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises - Properties of Algebra</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-linear-equations.html" class="internal"><span class="codenumber">1</span> <span class="title">Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-one-step-equations.html" class="internal"><span class="codenumber">1.1</span> <span class="title">One Step Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Addition Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Subtraction Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-5" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Multiplication Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Division Problems:</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#exercises-one-step-equations" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises - One Step Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-two-step-equations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Two-Step Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-two-step-equations.html#exercises-two-step-equations" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises - Two-Step Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-general.html" class="internal"><span class="codenumber">1.3</span> <span class="title">General Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-general.html#exercises-general-equations" class="internal"><span class="codenumber">1.3</span> <span class="title">Practice - General Linear Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-fractions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Solving with Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-fractions.html#exercises-linear-fractions" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-formulas.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-formulas.html#exercises-linear-formulas" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises - Formulas</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-abolutev.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Absolute Value Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-abolutev.html#exercises-linear-absolutev" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises - Absolute Value Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-variation.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-variation.html#exercises-linear-variation" class="internal"><span class="codenumber">1.7</span> <span class="title">Exercises - Variation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-num-geom.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Application: Number/Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-num-geom.html#exercises-linear-number-and-geometry" class="internal"><span class="codenumber">1.8</span> <span class="title">Exercises – Number/Geometry</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-graphing.html" class="internal"><span class="codenumber">2</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-points-lines.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Points and Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-points-lines.html#exercises-graphing-points-lines" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises - Points and Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Slope</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope.html#exercises-graphing-slope" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises - Graphing - Slope</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope-intercept.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Slope-Intercept Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope-intercept.html#exercises-graphing-slope-intercept" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises - Slope-Intercept Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-point-slope.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Point-Slope Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-point-slope.html#exercises-graphing-point-slope" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises - Point-Slope Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-parallel-perpendicular.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-parallel-perpendicular.html#exercises-graphing-parallel-perpendicular" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises - Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-inequalities.html" class="internal"><span class="codenumber">3</span> <span class="title">Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-solve-graph.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solve and Graph Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-solve-graph.html#exercises-inequalities-solve-graph" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises - Solve and Graph Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-compound.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Compound Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-compound.html#exercises-inequalities-compound" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises - Compound Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-absolute-value.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Absolute Value Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-absolute-value.html#exercises-inequalities-absolute" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises - Absolute Value Inequalities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-systems.html" class="internal"><span class="codenumber">4</span> <span class="title">Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-graphing.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-graphing.html#exercises-systems-graphing" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises - Graphing</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-substitution.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-substitution.html#exercises-systems-substitution" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises - Substitution</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-elimination.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Addition/Elimination</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-elimination.html#exercises-systems-elimination" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises - Addition/Elimination</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-three-variables.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Three Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-three-variables.html#exercises-systems-three-variables" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises - Three Variables</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-value-problems.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Value Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-value-problems.html#exercises-value-problems" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises – Value Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-mixture-problems.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Mixture Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-mixture-problems.html#exercises-mixture-problems" class="internal"><span class="codenumber">4.6</span> <span class="title">Exercises – Mixture Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-polynomials.html" class="internal"><span class="codenumber">5</span> <span class="title">Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-exponent-properties.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exponent Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-exponent-properties.html#exercises-polynomials-exponent-properties" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises - Exponent Properties</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-negative-exponents.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Negative Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-negative-exponents.html#exercises-polynomials-negative-exponents" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises - Negative Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-scientific-notation.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-scientific-notation.html#exercises-polynomials-scientific-notation" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-introduction.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Introduction to Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-introduction.html#exercises-introduction-polynomials" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises - Introduction to Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-multiplying.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Multiplying Polynomial</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-multiplying.html#exercises-polynomials-multiply" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises - Multiply Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-special-products.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Multiply Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-special-products.html#exercises-polynomials-special-products" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercises -Multiply Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-divide.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Divide Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-divide.html#exercises-polynomials-divide" class="internal"><span class="codenumber">5.7</span> <span class="title">Exercises - Divide Polynomials</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-factoring.html" class="internal"><span class="codenumber">6</span> <span class="title">Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-gcf.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Greatest Common Factor</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-gcf.html#exercises-factoring-gcf" class="internal"><span class="codenumber">6.1</span> <span class="title">Exercises - Greatest Common Factor</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-grouping.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Grouping</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-grouping.html#exercises-factoring-grouping" class="internal"><span class="codenumber">6.2</span> <span class="title">Exercises - Grouping</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-1.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Trinomials where <span class="process-math">\(a= 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-1.html#exercises-factoring-trinomials-A-1" class="internal"><span class="codenumber">6.3</span> <span class="title">Exercises - Trinomials where <span class="process-math">\(a = 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html#exercises-factoring-trinomials-a-not-1" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercises -Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-special-products.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Factoring Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-special-products.html#exercises-factoring-special-products" class="internal"><span class="codenumber">6.5</span> <span class="title">Exercises - Factoring Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-strategy.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Factoring Strategy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-strategy.html#exercises-factoring-strategy" class="internal"><span class="codenumber">6.6</span> <span class="title">Exercises - Factoring Strategy</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-solve-by.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Solve by Factoring</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-solve-by.html#exercises-factoring-solve-by" class="internal"><span class="codenumber">6.7</span> <span class="title">Exercises - Solve by Factoring</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-rational-expressions.html" class="internal"><span class="codenumber">7</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-reduce.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Reduce Rational Expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-reduce.html#exercises-rational-expressions-reduce" class="internal"><span class="codenumber">7.1</span> <span class="title">Exercises - Reduce Rational Expressions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-multiply-devide.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Multiply and Divide</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-multiply-devide.html#exercises-rational-multiply-divide" class="internal"><span class="codenumber">7.2</span> <span class="title">Exercises - Multiply and Divide</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-LCD.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Least Common Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-LCD.html#exercises-rational-LCD" class="internal"><span class="codenumber">7.3</span> <span class="title">Exercises - Least Common Denominator</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-add-subtract.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Add and Subtract</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-add-subtract.html#exercises-rational-expressions-add-subtract" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercises – Add and Subtract</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-complex-fractions.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Complex Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-complex-fractions.html#exercises-rational-expressions" class="internal"><span class="codenumber">7.5</span> <span class="title">Exercises – Complex Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-proportions.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-proportions.html#exercises-rational-expressions-proportions" class="internal"><span class="codenumber">7.6</span> <span class="title">Exercises - Proportions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-equations.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Solving Rational Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-equations.html#exercises-rational-expressions-equations" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercises – Solving Rational Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Dimensional Analysis</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html#exercises-rational-expressions-dimensional" class="internal"><span class="codenumber">7.8</span> <span class="title">Exercises – Dimensional Analysis</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-radicals.html" class="internal"><span class="codenumber">8</span> <span class="title">Radicals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-square-roots.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Square Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-square-roots.html#exercises-square-roots" class="internal"><span class="codenumber">8.1</span> <span class="title">Exercises – Square Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-higher-roots.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Higher Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-higher-roots.html#exercises-higher-roots" class="internal"><span class="codenumber">8.2</span> <span class="title">Exercises – Higher Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-adding-radicals.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Adding Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-adding-radicals.html#exercises-radicals-adding-radicals" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercises -  Adding Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-multiply-divide.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Multiply and Divide Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-multiply-divide.html#exercises-multiply-divide-radicals" class="internal"><span class="codenumber">8.4</span> <span class="title">Exercises – Multiply and Divide Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rationalize-denominators.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Rationalize Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rationalize-denominators.html#exercises-radicals-rationalize-denominators" class="internal"><span class="codenumber">8.5</span> <span class="title">Exercises – Rationalize Denominators</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rational-exponents.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Rational Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rational-exponents.html#exercises-rational-exponents" class="internal"><span class="codenumber">8.6</span> <span class="title">Exercises – Rational Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-mixed-index.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Radicals of Mixed Index</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-mixed-index.html#exercises-radicals-mixed-index" class="internal"><span class="codenumber">8.7</span> <span class="title">Exercises - Radicals of Mixed Index</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-complex-numbers.html" class="internal"><span class="codenumber">8.8</span> <span class="title">Complex Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-complex-numbers.html#exercises-complex-numbers" class="internal"><span class="codenumber">8.8</span> <span class="title">Exercises - Complex Numbers</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratics.html" class="internal"><span class="codenumber">9</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-radicals.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Solving with Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-radicals.html#exercises-quadratics-solving-with-radiacals" class="internal"><span class="codenumber">9.1</span> <span class="title">Exercises - Solving with Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-exponents.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Solving with Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-exponents.html#exercises-solving-with-exponents" class="internal"><span class="codenumber">9.2</span> <span class="title">Exercises - Solving with Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-complete-the-square.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Complete the Square</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-complete-the-square.html#exercises-complete-the-square" class="internal"><span class="codenumber">9.3</span> <span class="title">Exercises - Complete the Square</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-formula.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-formula.html#exercises-quadratic-formula" class="internal"><span class="codenumber">9.4</span> <span class="title">Exercises - Quadratic Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-build-from-roots.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Build Quadratics From Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-build-from-roots.html#exercises-quadratics-from-roots" class="internal"><span class="codenumber">9.5</span> <span class="title">Exercises - Build Quadratics from Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-in-form.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-in-form.html#exercises-quadratic-in-form" class="internal"><span class="codenumber">9.6</span> <span class="title">Exercises – Quadratic in Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-rectangles.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Quadratics - Rectangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-rectangles.html#exercises-quadratics-rectangles" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercises - Rectangles</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-teamwork.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Quadratics - Teamwork</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-teamwork.html#exercises-teamwork" class="internal"><span class="codenumber">9.8</span> <span class="title">Exercises - Teamwork</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-graphs.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Quadratics - Graphs of Quadratics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-graphs.html#exercises-quadratics" class="internal"><span class="codenumber">9.9</span> <span class="title">Exercises - Graphs of Quadratics</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-functions.html" class="internal"><span class="codenumber">10</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-notation.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Function Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-notation.html#exercises-funtionnotation" class="internal"><span class="codenumber">10.1</span> <span class="title">Exercises – Function Notation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-operations.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Operations on Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-operations.html#exercises-operationonfunctions" class="internal"><span class="codenumber">10.2</span> <span class="title">Exercises – Operations on Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-inverse.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-inverse.html#exercises-functions-inverse" class="internal"><span class="codenumber">10.3</span> <span class="title">Exercises - Inverse Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-exponential.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Exponential Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-exponential.html#exercises-exponential-functions" class="internal"><span class="codenumber">10.4</span> <span class="title">Exercises – Exponential Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-logarithmic.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-logarithmic.html#exercises-functions-logarithmic" class="internal"><span class="codenumber">10.5</span> <span class="title">Exercises – Logarithmic Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-compound-interest.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-compound-interest.html#exercises-functions-compound-interest" class="internal"><span class="codenumber">10.6</span> <span class="title">Exercises – Compound Interest</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="rational-expressions-dimensional-analysis"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.8</span><span class="space"> </span><span class="title">Dimensional Analysis</span>
+</h2>
+<section class="introduction" id="rational-expressions-dimensional-analysis-2"><em class="alert">Objective: Use dimensional analysis to preform single unit, dual unit, square unit, and cubed unit conversions.</em></section><div class="para" id="rational-expressions-dimensional-analysis-3">One application of rational expressions deals with converting units. When we convert units of measure we can do so by multiplying several fractions together in a process known as dimensional analysis. The trick will be to decide what fractions to multiply. When multiplying, if we multiply by <span class="process-math">\(1\text{,}\)</span> the value of the expression does not change. One written as a fraction can look like many different things as long as the numerator and denominator are identical in value. Notice the numerator and denominator are not identical in appearance, but rather identical in value. Below are several fractions, each equal to one where numerator and denominator are identical in value.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{1}=\frac{4}{4}=\frac{\frac{1}{2}}{\frac{2}{4}}=\frac{100\text{ cm}}{1\text{ m}}
+=\frac{1\text{ lb}}{16\text{ oz}}=\frac{1\text{ hr}}{60\text{ min}}=\frac{60\text{ min}}{1\text{ hr}}
+\end{equation*}
+</div>
+<div class="para" id="rational-expressions-dimensional-analysis-5">The last few fractions that include units are called conversion factors. We can make a conversion factor out of any two measurements that represent the same distance. For example, <span class="process-math">\(1\)</span> mile <span class="process-math">\(= 5280\)</span> feet. We could then make a conversion factor <span class="process-math">\(\frac{1\text{ mi}}{5280\text{ ft}} \)</span> because both values are the same, the fraction is still equal to one. 5280 ft Similarly we could make a conversion factor <span class="process-math">\(\frac{5280\text{ ft}}{1\text{ mi}} \text{.}\)</span> The trick for conversions will be to use the correct fractions.</div>
+<div class="para" id="rational-expressions-dimensional-analysis-6">The idea behind dimensional analysis is we will multiply by a fraction in such a way that the units we don’t want will divide out of the problem. We found out when multiplying rational expressions that if a variable appears in the numerator and denominator, we can divide it out of the expression. It is the same with units. Consider the following conversion.</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.1</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-7-1">
+\begin{align*}
+17.37 \text{miles to feet} \amp \quad  \text{  Write $17.37$ miles as a fraction, put it over } 1   \\
+\left(\frac{17.37\text{mi}}{1}\right) \amp\quad  \text{ To divide out the miles we need miles in the denominator  }  \\
+\left(\frac{17.37\text{mi}}{1}\right)\left(\frac{??\text{ft}}{??\text{mi}}\right) \amp\quad  \text{ We are converting to feet, so this will go in the numerator   }  \\
+\left(\frac{17.37\text{mi}}{1}\right)\left(\frac{5280 \text{ft}}{1 \text{mi}}\right) \amp\quad  \text{  Fill in the relationship described above, $1$ mile $=5280$ feet  }  \\
+\left(\frac{17.37}{1}\right)\left(\frac{5280 \text{ft}}{1}\right)   \amp\quad  \text{  Divide out the miles and multiply across  }  \\
+91,713.6 \text{ft} \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-8">In the previous example, we had to use the conversion factor <span class="process-math">\(\frac{5280\text{ft}}{1\text{mi}}\)</span> so the miles would divide out. If we had used <span class="process-math">\(\frac{1\text{mi}}{5280\text{ft}}\)</span> we would not have been able to divide out the miles. This is why when doing dimensional analysis, it is very important to use units in the set-up of the problem, so we know how to correctly set up the conversion factor</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-9"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="rational-expressions-dimensional-analysis-9-1">If <span class="process-math">\(1\)</span> pound <span class="process-math">\(=16\)</span> ounces, how many pounds is <span class="process-math">\(435\)</span> ounces?</div>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-9-2">
+\begin{align*}
+\left(\frac{435\text{oz}}{1}\right) \amp\quad  \text{ Write $435$ as a fraction, put it over } 1  \\
+\left(\frac{435\text{oz}}{1}\right)\left(\frac{??\text{lbs}}{??\text{oz}}\right) \amp\quad  \text{ To divide out oz,}  \\
+\amp\quad  \text{ put it in the denominator and lbs in numerator }  \\
+\left(\frac{435\text{oz}}{1}\right)\left(\frac{1\text{lbs}}{16\text{oz}}\right)  \amp\quad  \text{  Fill in the given relationship, $1$ pound $=16$ ounces  }  \\
+\left(\frac{435}{1}\right)\left(\frac{1\text{lbs}}{16}\right)=\frac{435\text{lbs}}{16} \amp\quad  \text{  Divide out oz, multiply across. Divide result.  }  \\
+27.1875 \text{lbs} \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-10">The same process can be used to convert problems with several units in them. Consider the following example.</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-11"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="rational-expressions-dimensional-analysis-11-1">A student averaged <span class="process-math">\(45\)</span> miles per hour on a trip. What was the student’s speed in feet per second?</div>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-11-2">
+\begin{align*}
+\left(\frac{45\text{mi}}{\text{hr}}\right)  \amp \quad  \text{ “per” is the fraction bar, put hr in denominator }  \\
+\left(\frac{45\text{mi}}{\text{hr}}\right)\left(\frac{5280\text{ft}}{1\text{mi}}\right) \amp\quad  \text{ To clear mi they must go in denominator and become ft }  \\
+\left(\frac{45\text{mi}}{\text{hr}}\right)\left(\frac{5280\text{ft}}{1\text{mi}}\right)\left(\frac{1\text{hr}}{3600\text{sec}}\right) \amp\quad  \text{ To clear hr they must go in numerator and become sec }  \\
+\left(\frac{45}{1}\right)\left(\frac{5280\text{ft}}{1}\right)\left(\frac{1}{3600\text{sec}}\right)  \amp\quad  \text{ Divide out mi and hr. Mulitply across  }  \\
+\frac{237600\text{ft}}{3600\text{sec}} \amp\quad  \text{  Divide numbers }  \\
+66 \text{ft per sec} \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-12">If the units are two-dimensional (such as square inches - <span class="process-math">\(\text{in}^2\)</span>) or three-dimensional (such as cubic feet - <span class="process-math">\(\text{ft}^3\)</span>) we will need to put the same exponent on the conversion factor. So, if we are converting square inches <span class="process-math">\(\left(\text{in}^2\right)\)</span> to square ft <span class="process-math">\(\left(\text{ft}^2\right)\text{,}\)</span> the conversion factor would be squared, <span class="process-math">\(\left(\frac{1\text{ft}}{12\text{in}}\right)^2\text{.}\)</span> Similarly, if the units are cubed, we will cube the conversion factor.</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-13"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="rational-expressions-dimensional-analysis-13-1">Convert <span class="process-math">\(8\)</span> cubic feet to <span class="process-math">\(\text{yd}^3\text{.}\)</span> Write <span class="process-math">\(8\text{ft}^3\)</span> as a fraction, put it over <span class="process-math">\(1\)</span>
+</div>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-13-2">
+\begin{align*}
+\left(\frac{8\text{ft}^3}{1}\right) \amp \quad  \text{ To clear ft, put them in denominator, yard in numerator } \\
+\left(\frac{8\text{ft}^3}{1}\right)\left(\frac{??\text{yd}}{??\text{ft}}\right)^3 \amp\quad  \text{ Because the units are cubed, we cube the conversion factor }  \\
+\left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}}{3\text{ft}}\right)^3 \amp\quad  \text{ Evaluate exponent, cubing all. Numbers and units }  \\
+\left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}^3}{27\text{ft}^3}\right) \amp\quad  \text{  Divide out $\text{ft}^3$  }  \\
+\left(\frac{8\text{ft}^3}{1}\right)\left(\frac{1\text{yd}^3}{27\text{ft}^3}\right)=\frac{8\text{yd}^3}{27} \amp\quad  \text{  Multiply across and divide  }  \\
+0.296296 \text{yd}^3 \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-14">When calculating area or volume, be sure to use the units and multiply them as well.</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-15"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="rational-expressions-dimensional-analysis-15-1">A room is <span class="process-math">\(10 \text{ ft by } 12 \text{ ft}. \)</span> How many square yards are in the room?</div>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-15-2">
+\begin{align*}
+A=lw=(10\text{ft})(12\text{ft})=120\text{ft}^2 \amp \quad  \text{ Multiply length by width, also multiply units }  \\
+\left(\frac{120\text{ft}^2}{1}\right) \amp\quad  \text{ Write area as a fraction, put It over } 1  \\
+\left(\frac{120\text{ft}^2}{1}\right)\left(\frac{??\text{yd}}{??\text{ft}}\right)^2 \amp\quad  \text{ Put ft in denominator to clear, square conversion factor }  \\
+\left(\frac{120\text{ft}^2}{1}\right)\left(\frac{1\text{yd}}{3\text{ft}}\right)^2 \amp\quad  \text{ Evaluate exponent, squaring all numbers and units }  \\
+\left(\frac{120\text{ft}^2}{1}\right)\left(\frac{1\text{yd}^2}{9\text{ft}^2}\right) \amp\quad  \text{  Divide out $\text{ft}^2$ }  \\
+\left(\frac{120}{1}\right)\left(\frac{1\text{yd}^2}{9}\right)=\frac{120\text{yd}^2}{9} \amp\quad  \text{ Multiply across and divide }  \\
+13.33 \text{yd}^2 \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-16">To focus on the process of conversions, a conversion sheet has been included at the end of this lesson which includes several conversion factors for length, volume, mass and time in both English and Metric units.</div>
+<div class="para" id="rational-expressions-dimensional-analysis-17">The process of dimensional analysis can be used to convert other types of units as well. If we can identify relationships that represent the same value, we can make them into a conversion factor.</div>
+<article class="example example-like" id="rational-expressions-dimensional-analysis-18"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.8.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="rational-expressions-dimensional-analysis-18-1">A child is prescribed a dosage of <span class="process-math">\(12\)</span> mg of a certain drug and is allowed to refill his prescription twice. If a there are <span class="process-math">\(60\)</span> tablets in a prescription, and each tablet has <span class="process-math">\(4\)</span> mg, how many doses are in the <span class="process-math">\(3\)</span> prescriptions (original <span class="process-math">\(+ 2\)</span> refills)?</div>
+<div class="displaymath process-math" id="rational-expressions-dimensional-analysis-18-2">
+\begin{align*}
+\text{Convert } 3 \text{ Rx to doses} \amp \quad  \text{ Identify what the problem is asking }  \\
+1\text{Rx}=60\text{ tab}, 1\text{ tab}=4\text{mg},1\text{ dose}=12\text{mg} \amp \quad  \text{ Identify given conversion factors}  \\
+\left(\frac{3\text{Rx}}{1}\right) \amp\quad  \text{ Write $3$Rx as fraction, put over } 1  \\
+\left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)  \amp\quad  \text{ Convert Rx to tab, put Rx in denominator }  \\
+\left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)\left(\frac{4\text{mg}}{1\text{ tab}}\right) \amp\quad  \text{ Convert tab to mg, put tab in denominator }  \\
+\left(\frac{3\text{Rx}}{1}\right)\left(\frac{60\text{tab}}{1\text{Rx}}\right)\left(\frac{4\text{mg}}{1\text{ tab}}\right)\left(\frac{1\text{ dose}}{12\text{mg}}\right)  \amp\quad  \text{ Conver mg to dose, put mg in denominator }  \\
+\left(\frac{3}{1}\right)\left(\frac{60}{1}\right)\left(\frac{4}{1}\right)\left(\frac{1\text{ dose}}{12}\right)    \amp\quad  \text{ Divide out Rx, tab, and mg, multiply across }  \\
+\frac{720 \text{ dose}}{12} \amp\quad  \text{ Divide  }  \\
+60 \text{ doses} \amp\quad  \text{ Our Solution  }  
+\end{align*}
+</div></article><div class="para" id="rational-expressions-dimensional-analysis-19">
+<em class="alert">World View Note:</em> Only three countries in the world still use the English system commercially: Liberia (Western Africa), Myanmar (between India and Vietnam), and the USA.</div>
+<figure class="figure figure-like" id="table-conversion-factors"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.75%;margin-right:1.75%;">
+<div class="sbspanel middle" style="width:49.740932642487%;"><div class="para" id="table-conversion-factors-2-1">
+<table class="tabular">
+<tr><td class="c m b2 r2 l2 t2 lines" colspan="2">Length</td></tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">English</td>
+<td class="c m b0 r2 l0 t0 lines">Metric</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(12\)</span> in <span class="process-math">\(= 1\)</span> ft</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1000\)</span> mm <span class="process-math">\(= 1\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> yd <span class="process-math">\(= 3\)</span> ft</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(10\)</span> mm <span class="process-math">\(= 1\)</span> cm</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> yd <span class="process-math">\(= 36\)</span> in</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(100\)</span> cm <span class="process-math">\(= 1\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> mi <span class="process-math">\(= 5280\)</span> ft</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(10\)</span> dm <span class="process-math">\(= 1\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> dam <span class="process-math">\(= 10\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> hm <span class="process-math">\(= 100\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> km <span class="process-math">\(= 1000\)</span> m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">English/Metric</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(2.54\)</span> cm <span class="process-math">\(= 1\)</span> in</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(1\)</span> m <span class="process-math">\(= 3.28\)</span> ft</td></tr>
+<tr><td class="c m b2 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(1.61\)</span> km <span class="process-math">\(= 1\)</span> mi</td></tr>
+</table> <div class="para" id="table-conversion-factors-2-1-2"></div> <table class="tabular">
+<tr><td class="c m b2 r2 l2 t2 lines" colspan="2">Volume</td></tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">English</td>
+<td class="c m b0 r2 l0 t0 lines">Metric</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> c <span class="process-math">\(= 8\)</span> oz</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> mL <span class="process-math">\(= 1\)</span> cc <span class="process-math">\(=1 \text{ cm}^3\)</span>
+</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> pt <span class="process-math">\(= 2\)</span> c</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> L <span class="process-math">\(= 1000\)</span> mL</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> qt <span class="process-math">\(= 2\)</span> pt</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> L <span class="process-math">\(= 100\)</span> cL</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> gal <span class="process-math">\(= 4\)</span> qt</td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> L <span class="process-math">\(= 10\)</span> dL</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1000\)</span> L <span class="process-math">\(= 1\)</span> kL</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">English/Metric</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(16.39\)</span> mL <span class="process-math">\(= 1 \text{ in}^3\)</span>
+</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(1.06\)</span> qt <span class="process-math">\(= 1\)</span> L</td></tr>
+<tr><td class="c m b2 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(3.79\)</span> L <span class="process-math">\(= 1\)</span> gal</td></tr>
+</table>
+</div></div>
+<div class="sbspanel middle" style="width:46.6321243523316%;"><div class="para" id="table-conversion-factors-2-2">
+<table class="tabular">
+<tr><td class="c m b2 r2 l2 t2 lines" colspan="2">Area</td></tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">English</td>
+<td class="c m b0 r2 l0 t0 lines">Metric</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"><span class="process-math">\(1 \text{ ft}^2 = 144 \text{ in}^2\)</span></td>
+<td class="c m b0 r2 l0 t0 lines"><span class="process-math">\(1 \text{ a } = 100 \text{ m}^2\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"><span class="process-math">\(1 \text{ yd}^2 = 9 \text{ ft}^2 \)</span></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> ha <span class="process-math">\(= 100\)</span> a</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(1\)</span> acre <span class="process-math">\(= 43,560 \text{ ft}^2\)</span>
+</td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">
+<span class="process-math">\(640\)</span> acres <span class="process-math">\(= 1 \text{ mi}^2\)</span>
+</td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">English/Metric</td></tr>
+<tr><td class="c m b2 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(1\)</span> ha <span class="process-math">\(= 2.47\)</span> acres</td></tr>
+</table> <div class="para" id="table-conversion-factors-2-2-2"></div> <table class="tabular">
+<tr><td class="c m b2 r2 l2 t2 lines" colspan="2">Weight (Mass)</td></tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines">English</td>
+<td class="c m b0 r2 l0 t0 lines">Metric</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"><span class="process-math">\(1 \text{ lb } = 16 \text{ oz}\)</span></td>
+<td class="c m b0 r2 l0 t0 lines"><span class="process-math">\(1 \text{ g } = 1000 \text{ mg}\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"><span class="process-math">\(1 \text{ T } = 2000 \text{ lb} \)</span></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1\)</span> g <span class="process-math">\(= 100\)</span> cg</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1000\)</span> g <span class="process-math">\(= 1 \)</span> kg</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(1000\)</span> kg <span class="process-math">\(= 1 \)</span> t</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l2 t0 lines"></td>
+<td class="c m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">English/Metric</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(28.3\)</span> g <span class="process-math">\(= 1\)</span> oz</td></tr>
+<tr><td class="c m b2 r2 l2 t0 lines" colspan="2">
+<span class="process-math">\(2.2\)</span> lb <span class="process-math">\(= 1\)</span> kg</td></tr>
+</table> <div class="para" id="table-conversion-factors-2-2-4"></div> <table class="tabular">
+<tr><td class="c m b2 r2 l2 t2 lines">Time</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines">
+<span class="process-math">\(60\)</span> sec <span class="process-math">\(=1\)</span> min</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines">
+<span class="process-math">\(60\)</span> min <span class="process-math">\(=1\)</span> hr</td></tr>
+<tr><td class="c m b0 r2 l2 t0 lines">
+<span class="process-math">\(3600\)</span> sec <span class="process-math">\(=1\)</span> hr</td></tr>
+<tr><td class="c m b2 r2 l2 t0 lines">
+<span class="process-math">\(24\)</span> hr <span class="process-math">\(=1\)</span> day</td></tr>
+</table>
+</div></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.8.7<span class="period">.</span></span><span class="space"> </span>Conversion Factors</figcaption></figure><section class="exercises" id="exercises-rational-expressions-dimensional"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises – Dimensional Analysis</span>
+</h3>
+<div class="exercisegroup" id="exercises-rational-expressions-dimensional-2">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="exercises-rational-expressions-dimensional-2-1"><div class="para" id="exercises-rational-expressions-dimensional-2-1-1">Use dimensional analysis to convert the following:</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-2-1-1">
+<span class="process-math">\(7 \)</span>mi. to yards</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-3-1-1">
+<span class="process-math">\(234 \)</span> oz. to tons</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-4-1-1">
+<span class="process-math">\(11.2 \)</span> mg to grams</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-5-1-1">
+<span class="process-math">\(1.35 \)</span> km to centimeters</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-6"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-6-1-1">
+<span class="process-math">\(9,800,000 \)</span> mm (millimeters) to miles</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-7"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-7-1-1">
+<span class="process-math">\(4.5 \text{ft}^2 \)</span> to square yards</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-8"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-8-1-1">
+<span class="process-math">\(435,000 \text{m}^2\)</span> to square kilometers</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-9"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-9-1-1">
+<span class="process-math">\(8 \text{km}^2 \)</span> to square feet</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-10"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-10-1-1">
+<span class="process-math">\(0.0065 \text{km}^3 \)</span> to cubic centimeters</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-11"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-11-1-1">
+<span class="process-math">\(14.62 \text{in}^3 \)</span> to cubic centimeters</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-12"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-12-1-1">
+<span class="process-math">\(5,500 \text{cm}^3 \)</span> to cubic yards</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-13"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-13-1-1">
+<span class="process-math">\(3.5 \)</span> mph (miles per hour) to feet per second</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-14"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-14-1-1">
+<span class="process-math">\(185 \)</span> yd. per min. to miles per hour</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-15"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-15-1-1">
+<span class="process-math">\(153 \)</span> ft/s (feet per second) to miles per hour</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-16"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-16-1-1">
+<span class="process-math">\(248 \)</span> mph to kilometers per year</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-17"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-17-1-1">
+<span class="process-math">\(186,000 \)</span> mph to kilometers per year</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-18"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-18-1-1">
+<span class="process-math">\(7.50 \text{T}/\text{yd}^2 \)</span> (tons per square yard) to pounds per square inch</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-2-19"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-2-19-1-1">
+<span class="process-math">\(16 \text{ft}/\text{s}^2 \)</span> to kilometers per hour squared</div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercises-rational-expressions-dimensional-3">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="exercises-rational-expressions-dimensional-3-1"><div class="para" id="exercises-rational-expressions-dimensional-3-1-1">Use dimensional analysis to solve the following:</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-2"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-2-1-1">On a recent trip, Jan traveled <span class="process-math">\(260\)</span> miles using <span class="process-math">\(8\)</span> gallons of gas. How many miles per <span class="process-math">\(1\)</span>-gallon did she travel? How many yards per <span class="process-math">\(1\)</span>-ounce?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-3"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-3-1-1">A chair lift at the Divide ski resort in Cold Springs, WY is <span class="process-math">\(4806\)</span> feet long and takes <span class="process-math">\(9\)</span> minutes. What is the average speed in miles per hour? How many feet per second does the lift travel?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-4"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-4-1-1">A certain laser printer can print <span class="process-math">\(12\)</span> pages per minute. Determine this printer’s output in pages per day, and reams per month. (<span class="process-math">\(1\)</span> ream = <span class="process-math">\(5000\)</span> pages)</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-5"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-5-1-1">An average human heart beats <span class="process-math">\(60\)</span> times per minute. If an average person lives to the age of <span class="process-math">\(75\text{,}\)</span> how many times does the average heart beat in a lifetime?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-6"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-6-1-1">Blood sugar levels are measured in miligrams of gluclose per deciliter of blood volume. If a person’s blood sugar level measured <span class="process-math">\(128\)</span> mg/dL, how much is this in grams per liter?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-7"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-7-1-1">You are buying carpet to cover a room that measures <span class="process-math">\(38\)</span> ft by <span class="process-math">\(40\)</span> ft. The carpet cost <span class="process-math">\(\$18\)</span> per square yard. How much will the carpet cost?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-8"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-8-1-1">A car travels <span class="process-math">\(14\)</span> miles in <span class="process-math">\(15\)</span> minutes. How fast is it going in miles per hour? in meters per second?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-9"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-9-1-1">A cargo container is <span class="process-math">\(50\)</span> ft long, <span class="process-math">\(10\)</span> ft wide, and <span class="process-math">\(8\)</span> ft tall. Find its volume in cubic yards and cubic meters.</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-10"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-10-1-1">A local zoning ordinance says that a house’s “footprint” (area of its ground floor) cannot occupy more than <span class="process-math">\(\frac{1}{4}\)</span> of the lot it is built on. Suppose you own a <span class="process-math">\(\frac{1}{3}\)</span> acre lot, what is the maximum allowed footprint for your house in square feet? in square inches? (<span class="process-math">\(1\)</span> acre = <span class="process-math">\(43560 \text{ ft}^2\)</span>)</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-11"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-11-1-1">Computer memory is measured in units of bytes, where one byte is enough memory to store one character (a letter in the alphabet or a number). How many typical pages of text can be stored on a <span class="process-math">\(700\)</span>-megabyte compact disc? Assume that one typical page of text contains <span class="process-math">\(2000\)</span> characters. (<span class="process-math">\(1\)</span> megabyte = <span class="process-math">\(1,000,000\)</span> bytes)</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-12"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-12-1-1">In April <span class="process-math">\(1996\text{,}\)</span> the Department of the Interior released a “spike flood” from the Glen Canyon Dam on the Colorado River. Its purpose was to restore the river and the habitants along its bank. The release from the dam lasted a week at a rate of <span class="process-math">\(25,800\)</span> cubic feet of water per second. About how much water was released during the <span class="process-math">\(1\)</span>-week flood?</div></article><article class="exercise exercise-like" id="exercises-rational-expressions-dimensional-3-13"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-dimensional-3-13-1-1">The largest single rough diamond ever found, the Cullinan diamond, weighed <span class="process-math">\(3106\)</span> carats; how much does the diamond weigh in milligrams? in pounds? (<span class="process-math">\(1\)</span> carat - <span class="process-math">\(0.2\)</span> grams)</div></article>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="rational-expressions-equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chapter-radicals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

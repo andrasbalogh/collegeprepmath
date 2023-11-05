@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Complex Fractions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Preparatory Mathematics">
+<meta property="book:author" content="Tyler Wallace">
+<meta property="book:author" content="(HTML version is edited by Andras Balogh)">
+<meta property="book:author" content="    PDF version of this book. ">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="College Preparatory Mathematics for Texas HB5" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="collegeprepmath.html"><span class="title">College Preparatory Mathematics</span></a></h1>
+<p class="byline">Tyler Wallace, (HTML version is edited by Andras Balogh), <a class="external" href="external/collegeprepmath.pdf" target="_blank">PDF version of this book.</a><details class="ptx-footnote" aria-live="polite" id="frontmatter-1-3-1-2"><summary class="ptx-footnote__number" title="Footnote 0.0.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="frontmatter-1-3-1-2"><code class="code-inline tex2jax_ignore">external/collegeprepmath.pdf</code></div></details></p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="rational-add-subtract.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-rational-expressions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="rational-expressions-proportions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand\Mydiv[2]{
+       \strut#1\kern.25em\smash{\raise.4ex\hbox{$\big)$}}\mkern-8mu
+       \overline{\enspace\strut#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="acknowledgement.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-prealgebra.html" class="internal"><span class="codenumber">0</span> <span class="title">Pre-Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-integers.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-integers.html#exercises-integers" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-fractions.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-fractions.html#exercises-fractions" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-order-of-operations.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-order-of-operations.html#exercises-order-of-operations" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises - Order of Operations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Properties of Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html#exercises-properties-of-algebra" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises - Properties of Algebra</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-linear-equations.html" class="internal"><span class="codenumber">1</span> <span class="title">Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-one-step-equations.html" class="internal"><span class="codenumber">1.1</span> <span class="title">One Step Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Addition Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Subtraction Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-5" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Multiplication Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Division Problems:</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#exercises-one-step-equations" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises - One Step Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-two-step-equations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Two-Step Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-two-step-equations.html#exercises-two-step-equations" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises - Two-Step Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-general.html" class="internal"><span class="codenumber">1.3</span> <span class="title">General Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-general.html#exercises-general-equations" class="internal"><span class="codenumber">1.3</span> <span class="title">Practice - General Linear Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-fractions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Solving with Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-fractions.html#exercises-linear-fractions" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-formulas.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-formulas.html#exercises-linear-formulas" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises - Formulas</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-abolutev.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Absolute Value Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-abolutev.html#exercises-linear-absolutev" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises - Absolute Value Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-variation.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-variation.html#exercises-linear-variation" class="internal"><span class="codenumber">1.7</span> <span class="title">Exercises - Variation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-num-geom.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Application: Number/Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-num-geom.html#exercises-linear-number-and-geometry" class="internal"><span class="codenumber">1.8</span> <span class="title">Exercises – Number/Geometry</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-graphing.html" class="internal"><span class="codenumber">2</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-points-lines.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Points and Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-points-lines.html#exercises-graphing-points-lines" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises - Points and Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Slope</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope.html#exercises-graphing-slope" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises - Graphing - Slope</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope-intercept.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Slope-Intercept Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope-intercept.html#exercises-graphing-slope-intercept" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises - Slope-Intercept Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-point-slope.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Point-Slope Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-point-slope.html#exercises-graphing-point-slope" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises - Point-Slope Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-parallel-perpendicular.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-parallel-perpendicular.html#exercises-graphing-parallel-perpendicular" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises - Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-inequalities.html" class="internal"><span class="codenumber">3</span> <span class="title">Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-solve-graph.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solve and Graph Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-solve-graph.html#exercises-inequalities-solve-graph" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises - Solve and Graph Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-compound.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Compound Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-compound.html#exercises-inequalities-compound" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises - Compound Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-absolute-value.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Absolute Value Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-absolute-value.html#exercises-inequalities-absolute" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises - Absolute Value Inequalities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-systems.html" class="internal"><span class="codenumber">4</span> <span class="title">Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-graphing.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-graphing.html#exercises-systems-graphing" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises - Graphing</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-substitution.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-substitution.html#exercises-systems-substitution" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises - Substitution</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-elimination.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Addition/Elimination</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-elimination.html#exercises-systems-elimination" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises - Addition/Elimination</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-three-variables.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Three Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-three-variables.html#exercises-systems-three-variables" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises - Three Variables</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-value-problems.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Value Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-value-problems.html#exercises-value-problems" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises – Value Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-mixture-problems.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Mixture Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-mixture-problems.html#exercises-mixture-problems" class="internal"><span class="codenumber">4.6</span> <span class="title">Exercises – Mixture Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-polynomials.html" class="internal"><span class="codenumber">5</span> <span class="title">Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-exponent-properties.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exponent Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-exponent-properties.html#exercises-polynomials-exponent-properties" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises - Exponent Properties</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-negative-exponents.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Negative Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-negative-exponents.html#exercises-polynomials-negative-exponents" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises - Negative Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-scientific-notation.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-scientific-notation.html#exercises-polynomials-scientific-notation" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-introduction.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Introduction to Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-introduction.html#exercises-introduction-polynomials" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises - Introduction to Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-multiplying.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Multiplying Polynomial</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-multiplying.html#exercises-polynomials-multiply" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises - Multiply Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-special-products.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Multiply Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-special-products.html#exercises-polynomials-special-products" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercises -Multiply Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-divide.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Divide Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-divide.html#exercises-polynomials-divide" class="internal"><span class="codenumber">5.7</span> <span class="title">Exercises - Divide Polynomials</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-factoring.html" class="internal"><span class="codenumber">6</span> <span class="title">Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-gcf.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Greatest Common Factor</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-gcf.html#exercises-factoring-gcf" class="internal"><span class="codenumber">6.1</span> <span class="title">Exercises - Greatest Common Factor</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-grouping.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Grouping</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-grouping.html#exercises-factoring-grouping" class="internal"><span class="codenumber">6.2</span> <span class="title">Exercises - Grouping</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-1.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Trinomials where <span class="process-math">\(a= 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-1.html#exercises-factoring-trinomials-A-1" class="internal"><span class="codenumber">6.3</span> <span class="title">Exercises - Trinomials where <span class="process-math">\(a = 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html#exercises-factoring-trinomials-a-not-1" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercises -Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-special-products.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Factoring Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-special-products.html#exercises-factoring-special-products" class="internal"><span class="codenumber">6.5</span> <span class="title">Exercises - Factoring Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-strategy.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Factoring Strategy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-strategy.html#exercises-factoring-strategy" class="internal"><span class="codenumber">6.6</span> <span class="title">Exercises - Factoring Strategy</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-solve-by.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Solve by Factoring</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-solve-by.html#exercises-factoring-solve-by" class="internal"><span class="codenumber">6.7</span> <span class="title">Exercises - Solve by Factoring</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-rational-expressions.html" class="internal"><span class="codenumber">7</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-reduce.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Reduce Rational Expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-reduce.html#exercises-rational-expressions-reduce" class="internal"><span class="codenumber">7.1</span> <span class="title">Exercises - Reduce Rational Expressions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-multiply-devide.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Multiply and Divide</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-multiply-devide.html#exercises-rational-multiply-divide" class="internal"><span class="codenumber">7.2</span> <span class="title">Exercises - Multiply and Divide</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-LCD.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Least Common Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-LCD.html#exercises-rational-LCD" class="internal"><span class="codenumber">7.3</span> <span class="title">Exercises - Least Common Denominator</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-add-subtract.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Add and Subtract</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-add-subtract.html#exercises-rational-expressions-add-subtract" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercises – Add and Subtract</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="rational-complex-fractions.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Complex Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-complex-fractions.html#exercises-rational-expressions" class="internal"><span class="codenumber">7.5</span> <span class="title">Exercises – Complex Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-proportions.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-proportions.html#exercises-rational-expressions-proportions" class="internal"><span class="codenumber">7.6</span> <span class="title">Exercises - Proportions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-equations.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Solving Rational Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-equations.html#exercises-rational-expressions-equations" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercises – Solving Rational Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Dimensional Analysis</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html#exercises-rational-expressions-dimensional" class="internal"><span class="codenumber">7.8</span> <span class="title">Exercises – Dimensional Analysis</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-radicals.html" class="internal"><span class="codenumber">8</span> <span class="title">Radicals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-square-roots.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Square Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-square-roots.html#exercises-square-roots" class="internal"><span class="codenumber">8.1</span> <span class="title">Exercises – Square Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-higher-roots.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Higher Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-higher-roots.html#exercises-higher-roots" class="internal"><span class="codenumber">8.2</span> <span class="title">Exercises – Higher Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-adding-radicals.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Adding Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-adding-radicals.html#exercises-radicals-adding-radicals" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercises -  Adding Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-multiply-divide.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Multiply and Divide Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-multiply-divide.html#exercises-multiply-divide-radicals" class="internal"><span class="codenumber">8.4</span> <span class="title">Exercises – Multiply and Divide Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rationalize-denominators.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Rationalize Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rationalize-denominators.html#exercises-radicals-rationalize-denominators" class="internal"><span class="codenumber">8.5</span> <span class="title">Exercises – Rationalize Denominators</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rational-exponents.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Rational Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rational-exponents.html#exercises-rational-exponents" class="internal"><span class="codenumber">8.6</span> <span class="title">Exercises – Rational Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-mixed-index.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Radicals of Mixed Index</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-mixed-index.html#exercises-radicals-mixed-index" class="internal"><span class="codenumber">8.7</span> <span class="title">Exercises - Radicals of Mixed Index</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-complex-numbers.html" class="internal"><span class="codenumber">8.8</span> <span class="title">Complex Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-complex-numbers.html#exercises-complex-numbers" class="internal"><span class="codenumber">8.8</span> <span class="title">Exercises - Complex Numbers</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratics.html" class="internal"><span class="codenumber">9</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-radicals.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Solving with Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-radicals.html#exercises-quadratics-solving-with-radiacals" class="internal"><span class="codenumber">9.1</span> <span class="title">Exercises - Solving with Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-exponents.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Solving with Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-exponents.html#exercises-solving-with-exponents" class="internal"><span class="codenumber">9.2</span> <span class="title">Exercises - Solving with Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-complete-the-square.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Complete the Square</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-complete-the-square.html#exercises-complete-the-square" class="internal"><span class="codenumber">9.3</span> <span class="title">Exercises - Complete the Square</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-formula.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-formula.html#exercises-quadratic-formula" class="internal"><span class="codenumber">9.4</span> <span class="title">Exercises - Quadratic Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-build-from-roots.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Build Quadratics From Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-build-from-roots.html#exercises-quadratics-from-roots" class="internal"><span class="codenumber">9.5</span> <span class="title">Exercises - Build Quadratics from Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-in-form.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-in-form.html#exercises-quadratic-in-form" class="internal"><span class="codenumber">9.6</span> <span class="title">Exercises – Quadratic in Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-rectangles.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Quadratics - Rectangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-rectangles.html#exercises-quadratics-rectangles" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercises - Rectangles</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-teamwork.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Quadratics - Teamwork</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-teamwork.html#exercises-teamwork" class="internal"><span class="codenumber">9.8</span> <span class="title">Exercises - Teamwork</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-graphs.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Quadratics - Graphs of Quadratics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-graphs.html#exercises-quadratics" class="internal"><span class="codenumber">9.9</span> <span class="title">Exercises - Graphs of Quadratics</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-functions.html" class="internal"><span class="codenumber">10</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-notation.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Function Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-notation.html#exercises-funtionnotation" class="internal"><span class="codenumber">10.1</span> <span class="title">Exercises – Function Notation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-operations.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Operations on Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-operations.html#exercises-operationonfunctions" class="internal"><span class="codenumber">10.2</span> <span class="title">Exercises – Operations on Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-inverse.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-inverse.html#exercises-functions-inverse" class="internal"><span class="codenumber">10.3</span> <span class="title">Exercises - Inverse Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-exponential.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Exponential Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-exponential.html#exercises-exponential-functions" class="internal"><span class="codenumber">10.4</span> <span class="title">Exercises – Exponential Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-logarithmic.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-logarithmic.html#exercises-functions-logarithmic" class="internal"><span class="codenumber">10.5</span> <span class="title">Exercises – Logarithmic Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-compound-interest.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-compound-interest.html#exercises-functions-compound-interest" class="internal"><span class="codenumber">10.6</span> <span class="title">Exercises – Compound Interest</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="rational-complex-fractions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.5</span><span class="space"> </span><span class="title">Complex Fractions</span>
+</h2>
+<section class="introduction" id="rational-complex-fractions-2"><em class="alert">Objective: Simplify complex fractions by multiplying each term by the least common denominator.</em></section><div class="para" id="rational-complex-fractions-3">Complex fractions have fractions in either the numerator, or denominator, or usually both. These fractions can be simplified in one of two ways. This will be illustrated first with integers, then we will consider how the process can be expanded to include expressions with variables.</div>
+<div class="para" id="rational-complex-fractions-4">The first method uses order of operations to simplify the numerator and denominator first, then divide the two resulting fractions by multiplying by the reciprocal.</div>
+<article class="example example-like" id="rational-complex-fractions-5"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.1</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-5-1">
+\begin{align*}
+\frac{\frac{2}{3}-\frac{1}{4}}{\frac{5}{6}+\frac{1}{2}} \amp \quad  \text{Get common denominator in top and bottom fractions }   \\
+\\
+\frac{\frac{8}{12}-\frac{3}{12}}{\frac{5}{6}+\frac{3}{6}}  \amp\quad  \text{Add and subtract fractions, reducing solutions }  \\
+\\
+\frac{\frac{5}{12}}{\frac{4}{3}}  \amp\quad  \text{To divide fractions we multiply by the reciprocal }  \\
+\\
+\left(\frac{5}{12}\right)\left(\frac{3}{4}\right)  \amp\quad  \text{Reduce  }  \\
+\\
+\left(\frac{5}{4}\right)\left(\frac{1}{4}\right)  \amp\quad  \text{Multiply }  \\
+\\
+\frac{5}{16}  \amp\quad  \text{Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-6">The process above works just fine to simplify, but between getting common denominators, taking reciprocals, and reducing, it can be a very involved process. Generally, we prefer a different method to multiply the numerator and denominator of the large fraction (in effect each term in the complex fraction) by the least common denominator (LCD). This will allow us to reduce and clear the small fractions. We will simplify the same problem using this second method.</div>
+<article class="example example-like" id="rational-complex-fractions-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.2</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-7-1">
+\begin{align*}
+\frac{\frac{2}{3}-\frac{1}{4}}{\frac{5}{6}+\frac{1}{2}} \amp \quad  \text{LCD is $12$, multiply each term }   \\
+\\
+\frac{\frac{2(12)}{3}-\frac{1(12)}{4}}{\frac{5(12)}{6}+\frac{1(12)}{2}}  \amp\quad  \text{Reduce each fraction}  \\
+\\
+\frac{2(4)-1(3)}{5(2)+1(6)}  \amp\quad  \text{Multiply }  \\
+\\
+\frac{8-3}{10+6} \amp\quad  \text{Add and subtract }  \\
+\\
+\frac{5}{16}  \amp\quad  \text{Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-8">Clearly the second method is a much cleaner and faster method to arrive at our solution. It is the method we will use when simplifying with variables as well. We will first find the LCD of the small fractions, and multiply each term by this LCD so we can clear the small fractions and simplify.</div>
+<article class="example example-like" id="rational-complex-fractions-9"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.3</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-9-1">
+\begin{align*}
+\frac{1-\frac{1}{x^2}}{1-\frac{1}{x}} \amp \quad  \text{Identify LCD (use highest exponent) }   \\
+\\
+\text{LCD}=x^2  \amp\quad  \text{Multiply each term by LCD}  \\
+\\
+\frac{1(x^2)-\frac{1(x^2)}{x^2}}{1(x^2)-\frac{1(x^2)}{x}}   \amp\quad  \text{Reduce fractions (subtract exponents) }  \\
+\\
+\frac{1(x^2)-1}{1(x^2)-x} \amp\quad  \text{Multiply }  \\
+\\
+\frac{x^2-1}{x^2-x} \amp\quad  \text{Factor }  \\
+\\
+\frac{(x+1)(x-1)}{x(x-1)} \amp\quad  \text{Divide out $(x-1)$ factor }  \\
+\\
+\frac{x+1}{x}  \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-10">The process is the same if the LCD is a binomial, we will need to distribute</div>
+<article class="example example-like" id="rational-complex-fractions-11"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.4</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-11-1">
+\begin{align*}
+\frac{\frac{3}{x+4}-2}{5+\frac{2}{x+4}} \amp\quad  \text{Multiply each term by LCD, } (x+4)  \\
+\\
+\frac{\frac{3(x+4)}{x+4}-2(x+4)}{5(x+4)+\frac{2(x+4)}{x+4}}  \amp\quad  \text{Reduce fractions }  \\
+\\
+\frac{3-2(x+4)}{5(x+4)+2} \amp\quad  \text{Distribute }  \\
+\\
+\frac{3-2x-8}{5x+20+2} \amp\quad  \text{Combine like terms }  \\
+\\
+\frac{-2x-5}{5x+22}  \amp\quad  \text{Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-12">The more fractions we have in our problem, the more we repeat the same process.</div>
+<article class="example example-like" id="rational-complex-fractions-13"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.5</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-13-1">
+\begin{align*}
+\frac{\frac{2}{ab^2}-\frac{3}{ab^3}+\frac{1}{ab}}{\frac{4}{a^2b}+ab-\frac{1}{ab}} \amp \quad  \text{Identify LCD (highest exponnets) }   \\
+\\
+\text{LCD}=a^2b^3 \amp\quad  \text{Multiply each term by LCD}  \\
+\\
+\frac{\frac{2(a^2b^3)}{ab^2}-\frac{3(a^2b^3)}{ab^3}+\frac{1(a^2b^3)}{ab}}{\frac{4(a^2b^3)}{a^2b}+ab(a^2b^3)-\frac{1(a^2b^3)}{ab}}  \amp\quad  \text{Reduce each fraction (subtract exponents) }  \\
+\\
+\frac{2ab-3a+ab^2}{4b^2+a^3b^4-ab^2}  \amp\quad  \text{  Our Solution   }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-14">
+<em class="alert">World View Note:</em> Sophie Germain is one of the most famous women in mathematics, many primes, which are important to finding an LCD, carry her name. Germain primes are prime numbers where one more than double the prime number is also prime, for example <span class="process-math">\(3\)</span> is prime and so is <span class="process-math">\(2 · 3 + 1 = 7\)</span> prime. The largest known Germain prime (at the time of printing) is <span class="process-math">\(183027 · 2265440-1\)</span> which has <span class="process-math">\(79911\)</span> digits!</div>
+<div class="para" id="rational-complex-fractions-15">Some problems may require us to FOIL as we simplify. To avoid sign errors, if there is a binomial in the numerator, we will first distribute the negative through the numerator.</div>
+<article class="example example-like" id="rational-complex-fractions-16"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.6</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-16-1">
+\begin{align*}
+\frac{\frac{x-3}{x+3}-\frac{x+3}{x-3}}{\frac{x-3}{x+3}+\frac{x+3}{x-3}} \amp \quad  \text{Distribute the subtraction to numerator }   \\
+\\
+\frac{\frac{x-3}{x+3}+\frac{-x-3}{x-3}}{\frac{x-3}{x+3}+\frac{x+3}{x-3}} \amp\quad  \text{Identify LCD }  \\
+\\
+\text{LCD}=(x+3)(x-3) \amp\quad  \text{Multiply each term by LCD  }  \\
+\\
+\frac{\frac{(x-3)(x+3)(x-3)}{x+3}+\frac{(-x-3)(x+3)(x-3)}{x-3}}{\frac{(x-3)(x+3)(x-3)}{x+3}+\frac{(x+3)(x+3)(x-3)}{x-3}} \amp\quad  \text{Reduce fractions  }  \\
+\\
+\frac{(x-3)(x-3)+(-x-3)(x+3)}{(x-3)(x-3)+(x+3)(x+3)} \amp\quad  \text{FOIL}  \\
+\\
+\frac{x^2-6x+9-x^2-6x-9}{x^2-6x+9+x^2+6x-9} \amp\quad  \text{Combine like terms }  \\
+\\
+\frac{-12x}{2x^2+18} \amp\quad  \text{Factor out $2$ in denominator  }  \\
+\\
+\frac{-12x}{2(x^2+9)} \amp\quad  \text{Divide our common factor } 2  \\
+\\
+\frac{-6x}{x^2-9} \amp\quad  \text{ Our solution  }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-17">If there are negative exponents in an expression we will have to first convert these negative exponents into fractions. Remember, the exponent is only on the factor it is attached to, not the whole term.</div>
+<article class="example example-like" id="rational-complex-fractions-18"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.7</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="rational-complex-fractions-18-1">
+\begin{align*}
+\frac{m^{-2}+2m^{-1}}{m+4m^{-2}} \amp \quad  \text{Make each negative exponent into a fraction }   \\
+\\
+\frac{\frac{1}{m^2}+\frac{2}{m}}{m+\frac{4}{m^2}} \amp\quad  \text{Multiply each term by LCD, } m^2  \\
+\\
+\frac{\frac{1(m^2)}{m^2}+\frac{2(m^2)}{m}}{m(m^2)+\frac{4(m^2)}{m^2}} \amp\quad  \text{Reduce the fractions }  \\
+\\
+\frac{1+2m}{m^3+4} \amp\quad  \text{Our solution  }  
+\end{align*}
+</div></article><div class="para" id="rational-complex-fractions-19">Once we convert each negative exponent into a fraction, the problem solves exactly like the other complex fraction problems.</div>
+<section class="exercises" id="exercises-rational-expressions"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises – Complex Fractions</span>
+</h3>
+<div class="exercisegroup" id="exercises-rational-expressions-2">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="exercises-rational-expressions-2-1"><div class="para" id="exercises-rational-expressions-2-1-1">Solve.</div></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercises-rational-expressions-2-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-2-1-1"><span class="process-math">\(\displaystyle \frac{1+\frac{1}{x}}{1-\frac{1}{x^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-3-1-1"><span class="process-math">\(\displaystyle \frac{\frac{1}{y^2}-1}{1+\frac{1}{y}}  \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-4-1-1"><span class="process-math">\(\displaystyle \frac{a-2}{\frac{4}{a}-a} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-5-1-1"><span class="process-math">\(\displaystyle \frac{\frac{25}{a}-a}{5+a}  \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-6"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-6-1-1"><span class="process-math">\(\displaystyle \frac{\frac{1}{a^2}-\frac{1}{a}}{\frac{1}{a^2}+\frac{1}{a}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-7"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-7-1-1"><span class="process-math">\(\displaystyle \frac{\frac{1}{b}+\frac{1}{2}}{\frac{4}{b^2-1}}  \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-8"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-8-1-1"><span class="process-math">\(\displaystyle \frac{2-\frac{4}{x+2}}{5-\frac{10}{x+2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-9"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-9-1-1"><span class="process-math">\(\displaystyle \frac{4+\frac{12}{2x-3}}{5+\frac{15}{2x-3}}  \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-10"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-10-1-1"><span class="process-math">\(\displaystyle \frac{\frac{3}{2a-3}+2}{\frac{-6}{2a-3}-4} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-11"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-11-1-1"><span class="process-math">\(\displaystyle \frac{\frac{-5}{b-5}-3}{\frac{10}{b-5}+6} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-12"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-12-1-1"><span class="process-math">\(\displaystyle \frac{\frac{x}{x+1}-\frac{1}{x}}{\frac{x}{x+1}+\frac{1}{x}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-13"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-13-1-1"><span class="process-math">\(\displaystyle \frac{\frac{2a}{a-1}-\frac{3}{a}}{\frac{-6}{a-1}-4} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-14"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-14-1-1"><span class="process-math">\(\displaystyle \frac{\frac{3}{x}}{\frac{9}{x^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-15"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-15-1-1"><span class="process-math">\(\displaystyle \frac{\frac{x}{3x-2}}{\frac{x}{9x^2-4}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-16"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-16-1-1"><span class="process-math">\(\displaystyle \frac{\frac{a^2-b^2}{4a^2b}}{\frac{a+b}{16ab^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-17"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-17-1-1"><span class="process-math">\(\displaystyle \frac{1-\frac{1}{x}-\frac{6}{x^2}}{1-\frac{4}{x}+\frac{3}{x^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-18"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-18-1-1"><span class="process-math">\(\displaystyle \frac{1-\frac{3}{x}-\frac{10}{x^2}}{1+\frac{11}{x}+\frac{18}{x^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-19"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-19-1-1"><span class="process-math">\(\displaystyle \frac{\frac{15}{x^2}-\frac{2}{x}-1}{\frac{4}{x^2}-\frac{5}{x}+4} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-20"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-20-1-1"><span class="process-math">\(\displaystyle \frac{1-\frac{2x}{3x-4}}{x-\frac{32}{3x-4}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-21"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-21-1-1"><span class="process-math">\(\displaystyle \frac{1-\frac{12}{3x+10}}{x-\frac{8}{3x+10}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-22"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-22-1-1"><span class="process-math">\(\displaystyle \frac{x-1+\frac{2}{x-4}}{x+3+\frac{6}{x-4}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-23"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-23-1-1"><span class="process-math">\(\displaystyle \frac{x-5-\frac{18}{x+2}}{x+7+\frac{6}{x+2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-24"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-24-1-1"><span class="process-math">\(\displaystyle \frac{x-4+\frac{9}{2x+3}}{x+3-\frac{5}{2x+3}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-25"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-25-1-1"><span class="process-math">\(\displaystyle \frac{\frac{1}{a}-\frac{3}{a-2}}{\frac{2}{a}+\frac{5}{a-2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-26"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-26-1-1"><span class="process-math">\(\displaystyle \frac{\frac{2}{b}-\frac{5}{b+3}}{\frac{3}{b}+\frac{3}{b+3}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-27"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-27-1-1"><span class="process-math">\(\displaystyle \frac{\frac{1}{y^2}-\frac{1}{xy}-\frac{2}{x^2}}{\frac{1}{y^2}-\frac{3}{xy}+\frac{2}{x^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-28"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-28-1-1"><span class="process-math">\(\displaystyle \frac{\frac{2}{b^2}-\frac{5}{ab}-\frac{3}{a^2}}{\frac{2}{b^2}+\frac{7}{ab}+\frac{3}{a^2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-29"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-29-1-1"><span class="process-math">\(\displaystyle \frac{\frac{x-1}{x+1}-\frac{x+1}{x-1}}{\frac{x-1}{x+1}+\frac{x+1}{x-1}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-30"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-30-1-1"><span class="process-math">\(\displaystyle \frac{\frac{y}{y+2}-\frac{y}{y-2}}{\frac{y}{y+2}+\frac{y}{y-2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-2-31"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-2-31-1-1"><span class="process-math">\(\displaystyle \frac{\frac{x+1}{x-1}-\frac{1-x}{1+x}}{\frac{1}{(x+1)^2}+\frac{1}{(x-1)^2}} \)</span></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercises-rational-expressions-3">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="exercises-rational-expressions-3-1"><div class="para" id="exercises-rational-expressions-3-1-1">Simplify each of the following fractional expressions.</div></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercises-rational-expressions-3-2"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-2-1-1"><span class="process-math">\(\displaystyle \frac{x^{-2}-y^2}{x^{-1}+y^{-1}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-3-3"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-3-1-1"><span class="process-math">\(\displaystyle \frac{x^{-2}y+xy^{-2}}{x^{-2}-y^{-2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-3-4"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-4-1-1"><span class="process-math">\(\displaystyle \frac{x^{-3}y-xy^{-3}}{x^{-2}-y^{-2}} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-3-5"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-5-1-1"><span class="process-math">\(\displaystyle \frac{4-4x^{-1}+x^{-2}}{4-x^{-2}}   \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-3-6"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-6-1-1"><span class="process-math">\(\displaystyle \frac{x^{-2}-6x^{-1}+9}{x^2-9} \)</span></div></article><article class="exercise exercise-like" id="exercises-rational-expressions-3-7"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="exercises-rational-expressions-3-7-1-1"><span class="process-math">\(\displaystyle \frac{x^{-3}+y^{-3}}{x^{-2}-x^{-1}y^{-1}+y^{-2}} \)</span></div></article>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="rational-add-subtract.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="rational-expressions-proportions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

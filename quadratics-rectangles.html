@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Quadratics - Rectangles</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Preparatory Mathematics">
+<meta property="book:author" content="Tyler Wallace">
+<meta property="book:author" content="(HTML version is edited by Andras Balogh)">
+<meta property="book:author" content="    PDF version of this book. ">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="College Preparatory Mathematics for Texas HB5" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="collegeprepmath.html"><span class="title">College Preparatory Mathematics</span></a></h1>
+<p class="byline">Tyler Wallace, (HTML version is edited by Andras Balogh), <a class="external" href="external/collegeprepmath.pdf" target="_blank">PDF version of this book.</a><details class="ptx-footnote" aria-live="polite" id="frontmatter-1-3-1-2"><summary class="ptx-footnote__number" title="Footnote 0.0.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="frontmatter-1-3-1-2"><code class="code-inline tex2jax_ignore">external/collegeprepmath.pdf</code></div></details></p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="quadratics-quadratic-in-form.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-quadratics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="quadratics-teamwork.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand\Mydiv[2]{
+       \strut#1\kern.25em\smash{\raise.4ex\hbox{$\big)$}}\mkern-8mu
+       \overline{\enspace\strut#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="acknowledgement.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-prealgebra.html" class="internal"><span class="codenumber">0</span> <span class="title">Pre-Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-integers.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-integers.html#exercises-integers" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-fractions.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-fractions.html#exercises-fractions" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-order-of-operations.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-order-of-operations.html#exercises-order-of-operations" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises - Order of Operations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Properties of Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="prealgebra-properties-of-algebra.html#exercises-properties-of-algebra" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises - Properties of Algebra</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-linear-equations.html" class="internal"><span class="codenumber">1</span> <span class="title">Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-one-step-equations.html" class="internal"><span class="codenumber">1.1</span> <span class="title">One Step Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Addition Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Subtraction Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-5" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Multiplication Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#linear-equations-one-step-equations-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Division Problems:</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-one-step-equations.html#exercises-one-step-equations" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises - One Step Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-two-step-equations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Two-Step Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-two-step-equations.html#exercises-two-step-equations" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises - Two-Step Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-general.html" class="internal"><span class="codenumber">1.3</span> <span class="title">General Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-general.html#exercises-general-equations" class="internal"><span class="codenumber">1.3</span> <span class="title">Practice - General Linear Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-fractions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Solving with Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-fractions.html#exercises-linear-fractions" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises - Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-formulas.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-formulas.html#exercises-linear-formulas" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises - Formulas</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-abolutev.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Absolute Value Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-abolutev.html#exercises-linear-absolutev" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises - Absolute Value Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-variation.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-variation.html#exercises-linear-variation" class="internal"><span class="codenumber">1.7</span> <span class="title">Exercises - Variation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="linear-equations-num-geom.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Application: Number/Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="linear-equations-num-geom.html#exercises-linear-number-and-geometry" class="internal"><span class="codenumber">1.8</span> <span class="title">Exercises – Number/Geometry</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-graphing.html" class="internal"><span class="codenumber">2</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-points-lines.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Points and Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-points-lines.html#exercises-graphing-points-lines" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises - Points and Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Slope</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope.html#exercises-graphing-slope" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises - Graphing - Slope</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-slope-intercept.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Slope-Intercept Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-slope-intercept.html#exercises-graphing-slope-intercept" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises - Slope-Intercept Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-point-slope.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Point-Slope Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-point-slope.html#exercises-graphing-point-slope" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises - Point-Slope Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="graphing-parallel-perpendicular.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="graphing-parallel-perpendicular.html#exercises-graphing-parallel-perpendicular" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises - Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-inequalities.html" class="internal"><span class="codenumber">3</span> <span class="title">Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-solve-graph.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solve and Graph Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-solve-graph.html#exercises-inequalities-solve-graph" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises - Solve and Graph Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-compound.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Compound Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-compound.html#exercises-inequalities-compound" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises - Compound Inequalities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="inequalities-absolute-value.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Absolute Value Inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="inequalities-absolute-value.html#exercises-inequalities-absolute" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises - Absolute Value Inequalities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-systems.html" class="internal"><span class="codenumber">4</span> <span class="title">Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-graphing.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Graphing</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-graphing.html#exercises-systems-graphing" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises - Graphing</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-substitution.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-substitution.html#exercises-systems-substitution" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises - Substitution</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-elimination.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Addition/Elimination</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-elimination.html#exercises-systems-elimination" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises - Addition/Elimination</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-three-variables.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Three Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-three-variables.html#exercises-systems-three-variables" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises - Three Variables</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-value-problems.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Value Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-value-problems.html#exercises-value-problems" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises – Value Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="systems-mixture-problems.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Mixture Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="systems-mixture-problems.html#exercises-mixture-problems" class="internal"><span class="codenumber">4.6</span> <span class="title">Exercises – Mixture Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-polynomials.html" class="internal"><span class="codenumber">5</span> <span class="title">Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-exponent-properties.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exponent Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-exponent-properties.html#exercises-polynomials-exponent-properties" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises - Exponent Properties</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-negative-exponents.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Negative Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-negative-exponents.html#exercises-polynomials-negative-exponents" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises - Negative Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-scientific-notation.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-scientific-notation.html#exercises-polynomials-scientific-notation" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises - Integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-introduction.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Introduction to Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-introduction.html#exercises-introduction-polynomials" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises - Introduction to Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-multiplying.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Multiplying Polynomial</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-multiplying.html#exercises-polynomials-multiply" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises - Multiply Polynomials</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-special-products.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Multiply Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-special-products.html#exercises-polynomials-special-products" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercises -Multiply Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomials-divide.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Divide Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="polynomials-divide.html#exercises-polynomials-divide" class="internal"><span class="codenumber">5.7</span> <span class="title">Exercises - Divide Polynomials</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-factoring.html" class="internal"><span class="codenumber">6</span> <span class="title">Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-gcf.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Greatest Common Factor</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-gcf.html#exercises-factoring-gcf" class="internal"><span class="codenumber">6.1</span> <span class="title">Exercises - Greatest Common Factor</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-grouping.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Grouping</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-grouping.html#exercises-factoring-grouping" class="internal"><span class="codenumber">6.2</span> <span class="title">Exercises - Grouping</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-1.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Trinomials where <span class="process-math">\(a= 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-1.html#exercises-factoring-trinomials-A-1" class="internal"><span class="codenumber">6.3</span> <span class="title">Exercises - Trinomials where <span class="process-math">\(a = 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-trinomials-A-not-1.html#exercises-factoring-trinomials-a-not-1" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercises -Trinomials where <span class="process-math">\(a\neq 1\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-special-products.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Factoring Special Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-special-products.html#exercises-factoring-special-products" class="internal"><span class="codenumber">6.5</span> <span class="title">Exercises - Factoring Special Products</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-strategy.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Factoring Strategy</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-strategy.html#exercises-factoring-strategy" class="internal"><span class="codenumber">6.6</span> <span class="title">Exercises - Factoring Strategy</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="factoring-solve-by.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Solve by Factoring</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="factoring-solve-by.html#exercises-factoring-solve-by" class="internal"><span class="codenumber">6.7</span> <span class="title">Exercises - Solve by Factoring</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-rational-expressions.html" class="internal"><span class="codenumber">7</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-reduce.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Reduce Rational Expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-reduce.html#exercises-rational-expressions-reduce" class="internal"><span class="codenumber">7.1</span> <span class="title">Exercises - Reduce Rational Expressions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-multiply-devide.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Multiply and Divide</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-multiply-devide.html#exercises-rational-multiply-divide" class="internal"><span class="codenumber">7.2</span> <span class="title">Exercises - Multiply and Divide</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-LCD.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Least Common Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-LCD.html#exercises-rational-LCD" class="internal"><span class="codenumber">7.3</span> <span class="title">Exercises - Least Common Denominator</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-add-subtract.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Add and Subtract</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-add-subtract.html#exercises-rational-expressions-add-subtract" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercises – Add and Subtract</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-complex-fractions.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Complex Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-complex-fractions.html#exercises-rational-expressions" class="internal"><span class="codenumber">7.5</span> <span class="title">Exercises – Complex Fractions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-proportions.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-proportions.html#exercises-rational-expressions-proportions" class="internal"><span class="codenumber">7.6</span> <span class="title">Exercises - Proportions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-equations.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Solving Rational Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-equations.html#exercises-rational-expressions-equations" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercises – Solving Rational Equations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Dimensional Analysis</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rational-expressions-dimensional-analysis.html#exercises-rational-expressions-dimensional" class="internal"><span class="codenumber">7.8</span> <span class="title">Exercises – Dimensional Analysis</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-radicals.html" class="internal"><span class="codenumber">8</span> <span class="title">Radicals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-square-roots.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Square Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-square-roots.html#exercises-square-roots" class="internal"><span class="codenumber">8.1</span> <span class="title">Exercises – Square Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-higher-roots.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Higher Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-higher-roots.html#exercises-higher-roots" class="internal"><span class="codenumber">8.2</span> <span class="title">Exercises – Higher Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-adding-radicals.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Adding Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-adding-radicals.html#exercises-radicals-adding-radicals" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercises -  Adding Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-multiply-divide.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Multiply and Divide Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-multiply-divide.html#exercises-multiply-divide-radicals" class="internal"><span class="codenumber">8.4</span> <span class="title">Exercises – Multiply and Divide Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rationalize-denominators.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Rationalize Denominators</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rationalize-denominators.html#exercises-radicals-rationalize-denominators" class="internal"><span class="codenumber">8.5</span> <span class="title">Exercises – Rationalize Denominators</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-rational-exponents.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Rational Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-rational-exponents.html#exercises-rational-exponents" class="internal"><span class="codenumber">8.6</span> <span class="title">Exercises – Rational Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-mixed-index.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Radicals of Mixed Index</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-mixed-index.html#exercises-radicals-mixed-index" class="internal"><span class="codenumber">8.7</span> <span class="title">Exercises - Radicals of Mixed Index</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="radicals-complex-numbers.html" class="internal"><span class="codenumber">8.8</span> <span class="title">Complex Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="radicals-complex-numbers.html#exercises-complex-numbers" class="internal"><span class="codenumber">8.8</span> <span class="title">Exercises - Complex Numbers</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-quadratics.html" class="internal"><span class="codenumber">9</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-radicals.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Solving with Radicals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-radicals.html#exercises-quadratics-solving-with-radiacals" class="internal"><span class="codenumber">9.1</span> <span class="title">Exercises - Solving with Radicals</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-solving-with-exponents.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Solving with Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-solving-with-exponents.html#exercises-solving-with-exponents" class="internal"><span class="codenumber">9.2</span> <span class="title">Exercises - Solving with Exponents</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-complete-the-square.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Complete the Square</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-complete-the-square.html#exercises-complete-the-square" class="internal"><span class="codenumber">9.3</span> <span class="title">Exercises - Complete the Square</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-formula.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-formula.html#exercises-quadratic-formula" class="internal"><span class="codenumber">9.4</span> <span class="title">Exercises - Quadratic Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-build-from-roots.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Build Quadratics From Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-build-from-roots.html#exercises-quadratics-from-roots" class="internal"><span class="codenumber">9.5</span> <span class="title">Exercises - Build Quadratics from Roots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-quadratic-in-form.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-quadratic-in-form.html#exercises-quadratic-in-form" class="internal"><span class="codenumber">9.6</span> <span class="title">Exercises – Quadratic in Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="quadratics-rectangles.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Quadratics - Rectangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-rectangles.html#exercises-quadratics-rectangles" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercises - Rectangles</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-teamwork.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Quadratics - Teamwork</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-teamwork.html#exercises-teamwork" class="internal"><span class="codenumber">9.8</span> <span class="title">Exercises - Teamwork</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratics-graphs.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Quadratics - Graphs of Quadratics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="quadratics-graphs.html#exercises-quadratics" class="internal"><span class="codenumber">9.9</span> <span class="title">Exercises - Graphs of Quadratics</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-functions.html" class="internal"><span class="codenumber">10</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-notation.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Function Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-notation.html#exercises-funtionnotation" class="internal"><span class="codenumber">10.1</span> <span class="title">Exercises – Function Notation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-operations.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Operations on Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-operations.html#exercises-operationonfunctions" class="internal"><span class="codenumber">10.2</span> <span class="title">Exercises – Operations on Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-inverse.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-inverse.html#exercises-functions-inverse" class="internal"><span class="codenumber">10.3</span> <span class="title">Exercises - Inverse Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-exponential.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Exponential Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-exponential.html#exercises-exponential-functions" class="internal"><span class="codenumber">10.4</span> <span class="title">Exercises – Exponential Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-logarithmic.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-logarithmic.html#exercises-functions-logarithmic" class="internal"><span class="codenumber">10.5</span> <span class="title">Exercises – Logarithmic Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions-compound-interest.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Compound Interest</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="functions-compound-interest.html#exercises-functions-compound-interest" class="internal"><span class="codenumber">10.6</span> <span class="title">Exercises – Compound Interest</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="quadratics-rectangles"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">9.7</span><span class="space"> </span><span class="title">Quadratics - Rectangles</span>
+</h2>
+<section class="introduction" id="quadratics-rectangles-2"><em class="alert">Objective:Solve applications of quadratic equations using rectangles.</em></section><div class="para" id="quadratics-rectangles-3">An application of solving quadratic equations comes from the formula for the area of a rectangle. The area of a rectangle can be calculated by multiplying the width by the length. To solve problems with rectangles we will first draw a picture to represent the problem and use the picture to set up our equation.</div>
+<article class="example example-like" id="quadratics-rectangles-4"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.1</span><span class="period">.</span>
+</h3>
+<div class="displaymath process-math" id="quadratics-rectangles-4-1">
+\begin{align*}
+\fbox{ $\quad 40\quad $ }\ x \amp \quad  \text{We do not know the width, } x.   \\
+x+3 \quad \amp\quad  \text{Length is $4$ more, or $x+4$, and area is } 40. \\
+x(x+3)=40  \amp\quad  \text{Multiply length by width to get area }  \\
+x^2+3x=40 \amp\quad  \text{Distribute}  \\
+\underline{-40-40}  \amp\quad  \text{Make equation equal to zero}  \\
+x^2+3x-40=0 \amp\quad  \text{Factor}  \\
+(x-5)(x+8)=0 \amp\quad  \text{Set each factor equal to zero}  \\
+x-5=0 \text{ or } x+8=0 \amp\quad  \text{Solve each equation}  \\
+\underline{+5+5} \quad\quad \underline{-8-8}  \amp\quad  \text{     }  \\
+x=5 \text{ or } x=-8  \amp\quad  \text{Our $x$ is a width, cannot be negative. }  \\
+(5)+3=8 \amp\quad  \text{Length is $x+3$, substitute $5$ for $x$ to find length}  \\
+5\text{in by } 8\text{in}  \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><div class="para" id="quadratics-rectangles-5">The above rectangle problem is very simple as there is only one rectangle involved. When we compare two rectangles, we may have to get a bit more creative.</div>
+<article class="example example-like" id="quadratics-rectangles-6"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="quadratics-rectangles-6-1">If each side of a square is increased by <span class="process-math">\(6\text{,}\)</span> the area is multiplied by <span class="process-math">\(16\text{.}\)</span> Find the side of the original square.</div>
+<div class="displaymath process-math" id="quadratics-rectangles-6-2">
+\begin{align*}
+\fbox{ $ x^2 $ }\  \ x\amp \quad  \text{Square has all sides the same length} \\
+x \qquad \amp\quad  \text{Area is found by multiplying length by width} \\
+\boxed{  \begin{matrix}  \\  \quad 16x^2 \quad \\ \ \end{matrix}  } \ x+6 \amp\quad  \text{Each side is increased by } 6  \\
+x+6 \qquad \qquad \amp\quad  \text{Area is $16$ times the original area}  \\
+(x+6)(x+6)=16x^2 \amp\quad  \text{Multiply length by width to get area}  \\
+x^2+12x+36=16x^2 \amp\quad  \text{FOIL}  \\
+\underline{-16x^2 \quad\quad\quad\quad -16x^2}  \amp\quad  \text{Make equation equal to zero}  \\
+-15x^2+12x+36=0  \amp\quad  \text{Divide each term by $-1$, changes the signs}  \\
+15x^2-12x-36=0 \amp\quad  \text{Solve using the quadratic formula} \\
+x=\frac{12 \pm \sqrt{(-12)^2-4(15)(-36)}}{2(15)} \amp\quad  \text{Evaluate} \\
+x=\frac{16 \pm \sqrt{2304}}{30} \amp\quad  \text{} \\
+x=\frac{16 \pm 48}{30}  \amp\quad  \text{Can’t have a negative solution, we will only add}\\
+x=\frac{60}{30}=2 \amp\quad  \text{Our $x$ is the original square} \\
+2  \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><article class="example example-like" id="quadratics-rectangles-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="quadratics-rectangles-7-1">The length of a rectangle is <span class="process-math">\(4\)</span>  ft greater than the width. If each dimension is increased by <span class="process-math">\(3\text{,}\)</span> the new area will be <span class="process-math">\(33\)</span>  square feet larger. Find the dimensions of the original rectangle.</div>
+<div class="displaymath process-math" id="quadratics-rectangles-7-2">
+\begin{align*}
+\boxed{ x(x+4) } \  x \amp \quad  \text{We don’t know width, $x$ , length is $4$ more, } x+4 \\
+x+4 \qquad \amp\quad  \text{Area is found by multiplying length by width} \\
+\boxed{  \begin{matrix}  \\  x(x+4)+33 \\ \ \end{matrix} } \ x+3 \amp\quad   \begin{array}{l} \text{Increase each side by } 3. \\ \text{Width becomes $x+3$, length } x+4+3=x+7 \end{array} \\
+x+7 \qquad \qquad \amp\quad  \text{Area is $33$ more than original, } x(x+4)+33  \\
+(x+3)(x+7)=x(x+4)+33 \amp\quad  \text{Set up equation, length times width is area}  \\
+x^2+10x+21=x^2+4x+33 \amp\quad  \text{Subtract $x^2$ from both sides}  \\
+\underline{-x^2 \quad\qquad\quad\quad -x^2} \ \qquad \qquad  \amp\quad  \text{}  \\
+10x+21=4x+33 \amp\quad  \text{Move variables to one side} \\
+\underline{-4x \quad\quad -4x} \qquad \amp\quad  \text{Subtract $4x$ from each side} \\
+6x+21=33 \amp\quad  \text{Subtract $21$ from both sides} \\
+\underline{-21 -21} \amp\quad  \text{}\\
+6x=12 \amp\quad  \text{Divide both sides by } 6 \\
+\overline{6} \qquad \overline{6}\amp\quad  \text{}\\
+x=2 \amp\quad  \text{$x$ is the width of the original}\\
+(2)+4=6  \amp\quad  \text{$x+4$ is the length. Substitute $2$ to find}\\
+2 \text{ft by } 6 \text{ft}  \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><div class="para" id="quadratics-rectangles-8">From one rectangle we can find two equations. Perimeter is found by adding all the sides of a polygon together. A rectangle has two widths and two lengths, both the same size. So we can use the equation <span class="process-math">\(P = 2l + 2w\)</span> (twice the length plus twice the width).</div>
+<article class="example example-like" id="quadratics-rectangles-9"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="quadratics-rectangles-9-1">The area of a rectangle is <span class="process-math">\(168 \ {\rm cm}^2\text{.}\)</span> The perimeter of the same rectangle is <span class="process-math">\(52 \ {\rm cm}\text{.}\)</span> What are the dimensions of the rectangle?</div>
+<div class="displaymath process-math" id="quadratics-rectangles-9-2">
+\begin{align*}
+\boxed{ \qquad } \ x  \amp \quad  \text{We don’t know anything about length or width} \\
+y \qquad \amp\quad  \text{Use two variables, $x$ and } y\\
+xy=168  \amp\quad  \text{Length times width gives the area. } \\
+2x+2y=52 \amp\quad  \text{Also use perimeter formula.}  \\
+\underline{-2x \quad\quad -2x} \amp\quad  \text{Solve by substitution, isolate } y  \\
+2y=-2x+52 \amp\quad  \text{Divide each term by } 2  \\
+\overline{2} \quad\quad \overline{2} \qquad \overline{2} \amp\quad   \\
+y=-x+26 \amp\quad  \text{Substitute into area equation} \\
+x(-x+26)=168 \amp\quad  \text{Distribute} \\
+-x^2+26x=168 \amp\quad  \text{Divide each term by $-1$, changing all the signs} \\
+x^2-26x=-168  \amp\quad  \text{Solve by completing the square.}\\
+(\frac{1}{2}\cdot 26)^2=13^2=169 \amp\quad  \text{Find number to complete the square: } (\frac{1}{2}\cdot b)^2  \\
+x^2-26x+324=1 \amp\quad  \text{Add 169 to both sides}\\
+(x-13)^2=1 \amp\quad  \text{Factor}\\
+x-13=\pm 1  \amp\quad  \text{Square root both sides}\\
+\underline{+13 \ +13}  \amp\quad  \\
+x=13\pm 1  \amp\quad  \text{Evaluate}\\
+x=14 \text{ or } 12  \amp\quad  \text{Two options for first side.}\\
+y=-(14)+26=12  \amp\quad  \text{Substitute $14$ into } y=-x+26 \\
+y=-(12)+26=14  \amp\quad  \text{Substitute $12$ into } y=-x+26 \\
+\amp\quad  \text{Both are the same rectangle, variables switched!}\\
+12 \text{cm by } 14 \text{cm}  \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><div class="para" id="quadratics-rectangles-10">
+<em class="alert">World View Note:</em> Indian mathematical records from the 9th century demonstrate that their civilization had worked extensively in geometry creating religious alters of various shapes including rectangles.</div>
+<div class="para" id="quadratics-rectangles-11">Another type of rectangle problem is what we will call a “frame problem”. The idea behind a frame problem is that a rectangle, such as a photograph, is centered inside another rectangle, such as a frame. In these cases, it will be important to remember that the frame extends on all sides of the rectangle. This is shown in the following example.</div>
+<article class="example example-like" id="quadratics-rectangles-12"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="quadratics-rectangles-12-1">An <span class="process-math">\(8\)</span> in by <span class="process-math">\(12\)</span> in picture has a frame of uniform width around it. The area of the frame is equal to the area of the picture. What is the width of the frame?</div>
+<div class="displaymath process-math" id="quadratics-rectangles-12-2">
+\begin{align*}
+\boxed{ \begin{matrix} 8 \ \ \\ \quad \boxed{ \ \ } \ 12 \\ \ \end{matrix} } \ 12+2x   \amp \quad  \begin{array}{l} \text{Draw picture, picture if $8$ by $10$.} \\ \text{If frame has width $x$, on both sides, we add } 2x \end{array} \\
+8+2x \qquad \qquad \amp\quad  \text{} \\
+8\cdot12=96\amp\quad  \text{Area of the picture, length times width } \\
+2 \cdot 96=192 \amp\quad  \text{Frame is the same as the picture. Total area is double this.}  \\
+(12+2x)(8+2x)=192 \amp\quad  \text{Area of the picture, length times width }   \\
+96+24x+16x+4x^2=192 \amp\quad  \text{FOIL}  \\
+4x^2+40x+96=192 \amp\quad  \text{Combine like terms}  \\
+\underline{-192 -192} \amp\quad  \text{Make equation equal to zero by subtracting } 192 \\
+4x^2+40x-96=0 \amp\quad  \text{Factor out GCF of } 4 \\
+4(x^2+10x-24)=0  \amp\quad  \text{Factor trinomial} \\
+4(x-2)(x+12)=0 \amp\quad  \text{Set each factor equal to zero}\\
+x-2=0 \text{ or } x+12=0 \amp\quad  \text{Solve each equation}  \\
+\underline{+2+2} \quad\quad \underline{-12-12} \amp\quad  \\
+x=2 \text{ or } -12 \amp\quad  \text{Can’t have negative frame width}\\
+2 \text{ inches} \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><article class="example example-like" id="quadratics-rectangles-13"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">9.7.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="quadratics-rectangles-13-1">A farmer has a field that is <span class="process-math">\(400\)</span> rods by <span class="process-math">\(200\)</span> rods. He is mowing the field in a spiral pattern, starting from the outside and working in towards the center. After an hour of work, <span class="process-math">\(72\%\)</span> of the field is left uncut. What is the size of the ring cut around the outside?</div>
+<div class="displaymath process-math" id="quadratics-rectangles-13-2">
+\begin{align*}
+\boxed{ \qquad \begin{matrix} 400-2x \qquad \\ \quad \boxed{ \qquad \quad } \ 200-2x \\ \ \end{matrix} } \ 200   \amp \quad  \begin{array}{l} \text{Draw picture, outside is $200$ by $400$.} \\ \text{If frame has width $x$, on both sides, } \\  \text{ subtract $2x$ from each side to get center} \end{array} \\
+400 \qquad \qquad \qquad \amp\quad  \text{} \\
+400 \cdot 200=80000  \amp\quad  \text{Area of entire field, length times width} \\
+80000 \cdot (0.72)=57600  \amp\quad  \text{Area of center, multiply by $72\%$ as decimal} \\
+(400-2x)(200-2x)=57600  \amp\quad  \text{Area of center, length times width}  \\
+80000-800x-400x+4x^2=57600 \amp\quad  \text{FOIL }   \\
+4x^2-1200x+80000=57600 \amp\quad  \text{Combine like terms}  \\
+\underline{-57600-57600} \amp\quad  \text{Make equation equal to zero} \\
+4x^2-1200x+22400=0 \amp\quad  \text{Factor out GCF of } 4 \\
+4(x^2-300x+5600)=0  \amp\quad  \text{Factor trinomial} \\
+4(x-280)(x-20)=0 \amp\quad  \text{Set each factor equal to zero}\\
+x-280=0 \text{ or } x-20=0 \amp\quad  \text{Solve each equation}  \\
+\underline{+280 +280} \quad \underline{+20 +20} \amp\quad  \text{}\\
+x=280 \text{ or } 20 \amp\quad  \text{The field is only $200$ rods wide,}\\
+\amp\quad  \text{Can’t cut $280$ off two sides!}\\
+20 \text{ rods} \amp\quad  \text{Our Solution}  
+\end{align*}
+</div></article><div class="para" id="quadratics-rectangles-14">For each of the frame problems above we could have also completed the square or use the quadratic formula to solve the trinomials. Remember that completing the square or the quadratic formula always will work when solving, however, factoring only works if we can factor the trinomial.</div>
+<section class="exercises" id="exercises-quadratics-rectangles"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises - Rectangles</span>
+</h3>
+<article class="exercise exercise-like" id="exercises-quadratics-rectangles-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-2-1-1">In a landscape plan, a rectangular flowerbed is designed to be <span class="process-math">\(4\)</span> meters longer than it is wide. If <span class="process-math">\(60\)</span> square meters are needed for the plants in the bed, what should the dimensions of the rectangular bed be?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-3-1-1">If the side of a square is increased by <span class="process-math">\(5\)</span> the area is multiplied by <span class="process-math">\(4\text{.}\)</span> Find the side of the original square.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-4-1-1">A rectangular lot is <span class="process-math">\(20\)</span> yards longer than it is wide and its area is <span class="process-math">\(2400\)</span> square yards. Find the dimensions of the lot.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-5-1-1">The length of a room is <span class="process-math">\(8\)</span> ft greater than it is width. If each dimension is increased by <span class="process-math">\(2\)</span> ft, the area will be increased by <span class="process-math">\(60\)</span> sq. ft. Find the dimensions of the rooms.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-6-1-1">The length of a rectangular lot is <span class="process-math">\(4\)</span> rods greater than its width, and its area is <span class="process-math">\(60\)</span> square rods. Find the dimensions of the lot.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-7-1-1">The length of a rectangle is <span class="process-math">\(15\)</span> ft greater than its width. If each dimension is decreased by <span class="process-math">\(2\)</span> ft, the area will be decreased by <span class="process-math">\(106 ft^2\text{.}\)</span> Find the dimensions.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-8"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-8-1-1">A rectangular piece of paper is twice as long as a square piece and <span class="process-math">\(3\)</span> inches wider. The area of the rectangular piece is <span class="process-math">\(108 in^2\text{.}\)</span> Find the dimensions of the square piece.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-9"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-9-1-1">A room is one yard longer than it is wide. At <span class="process-math">\(75\)</span> cents per sq. yd. a covering for the floor costs <span class="process-math">\(\$31.50\text{.}\)</span> Find the dimensions of the floor.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-10"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-10-1-1">The area of a rectangle is <span class="process-math">\(48 ft^2\)</span> and its perimeter is <span class="process-math">\(32\)</span> ft. Find its length and width.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-11"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-11-1-1">The dimensions of a picture inside a frame of uniform width are <span class="process-math">\(12\)</span> by <span class="process-math">\(16\)</span> inches. If the whole area (picture and frame) is <span class="process-math">\(288 in^2\text{,}\)</span> what is the width of the frame?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-12"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-12-1-1">A mirror <span class="process-math">\(14\)</span> inches by <span class="process-math">\(15\)</span> inches has a frame of uniform width. If the area of the frame equals that of the mirror, what is the width of the frame.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-13"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-13-1-1">A lawn is <span class="process-math">\(60\)</span> ft by <span class="process-math">\(80\)</span> ft. How wide a strip must be cut around it when mowing the grass to have cut half of it.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-14"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-14-1-1">A grass plot <span class="process-math">\(9\)</span> yards long and <span class="process-math">\(6\)</span> yards wide has a path of uniform width around it. If the area of the path is equal to the area of the plot, determine the width of the path.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-15"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-15-1-1">A landscape architect is designing a rectangular flowerbed to be border with <span class="process-math">\(28\)</span> plants that are placed <span class="process-math">\(1\)</span> meter apart. He needs an inner rectangular space in the center for plants that must be <span class="process-math">\(1\)</span> meter from the border of the bed and that require <span class="process-math">\(24\)</span> square meters for planting. What should the overall dimensions of the flowerbed be?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-16"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-16-1-1">A page is to have a margin of <span class="process-math">\(1\)</span> inch, and is to contain <span class="process-math">\(35 in^2\)</span> of painting. How large must the page be if the length is to exceed the width by <span class="process-math">\(2\)</span> inches?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-17"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-17-1-1">A picture <span class="process-math">\(10\)</span> inches long by <span class="process-math">\(8\)</span> inches wide has a frame whose area is one half the area of the picture. What are the outside dimensions of the frame?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-18"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-18-1-1">A rectangular wheat field is <span class="process-math">\(80\)</span> rods long by <span class="process-math">\(60\)</span> rods wide.  A strip of uniform width is cut around the field, so that half the grain is left standing in the form of a rectangular plot.  How wide is the strip that is cut?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-19"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-19-1-1">A picture <span class="process-math">\(8\)</span> inches by <span class="process-math">\(12\)</span> inches is placed in a frame of uniform width. If the area of the frame equals the area of the picture find the width of the frame.</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-20"><h4 class="heading"><span class="codenumber">19<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-20-1-1">A rectangular field <span class="process-math">\(225\)</span> ft by <span class="process-math">\(120\)</span> ft has a ring of uniform width cut around the outside edge. The ring leaves <span class="process-math">\(65\%\)</span> of the field uncut in the center. What is the width of the ring?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-21"><h4 class="heading"><span class="codenumber">20<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-21-1-1">One Saturday morning George goes out to cut his lot that is <span class="process-math">\(100\)</span> ft by <span class="process-math">\(120\)</span> ft. He starts cutting around the outside boundary spiraling around towards the center. By noon he has cut <span class="process-math">\(60\%\)</span> of the lawn. What is the width of the ring that he has cut?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-22"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-22-1-1">A frame is <span class="process-math">\(15\)</span> in by <span class="process-math">\(25\)</span> in and is of uniform width. The inside of the frame leaves <span class="process-math">\(75\%\)</span> of the total area available for the picture. What is the width of the frame?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-23"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-23-1-1">A farmer has a field <span class="process-math">\(180\)</span> ft by <span class="process-math">\(240\)</span> ft. He wants to increase the area of the field by <span class="process-math">\(50\%\)</span> by cultivating a band of uniform width around the outside. How wide a band should he cultivate?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-24"><h4 class="heading"><span class="codenumber">23<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-24-1-1">The farmer in the previous problem has a neighbor who has a field <span class="process-math">\(325\)</span> ft by <span class="process-math">\(420\)</span> ft. His neighbor wants to increase the size of his field by <span class="process-math">\(20\%\)</span> by cultivating a band of uniform width around the outside of his lot. How wide a band should his neighbor cultivate?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-25"><h4 class="heading"><span class="codenumber">24<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-25-1-1">A third farmer has a field that is <span class="process-math">\(500\)</span> ft by <span class="process-math">\(550\)</span> ft. He wants to increase his field by <span class="process-math">\(20\%\text{.}\)</span> How wide a ring should he cultivate around the outside of his field?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-26"><h4 class="heading"><span class="codenumber">25<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-26-1-1">Donna has a garden that is <span class="process-math">\(30\)</span> ft by <span class="process-math">\(36\)</span> ft. She wants to increase the size of the garden by <span class="process-math">\(40\%\text{.}\)</span> How wide a ring around the outside should she cultivate?</div></article><article class="exercise exercise-like" id="exercises-quadratics-rectangles-27"><h4 class="heading"><span class="codenumber">26<span class="period">.</span></span></h4>
+<div class="para" id="exercises-quadratics-rectangles-27-1-1">A picture is <span class="process-math">\(12\)</span> in by <span class="process-math">\(25\)</span> in and is surrounded by a frame of uniform width. The area of the frame is <span class="process-math">\(30\%\)</span> of the area of the picture. How wide is the frame?</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="quadratics-quadratic-in-form.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="quadratics-teamwork.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
