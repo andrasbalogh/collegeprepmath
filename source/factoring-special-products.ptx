@@ -33,7 +33,8 @@ difference of the square roots.
   </example> 
 
   <p>
-    It is important to note, that a sum of squares will never factor. It is always prime. This can be seen if we try to use the ac method to factor <m>x^2 + 36</m>.
+    It is important to note, that a sum of squares cannot be factored. It is a prime (unless additional information is available). 
+    This can be seen if we try to use the ac method to factor <m>x^2 + 36</m>.
   </p>
 
   <example>
@@ -46,11 +47,11 @@ difference of the square roots.
   </example> 
 
   <p>
-    It turns out that a sum of squares is always prime.
+    It turns out that a sum of squares is prime that cannot be factored, unless additional information is available.
   </p>
 
    <p>
-     <me> \textbf{ Sum of Squares: } \mathbf{ a^2 + b^2 = } \textbf{ Prime}</me>
+     <me> \textbf{ Sum of Squares: } \mathbf{ a^2 + b^2 = } \textbf{ cannot factor}</me>
    </p>
 
    <p>
